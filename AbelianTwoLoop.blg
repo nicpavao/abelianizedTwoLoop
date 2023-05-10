@@ -1,0 +1,97 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: AbelianTwoLoop.aux
+The style file: JHEP.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Refs_solvingPhotons.bib
+Repeated entry---line 1482 of file Refs_solvingPhotons.bib
+ : @article{Lehman:2015via
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1619 of file Refs_solvingPhotons.bib
+ : @article{Henning:2015daa
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1723 of file Refs_solvingPhotons.bib
+ : @article{Johansson:2017srf
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2025 of file Refs_solvingPhotons.bib
+ : @article{Chi:2021mio
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2246 of file Refs_solvingPhotons.bib
+ : @article{Cheung:2021zvb
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2484 of file Refs_solvingPhotons.bib
+ : @article{Carrasco:2021ptp
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2576 of file Refs_solvingPhotons.bib
+ : @article{Caron-Huot:2016icg
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3548 of file Refs_solvingPhotons.bib
+ : @article{Broedel:2013tta
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3598 of file Refs_solvingPhotons.bib
+ : @article{Chen:2019ywi
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6760 of file Refs_solvingPhotons.bib
+ : @article{Bern:2017tuc
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6812 of file Refs_solvingPhotons.bib
+ : @article{Bern:2017puu
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8461 of file Refs_solvingPhotons.bib
+ : @article{Azevedo:2018dgo
+ :                         ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+You've used 121 entries,
+            2316 wiz_defined-function locations,
+            1468 strings with 26668 characters,
+and the built_in function-call counts, 52309 in all, are:
+= -- 5604
+> -- 1644
+< -- 0
++ -- 475
+- -- 354
+* -- 5255
+:= -- 6611
+add.period$ -- 121
+call.type$ -- 121
+change.case$ -- 120
+chr.to.int$ -- 0
+cite$ -- 121
+duplicate$ -- 4060
+empty$ -- 4715
+format.name$ -- 1062
+if$ -- 13139
+int.to.chr$ -- 0
+int.to.str$ -- 121
+missing$ -- 458
+newline$ -- 367
+num.names$ -- 121
+pop$ -- 242
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1570
+stack$ -- 0
+substring$ -- 3159
+swap$ -- 896
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 603
+width$ -- 124
+write$ -- 1245
+(There were 12 error messages)
