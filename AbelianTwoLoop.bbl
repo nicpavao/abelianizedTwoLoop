@@ -122,6 +122,12 @@ G.~Mogull and D.~O'Connell, \emph{{Overcoming Obstacles to Colour-Kinematics
   (2015) 135} [\href{https://arxiv.org/abs/1511.06652}{{\ttfamily
   1511.06652}}].
 
+\bibitem{Bern:2015ooa}
+Z.~Bern, S.~Davies and J.~Nohle, \emph{{Double-Copy Constructions and Unitarity
+  Cuts}}, \href{https://doi.org/10.1103/PhysRevD.93.105015}{\emph{Phys. Rev. D}
+  {\bfseries 93} (2016) 105015}
+  [\href{https://arxiv.org/abs/1510.03448}{{\ttfamily 1510.03448}}].
+
 \bibitem{Geyer:2019hnn}
 Y.~Geyer, R.~Monteiro and R.~Stark-Much\~ao, \emph{{Two-Loop Scattering
   Amplitudes: Double-Forward Limit and Colour-Kinematics Duality}},
@@ -725,6 +731,11 @@ Z.~Bern, J.S.~Rozowsky and B.~Yan, \emph{{Two loop four-gluon amplitudes in
   \href{https://doi.org/10.1016/S0370-2693(97)00413-9}{\emph{Phys. Lett.}
   {\bfseries B401} (1997) 273}
   [\href{https://arxiv.org/abs/hep-ph/9702424}{{\ttfamily hep-ph/9702424}}].
+
+\bibitem{Carrasco:2021otn}
+J.J.M.~Carrasco, A.~Edison and H.~Johansson, \emph{{Maximal Super-Yang-Mills at
+  Six Loops via Novel Integrand Bootstrap}},
+  \href{https://arxiv.org/abs/2112.05178}{{\ttfamily 2112.05178}}.
 
 \bibitem{BernNoTriangle}
 Z.~Bern, N.E.J.~Bjerrum-Bohr and D.C.~Dunbar, \emph{{Inherited twistor-space

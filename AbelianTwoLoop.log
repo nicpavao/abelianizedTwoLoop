@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 MAY 2023 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 MAY 2023 14:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2670,10 +2670,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [34]
 
-Package natbib Warning: Citation `Carrasco:2021otn' on page 35 undefined on inp
-ut line 1615.
-
-
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
 tance' requires LuaTeX. It will be ignored. on input line 1625.
 
@@ -3618,10 +3614,6 @@ distance' requires LuaTeX. It will be ignored. on input line 1762.
 Package tikz-feynman Warning: The key you tried to use '/tikz/graphs/spring lay
 out' requires LuaTeX. It will be ignored. on input line 1762.
 
-
-LaTeX Warning: Reference `eq:oneMinus2loop' on page 42 undefined on input line 
-1763.
-
 [42] [43]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -3754,9 +3746,6 @@ Package amsmath Warning: Cannot use `split' here;
 (amsmath)                trying to recover with `aligned' on input line 1864.
 
 [46] (./AbelianTwoLoop.bbl [47] [48] [49] [50] [51] [52] [53] [54] [55])
-
-Package natbib Warning: There were undefined citations.
-
 [56]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1877.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1877.
@@ -3766,22 +3755,15 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1877.
 
 Package rerunfilecheck Info: File `AbelianTwoLoop.out' has not changed.
 (rerunfilecheck)             Checksum: F01CA483D3148EB1A20AAF79114AF5BA;1813.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 23261 strings out of 492616
- 457547 string characters out of 6129482
- 624076 words of memory out of 5000000
- 26256 multiletter control sequences out of 15000+600000
+ 23269 strings out of 492616
+ 457717 string characters out of 6129482
+ 624168 words of memory out of 5000000
+ 26262 multiletter control sequences out of 15000+600000
  18514 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,26n,117p,2336b,2080s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,26n,117p,2350b,2080s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -3805,10 +3787,10 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on AbelianTwoLoop.pdf (57 pages, 562821 bytes).
+Output written on AbelianTwoLoop.pdf (57 pages, 563145 bytes).
 PDF statistics:
- 1401 PDF objects out of 1440 (max. 8388607)
- 1305 compressed objects within 14 object streams
- 443 named destinations out of 1000 (max. 500000)
+ 1409 PDF objects out of 1440 (max. 8388607)
+ 1313 compressed objects within 14 object streams
+ 445 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
