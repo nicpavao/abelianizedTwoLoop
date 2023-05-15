@@ -800,6 +800,11 @@ A.S.-K.~Chen, H.~Elvang and A.~Herderschee, \emph{{Emergence of String
 A.S.-K.~Chen, H.~Elvang and A.~Herderschee, \emph{{Bootstrapping the String KLT
   Kernel}},  \href{https://arxiv.org/abs/2302.04895}{{\ttfamily 2302.04895}}.
 
+\bibitem{Brown:2023srz}
+T.V.~Brown, K.~Kampf, U.~Oktem, S.~Paranjape and J.~Trnka, \emph{{Scalar BCJ
+  Bootstrap}},  \href{https://arxiv.org/abs/2305.05688}{{\ttfamily
+  2305.05688}}.
+
 \bibitem{Caron-Huot:2016icg}
 S.~Caron-Huot, Z.~Komargodski, A.~Sever and A.~Zhiboedov, \emph{{Strings from
   Massive Higher Spins: The Asymptotic Uniqueness of the Veneziano Amplitude}},
@@ -920,5 +925,11 @@ H.~Liu, T.~Ma, Y.~Shadmi and M.~Waterbury, \emph{{An EFT hunter's guide to
 K.~Haddad, \emph{{Recursion in the classical limit and the neutron-star Compton
   amplitude}},  \href{https://arxiv.org/abs/2303.02624}{{\ttfamily
   2303.02624}}.
+
+\bibitem{Duff:1980qv}
+M.J.~Duff and P.~van Nieuwenhuizen, \emph{{Quantum Inequivalence of Different
+  Field Representations}},
+  \href{https://doi.org/10.1016/0370-2693(80)90852-7}{\emph{Phys. Lett. B}
+  {\bfseries 94} (1980) 179}.
 
 \end{thebibliography}\endgroup

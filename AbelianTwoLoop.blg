@@ -4,133 +4,134 @@ The top-level auxiliary file: AbelianTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Refs_solvingPhotons.bib
-Repeated entry---line 1324 of file Refs_solvingPhotons.bib
+Repeated entry---line 1345 of file Refs_solvingPhotons.bib
  : @article{Bern:2017tuc
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1712 of file Refs_solvingPhotons.bib
+Repeated entry---line 1733 of file Refs_solvingPhotons.bib
  : @article{Lehman:2015via
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1849 of file Refs_solvingPhotons.bib
+Repeated entry---line 1870 of file Refs_solvingPhotons.bib
  : @article{Henning:2015daa
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1953 of file Refs_solvingPhotons.bib
+Repeated entry---line 1974 of file Refs_solvingPhotons.bib
  : @article{Johansson:2017srf
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2255 of file Refs_solvingPhotons.bib
+Repeated entry---line 2276 of file Refs_solvingPhotons.bib
  : @article{Chi:2021mio
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2267 of file Refs_solvingPhotons.bib
+Repeated entry---line 2288 of file Refs_solvingPhotons.bib
  : @article{Bern:2012uf
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2409 of file Refs_solvingPhotons.bib
+Repeated entry---line 2430 of file Refs_solvingPhotons.bib
  : @article{Bern:2017rjw
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2424 of file Refs_solvingPhotons.bib
+Repeated entry---line 2445 of file Refs_solvingPhotons.bib
  : @article{Bern:2013uka
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2453 of file Refs_solvingPhotons.bib
+Repeated entry---line 2474 of file Refs_solvingPhotons.bib
  : @article{Carrasco:2013ypa
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2518 of file Refs_solvingPhotons.bib
+Repeated entry---line 2539 of file Refs_solvingPhotons.bib
  : @article{Kallosh:2021mnu
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2529 of file Refs_solvingPhotons.bib
+Repeated entry---line 2550 of file Refs_solvingPhotons.bib
  : @article{BICEP:2021xfz
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2798 of file Refs_solvingPhotons.bib
+Repeated entry---line 2819 of file Refs_solvingPhotons.bib
  : @article{Caron-Huot:2016icg
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3770 of file Refs_solvingPhotons.bib
+Repeated entry---line 3791 of file Refs_solvingPhotons.bib
  : @article{Broedel:2013tta
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3820 of file Refs_solvingPhotons.bib
+Repeated entry---line 3841 of file Refs_solvingPhotons.bib
  : @article{Chen:2019ywi
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5503 of file Refs_solvingPhotons.bib
+Repeated entry---line 5524 of file Refs_solvingPhotons.bib
  : @article{Bern:2015ooa
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6982 of file Refs_solvingPhotons.bib
+Repeated entry---line 7003 of file Refs_solvingPhotons.bib
  : @article{Bern:2017tuc
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7034 of file Refs_solvingPhotons.bib
+Repeated entry---line 7055 of file Refs_solvingPhotons.bib
  : @article{Bern:2017puu
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8683 of file Refs_solvingPhotons.bib
+Repeated entry---line 8704 of file Refs_solvingPhotons.bib
  : @article{Azevedo:2018dgo
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9319 of file Refs_solvingPhotons.bib
+Repeated entry---line 9340 of file Refs_solvingPhotons.bib
  : @article{Bjerrum-Bohr:2013iza
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10254 of file Refs_solvingPhotons.bib
+Repeated entry---line 10275 of file Refs_solvingPhotons.bib
  : @article{Carrasco:2021otn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12666 of file Refs_solvingPhotons.bib
+Repeated entry---line 12687 of file Refs_solvingPhotons.bib
  : @article{Bern:1996ja
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13143 of file Refs_solvingPhotons.bib
+Repeated entry---line 13164 of file Refs_solvingPhotons.bib
  : @article{Bern:2019isl
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 143 entries,
+Warning--I didn't find a database entry for ""
+You've used 145 entries,
             2316 wiz_defined-function locations,
-            1633 strings with 30809 characters,
-and the built_in function-call counts, 63119 in all, are:
-= -- 6792
-> -- 1971
+            1646 strings with 31115 characters,
+and the built_in function-call counts, 63935 in all, are:
+= -- 6876
+> -- 2003
 < -- 0
-+ -- 568
-- -- 425
-* -- 6318
-:= -- 7934
-add.period$ -- 143
-call.type$ -- 143
-change.case$ -- 142
++ -- 577
+- -- 432
+* -- 6397
+:= -- 8037
+add.period$ -- 145
+call.type$ -- 145
+change.case$ -- 144
 chr.to.int$ -- 0
-cite$ -- 143
-duplicate$ -- 4927
-empty$ -- 5663
-format.name$ -- 1275
-if$ -- 15877
+cite$ -- 145
+duplicate$ -- 4991
+empty$ -- 5734
+format.name$ -- 1296
+if$ -- 16077
 int.to.chr$ -- 0
-int.to.str$ -- 143
-missing$ -- 545
-newline$ -- 433
-num.names$ -- 142
-pop$ -- 291
+int.to.str$ -- 145
+missing$ -- 552
+newline$ -- 439
+num.names$ -- 144
+pop$ -- 295
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1938
+skip$ -- 1959
 stack$ -- 0
-substring$ -- 3835
-swap$ -- 1123
+substring$ -- 3892
+swap$ -- 1132
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 719
-width$ -- 146
-write$ -- 1482
+while$ -- 730
+width$ -- 148
+write$ -- 1499
 (There were 22 error messages)
