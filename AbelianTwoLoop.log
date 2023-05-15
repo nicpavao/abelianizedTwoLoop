@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 MAY 2023 16:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  15 MAY 2023 17:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3758,10 +3758,10 @@ Package rerunfilecheck Info: File `AbelianTwoLoop.out' has not changed.
 (rerunfilecheck)             Checksum: F01CA483D3148EB1A20AAF79114AF5BA;1813.
  ) 
 Here is how much of TeX's memory you used:
- 23286 strings out of 492616
- 457976 string characters out of 6129482
- 624240 words of memory out of 5000000
- 26271 multiletter control sequences out of 15000+600000
+ 23284 strings out of 492616
+ 457941 string characters out of 6129482
+ 624295 words of memory out of 5000000
+ 26269 multiletter control sequences out of 15000+600000
  18514 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,26n,117p,2347b,2080s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3788,10 +3788,10 @@ e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 9/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on AbelianTwoLoop.pdf (59 pages, 571406 bytes).
+Output written on AbelianTwoLoop.pdf (59 pages, 571876 bytes).
 PDF statistics:
- 1448 PDF objects out of 1728 (max. 8388607)
- 1350 compressed objects within 14 object streams
+ 1447 PDF objects out of 1728 (max. 8388607)
+ 1349 compressed objects within 14 object streams
  453 named destinations out of 1000 (max. 500000)
  221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
