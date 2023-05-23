@@ -194,6 +194,13 @@ F.~Cachazo, S.~He and E.Y.~Yuan, \emph{{Scattering Equations and Matrices: From
   \href{https://doi.org/10.1007/JHEP07(2015)149}{\emph{JHEP} {\bfseries 07}
   (2015) 149} [\href{https://arxiv.org/abs/1412.3479}{{\ttfamily 1412.3479}}].
 
+\bibitem{Carrasco:2016ldy}
+J.J.M.~Carrasco, C.R.~Mafra and O.~Schlotterer, \emph{{Abelian Z-theory: NLSM
+  amplitudes and $\alpha$'-corrections from the open string}},
+  \href{https://doi.org/10.1007/JHEP06(2017)093}{\emph{JHEP} {\bfseries 06}
+  (2017) 093} [\href{https://arxiv.org/abs/1608.02569}{{\ttfamily
+  1608.02569}}].
+
 \bibitem{Carrasco:2022jxn}
 J.J.M.~Carrasco and N.H.~Pavao, \emph{{Virtues of a symmetric-structure double
   copy}}, \href{https://doi.org/10.1103/PhysRevD.107.065005}{\emph{Phys. Rev.
@@ -326,13 +333,6 @@ M.B.~Green, J.H.~Schwarz and L.~Brink, \emph{{N=4 Yang-Mills and N=8
   \href{https://doi.org/10.1016/0550-3213(82)90336-4}{\emph{Nucl. Phys. B}
   {\bfseries 198} (1982) 474}.
 
-\bibitem{Broedel:2013tta}
-J.~Broedel, O.~Schlotterer and S.~Stieberger, \emph{{Polylogarithms, Multiple
-  Zeta Values and Superstring Amplitudes}},
-  \href{https://doi.org/10.1002/prop.201300019}{\emph{Fortsch. Phys.}
-  {\bfseries 61} (2013) 812} [\href{https://arxiv.org/abs/1304.7267}{{\ttfamily
-  1304.7267}}].
-
 \bibitem{Mafra:2011nv}
 C.R.~Mafra, O.~Schlotterer and S.~Stieberger, \emph{{Complete N-Point
   Superstring Disk Amplitude I. Pure Spinor Computation}},
@@ -348,18 +348,32 @@ C.R.~Mafra, O.~Schlotterer and S.~Stieberger, \emph{{Complete N-Point
   {\bfseries 873} (2013) 461}
   [\href{https://arxiv.org/abs/1106.2646}{{\ttfamily 1106.2646}}].
 
+\bibitem{Broedel:2013tta}
+J.~Broedel, O.~Schlotterer and S.~Stieberger, \emph{{Polylogarithms, Multiple
+  Zeta Values and Superstring Amplitudes}},
+  \href{https://doi.org/10.1002/prop.201300019}{\emph{Fortsch. Phys.}
+  {\bfseries 61} (2013) 812} [\href{https://arxiv.org/abs/1304.7267}{{\ttfamily
+  1304.7267}}].
+
+\bibitem{Carrasco:2016ygv}
+J.J.M.~Carrasco, C.R.~Mafra and O.~Schlotterer, \emph{{Semi-abelian Z-theory:
+  NLSM$+\phi^{3}$ from the open string}},
+  \href{https://doi.org/10.1007/JHEP08(2017)135}{\emph{JHEP} {\bfseries 08}
+  (2017) 135} [\href{https://arxiv.org/abs/1612.06446}{{\ttfamily
+  1612.06446}}].
+
+\bibitem{Mafra:2016mcc}
+C.R.~Mafra and O.~Schlotterer, \emph{{Non-abelian $Z$-theory: Berends-Giele
+  recursion for the $\alpha'$-expansion of disk integrals}},
+  \href{https://doi.org/10.1007/JHEP01(2017)031}{\emph{JHEP} {\bfseries 01}
+  (2017) 031} [\href{https://arxiv.org/abs/1609.07078}{{\ttfamily
+  1609.07078}}].
+
 \bibitem{KLT}
 H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
   amplitudes of closed and open strings}},
   \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
   {\bfseries B269} (1986) 1}.
-
-\bibitem{Carrasco:2016ldy}
-J.J.M.~Carrasco, C.R.~Mafra and O.~Schlotterer, \emph{{Abelian Z-theory: NLSM
-  amplitudes and $\alpha$'-corrections from the open string}},
-  \href{https://doi.org/10.1007/JHEP06(2017)093}{\emph{JHEP} {\bfseries 06}
-  (2017) 093} [\href{https://arxiv.org/abs/1608.02569}{{\ttfamily
-  1608.02569}}].
 
 \bibitem{Passarino:1978jh}
 G.~Passarino and M.J.G.~Veltman, \emph{{One Loop Corrections for e+ e-

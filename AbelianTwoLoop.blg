@@ -1,5 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2019)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: AbelianTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -92,46 +92,45 @@ Repeated entry---line 13164 of file Refs_solvingPhotons.bib
  : @article{Bern:2019isl
  :                      ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for ""
-You've used 145 entries,
+You've used 147 entries,
             2316 wiz_defined-function locations,
-            1646 strings with 31115 characters,
-and the built_in function-call counts, 63935 in all, are:
-= -- 6876
-> -- 2003
+            1659 strings with 31499 characters,
+and the built_in function-call counts, 64828 in all, are:
+= -- 6976
+> -- 2027
 < -- 0
-+ -- 577
-- -- 432
-* -- 6397
-:= -- 8037
-add.period$ -- 145
-call.type$ -- 145
-change.case$ -- 144
++ -- 584
+- -- 437
+* -- 6487
+:= -- 8151
+add.period$ -- 147
+call.type$ -- 147
+change.case$ -- 146
 chr.to.int$ -- 0
-cite$ -- 145
-duplicate$ -- 4991
-empty$ -- 5734
-format.name$ -- 1296
-if$ -- 16077
+cite$ -- 147
+duplicate$ -- 5064
+empty$ -- 5816
+format.name$ -- 1311
+if$ -- 16302
 int.to.chr$ -- 0
-int.to.str$ -- 145
-missing$ -- 552
-newline$ -- 439
-num.names$ -- 144
-pop$ -- 295
+int.to.str$ -- 147
+missing$ -- 560
+newline$ -- 445
+num.names$ -- 146
+pop$ -- 301
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1959
+skip$ -- 1982
 stack$ -- 0
-substring$ -- 3892
-swap$ -- 1132
+substring$ -- 3948
+swap$ -- 1146
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 730
-width$ -- 148
-write$ -- 1499
+while$ -- 739
+width$ -- 150
+write$ -- 1521
 (There were 22 error messages)
