@@ -51,7 +51,7 @@
 \newcommand{\Poincare}{Poincar\'e\xspace}
 
 \newcommand{\cC}{g} % -- Crossing Count symbol.
-
+\newcommand{\cHL}[0]{C^{\text{H.L.}}}
 
 \newcommand{\nkmc}[1][k]{N$^{#1}$MC\xspace}
 
@@ -1064,6 +1064,7 @@ the same as the dimension appearing in dimensional regularization, $D=4-2\epsilo
 It is well known that one-loop amplitudes are spanned by a small basis of scalar integrals \cite{Forde:2007mi,Badger:2008cm,ElvangHuangReview}. This property can be exposed via a $D$-dimensional integral reduction algorithm due to Passarino and Veltman \cite{Passarino:1978jh}.  Darren Forde showed blah blah.
 
 \section{Even-Point Multiloop Unitarity}
+\label{sec:EMU}
 \dj{Emus are soft-feathered, brown, flightless birds with long necks and legs, and can reach up to 1.9 metres (6.2 ft) in height. Emus can travel great distances, and when necessary can sprint at 48 km/h (30 mph). They forage for a variety of plants and insects, but have been known to go for weeks without eating. They drink infrequently, but take in copious amounts of water when the opportunity arises.}
 
 At two-loops we can exploit the even-point properties of the theories of interest in two ways -- first in the integral construction via unitarity.  The second via tensor reduction of these special basis integrals.
@@ -1232,7 +1233,7 @@ First, we will use the pair of $D$-dimensional tensor structure, $f_{ij}f_{kl}$ 
 \begin{align}
 f_{ij}= \frac{1}{2}\text{tr}[F_iF_j]\qquad f_{ijkl} = \text{tr}[F_iF_jF_kF_l]
 \end{align}
-where $F_i^{\mu\nu} = k_i^\mu \epsilon_i^\nu - k_i^\nu \epsilon_i^\mu$ are linearized field strengths, and the trace is taken over spacetime indices. With these vector building blocks, there are exactly four $D$-dimensional four-photon operators one can write down at $\mathcal{O}(k^8)$:
+where $F_i^{\mu\nu} = k_i^\mu \epsilon_i^\nu - k_i^\nu \epsilon_i^\mu$ are linearized field strengths, and the trace is taken over spacetime indices. With these vector building blocks, there are exactly four $D$-dimensional four-photon local amplitudes one can write down at $\mathcal{O}(k^8)$:
 \begin{align}\label{eq:symVecBlocks}
 \mathcal{O}_{(2,0)}^{F^2F^2} &= s_{12}^2 f_{12}f_{34} + \text{cyc}(2,3,4)
 \\
@@ -1298,31 +1299,31 @@ where $g_i \equiv 2 k_{i-1}^\mu F^{\mu\nu}_i k^{\nu}_{i+1}$. While not obvious w
 In ref. \cite{Carrasco:2022jxn} it was demonstrated that this photonic effective field theory (EFT) amplitude permits a double copy construction by introducing a set of symmetric algebraic structures, or equivalently adjoint kinematics with higher spin modes. While we will comment on the double-copy properties of this amplitude in \sect{sec:ActionDC}, for now we will just stress that these $D$-dimensional operators will serve as an useful basis for capturing divergences and anomalies in the Born-Infeld S-matrix. With that, we are prepared to proceed to the loop level results. 
 
 \section{Loop-level amplitudes}\label{sec:Loops}
-Equipped with the $D$-dimensional unitarity and integration techniques of the previous section, this section contains the bulk of our results in the form of fully integrated two-loop amplitudes belonging to EP effective gauge theories. The calculations performed via unitarity will proceed as follows:
-\begin{itemize}
-\item \textbf{Construction}: Specify the theory-specific four-point operators needed to construct the integrands associated with the non-vanishing integrals, and compose them with $D$-dimensional state sums. 
-\item \textbf{Reduction}: Apply the loop integral tensor reduction formulae of \eqn{eq:bubRed} and \eqn{eq:triRed} to decompose into a basis of scalar integrals, $I^D_2$ and $[I_3\circ I_2]^D$. At this point, everything remains $D$-dimensional. 
-\item \textbf{Integration}: Evaluate the $D$-dimensional scalar integrals in the dimension of interest. We will focus primarily on $D=4-2\epsilon$ for DBIVA amplitudes, but we will also consider $D=2-2\epsilon$, which is the dimension for which NLSM is critical. 
-\item \textbf{Projection}: Project $D$-dimensional tensor structures along defined 4D spinor helicity states using the conventions of \cite{jjmcTASI2014}. This will elucidate where anomalous matrix elements appear for non-supersymmetric DBIVA, which has a classically conserved $U(1)$ symmetry. 
-\end{itemize}
-Before diving into the fully dressed fermion and vector integrals of DBIVA theories, we will begin with an instructive example of NLSM pions through two-loop order. These amplitudes will serve as the scaffolding for constructing $\mathcal{N}=4$ DBIVA integrands using the double copy. As we will demonstrate, an exciting realization of our results is that the loop-level double copy construction of $\mathcal{N}=4$ DBIVA is consistent with the results that we compute via unitarity. This is the first verification of the double-copy construction for multi-loop amplitudes for non-gravitational theories. Furthermore, it suggests that there should exist a color-dual representation of two-loop NLSM integrands, which thus far has evaded identification in the literature. We see finding such a color-dual pion integrand as an exciting direction of future study.   
-\subsection{NLSM via unitarity}\label{sec:NLSMU}
-To begin, we will gain some familiarity with the multi-loop construction of arguably the simplest theory appearing in the field theory of the abelianized open-string, namely the 
+We now apply the even-point multi-loop unitarity approach introduced in \sect{sec:EMU} to constructing two-loop amplitudes in NLSM and DBIVA theories and reducing them to an appropriate basis of integrals. We will evaluate the $D$-dimensional scalar integrals in the dimension of interest. We will focus primarily on $D=4-2\epsilon$ for DBIVA amplitudes, but we will also consider $D=2-2\epsilon$, which is the dimension for which NLSM is critical.   We will then project $D$-dimensional tensor structures along defined 4D spinor helicity states using the conventions described in \sect{subsec:4DandDDReview}. This will clarify where anomalous matrix elements contribute for non-supersymmetric BI, which has a classically conserved $U(1)$ symmetry. 
 
 
-The first step is to construct the color-dressed NLSM tree amplitudes that will serve as the kinematic building blocks to appear in our unitarity construction. For our purposes, a convenient color basis is the so-called half-ladder basis of Del Duca, Dixon and Maltoni (DDM) \cite{DixonMaltoni},
+We begin with an instructive example of NLSM pions through two-loop order. These amplitudes can serve as the scaffolding for constructing $\mathcal{N}=4$ DBIVA integrands using the double copy even without explicitly finding a color-dual representation. As we will demonstrate, an exciting realization of our results is that the loop-level double copy construction of $\mathcal{N}=4$ DBIVA is consistent with the results that we compute directly via unitarity. This is the first application of double-copy construction for multi-loop amplitudes for non-gravitational theories. Furthermore, it suggests that there should exist a color-dual representation of two-loop NLSM integrands, a representation that has yet to be constructed explicitly. 
+
+\subsection{NLSM via Even-point Multiloop Unitarity}\label{sec:NLSMU}
+
+We begin with the color-dressed NLSM tree amplitudes that will serve as the kinematic building blocks to appear in our unitarity construction. For our purposes, a convenient color basis is the so-called half-ladder basis of Del Duca, Dixon and Maltoni (DDM) \cite{DixonMaltoni},
 \begin{equation}
-\mathcal{A}^{\text{NLSM}}_n = \sum_{\sigma \in S^{n-2}} C^{\text{ladder}}_{(1\sigma n)} A^{\text{NLSM}}_{(1\sigma n)}\,.
+\mathcal{A}^{\text{NLSM}}_n = \sum_{\sigma \in S^{n-2}}\cHL_{(1\sigma n)} A^{\text{NLSM}}_{(1\sigma n)}\,.
 \end{equation}
-Above, the half-ladder color factors are defined as, $C^{\text{ladder}}_{(1\sigma n)} \equiv f^{1\sigma_2 \beta_2}f^{\beta_2 \sigma_3 \beta_3} \cdots f^{\beta_{n-1}\sigma_{n-1}n}$, where we have defined the group theory structure constants as, $f^{abc}= \text{tr}[T^a[T^b,T^c]]$. In the above expression, each half ladder weights a color-ordered amplitudes $A^{\text{NLSM}}_{(1\sigma n)}$. At four-point, it is well known that the amplitude for NLSM is simply, 
+The half-ladder color factors are defined in terms of the antisymmetric structure constants as, 
+\be
+\cHL_{(1\sigma n)} \equiv f^{1\sigma_2 \beta_2}f^{\beta_2 \sigma_3 \beta_3} \cdots f^{\beta_{n-1}\sigma_{n-1}n}.
+\ee 
+In the above expression, each half ladder dresses a color-ordered amplitude $A^{\text{NLSM}}_{(1\sigma n)}$. At four-point, it is well known that the ordered amplitude for NLSM is simply, 
 \begin{equation}
 A^{\text{NLSM}}_{(1234)} = f_\pi^{-2} \,s_{13}\,.
 \end{equation}
 In which case, the full four-point amplitude can be expressed completely in terms of the $s$-channel and $u$-channel color factors, 
 \be\label{eq:NLSMamp} 
-\mathcal{A}^{\text{NLSM}}_4 = f_\pi^{-2}\left(C^{\text{ladder}}_{(1234)} s_{13}+ C^{\text{ladder}}_{(1324)}s_{12}\right)\,.
+\mathcal{A}^{\text{NLSM}}_{(1|23|4)} = f_\pi^{-2}\left(\cHL_{(1234)} s_{13}+\cHL_{(1324)}s_{12}\right)\,.
 \ee
-The $t$-channel color factor satisfies a Jacobi identity with the $s$- and $u$-channel diagrams, $c_t \equiv C^{\text{ladder}}_{(2341)} = C^{\text{ladder}}_{(1234)}-C^{\text{ladder}}_{(1324)}$, and thus can be chosen so that it does not contribute to the full color-dressed amplitude. In this work, we use the convention $s=(k_1+k_2)^2$, $t=(k_2+k_3)^2$ and $u=-s-t$. We will now use the amplitude in \eqn{eq:NLSMamp} as the color-dressed four-point operator for integrand construction in the next section.
+The $t$-channel color factor satisfies a Jacobi identity with the $s$- and $u$-channel diagrams, $c_t \equiv\cHL_{(2341)} =\cHL_{(1234)}-\cHL_{(1324)}$, and thus can be chosen so that it does not contribute to the full color-dressed amplitude. In this work, we use the convention $s=(k_1+k_2)^2$, $t=(k_2+k_3)^2$ and $u=-s-t$.  The color-dressed amplitude is entirely bose-symmetric, but we use the subscript $(1|23|4)$ to emphasize a functional choice of the $1|\sigma|4$ half-ladder basis.
+
 \subsubsection{One-loop}\label{sec:1loopNLSM}
 At one-loop, the unitarity construction of gauge theory amplitudes is particularly simple, since the color factors can be decomposed into a DDM-like ordered color basis. That is, all color factors, $C_g$ associated with the following cubic representation of the integrand:
 \begin{equation}
@@ -1338,21 +1339,17 @@ C^{n\text{-gon}}_{(a_1a_2...a_n)} \equiv f^{b_1 a_1 b_2}f^{b_2 a_2 b_3}\cdots f^
 \end{equation}
 This allows us to express the one-loop amplitudes in terms of a sum over the $(n-1)!$ distinct color factors, weighted by the contributions from the color-ordered Feynman diagrams:
 \begin{equation}
-\mathcal{A}^{1\text{-loop}}_n = \sum_{\sigma \in S^{n-1}} C^{n\text{-gon}}_{(\sigma n)} A^{1\text{-loop}}_{(\sigma n)}
+\mathcal{A}^{1\text{-loop}}_n = \sum_{\sigma \in S^{n-1}} C^{n\text{-gon}}_{(\sigma n)} A^{1\text{-loop}}_{(\sigma n)}\,.
 \end{equation}
-In light of this simplicity, it is convenient to choose a set of unitarity cuts that maps us directly onto the $n$-gon color basis. We achieve this by aligning the external legs of the half-ladder decomposition, with the cut legs inside the bubble diagram. That is, we define the following pion operator,
-\be
- \mathcal{O}^{\text{NLSM}}_{(1|23|4)} \equiv f_\pi^{-2}\,\left(C^{\text{ladder}}_{(1234)} s_{13}+ C^{\text{ladder}}_{(1324)}s_{12}\right)
-\ee
-and then only cut on legs 1 and 4 -- which guarantees the state sum involving half ladders lands exclusively on $n$-gon numerators. This procedure will greatly simplify the calculation that we perform with fully color dressed cuts. 
+In light of this simplicity, it is convenient to choose a set of unitarity cuts that maps us directly onto the $n$-gon color basis.  E.g. by using color-dressed keys with cut-legs in the appropriate half-ladder basis.
 
+The $D$-dimensional 1-loop calculations for pions are quite simple -- the integrand expressions are only a few lines of dot products. Guided by the simplicity of NLSM, we will label each step in the process according to the outline provided at the beginning of the section. While the complexity of the calculation will necessarily increase for DBIVA theories, the general procedure will remain the same. 
 
-With this, we are finally prepared to start calculating! As we will see, the $D$-dimensional calculations for pions are quite simple -- the integrand expressions are only a few lines of dot products. Guided by the simplicity of NLSM, we will label each step in the process according to the outline provided at the beginning of the section. While the complexity of the calculation will necessarily increase for DBIVA theories, the general procedure will remain the same. 
+\paragraph{\textbf{Construction via EMU}} Using the four-point NLSM amplitude defined above, the off-shell bubble integral has a numerator simply given by the bubble's two-particle cut.
 
-\paragraph{\textbf{Construction}} Using the NLSM operator defined above, the integrals we wish to evaluate for one-loop pion amplitudes are the following:
 
 \be
-\scaleIntApion = \sum_{\text{states}}\int \frac{d^D l}{(2\pi)^D} \frac{\mathcal{O}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{O}^{\text{NLSM}}_{(l_2|34|l_1)}}{l^2(l+k_{12})^2}\,.
+\scaleIntApion = \sum_{\text{states}}\int \frac{d^D l}{(2\pi)^D} \frac{\mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}}{l^2(l+k_{12})^2}\,.
 \ee
 Just as in the previous section, we define the internal loop momenta as, $\bar{l}_1 =-l_1= l$ and $\bar{l}_2 =-l_2= -(l+k_{12})$. The integrand numerator can be easily evaluated, yielding the following expression:
 \be
