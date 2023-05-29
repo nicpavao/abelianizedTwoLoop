@@ -1,0 +1,136 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: eventPointTwoLoop.aux
+The style file: JHEP.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: Refs_emu.bib
+Repeated entry---line 1345 of file Refs_emu.bib
+ : @article{Bern:2017tuc
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1733 of file Refs_emu.bib
+ : @article{Lehman:2015via
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1870 of file Refs_emu.bib
+ : @article{Henning:2015daa
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1974 of file Refs_emu.bib
+ : @article{Johansson:2017srf
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2276 of file Refs_emu.bib
+ : @article{Chi:2021mio
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2288 of file Refs_emu.bib
+ : @article{Bern:2012uf
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2430 of file Refs_emu.bib
+ : @article{Bern:2017rjw
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2445 of file Refs_emu.bib
+ : @article{Bern:2013uka
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2474 of file Refs_emu.bib
+ : @article{Carrasco:2013ypa
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2539 of file Refs_emu.bib
+ : @article{Kallosh:2021mnu
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2550 of file Refs_emu.bib
+ : @article{BICEP:2021xfz
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2819 of file Refs_emu.bib
+ : @article{Caron-Huot:2016icg
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3791 of file Refs_emu.bib
+ : @article{Broedel:2013tta
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3841 of file Refs_emu.bib
+ : @article{Chen:2019ywi
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5524 of file Refs_emu.bib
+ : @article{Bern:2015ooa
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7003 of file Refs_emu.bib
+ : @article{Bern:2017tuc
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7055 of file Refs_emu.bib
+ : @article{Bern:2017puu
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8704 of file Refs_emu.bib
+ : @article{Azevedo:2018dgo
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9340 of file Refs_emu.bib
+ : @article{Bjerrum-Bohr:2013iza
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10275 of file Refs_emu.bib
+ : @article{Carrasco:2021otn
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12687 of file Refs_emu.bib
+ : @article{Bern:1996ja
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13164 of file Refs_emu.bib
+ : @article{Bern:2019isl
+ :                      ,
+I'm skipping whatever remains of this entry
+You've used 147 entries,
+            2316 wiz_defined-function locations,
+            1659 strings with 31494 characters,
+and the built_in function-call counts, 64828 in all, are:
+= -- 6976
+> -- 2027
+< -- 0
++ -- 584
+- -- 437
+* -- 6487
+:= -- 8151
+add.period$ -- 147
+call.type$ -- 147
+change.case$ -- 146
+chr.to.int$ -- 0
+cite$ -- 147
+duplicate$ -- 5064
+empty$ -- 5816
+format.name$ -- 1311
+if$ -- 16302
+int.to.chr$ -- 0
+int.to.str$ -- 147
+missing$ -- 560
+newline$ -- 445
+num.names$ -- 146
+pop$ -- 301
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1982
+stack$ -- 0
+substring$ -- 3948
+swap$ -- 1146
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 739
+width$ -- 150
+write$ -- 1521
+(There were 22 error messages)
