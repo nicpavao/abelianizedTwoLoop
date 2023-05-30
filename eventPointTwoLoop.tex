@@ -52,6 +52,8 @@
 
 \newcommand{\cC}{g} % -- Crossing Count symbol.
 \newcommand{\cHL}[0]{C^{\text{H.L.}}}
+\newcommand{\nbub}[0]{N^{\text{bub}}}
+
 
 \newcommand{\nkmc}[1][k]{N$^{#1}$MC\xspace}
 
@@ -1345,11 +1347,15 @@ In light of this simplicity, it is convenient to choose a set of unitarity cuts 
 
 The $D$-dimensional 1-loop calculations for pions are quite simple -- the integrand expressions are only a few lines of dot products. Guided by the simplicity of NLSM, we will label each step in the process according to the outline provided at the beginning of the section. While the complexity of the calculation will necessarily increase for DBIVA theories, the general procedure will remain the same. 
 
-\paragraph{\textbf{Construction via EMU}} Using the four-point NLSM amplitude defined above, the off-shell bubble integral has a numerator simply given by the bubble's two-particle cut.
-
+\paragraph{\textbf{Construction}} Using the four-point NLSM amplitude defined above,  the off-shell bubble integral has a numerator simply given by the bubble's two-particle cut.
+\begin{align}
+\nbub &=  \sum_{\text{states}} \frac{\mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}}\\
+ &= \frac{\mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}} \\
+ &=
+\end{align}
 
 \be
-\scaleIntApion = \sum_{\text{states}}\int \frac{d^D l}{(2\pi)^D} \frac{\mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}}{l^2(l+k_{12})^2}\,.
+\scaleIntApion =\int \frac{d^D l}{(2\pi)^D} \frac{ \sum_{\text{states}} \mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}}{l^2(l+k_{12})^2}\,.
 \ee
 Just as in the previous section, we define the internal loop momenta as, $\bar{l}_1 =-l_1= l$ and $\bar{l}_2 =-l_2= -(l+k_{12})$. The integrand numerator can be easily evaluated, yielding the following expression:
 \be
