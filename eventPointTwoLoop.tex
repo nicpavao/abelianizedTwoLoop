@@ -1743,28 +1743,23 @@ This allows us to express the one-loop amplitudes in terms of a sum over the $(n
 \begin{equation}
 \mathcal{A}^{1\text{-loop}}_n = \sum_{\sigma \in S^{n-1}} C^{n\text{-gon}}_{(\sigma n)} A^{1\text{-loop}}_{(\sigma n)}\,.
 \end{equation}
-In light of this simplicity, it is convenient to choose a set of unitarity cuts that maps us directly onto the $n$-gon color basis.  E.g. by using color-dressed keys with cut-legs in the appropriate half-ladder basis.
 
-The $D$-dimensional 1-loop calculations for pions are quite simple -- the integrand expressions are only a few lines of dot products. Guided by the simplicity of NLSM, we will label each step in the process according to the outline provided at the beginning of the section. While the complexity of the calculation will necessarily increase for DBIVA theories, the general procedure will remain the same. 
+As this is a minimal basis we will consider cuts that allow a targeted identification of each color-weight's coefficients.
 
-\paragraph{\textbf{Construction}} Using the four-point NLSM amplitude defined above,  the off-shell bubble integral has a numerator simply given by the bubble's two-particle cut.
-\begin{align}
-\nbub &=  \sum_{\text{states}} \mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}\\
- &= \mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)} \\
- &=
-\end{align}
+\paragraph{\textbf{Construction}} Using the four-point tree-level NLSM amplitude , and following the reasoning of \sect{sec:EMU}, it is straightforward to write down an off-shell integrand associated with the one-loop bubble:
 \be
 \scaleIntApion =\int \frac{d^D l}{(2\pi)^D} \frac{ \sum_{\text{states}} \mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}}{l^2(l+k_{12})^2}\,.
 \ee
-Just as in the previous section, we define the internal loop momenta as, $\bar{l}_1 =-l_1= l$ and $\bar{l}_2 =-l_2= -(l+k_{12})$. The integrand numerator can be easily evaluated, yielding the following expression:
-\be
-\begin{aligned}
-\sum_{\text{states}}\mathcal{O}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{O}^{\text{NLSM}}_{(l_2|34|l_1)} &= 4f_\pi^{-4}C^{\text{box}}_{(1234)} \left[(k_2\cdot \bar{l}_1)(k_3\cdot l_1)+(k_1\cdot \bar{l}_1)(k_4\cdot l_1)\right]
-\\
+We define the internal loop momenta as, $\bar{l}_1 =-l_1= l$ and $\bar{l}_2 =-l_2= -(l+k_{12})$. The integrand numerator can be easily evaluated, yielding the following expression:
+\begin{align}
+  \sum_{\text{states}} \mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)}&=
+   \mathcal{A}^{\text{NLSM}}_{(\bar{l}_1|12|\bar{l}_2)}\mathcal{A}^{\text{NLSM}}_{(l_2|34|l_1)} \\
+ &= 4f_\pi^{-4}C^{\text{box}}_{(1234)} \left[(k_2\cdot \bar{l}_1)(k_3\cdot l_1)+(k_1\cdot \bar{l}_1)(k_4\cdot l_1)\right]\\
 &+4f_\pi^{-4}C^{\text{box}}_{(1243)} \left[(k_1\cdot \bar{l}_1)(k_2\cdot \bar{l}_1)+(k_3\cdot l_1)(k_4\cdot l_1)\right]
-\end{aligned}
-\ee
-We note that since the internal pions are identical, this contribution comes dressed with an internal symmetry factor of $S_{(12|34)}=\frac{1}{2}$. Moreover, this is just the $s$-channel cut -- to construct the full amplitude, we need to sum over all cyclic permutations:
+\end{align}
+Again, as following the reasoning in \sect{sec:EMU} we do not need to worry about any contact terms that may have been missed in this cut -- any such terms do not exist for an even-point theory.
+
+We note that since the internal pions are identical, this contribution comes dressed with an internal symmetry factor of $S_{(12|34)}=\frac{1}{2}$. Moreover, this is just the $s$-channel cut -- to capture all channels we can sum over all cyclic permutations:
 \be
 \mathcal{A}^{\text{NLSM}}_{\text{1-loop}}=\frac{1}{2}\scaleIntApion +\text{cyc}(2,3,4)
 \ee
