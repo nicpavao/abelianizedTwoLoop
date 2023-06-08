@@ -9,6 +9,7 @@
 \usepackage{slashed}
 \usepackage{diagbox}
 \usepackage{colortbl}
+\usepackage{shuffle}
 \usepackage{bbold}
 \usepackage{tabularx}
 \usepackage{graphicx}
@@ -321,7 +322,7 @@
 \vertex (a2) at (0*.6, 2*.6) {};
 \vertex (a3) at (-1.73*.6, 1*.6) {};
 \vertex [dot,scale=3.6*.6](mid1) at (.865*.6, .5*.6){};
-\vertex [dot,scale=3*.6,hred] (mid1a) at (.865*.6, .5*.6){};
+\vertex [dot,scale=3*.6,hred] (mid1A) at (.865*.6, .5*.6){};
 \vertex [dot,scale=3.6*.6](mid2) at (0*.6, 1*.6){};
 \vertex [dot,scale=3*.6,hred] (mid2a) at (0*.6, 1*.6){};
 \vertex [dot,scale=3.6*.6](mid3) at (-.865*.6, .5*.6){};
@@ -349,7 +350,7 @@
 \vertex (a5) at (0*.6, -2*.6) {};
 \vertex (a6) at (1.73*.6, -1*.6) {};
 \vertex [dot,scale=3.6*.6](mid1) at (.865*.6, .5*.6){};
-\vertex [dot,scale=3*.6,hblue] (mid1a) at (.865*.6, .5*.6){};
+\vertex [dot,scale=3*.6,hblue] (mid1A) at (.865*.6, .5*.6){};
 \vertex [dot,scale=3.6*.6](mid2) at (0*.6, 1*.6){};
 \vertex [dot,scale=3*.6,hblue] (mid2a) at (0*.6, 1*.6){};
 \vertex [dot,scale=3.6*.6](mid3) at (-.865*.6, .5*.6){};
@@ -480,9 +481,9 @@
 \vertex (a4) at (.7,-.7) {};
 \vertex (mid1) at (-.35,0);
 \vertex (mid2) at (.35,0);
-\vertex (mid1a) at (-.35,.15);
+\vertex (mid1A) at (-.35,.15);
 \vertex (mid2a) at (.35,.15);
-\vertex (mid1b) at (-.35,-.15);
+\vertex (mid1B) at (-.35,-.15);
 \vertex (mid2b) at (.35,-.15);
 \diagram{
 (mid1) -- [photon,ultra thick] (a1);
@@ -490,8 +491,8 @@
 (mid2) -- [photon,ultra thick] (a3);
 (mid2) -- [photon,ultra thick] (a4);
 (mid1) -- [photon,ultra thick,hred] (mid2);
-(mid1a) -- [ photon,ultra thick,hred](mid2a);
-(mid1b) -- [ photon,ultra thick,hred] (mid2b);
+(mid1A) -- [ photon,ultra thick,hred](mid2a);
+(mid1B) -- [ photon,ultra thick,hred] (mid2b);
 
 };
 \end{feynman}
@@ -822,6 +823,27 @@
 }
 }
 
+\newcommand{\threeTree}[3]{ {
+\begin{tikzpicture}[baseline=7]
+\begin{feynman}
+\vertex (a1) at (-1.4,0){$i$} ;
+\vertex (a2) at (-.4,1){#1} ;
+\vertex (a3) at (.4,1){#2} ;
+\vertex (a4) at (1.4,0){#3};
+\vertex (mid1) at (-.4,0);
+\vertex (mid2) at (.4, -0) ;
+\diagram{
+(mid1) --[ultra thick,](a1),
+(mid1) --[ultra thick,](a2),
+(mid1) --[ultra thick,](mid2),
+(mid2) --[ultra thick,](a3),
+(mid2) --[ultra thick,](a4),
+};
+\end{feynman}
+\end{tikzpicture}
+}
+}
+
 \newcommand{\extScaleless}{ {
 \begin{tikzpicture}[baseline=(current  bounding  box.center)]
 \begin{feynman}
@@ -1119,11 +1141,11 @@
   University, Evanston, Illinois 60208, USA}
 
   
-\title{Even-point Multi-loop Unitarity and its Applications: Exponentiation, Anomalies and Evanescence}
+\title{Insights of Even-point Multi-loop Unitarity: Exponentiation, Anomalies and Evanescence}
 
   
 \abstract{
-We identify novel  structure in newly computed multi-loop amplitudes and quantum actions for a special class of effective field theories which includes both the nonlinear sigma model (NLSM) and its double-copy gauge theories such as Born-Infeld and supersymmetric generalizations.  We exploit special properties of these Even-point theories to generalize the direct extraction of Feynman integral coefficients using $D$-dimensional unitarity cuts to the multi-loop case for the first time.  Doing so, we find that the leading IR divergence of NLSM amplitudes exponentiates. Second, we find that the counterterms required to restore U(1) behavior at loop-level in the Born-Infeld theory can be constructed via a symmetric-structure double-copy.  We demonstrate that the one-minus $(-+++)$ two-loop amplitude vanishes upon the introduction of an evanescent operator in the $D$-dimensional description of Born-Infeld theory. In addition to these pure photon counterterms, we verify through explicit calculation that the anomalous matrix elements that violates $U(1)$ duality invariance can be alternatvely cancelled by summing over internal $\mathcal{N}=4$ DBIVA superfields. Finally we find that $\mathcal{N}=4$ Dirac-Born-Infeld-Volkov-Akulov (DBIVA) amplitudes permit double-copy construction through two-loop order. This is shown by reproducing our unitarity based result with a loop-level double copy between $\mathcal{N}=4$ super-Yang-Mills numerators and our two-loop NLSM amplitudes. This result provides strong evidence for the existence of a color-dual representations for NLSM beyond one-loop. We conclude with an overview of how $D$-dimensional four-photon counterterms can be constructed in generality with the symmetric-structure double-copy, and outline a convenient way of counting evanescent operators at higher orders using Hilbert series as generating functions. }
+We identify novel  structure in newly computed multi-loop amplitudes and quantum actions for even-point effective field theories, including both the nonlinear sigma model (NLSM) and double-copy gauge theories such as Born-Infeld and its supersymmetric generalizations.  We exploit special properties of these even-point theories to generalize the direct extraction of Feynman integral coefficients using $D$-dimensional unitarity cuts to the multi-loop case for the first time. In doing so, we find that the leading IR divergence of NLSM amplitudes exponentiates. We then systematically compute the two-loop anomalous behavior of Born-Infeld, and find that the counterterms required to restore $U(1)$ behavior at loop-level in the Born-Infeld theory can be constructed via a symmetric-structure double-copy.  We also demonstrate that the one-minus $(-+++)$ two-loop amplitude vanishes upon the introduction of an evanescent operator in the $D$-dimensional description of Born-Infeld theory. In addition to these pure photon counterterms, we verify through explicit calculation that the anomalous matrix elements that violates $U(1)$ duality invariance can be alternatively cancelled by summing over internal $\mathcal{N}=4$ DBIVA superfields. Finally we find that $\mathcal{N}=4$ Dirac-Born-Infeld-Volkov-Akulov (DBIVA) amplitudes permit double-copy construction through two-loop order. This is shown by reproducing our unitarity based result with a loop-level double copy between $\mathcal{N}=4$ super-Yang-Mills numerators and our two-loop NLSM amplitudes. This result provides strong evidence for the existence of a color-dual representations for NLSM beyond one-loop. We conclude with an overview of how $D$-dimensional four-photon counterterms can be constructed in generality with the symmetric-structure double-copy, and outline a convenient way of counting evanescent operators using Hilbert series as generating functions. }
 
   \newpage
 
@@ -1136,109 +1158,139 @@ We identify novel  structure in newly computed multi-loop amplitudes and quantum
 \setstackgap{L}{7pt}
 
 \section{Introduction}\label{sec:intro}
-\dj{Probably a more basic introduction for people who don't know what generalized unitarity is, or double copy, poor souls.}
-\dj{Emphasize one advantage of unitarity methods at 1-loop is the ability to integrate by doing cuts -- i.e. know exactly the coefficients of each basis integral.  We show for a very special class of theories we can morally do exactly the same at higher loops -- why? even points,recursion blah blah balh.  In sect 2 we review all the old.  In sect 3 we lay out Even-point Multi-loop Unitarity in detail what properties we rely on and how we exploit them blah blah.  }
+Recent decades have witnessed a renaissance in our ability to compute scattering amplitudes to high orders in perturbation theory. At the epicenter of this explosion in $S$-matrix data is the unitarity method \cite{UnitarityMethod, Fusing, BDKUniarityReview}, which bypasses the standard Feynman diagram approach by constructing amplitudes directly from on-shell information. At one-loop, the unitarity method allows one to extract amplitudes by directly computing a series of unitarity cuts \cite{Forde:2007mi}. On-shell methods have furthermore unveiled novel amplitude-level structure, like the color-kinematics duality \cite{BCJ} and the double-copy construction \cite{BCJLoop}, which are completely obscured by a Lagrangian-level description of the physics. While much of the research in perturbative calculations thus far has focused on gauge theory and gravity, recent literature has investigated to what extent the $S$-matrix of effective field theory is constrained by on-shell data \cite{Adams:2006sv,Cheung:2015ota,Cheung:2016drk,Carrasco:2019yyn,Arkani-Hamed:2020blm,Carrasco:2021ptp,Chi:2021mio,Bonnefoy:2021qgu,Carrasco:2022lbm,Carrasco:2022sck,Green:2022slj,Pavao:2022kog,Chen:2022shl,Chen:2023dcx,Brown:2023srz}. In this work, we take a quantum leap to the multi-loop sector of effective field theory. As we embark on this journey, we anticipate that further probes of perturbative effective field theory data will unravel a rich tapestry of discoveries, adding to the current knowledge base and paving the way for future advancements in the field.
 
 
-Here we study even-point (EP) effective field theory (EFT) at the multi-loop level using a combination of generalized unitarity \cite{UnitarityMethod, Fusing, BDKUniarityReview} and the double-copy construction \cite{BCJ, BCJLoop}. The EFTs that we consider in this work are the nonlinear sigma model (NLSM) and a related family of gauge theories involving Born-Infeld theory and supersymmetric generalizations known as Dirac-Born-Infeld-Volkov-Akulov (DBIVA) theories. These families are known at tree-level to be double-copies between NLSM and Yang-Mills theories with varying amounts of supersymmetry. However, the methods we use can be similarly used for perturbative calculations in other EP effective field theories.
+In this paper we study even-point (EP) effective field theory (EFT) at the multi-loop level using a combination of generalized unitarity \cite{UnitarityMethod, Fusing, BDKUniarityReview} and the double-copy construction \cite{BCJ, BCJLoop}. The EFTs that we consider are the nonlinear sigma model (NLSM) and a related family of gauge theories involving Born-Infeld theory and supersymmetric generalizations known as Dirac-Born-Infeld-Volkov-Akulov (DBIVA) theories. These families are known at tree-level to be double-copies between NLSM and Yang-Mills theories with varying amounts of supersymmetry. While we focus on these specific examples, the methods we develop can be used for perturbative calculations in any EP effective field theory.
 
-The motivation for this work is three-fold. First, perturbative calculations in NLSM and DBIVA effective field theories are significantly simpler than the typical multi-loop calculations of renormalizable theories, like quantum-chromodynamics (QCD) and super-Yang-Mills (sYM). As we will show, the multi-loop amplitudes for these theories allow us to recycle many of the $D$-dimensional integration tools that are so powerful at one-loop order. This allows us to compute a large catalog of $D$-dimensional two-loop amplitudes, which provides fertile ground for cultivating insights about the multi-loop structure of effective field theories. The perturbative depth of our calculations sheds light on the exponential structure of IR divergences for NLSM amplitudes through two-loops, the anomalous behavior $U(1)$ duality invariance through two-loop order in DBIVA theories, as well as the emergence of evanescent operators relevant for anomaly cancellation in pure Born-Infeld theory. We believe these surprisingly rich physical structures could serve as a theoretical laboratory for future studies of the interplay between effective field theory operators and perturbative calculations in quantum field theory. 
+The motivation for this work is three-fold. First, perturbative calculations in NLSM and DBIVA effective field theories are significantly simpler than the typical multi-loop calculations of renormalizable theories, like quantum-chromodynamics (QCD) and super-Yang-Mills (sYM). As we will show, the multi-loop amplitudes for these theories allow us to recycle many of the $D$-dimensional integration tools that are so powerful at one-loop order. To approach this problem, we expand on the now standard approach of Forde \cite{Forde:2007mi}, that computes one-loop amplitudes directly from 4D unitarity cuts. In \sect{sec:EMU} we'll show that there are only two basis integrals needed at two-loop four-point for EP effective field theory amplitudes. In the spirit of one-loop unitarity, the integral coefficients can be directly extracted from EMU and tensor reduction. In contrast to Forde's approach, our method of Even-point Multi-loop Unitarity (EMU) is a $D$-dimensional approach to integrand construction. This allows us to compute a large catalog of $D$-dimensional two-loop amplitudes, which provides fertile ground for cultivating insights about the multi-loop structure of effective field theories. The perturbative depth of our calculations sheds light on the exponential structure of IR divergences for NLSM amplitudes through two-loops, the anomalous behavior $U(1)$ duality invariance through two-loop order in DBIVA theories, as well as the emergence of evanescent operators relevant for anomaly cancellation in pure Born-Infeld theory. We believe these surprisingly rich physical structures could serve as a theoretical laboratory for future studies of the interplay between effective field theory operators and perturbative calculations in quantum field theory. 
 
-The second motivation is that very little is known about color-kinematics duality at multi-loop level for generic models in the web of theories \cite{BCJreview}. For a comprehensive review of color-dual representations, see refs. \cite{BCJreview, Bern:2022wqg, Adamo:2022dcm} and references therein. While there has been tremendous success of applying color-kinematics duality to $\mathcal{N}=4$ super-Yang-Mills, for which color-dual integrands are known through four-point four-loop \cite{Bern:2012uf, Neq44np, GravityFour}, five-point through three-loops, and to sEven-point at one-loop \cite{Bjerrum-Bohr:2013iza,Edison:2020uzf,Edison:2022jln}, there are many obstructions for generic gauge/gravity theories. Presently, the state-of-the-art for nonlinear sigma model (NLSM) color-dual numerators come from the $XY\!Z$ model of Cheung and Shen \cite{Cheung2016prv}, while $D$-dimensional integrands for pure Yang-Mills have only been identified through five-point one-loop \cite{He:2017spx}. At present, there are no known $D$-dimensional representations for either of these theories at two-loop that globally manifest the duality between color and kinematics, despite attempts in the literature \cite{OneTwoLoopPureYMBCJ, Mogull:2015adi, Bern:2015ooa, Geyer:2019hnn}. Furthermore, similar\dj{?? I though they had no problems with 2-loops.} bottlenecks exists for less-than-maximal $\mathcal{N}\leq 2$ sYM \cite{Johansson:2017bfl}. While there have been a number of recent developments in constructing manifestly color-dual Feynman rules \cite{Chen:2019ywi,Chen:2021chy,Brandhuber:2021bsf,Cheung:2021zvb,Ben-Shahar:2021zww,Cheung:2022mix, Ben-Shahar:2022ixa}, a precise definition the kinematic algebra off-shell remains elusive. Considering the known tree-level double-copy relationships between NLSM and DBIVA and higher-derivative corrections \cite{Cachazo:2014xea,Carrasco:2016ldy}, all of the amplitudes we compute should in principle participate in a double-copy formulation of our results. At the very least, the amplitudes we compute will serve as important checks on future breakthroughs in multi-loop studies of color-dual representations. In addition to traditional double-copy construction, we find that the quantum effective actions generated by these loop effect of this paper permit a rather compact construction in terms of \textit{symmetric-structure double-copy}, introduced in a recent work by the authors~\cite{Carrasco:2022jxn}. 
+The second motivation is that very little is known about color-kinematics duality at multi-loop level for generic models in the web of theories \cite{BCJreview}. For a comprehensive review of color-dual representations, see refs. \cite{BCJreview, Bern:2022wqg, Adamo:2022dcm} and references therein. While there has been tremendous success of applying color-kinematics duality to $\mathcal{N}=4$ super-Yang-Mills, for which color-dual integrands are known through four-point four-loop \cite{Bern:2012uf, Neq44np, GravityFour}, five-point through three-loops, and to sEven-point at one-loop \cite{Bjerrum-Bohr:2013iza,Edison:2020uzf,Edison:2022jln}, there are many obstructions for generic gauge/gravity theories. Presently, the state-of-the-art for nonlinear sigma model (NLSM) color-dual numerators come from the $XY\!Z$ model of Cheung and Shen \cite{Cheung2016prv}, while $D$-dimensional integrands for pure Yang-Mills have only been identified through five-point one-loop \cite{He:2017spx}. At present, there are no known $Ds$-dimensional representations for either of these theories at two-loop that globally manifest the duality between color and kinematics, despite attempts in the literature \cite{OneTwoLoopPureYMBCJ, Mogull:2015adi, Bern:2015ooa, Geyer:2019hnn}. Furthermore, similar bottlenecks exists for less-than-maximal $\mathcal{N}<2$ sYM \cite{Johansson:2017bfl}. While there have been a number of recent developments in constructing manifestly color-dual Feynman rules \cite{Chen:2019ywi,Chen:2021chy,Brandhuber:2021bsf,Cheung:2021zvb,Ben-Shahar:2021zww,Cheung:2022mix, Ben-Shahar:2022ixa}, a precise definition the kinematic algebra off-shell remains elusive. Considering the known tree-level double-copy relationships between NLSM and DBIVA and higher-derivative corrections \cite{Cachazo:2014xea,Carrasco:2016ldy}, all of the amplitudes we compute should in principle participate in a double-copy formulation of our results. At the very least, the amplitudes we compute will serve as important checks on future breakthroughs in multi-loop studies of color-dual representations. In addition to traditional double-copy construction, we find that the quantum effective actions generated by loop effects permit a rather compact construction in terms of \textit{symmetric-structure double-copy}, which was introduced in recent work by the authors~\cite{Carrasco:2022jxn}. 
 
 Finally, DBIVA effective field theories touch a wide range research areas at the forefront of high energy physics. Of more formal interest, is the presence of quantum anomalies that violate the $U(1)$ duality invariance, which the theory enjoys at tree-level \cite{Elvang:2020kuj}. The presence of these $U(1)$ anomalies in gravity is closely linked to ultraviolet divergences computed at loop-level \cite{Bern:2007xj,Carrasco:2013ypa,Craig:2019zkf,Monteiro:2022nqt}. It has been argued that cancelling these anomalous matrix elements with $R^n$ counterterms can lead to enhanced UV cancellations \cite{Bern:2017tuc,Bern:2017rjw,Bern:2019isl}. This relationship has been demonstrated both for pure Einstein-Hilbert gravity \cite{Goroff:1985sz}, and also for less than maximal $\mathcal{N}\leq 4$ supergravity \cite{Bern:2013uka}. While DBIVA theories are themselves are ultraviolet divergent in $D=4$, due to their simplicity they serve as an essential laboratory for probing anomaly cancellation at high loop order. Moreover, in addition to their formal theory relevance, DBI has garnered wide phenomenological interest in cosmology, both for sourcing non-gaussianities in CMB bispectrum \cite{Alishahiha:2004eh,Creminelli:2005hu,Fergusson:2008ra}, and for their consistency with the observed CMB tensor mode suppression \cite{Carrasco:2015pla,Carrasco:2015rva,Carrasco:2015uma,BICEP:2021xfz,Kallosh:2021mnu}. Thus, with inflationary data on the horizon, understanding the perturbative structure of DBI could be particularly relevant for modeling early universe quantum fluctuations. 
 
-\dj{To approach these problems we generalize the by now standard one-loop unitarity approach of Forde to higher loops exploiting a special feature of our theories blah blah.}
-
-The outline of the paper is as follows: in \sect{sec:Review}, we will provide a review of the on-shell methods and integration techniques  needed to probe the multi-loop physics studied in this paper. Then in \sect{sec:EMU}, we introduce the method of Even-point Multiloop Unitarity (EMU) and compute the two-loop tensor integrals needed in this work. In \sect{sec:Loops}, we present our results, beginning with a warm-up calculation in \sect{sec:NLSMU} where we construct the integrands for NLSM through NNLO in the effective coupling, and compute the fully integrated amplitudes. We show that in $D=2-2\epsilon$, the leading IR divergences of the theory exponentiate. With the scaffolding of $D$-dimensional integration in hand, we then compute two-loop amplitudes for $\mathcal{N}=4$ DBIVA theory and pure-photon Born-Infeld theory in \sect{sec:DBIU}. There we compute the anomalies present beyond one-loop order.  Then, using the NLSM integrands of \sect{sec:NLSMU}, we perform a multi-loop double-copy to $\mathcal{N}=4$ DBIVA observables with the color-dual basis numerators available in the literature in \sect{sec:DBIvDC}. After computing the catalog of two-loop amplitudes, we study the construction of quantum effective actions in \sect{sec:Actions} as they relate to the anomalous matrix elements present in two-loop Born-Infeld amplitudes. We demonstrate in \sect{sec:Anomalies} that the one-minus anomaly at two-loop requires the introduction of an evanescent operator at $\mathcal{O}(\alpha'^4)$. Then in \sect{sec:ActionDC} we take the opportunity to discuss the application of symmetric-structure double copy to cancel these anomalies, along with their relationship to higher-spin modes as studied in a recent work by the authors. Finally, in \sect{sec:EOpsCounting} we lay out a Hilbert series framework for counting evanescent operators at general orders in mass-dimension. To conclude, in \sect{sec:Discussion} we discuss many directions of future work and summarize the insights gained from this study. 
+The outline of the paper is as follows: in \sect{sec:Review}, we will provide a review of the on-shell methods and integration techniques needed to probe the multi-loop physics studied in this paper. Then in \sect{sec:EMU}, we introduce the method of Even-point Multi-loop Unitarity (EMU) and compute the two-loop tensor integrals needed in this work. In \sect{sec:Loops}, we present our results, beginning with a warm-up calculation in \sect{sec:NLSMU} where we construct the integrands for NLSM through NNLO in the effective coupling, and compute the fully integrated amplitudes. We show that in $D=2-2\epsilon$, the leading IR divergences of the theory exponentiate. With the scaffolding of $D$-dimensional integration in hand, we then compute two-loop amplitudes for $\mathcal{N}=4$ DBIVA theory and pure-photon Born-Infeld theory in \sect{sec:DBIU}. There we compute the anomalies present beyond one-loop order.  Then, using the NLSM integrands of \sect{sec:NLSMU}, we perform a multi-loop double-copy to $\mathcal{N}=4$ DBIVA observables with the color-dual basis numerators available in the literature in \sect{sec:DBIvDC}. After computing the catalog of two-loop amplitudes, we study the construction of quantum effective actions in \sect{sec:Actions} as they relate to the anomalous matrix elements present in two-loop Born-Infeld amplitudes. We demonstrate in \sect{sec:Anomalies} that the one-minus anomaly at two-loop requires the introduction of an evanescent operator at $\mathcal{O}(\alpha'^4)$. Then in \sect{sec:ActionDC} we take the opportunity to discuss the application of symmetric-structure double copy to cancel these anomalies, along with their relationship to higher-spin modes as studied in a recent work by the authors. Finally, in \sect{sec:EOpsCounting} we lay out a Hilbert series framework for counting evanescent operators at general orders in mass-dimension. To conclude, in \sect{sec:Discussion} we discuss many directions of future work and summarize the insights gained from this study. 
 
 
 \section{Review} 
 \label{sec:Review}
 \subsection{Color-dressed and ordered amplitudes}
+Here we provide an overview of the amplitudes nomenclature and organizational principles we use throughout the work. When working with scattering amplitudes in an on-shell framework it is convenient to introduce the following decomposition at general multiplicity, $n$, and loop order, $L$,
+\be\label{fullAmp}
+\mathcal{A}_{n,L} = \int \prod_{i=1}^L\frac{d^D l_i}{(2\pi)^D} \sum_{g} \frac{1}{S_g}\frac{\mathcal{N}_g}{D_g}
+\ee
+Throughout the work we will call, $\mathcal{A}$, the \textit{color-dressed} amplitudes, as they are the full amplitudes one would obtain from Feynman diagrams of a given gauge theory, like NLSM. As written above, $S_g$ are the internal symmetry factors for a Feynman diagram, $g$, the propagator structure is captured by the denominator function, $D_g$, and the theory-dependent interaction vertices determine numerator functions, $\mathcal{N}_g$. As written the numerator functions carry all the color and kinematic information derived from the Feynman rules of the theory. This can include both color data like structure constants, $f^{abc}$ up, and kinematic information like momenta and polarizations, depending on the particle content of the theory. 
+
+For gauge theories, it is often useful to further decompose the full color-dressed amplitudes into kinematic building blocks where the color information is stripped away. For example, at tree level, gauge theories $n$-point amplitudes can be re-expressed in terms of a trace basis decomposition as follows:
+\be
+\mathcal{A}_{n,\text{tree}} = \sum_{\sigma \in S^{n-1}} \text{Tr}(T^1 T^{\sigma(2)}\cdots T^{\sigma(n)}) A(1,\sigma(2),...,\sigma(n))
+\ee
+where the sum is taken over the inequivalent orderings of group theory generator traces. A similar decomposition applies at one-loop gauge theory amplitudes, which we will describe in \sect{sec:Loops}. The color-ordered functions are called \textit{partial amplitudes}, as they only contain on-shell information for a particular color ordering. However, like full color-dressed amplitudes, they factor on poles to lower-point partial amplitudes, and when describe vector theories they are independently gauge invariant since they weight linearly independent color traces. 
+
+When expressed in this form, many gauge theories reveal hidden redundancy that is obscured by the color-dressed amplitude formulation of \eqn{fullAmp}. When expressed in this form, the partial amplitudes for large catalog \cite{BCJreview} of gauge theories, including Yang-Mills and NLSM, are linearly dependent. The first such set of partial amplitude relations identified by Kleiss and Kluijf \cite{KK}, known formally as KK relations, relates amplitudes different color orderings and signature:
+\be\label{KK}
+A(1,\alpha,n,\beta)=(-1)^{|\alpha|}\sum_{\sigma\in \alpha \shuffle \beta^T} A(1,\sigma,n)
+\ee
+where $\beta^T$ denotes the inverse ordering of $\beta$, and $\shuffle$ is the shuffle product that enumerates ordered permutations of $\alpha$ and $\beta^T$. More recently, Bern, Johansson and one of the authors, further identified a set of kinematic relations that reduced the size of $n$-point partial amplitude basis down to $(n-3)!$ via BCJ relations \cite{BCJ}:
+\be\label{BCJ}
+\sum_{i=2}^{n-1}k_1\cdot(k_2+\cdots +k_i) A(2,...,i,1,...,n)=0
+\ee
+Underlying both sets of amplitude relations are hidden graphical organization principles that manifest the amplitude level redundancy of \eqn{KK} and \eqn{BCJ}, which we will describe in the next section. Before moving on, we emphasize that everything described thus far applies in arbitrary spacetime dimensions. As such, the aforementioned nomenclature and organization is well suited for constructing loop integrands needed for dimensional regularization.
 \label{subsec:AmpReview}
-\dj{2.1 amplitudes and nomenclature (integrand, numerators, denominators, symmetry factors, color-ordered amplitudes)., e.g. when we use a curly A or M what does it mean and why. Also throughout the paper we should standardize, $\{\cal{O},{\cal{M}}\}\to\cal{A}$ .  I guess we use straight $\epsilon$ for dimensions, and $\varepsilon$ for polarizations.  We can explain polarizations in a 4D vs D-dim part. I would do standard choices so normal people (like us) can skip this section but if they hand it to some rando QCD person or string person to referee they can figure out what we're talking about. I don't know, between a page or two here maybe.}
 
-\subsection{Color-Kinematics Duality and Double-Copy Construction}
+\subsection{Color-Kinematics Duality and the Double-Copy}
 \label{subsec:DCReview}
+To elucidate this graph-based structure, we must first rewrite the color-dressed amplitude of \eqn{fullAmp} as a sum over \textit{cubic graphs}, as follows:
+\be\label{fullAmpCubic}
+\mathcal{A}_{n,L} = \int \prod_{i=1}^L\frac{d^D l_i}{(2\pi)^D} \sum_{g\in \Gamma^{(3)}_{n,L}} \frac{1}{S_g}\frac{C_gN_g}{D_g}
+\ee
+where $N_g$ and $C_g$ are the kinematic numerators and color factors, respectively, and $ \Gamma^{(3)}_{n,L}$ denotes the set of cubic diagrams at $n$-point $L$-loop. In this formulation of the amplitude, contact diagrams are absorbed into cubic graphs by multiplying by inverse propagators. The procedure of assigning contact diagrams to cubic graphs is referred to as \textit{generalized gauge freedom} \cite{BCJ}. In practice, there are many different ways to assign contact diagrams to cubic graphs. 
 
-\dj{color-kinematics and double-copy (this could literally be the standard paragraph or so, trivalent graphs, color-weights, maybe a little longer than usual because we're also introducing $d's$)}
+The gauge theories that we study in this paper have the freedom to assign contact diagrams to the kinematic numerators such that, $N_g$ obey the same algebraic relations as the color factors, $C_g$. Since the color factors are composed of structure constants, $f^{abc} = \text{Tr}[T^a[T^b,T^c]]$, they must be anti-symmetric around vertices, and obey Jacobi relations. Explicitly, given some cubic graph, $\mathcal{G}{(ij|kl)}$, defined functionally in terms of external edges,
+\be
+\mathcal{G}{(ij|kl)}=\threeTree{$j$}{$k$}{$l$}
+\ee
+we can construct color factors, $C(ij|kl)$, and kinematic factors, $N(ij|kl)$, that obey the following set of functional relations on all vertices of internal edges:
+\begin{itemize}
+\item \textbf{Antisymmetry Relations} $\Leftrightarrow$ \textbf{KK Relations}
+\be
+C{(ij|kl)}+C{(ij|lk)} =0  \qquad \qquad N{(ij|kl)}+N{(ij|lk)} =0 
+\ee
+\item \textbf{Jacobi Relations} $\Leftrightarrow$ \textbf{BCJ Relations}
+\be
+C{(ij|kl)}+C{(il|jk)} +C{(ik|lj)} =0  \qquad N{(ij|kl)}+N{(il|jk)} +N{(ik|lj)} =0 
+\ee
+\end{itemize}
+When a gauge theory can be expressed in a form such that the color and kinematic factors obey the same algebraic relations, we call such theories \textit{color-dual}. Furthermore, as we have indicated above, when the kinematic numerators obey antisymmetry and Jacobi relations, this is one-to-one with the ordered amplitudes satisfying KK and BCJ relations, respectively. The existence of this duality between color and kinematic factors is known formally as \textit{color-kinematics duality}.
 
-\subsection{4D Spinor Helicity vs $D$-dimensions}
+A trivial consequence of color-kinematics duality is ability to double-copy \cite{BCJ} the color-dual numerators with each other. This is most easily seen by considering the cubic graph representation of \eqn{fullAmpCubic}. In this form, gauge invariance of the full amplitude is encoded in algebraic relation between the color factors. Thus, equipped with a set of color-dual numerators, $\tilde{N}_g$, that obey the same algebraic relations as $C_g$, we can make the simple replacement, $C_g \rightarrow \tilde{N}_g$, giving a new gauge invariant amplitude, $\mathcal{M}$, as follows:
+\be\label{fullAmpCubicDouble}
+\mathcal{M}_{n,L} = \int \prod_{i=1}^L\frac{d^D l_i}{(2\pi)^D} \sum_{g\in \Gamma^{(3)}_{n,L}} \frac{1}{S_g}\frac{\tilde{N}_gN_g}{D_g}
+\ee
+Not that $\mathcal{M}$ is a colorless amplitude that with manifest gauge invariance on the $N_g$ side of the double copy due to the algebraic properties of $\tilde{N}_g$. In the event that $\tilde{N}_g$ also belongs to a vector theory, the gauge invariance of $\mathcal{A}$ is promoted to linearized diffeomorphism invariance in $\mathcal{M}$. As long as both kinematic factors obey the same algebraic constraints as the color algebra, this double copy construction works at loop level since it globally manifests color-kinematics on all possible unitarity cuts. 
+
+Throughout the text we will use $\mathcal{M}$ to denote gauge theory amplitudes that themselves can be constructed from the double copy of two color dual gauge theories, whereas theories that come dressed with color factors will be denoted with calligraphic, $\mathcal{A}$. Partial amplitudes that participate in double-copy construction will be expressed as a non-calligraphic, $A$. As shorthand, when two theories, $A^X$ and $A^Y$, participate in double copy construction of $\mathcal{M}^{XY}$, the three theories are related through the double copy product as follows,
+\be
+\mathcal{M}^{\text{XY}} = A^X \otimes A^Y
+\ee
+where $\otimes$ implements the field theory double copy kernel of refs. \cite{KLT, BCJ}. We will also use this notation when describing \textit{symmetric-structure double-copy}, which was discovered in recent work by the authors \cite{Carrasco:2022jxn}. Simply put, symmetric-structure double copy is a way of composing numerators that obey \textit{symmetric} algebraic relations rather than anti-symmetric ones:
+\be
+C{(ij|kl)}-C{(ij|lk)} =0  \qquad \qquad N{(ij|kl)}-N{(ij|lk)} =0 
+\ee
+Since the symmetric color factors, $C^{\text{dd}}_g$, and kinematic numerators, $\tilde{N}^{\text{dd}}_g$, obey the same algebraic relations, gauge theories that are color-dual in the symmetric-sense can similarly be double copied by making the replacement $C^{\text{dd}}_g\rightarrow \tilde{N}^{\text{dd}}_g$:
+\be
+\mathcal{A} = \sum_{g}\frac{C^{\text{dd}}_gN^{\text{dd}}_g}{D_g} \quad \Rightarrow \quad \mathcal{M} = \sum_{g}\frac{\tilde{N}^{\text{dd}}_gN^{\text{dd}}_g}{D_g}
+\ee
+As we'll see, this symmetric double-copy construction is quite natural for capturing Born-Infeld counterterms needed for anomaly cancellation beyond one loop. Indeed, many of the higher derivative counterterms captured by composing symmetric kinematic factors are inaccessible to the traditional double copy between adjoint kinematics. We will describe this alternative formulation of the double-copy in more detail in \sect{sec:ActionDC}, where we will explicate the tension between local symmetric numerators and higher-spin adjoint numerators. 
+\subsection{4D Spinor Helicity vs. $D$-dimensions}
 \label{subsec:4DandDDReview}
-\dj{4D (spinor helicity) vs arb D dimensions and  formal polarizations. (maybe half a page).  }
+All the amplitude methods we have discussed thus far are valid in arbitrary dimension. This has a number of advantages that we will touch upon when reviewing integrand construction in dimensional regularization in \sect{sec:genU}. While most of our calculations will be carried out completely agnostic to the spacetime dimension, the vector amplitudes we compute will have 4D symmetries that will be completely obscured by $D$-dimensional kinematics. That said, it will be useful to freely move between $D$-dimensional and 4D kinematics at our convenience. 
 
+When working with kinematics in arbitrary dimesions, we will use formal Lorentz covariant polarizations, $\varepsilon^\mu_a$, and momenta, $k^\mu_a$. The mostly minus signature will be used throughout. The only restrictions we will place on the momenta and polarizations are the standard on-shell constraints, momentum conservation and the null-momenta condition,
+\be
+\sum_{a} k_a^\mu =0 \qquad \qquad k_a^2 =0
+\ee
+Furthermore, we will take external polarizations to be in a transverse gauge throughout:
+\be
+\varepsilon_a \cdot k_a = 0
+\ee
+Formal polarizations will always be expressed as $\varepsilon_a^\mu$ to distinguish between the extra dimensional bit of the integration measure in $D=4-2\epsilon$. As noted, it will be convenient to take $D\rightarrow 4$ in certain circumstances after integration. We will use the conventions of ref. \cite{jjmcTASI2014} throughout the text, which we provide below
+\be
+s_{ab} = \langle ab \rangle[ba]
+\ee
+where $s_{ab} = (k_a+k_b)^2$. Furthermore, polarization dot products with particular helicity states can be mapped as follows:
+\begin{align}
+k_a \cdot \varepsilon_b^{(+)} &= \frac{\langle q a \rangle[ab]}{\sqrt{2}\langle q b\rangle}
+\qquad\quad \qquad
+k_a \cdot \varepsilon_b^{(-)} = -\frac{[qa]\langle ab\rangle}{\sqrt{2}[qb]}
+\\
+\varepsilon_a^{(-)}\cdot \varepsilon_b^{(+)} &= - \frac{\langle q a\rangle [qb]}{ [qa]\langle q b\rangle} 
+\qquad \qquad
+\varepsilon_a^{(\pm)}\cdot \varepsilon_b^{(\pm)} = 0 
+\end{align}
+where $q^\mu$ is some null reference momentum that all polarizations are projected along. In practice, rather than plugging in these 4D expressions by hand and applying a series of Feirz Identities \textit{ad nauseum}, the results obtained throughout the text are constructed by numerically evaluating the dot products and projecting them along spanning set of helicity configurations. For easy access, below we provide the component definition of our spinor bracket that are consistent with the conventions above,
+\begin{align}
+\langle ab \rangle &= \frac{(a_1 + i a_2)(b_0+b_3)-(b_1 + i b_2)(a_0+a_3)}{\sqrt{(a_0+a_3)(b_0+b_3)}}
+\\
+[ab] &= \frac{(b_1 - i b_2)(a_0+a_3)-(a_1 - i a_2)(b_0+b_3)}{\sqrt{(a_0+a_3)(b_0+b_3)}}
+\end{align}
+where the $a_i$ are coordinate values of the four-vector, $k^\mu_a = (a_0,a_1,a_2,a_3)$. With this in hand, we will transition away from on-shell methods and venture into the Lagrangian descriptions of the theories that we will study throughout the text. 
 \subsection{Even-point Effective Field Theories}
 \label{subsec:EPEFTReview}
-\dj{EP theories and relevant effective actions, hilbert series, state of the art of what has been calculated in each theory. (move some of the introduction discussion here, but this could be a couple of pages.)}
+\dj{Some background here about symmetries, and constraininng field theories, yada yada yada}
+\paragraph{Simplicity of Even-point EFT}
 
-We here provide a brief review of the types of models studied in this work, namely  NLSM and DBIVA. 
-
-\dj{copied from later}
-The Lagrangian for the \textit{nonlinear sigma model} (NLSM) can be expressed in terms of the chiral current, $j_\mu = U^\dagger \partial_\mu U$, as follows,
-\be
-\mathcal{L}^{\text{NLSM}}= \frac{1}{2}\text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)] = \frac{1}{2}\text{tr}\left[\frac{(\partial_\mu\pi )( \partial^\mu \pi) }{(1-f_\pi^{-2}\pi^2)^2}\right]
-\ee
-where the trace is over the color indices of the gauge group, $\pi \equiv \pi^a T^a$, and on the right hand side we have applied the Cayley parameterization to the $SU(N_c)$ group elements, $U= \frac{1+\pi/f_\pi}{1-\pi/f_\pi}$, where $f_\pi$ is the dimensionful pion decay width. As noted in the preamble to this section, to construct the integrand, we will impose a spanning set of generalized unitarity cuts that appear in a minimal color basis. This procedure will provide the scaffolding for the colorless amplitudes of interest in the latter part of the paper.  This lagrangian is the same independent of what dimension.
-
-In contrast, maximally supersymmetric Born-Infeld comes from adding the maximal amount of supersymmetric fermionic and scalar matter to Born-Infeld.  The Born-Infeld Lagrangian, which describes the pure vector sector of DBIVA theories, can be expressed concisely below:
+By far the most important feature of these amplitudes relevant for our analysis is that they are generated by purely \textit{even-point} (EP) contacts. That is, the effective actions of EP theories are consistent with the following interaction Lagrangian:
 \begin{equation}
- \label{biLag}
-  \alpha'^2\mathcal{L}^{\text{BI}} = 1-\sqrt{1+\frac{(\alpha')^2}{2} (F_{\mu\nu}F^{\mu\nu})-\frac{(\alpha')^4}{16}(F_{\mu\nu}\tilde{F}^{\mu\nu})^2}\,.
-\end{equation}
-Throughout the remainder of the paper, we will set $\alpha'=1$ in the amplitude expressions. 
-
-\dj{Prolly add at least fermionic actions so maybe N=1 in 10D, and mention dimensional reduction to get maximally susy in lower D?}
-\begin{equation}
- \label{vaLag}
-  \alpha'^2\mathcal{L}^{\text{VA}} =\ldots
-  \,.
-\end{equation}
-
-
-\begin{equation}
- \label{dbivaLag}
-    \alpha'^2\mathcal{L}^{\text{DBIVA}} =\ldots
-  \,.
-\end{equation}
-
-\dj{Explain that tree-level at least DBIVA amplitudes are  a double copy between max sym YM and pions, then maybe go into abelianized open string story. }
-
-
-   DBIVA appears naturally in the field theory limit of the \textit{abelianized open superstring} \cite{Green:1982sw}. Tree-level amplitudes for the open superstring (OSS) ~\cite{Mafra:2011nv,Mafra:2011nw}  can be constructed from a double copy \cite{Broedel:2013tta} between maximally supersymmetric super-Yang-Mills (sYM) and $Z$-theory amplitudes~\cite{Carrasco:2016ldy,Carrasco:2016ygv,Mafra:2016mcc}, as follows,
-\begin{equation}
-A^{\text{OSS}}= Z \otimes A^{ \text{sYM}}
-\end{equation}
-where $\otimes$ implements the field theory double copy \cite{KLT, BCJ}. To recover the abelian sector, one simply sums over all color orderings on the side of the bi-colored $Z$-theory amplitudes that obey string monodromy relations. In the field theory limit, the observables for so-called \textit{abelianized} $Z$-theory are simply the amplitudes generated by the NLSM Lagrangian \cite{Carrasco:2016ldy}. That is, given a $n$-point amplitude in $Z$-theory, with field theory ordering $a=(a_1,a_2,...,a_n)$ and string theoretic color ordering $A=(A_1,A_2,...,A_n)$, one finds the following relation:
-\begin{equation}
-A^{\text{NLSM}}{(a_1,a_2,...,a_n)} \equiv \lim_{\alpha' \to 0} (\alpha')^{2-n}  Z_{\times}{(a_1,a_2,...,a_n)}
-\end{equation}
-where $Z_{\times}$ are abelianized $Z$-theory amplitudes of \cite{Carrasco:2016ldy}, defined by summing all possible orderings of Chan-Paton factors:
-\begin{equation}
-Z_{\times}(a_1,a_2,...,a_n)\equiv \sum_{A \in S^{n-1}} Z_{(A_1,...,A_{n-1},n)}{(a_1,a_2,...,a_n)}
-\end{equation}
-Since the field theory limit of abelian $Z$-theory produces NLSM amplitudes, the field theory limit of the abelianized OSS, gives rise to DBIVA observables at leading order:
-\begin{equation}
-\boxed
-{\begin{aligned} 
-\lim_{\alpha' \to 0 }Z^{\text{OSS}}_{\times}&= A^{\text{NLSM}} \otimes A^{\text{BAS}}\equiv A^{\text{NLSM}}
-\\
-\Rightarrow \quad\lim_{\alpha' \to 0 }A^{\text{OSS}}_{\times}&= A^{\text{NLSM}} \otimes A^{ \text{sYM}}\equiv A^{\text{DBIVA}}
-\end{aligned}}
-\end{equation}
-These two classes of amplitudes, NLSM and DBIVA, are the observables that we will consider in the multi-loop studies of this work. Additional details on the bi-colored $Z$-theory amplitudes these string-theoretic double-copy constructions can be found in \cite{Broedel:2013tta,Carrasco:2016ldy,Carrasco:2016ygv,Mafra:2016mcc,Azevedo:2018dgo} and references therein.  
-
-By far the most important feature of these amplitudes relevant for our analysis is that they are generated by purely \textit{Even-point} (EP) contacts. That is, the effective actions of EP theories are consistent with the following interaction Lagrangian:
-\begin{equation}
-\mathcal{L}^{\text{abelian}}_{\text{int.}} = \sum_{k=2} \alpha'^{n-2} \mathcal{O}^{(2n)}_{2k} 
+\mathcal{L}^{\text{EP}}_{\text{int.}} = \sum_{k=2} \alpha'^{n-2} \mathcal{O}^{(2n)}_{2k} 
 \end{equation}
 where $2k$ counts the field content of the effective operator, and $2n$ counts the mass-dimension determined by the number of fields and derivatives contained in the operator. The dimensionful scale, $\alpha'$, carries mass dimension $[\alpha']=-2$ in $D=4$. 
 
-The Even-point nature of this class of theories make them comparatively easy to compute relative to their arbitrary-multiplicity cousins. Indeed, the observation that will drive many of the multi-loop results is the following: \textit{amplitudes for EP theories at next-to-next-to-leading-order (NNLO) in $\alpha'$ are recursively one-loop}. To gain some familiarity with why this is the case, consider the interactions needed to construct two loop amplitudes for a simple $\varphi^{2k}$-scalar theory:
+The even-point nature of this class of theories make them comparatively easy to compute relative to their arbitrary-multiplicity cousins. Indeed, the observation that will drive many of the multi-loop results is the following: \textit{amplitudes for EP theories at next-to-next-to-leading-order (NNLO) in $\alpha'$ are recursively one-loop}. To gain some familiarity with why this is the case, consider the interactions needed to construct two loop amplitudes for a simple $\varphi^{2k}$-scalar theory:
 \begin{equation}\label{eq:evenPointL}
 \mathcal{L}_{\varphi^{2k}} = \frac{1}{2}(\partial \varphi)^2 + c_4 \varphi^4 + c_6 \varphi^6+ c_8 \varphi^8+\cdots 
 \end{equation}
-While the Feynman rules for this theory are trivial, unlike those needed for the vectors and fermions in the DBIVA supermultiplet and the derivatively coupled pions in NLSM, the Feynman diagrams needed to compute amplitudes are identical to those of $A^{\text{OSS}}_{\times}$. Indeed, the two-loop amplitude for $\varphi^{2k}$ theory is generated simply by evaluating the following set of scalar 1PI integrals:
+While the Feynman rules for this theory are trivial, unlike those needed for the vectors and fermions in the DBIVA supermultiplet and the derivatively coupled pions in NLSM, the Feynman diagrams needed to compute amplitudes are identical to those of $A^{\text{OSS}}_{\times}$. Indeed, the two-loop amplitude for $\varphi^{2k}$ theory is generated simply by evaluating the following set of scalar 1-particle-reducible (1PI) integrals:
 
 \begin{equation}\label{eq:2loopEven}
 \begin{aligned}
@@ -1252,8 +1304,92 @@ Since the external states are massless, only the first two integrals are non-van
 \begin{equation}
 \mathcal{M}_{\varphi^{2k}}^{\text{2-loop}} \equiv \mathcal{M}_{\varphi^{4}}^{\text{2-loop}} 
 \end{equation}
-In addition to being perturbatively equivalent to the quartic sector of the theory at two-loop, we can see above that the integrals for the Feynman diagrams in \eqn{eq:2loopEven} are \textit{recursively one-loop}. In other words, to integrate the full amplitude at two-loop, we only need an iterated basis of one-loop integrals. This observation comes with the added advantage of permitting the application of one-loop Passarino-Veltman tensor reduction \cite{Passarino:1978jh} to two loop integrals. This property of recursively one-loop integrals will dramatically simplify the higher derivative DBIVA theories that we will consider in this work. 
+In addition to being perturbatively equivalent to the quartic sector of the theory at two-loop, we can see above that the integrals for the Feynman diagrams in \eqn{eq:2loopEven} are \textit{recursively one-loop}. In other words, to integrate the full amplitude at two-loop, we only need an iterated basis of one-loop integrals. This observation comes with the added advantage of permitting the application of one-loop Passarino-Veltman tensor reduction \cite{Passarino:1978jh} to two loop integrals. This property of recursively one-loop integrals will dramatically simplify the higher derivative EP theories that we consider in this work. 
 
+In what follows, we provide a catalog of the even-point effective field theories studied in this paper. We will define the Lagrangians  be expressed in a spacetime coordinate frame, such that, $\mathcal{L}$, is the integrand for a specific theory, to be the integrand of the action, $S$, when working in spacetime coordinate frame:
+\be
+S= \int d^D x \,\mathcal{L}
+\ee
+
+\paragraph{Nonlinear Sigma Model}
+The simplest effective field theory that we will consider in this work is the \textit{nonlinear sigma model} (NLSM). The NLSM Lagrangian can be expressed in terms of the chiral current, $j_\mu = U^\dagger \partial_\mu U$, as follows,
+\be
+\mathcal{L}^{\text{NLSM}}= \frac{1}{2}\text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)] = \frac{1}{2}\text{tr}\left[\frac{(\partial_\mu\pi )( \partial^\mu \pi) }{(1-f_\pi^{-2}\pi^2)^2}\right]
+\ee
+where the trace is over the color indices of the gauge group, $\pi \equiv \pi^a T^a$, and on the right hand side we have applied the Cayley parameterization to the $SU(N_c)$ group elements, $U= \frac{1+\pi/f_\pi}{1-\pi/f_\pi}$, where $f_\pi$ is the dimensionful pion decay width. As noted in the preamble to this section, to construct the integrand, we will impose a spanning set of generalized unitarity cuts that appear in a minimal color basis. This procedure will provide the scaffolding for the colorless amplitudes of interest in the latter part of the paper.  This lagrangian is the same independent of what dimension.
+\paragraph{Born-Infeld Photons and Dirac Scalars}
+The Born-Infeld Lagrangian, which describes the pure vector sector of DBIVA theories, can be expressed concisely below:
+\begin{equation}
+ \label{biLag}
+  \alpha'^2\mathcal{L}^{\text{BI}} = \sqrt{\text{det}(\eta_{\mu\nu}+\alpha' F_{\mu\nu})}\,.
+\end{equation}
+Throughout the remainder of the paper, we will set $\alpha'=1$ in the amplitude expressions. 
+\begin{equation}
+ \label{DBI}
+  \alpha'^2\mathcal{L}^{\text{DBI}} = \sqrt{\text{det}(\eta_{\mu\nu}+\alpha'^2 \partial_\mu X \partial_\nu X)}
+\end{equation}
+\paragraph{Volkov-Akulov Fermions and Supersymmetry}
+
+ In the text we will also study supersymmetric extensions of the Born-Infeld action given above in \eqn{biLag}. First we start by defining the theory of shift symmetric fermions first written down by Volkov, Akulov (VA) \cite{}. The easiest way to define this shift symmetric theory is by first constructing manifestly symmetric 1-forms, and constructing a volume form in the veirbein frame. That is, define a 1-form, $ \omega^m = e^m_\mu dx^\mu$, where the veirbein (frame fields), $e^m_\mu$, is defined in terms of the fermion fields, $\lambda$, as follows:
+ \be
+ e^m_\mu = \delta^m_\mu + i \bar{\lambda} \Gamma^m\! \stackrel{\leftrightarrow}{\partial_\mu}\!  \lambda = \delta^m_\mu + i (\bar{\lambda} \Gamma^m \partial_\mu  \lambda - \partial_\mu \bar{\lambda} \Gamma^m   \lambda)
+ \ee
+ The Volkov-Akulov action in the veirbein frame is then simply the fermionic world-volume integral over the $D$-form:
+ \be
+ S^{\text{VA}} = \int \omega^1 \wedge \omega^2 \wedge \cdots \wedge \omega^D
+ \ee
+ This is not dissimilar from the construction of the pure scale DBI action above. Likewise, we can write the Lagrangian in the spacetime coordinate from akin to \eqn{biLag} and \eqn{DBI}. Transforming back into spacetime coordinates, yields the following Lagrangian density for self interaction VA fermions upto four-point interactions:
+\begin{equation}
+ \label{vaLag}
+  \alpha'^2\mathcal{L}^{\text{VA}} = \text{det}(e^m_\mu) =  i\bar{\lambda}\!\stackrel{\leftrightarrow}{\slashed{\partial}}\!\lambda+ \frac{\alpha'^2}{2}(\bar{\lambda}\Gamma^\mu \partial^\nu \lambda)(\bar{\lambda}\Gamma_\mu \partial_\nu \lambda)+\mathcal{O}(\partial^4\lambda^6) 
+  \,.
+\end{equation}
+ A convenient choice of field redefinition was proposed by Komogorov and Seiberg (KS) \cite{}, which defines a new fermion field, $\psi = \psi(\lambda,\bar{\lambda})$, in a way that is perturbatively equivalent to the VA fermions. This construction is equivalent to a theory of nilpotent chiral superfields \cite{}, relevant for the construction of $\alpha$-attractor models of inflation \cite{}. Applying the KS nonlinear field redefinition yields the considerably simpler Lagrangian for VA theory:
+ \be
+   \alpha'^2\mathcal{L}^{\text{VA}} = i\bar{\psi}\slashed{\partial}\psi +\frac{1}{2} \bar{\psi}^2 \partial^2 \psi^2 + \psi^2\bar{\psi}^2 \partial^2 \psi^2\partial^2 \bar{\psi}^2
+ \ee
+With the world-volume formulation of VA theory in hand, we can also trivially construct the action for maximal $\mathcal{N}=1$ supersymmetric Born-Infeld theory in $D=10$. We simply replace the flat space background of \eqn{biLag} with the fermionic background of \eqn{vaLag},
+\be
+ \label{DBIVALag}
+S^{\text{DBIVA}}_{\mathcal{N}=1} = \int \omega^1 \wedge\omega^2 \wedge \cdots \wedge \omega^{10} \sqrt{\text{det}(\eta_{mn}+ \alpha F_{mn})}
+\ee
+It is worth noting that the fermion-vector interaction is introduced via the \textit{non-minimal} coupling between the field strength and the fermionic spacetime metric. This differs from the linearly realized supersymmetry of super-Yang-Mills theory, which minimally couples the vector mode to the chiral fermion. This non-minimal coupling is a requirement of supersymmtry due to the even-point nature abelian vector theories like Born-Infeld.
+
+The action above in \eqn{DBIVALag} can be similarly re-expressed in terms of our canonical spacetime coordinates, giving us the following flat-space Lagrangian for maximally supersymmetric Born-Infeld theory in $D=10$: 
+\begin{equation}
+ \label{dbivaLag}
+    \alpha'^2\mathcal{L}^{\text{DBIVA}}s = \sqrt{\text{det} \left(\eta_{\mu\nu}- \alpha' F_{\mu\nu} + \alpha'^2 (\bar{\lambda} \Gamma_\mu \partial_\nu \lambda)- \alpha'^4(\bar{\lambda} \Gamma^\rho \partial_\mu \lambda )(\bar{\lambda} \Gamma_\rho \partial_\nu \lambda) \right)}
+  \,.
+\end{equation}
+To recover the $D=4$ theory, we simply dimensionally reduce in a way that preserves the maximum number of supercharges, which is $\mathcal{N}=4$ in $D=4$. While this is obscured at the level of the Lagrangian, implementing a dimensional reduction that preserves the supercharges of \eqn{dbivaLag} is rather straight forward in an on-shell framework. 
+\be
+\mathcal{M}^{\text{DBIVA}} = A^{\text{NLSM}} \otimes A^{\text{sYM}}
+\ee
+\paragraph{Abelian Open String}
+Similar to the amplitudes of DBIVA theories described above, the tree-level amplitudes for the open superstring (OSS) ~\cite{Mafra:2011nv,Mafra:2011nw} likewise permit a double copy construction \cite{Broedel:2013tta}. To construct open-superstring amplitudes we simply double copy maximally supersymmetric super-Yang-Mills (sYM) and $Z$-theory amplitudes~\cite{Carrasco:2016ldy,Carrasco:2016ygv,Mafra:2016mcc}, as follows,
+\begin{equation}
+A^{\text{OSS}}= Z \otimes A^{ \text{sYM}}
+\end{equation}
+where $\otimes$ implements the field theory double copy \cite{KLT, BCJ} described above. Moreover, the amplitudes of DBIVA pop out of the above construction as the field theory limit of the \textit{abelian open superstring} \cite{Green:1982sw}. To recover the abelian sector, one simply sums over all color orderings on the side of the bi-colored $Z$-theory amplitudes that obey string monodromy relations. In the field theory limit, the observables for so-called \textit{abelian} $Z$-theory are simply the amplitudes generated by the NLSM Lagrangian \cite{Carrasco:2016ldy}. That is, given a $n$-point amplitude in $Z$-theory, with field theory ordering $a=(a_1,a_2,...,a_n)$ and string theoretic color ordering $A=(A_1,A_2,...,A_n)$, one finds the following relation:
+\begin{equation}
+A^{\text{NLSM}}{(a_1,a_2,...,a_n)} \equiv \lim_{\alpha' \to 0} (\alpha')^{2-n}  Z_{\times}{(a_1,a_2,...,a_n)}
+\end{equation}
+where $Z_{\times}$ are abelian $Z$-theory amplitudes of \cite{Carrasco:2016ldy}, defined by summing all possible orderings of Chan-Paton factors:
+\begin{equation}
+Z_{\times}(a_1,a_2,...,a_n)\equiv \sum_{A \in S^{n-1}} Z_{(A_1,...,A_{n-1},n)}{(a_1,a_2,...,a_n)}
+\end{equation}
+Since the field theory limit of abelian $Z$-theory produces NLSM amplitudes, the field theory limit of the abelian OSS, gives rise to DBIVA observables at leading order:
+\begin{equation}
+\boxed
+{\begin{aligned} 
+\lim_{\alpha' \to 0 }Z^{\text{OSS}}_{\times}&= A^{\text{NLSM}} \otimes A^{\text{BAS}}\equiv A^{\text{NLSM}}
+\\
+\Rightarrow \quad\lim_{\alpha' \to 0 }A^{\text{OSS}}_{\times}&= A^{\text{NLSM}} \otimes A^{ \text{sYM}}\equiv A^{\text{DBIVA}}
+\end{aligned}}
+\end{equation}
+Additional details on the bi-colored $Z$-theory amplitudes these string-theoretic double-copy constructions can be found in \cite{Broedel:2013tta,Carrasco:2016ldy,Carrasco:2016ygv,Mafra:2016mcc,Azevedo:2018dgo} and references therein. We have boxed the two classes of amplitudes above, NLSM and DBIVA, to emphasize that these are the two theories that we will focus on in this work. However, the methods that we develop in the next section apply much more broadly to the full catalog of even-point theories. One could 
+
+\paragraph{Duality Invariance and Higher Derivatives}
 In addition to the perturbative structure of these theories, DBIVA amplitudes have an additional special property that we will study in his work. At tree-level, these amplitudes exhibit $U(1)$ \textit{duality invariance} \cite{Bossard:2012xs,Novotny:2018iph}, such that the effect of rotating field strengths, $F^{\mu\nu}$, into the dual-fields, $G^{\mu\nu}$, defined below,
 \be
 G^{\mu\nu} = \epsilon^{\mu\nu\rho\sigma}\frac{\partial \mathcal{L}}{\partial F^{\mu\nu}}
@@ -1264,7 +1400,7 @@ leaves the equations of motion invariant \cite{Gibbons:1995ap,Babaei-Aghbolagh:2
 \ee
 where $n_{(+)}$ and $n_{(-)}$ is the number of external positive and negative helicity photons, respectively. For $\mathcal{N}=0$ pure Born-Infeld theory \cite{Born:1934gh,Schrodinger:1935oqa}, this symmetry is violated at four-point one-loop in the all-plus $(++++)$ helicity sector \cite{Elvang:2019twd}. In the text, we will show how this anomaly is propagated to two-loop, and demonstrate that $U(1)$ duality invariance is further broken in the $(-+++)$ configuration beyond one-loop. However, in the case of supersymmetric DBIVA, the $U(1)$ symmetry is promoted to an $R$-symmetry, and is protected perturbatively to all orders by supersymmetric Ward Identities \cite{Heydeman:2017yww}. We will show this explicitly in the case of $\mathcal{N}=4$ DBIVA through two-loop. 
 
-\dj{A few words about higher derivative operators.  Point out that HD operators of DBIVA from abelianized open string do *not* satisfy U1.}
+\dj{A few words about higher derivative operators.  Point out that HD operators of DBIVA from abelian open string do *not* satisfy U1.}
 
 
 \subsection{On-shell Unitarity methods }\label{sec:genU}
@@ -1295,36 +1431,53 @@ with null reference momentum, $q^2=0$. The dependence of $q$ is a gauge choice t
 \end{equation}
  where $D_s$ is the spin-dimension of the internal photons, and where $D_s-2$ just counts the number of photon states. To calculate the loop-level amplitudes in this work, we use dimensional regularization to regulate the integrals. In this work we adopt the conventions of  \cite{collins_1984,Bern:2002zk} and take the spin-dimension, $D_s$, to be
 the same as the dimension appearing in dimensional regularization, $D=4-2\epsilon$. We will use them interchangeably throughout. As shown in \eqn{eq:2loopEven} of the introduction, many of the diagrams that contribute to EP loop-level amplitudes are scaleless, and thus vanish in dimensional regularization. 
-
+\subsection{One-loop integral basis and tensor reduction}\label{sec:1loopMethods}
 \dj{2.6 tensor reduction, relevant 1-loop basis integrals, Cut Extraction of One-loop Amplitude Integral Coefficients}
 
 It is well known that one-loop amplitudes are spanned by a small basis of scalar integrals \cite{Forde:2007mi,Badger:2008cm,ElvangHuangReview}. This property can be exposed via a $D$-dimensional integral reduction algorithm due to Passarino and Veltman \cite{Passarino:1978jh}.  \dj{Darren Forde showed blah blah.}
-
+\be\label{eq:integrals}
+\boxed{
+\begin{aligned}
+I_{2,(K)}^{(\alpha_1,\alpha_2)}&=\int \frac{d^{2D} l}{(2\pi)^{2D}} \frac{1}{[l^2]^{\alpha_1}[(l+K)^2]^{\alpha_2}} 
+\\
+&=i\left[-\frac{K^2}{4\pi}\right]^D\frac{\Gamma(D-\alpha_1)\Gamma(D-\alpha_2)\Gamma(\alpha_{12}-D)}{[K^2]^{\alpha_{12}}\Gamma(\alpha_1)\Gamma(\alpha_2)\Gamma(2D-\alpha_{12})} 
+ \\\\
+I_{3,(K_{12})}^{(\alpha_1,\alpha_2,\alpha_3)}&= \int \frac{d^{2D} l}{(2\pi)^{2D}} \frac{1}{[l^2]^{\alpha_1}[(l+K_1)^2]^{\alpha_2}[(l+K_{12})^2]^{\alpha_3}} 
+\\
+&=i\left[-\frac{K_{12}^2}{4\pi}\right]^D\frac{\Gamma(D-\alpha_{12})\Gamma(D-\alpha_{23})\Gamma(\alpha_{123}-D)}{[K_{12}^2]^{\alpha_{123}}\Gamma(\alpha_1)\Gamma(\alpha_3)\Gamma(2D-\alpha_{123})} 
+\end{aligned}
+}
+\ee
+where we have introduced the notation $\alpha_{12...n} = \alpha_1+\alpha_2+\cdots +\alpha_n$, and have taken $D\rightarrow 2D$ to make the expressions more compact. The above integral expressions hold for massless external kinematics, $K_i^2=0$, which applies to all the integrals needed for the physical processes described in the text. 
 \section{Even-point Multi-loop Unitarity}
 \label{sec:EMU}
 In this section we will describe the methods we have developed to compute the multi-loop results of this paper. We begin by introducing the notion of \textit{Even-point Multi-loop Unitarity} (EMU), which is an organizational principle at the foundation of our unitarity-based integrand construction. EMU is an extension of the method of maximal cuts \cite{}, which is a hierarchical approach to perturbative calculations \cite{}. The method of maximal cuts is an ansatz-based approach, that feeds successively higher-point contact information to an integrand constrained by graph automorphism symmetry, and color-kinematics duality for permissible theories. In contrast, EMU is a \textit{constructive} algorithm aimed at capturing all the perturbative information needed at general loop order and multiplicity. We describe the algorithm below, and provide a 2-loop 4-point example that we choose to study in this paper.
 \paragraph{\textbf{Even-point Multi-loop Unitarity (EMU) }} 
 \begin{itemize}
 \item \textbf{Step 0} -- At $n$-point $l$-loop, enumerate all 1-particle-irreducible (1PI) graphs constructed from $(n+2l-2)/2$ four-point vertices. We call these diagrams the maximal cut (MC) diagrams. Graphs with higher-point blobs are grouped into the $\text{N}^k \text{MC}$ category, where $k$ is the number of collapsed internal propagators. 
-\item \textbf{Step 1a} -- Discard all diagrams at the given order $\text{N}^k \text{MC}$ that capture scaleless behavior from \textbf{internal} kinematics. For massless theories, this amounts to throwing out diagrams that contain one of the following internal nodes:
+\item \textbf{Step 1A} -- Discard all diagrams at the given order $\text{N}^k \text{MC}$ that capture scaleless behavior from \textbf{internal} kinematics. For massless theories, this amounts to throwing out diagrams that contain one of the following internal nodes:
 \be
 \intScaleless
 \ee
-\item \textbf{Step 1b} -- Discard all diagrams at the given order $\text{N}^k \text{MC}$ that capture scaleless behavior from \textbf{external} kinematics. At $n$-point, this amounts to throwing out diagrams that contain $n-1$ external edges attached to a single blob:
+\item \textbf{Step 1B} -- Discard all diagrams at the given order $\text{N}^k \text{MC}$ that capture scaleless behavior from \textbf{external} kinematics. At $n$-point, this amounts to throwing out diagrams that contain $n-1$ external edges attached to a single blob:
 \be
 \extScaleless
 \ee
-\item \textbf{Step 2} -- If the culling procedure of Step 1a and Step 1b produces an empty set of graphs, $\partial \text{N}^k \text{MC} = \varnothing$, then the routine terminates.  If not, collapse one of the internal propagators for all diagrams in all topologically distinct ways. This will take the $\partial \text{N}^k \text{MC}$ set of diagrams to $\text{N}^{k+1} \text{MC}$. Once there, repeat Step 1a and 1b until the routine terminates.
+\item \textbf{Step 2} -- If the culling procedure of Step 1A and Step 1B produces an empty set of graphs, $\partial \text{N}^k \text{MC} = \varnothing$, then the routine terminates.  If not, collapse one of the internal propagators for all diagrams in all topologically distinct ways. This will take the $\partial \text{N}^k \text{MC}$ set of diagrams to $\text{N}^{k+1} \text{MC}$. Once there, repeat Step 1A and 1B until the routine terminates.
 \end{itemize}
-This procedure for collecting all the cut information needed to construct the integrands using EMU can thus be represented diagrammatically:
+This procedure for collecting all the cut information using EMU can be represented diagrammatically as follows:
 \be
-\text{MC}_{(l,n)} \rightarrow \partial \text{MC}_{(l,n)}  \rightarrow \, \cdots\, \rightarrow \text{N}^k\text{MC}_{(l,n)} \rightarrow \partial\text{N}^k\text{MC}_{(l,n)}\equiv \varnothing
+\text{MC}_{(l,n)} \stackrel{\text{S1}}{\rightarrow} \partial \text{MC}_{(l,n)} \stackrel{\text{S2}}{\rightarrow}\, \cdots\, \stackrel{\text{S2}}{\rightarrow}\text{N}^k\text{MC}_{(l,n)} \stackrel{\text{S1}}{\rightarrow}\partial\text{N}^k\text{MC}_{(l,n)}\equiv \varnothing
 \ee
-As a concrete example, let's consider the case of two-loop four-point of interest in this paper. First, we obtain the following set of diagrams at the MC level built from three four-point vertices:
+After applying EMU and collecting all the diagrams up to some order $\text{N}^k\text{MC}_{(l,n)}$, the set of cuts needed to fully constrain the $n$-point $l$-loop integrand, $\Omega_{(l,n)}$, is the intersection of these sequence of unitarity cuts:
+\be
+\Omega_{(l,n)}=\bigcap_{i=0}^k \partial\text{N}^i\text{MC}_{(l,n)}
+\ee
+Taking the intersection accounts for the overlapping information stored in the cut diagrams at different orders in $\text{N}^k\text{MC}$. As a concrete example, let's consider the case of two-loop four-point of interest in this paper. First, we obtain the following set of diagrams at the MC level built from three four-point vertices:
 \be
 \text{MC}_{(2,4)} = \left\{\scaleIntBscalarsmall{}{}{}{},\scaleIntCsmallNoNum,\scaleIntAscalarsmall{}{}{}{}\right\}
 \ee
-Each blob corresponds to an on-shell tree-level amplitude from the EP theory of interest. The third diagram is scaleless on support of dimensional regularization, and thus we discard it in Step 1a. This gives the following restricted set of MC diagrams:
+Each blob corresponds to an on-shell tree-level amplitude from the EP theory of interest. The third diagram is scaleless on support of dimensional regularization, and thus we discard it in Step 1A. This gives the following restricted set of MC diagrams:
 \be
 \partial \text{MC}_{(2,4)} = \left\{\scaleIntBscalarsmall{}{}{}{},\scaleIntCsmallNoNum \right\}
 \ee
@@ -1332,25 +1485,22 @@ Since $\partial \text{MC}_{(2,4)}$ is not empty, we proceed to Step 2. After thr
 \be
 \text{N}^1\text{MC}_{(2,4)} = \left\{\scaleIntAsmallNoNum,\scaleIntBsmallNoNum \right\}
 \ee
-Now first diagram is discarded in Step 1a, and the second diagram is discarded in Step 1b. Thus, we need not consider any next-to-maximal cuts for two-loop four-point amplitudes in EP theories. Since $\partial \text{N}^1\text{MC}_{(2,4)} =\varnothing$, this concludes the EMU cut construction. As we can see from the two diagrams that contribute at two-loops four-point, EP theories lack perturbative information beyond the four-point contacts. In the results of this paper we will exploit this property in the theories of interest in two ways -- first in the integral construction via unitarity, and second via tensor reduction of these special basis integrals.
+Now the first diagram is discarded in Step 1A, and the second diagram is discarded in Step 1B. Thus, we need not consider any next-to-maximal cuts for two-loop four-point amplitudes in EP theories. Since $\partial \text{N}^1\text{MC}_{(2,4)} =\varnothing$, this concludes the EMU cut construction. As we can see from the two diagrams that contribute at two-loops four-point, EP theories lack perturbative information beyond the four-point contacts. In the results of this paper we will exploit this property in the theories of interest in two ways -- first in the integral construction via unitarity, and second via tensor reduction of these special basis integrals.
 
-\subsection{Recursive integrals}
+\subsection{Multi-loop recursive integrals}
 \label{sec:recInt}
+\begin{figure}[t]
+    \centering
+    \begin{equation*}\Omega^{\text{BI}}_{(2,4)} = \left\{\scaleIntB,\scaleIntC \right\}\end{equation*}
+    \caption{Contributing diagrams constructed using EMU for a two-loop four-point calculation in pure BI theory. The gray blobs are the pure BI four-point vertices, $\mathcal{M}^{\text{BI}}_4=t_8F^4$. Exposed legs are taken to be on-shell.}
+    \label{fig:contrib2Loop}
+\end{figure}
 With the scaleless behavior of two-loop integrals in mind, the only integrals that contribute at two-loop order are given in \Fig{fig:contrib2Loop}. As one can see, only the four-point tree-level diagrams are required for cut construction for the pure Born-Infeld (BI) part of the amplitude through the two-loop. As such, the physical part of the two-loop integrand is completely fixed by a set of cuts down to the four-point $\mathcal{M}^{\text{BI}}_4=t_8F^4$ vertex:
 \begin{equation}
 \text{Cut}(\mathcal{I}_{\text{2-loop}} )= \sum_{\text{states}} \mathcal{M}^{\text{BI}}_4\mathcal{M}^{\text{BI}}_4\mathcal{M}^{\text{BI}}_4
 \end{equation}
-Similar to \eqn{GUCut}, $\text{Cut}(\mathcal{I})$ extracts the kinematic numerator for the cut configurations captured at two-loop in \Fig{fig:contrib2Loop}. 
-
-\begin{figure}[t]
-    \centering
-    \scaleIntB\scaleIntC 
-    \caption{Contributing diagrams for the two-loop calculation in pure BI theory. The gray blobs are the pure BI four-point vertices, $\mathcal{M}^{\text{BI}}_4=t_8F^4$. Exposed legs are taken to be on-shell.}
-    \label{fig:contrib2Loop}
-\end{figure}
-
-However, as we will demonstrate below, the Passarino-Veltman reduction algorithm can also be applied to the \textit{two-loop} integrals needed for our calculation since they are all \textit{recursively one-loop}. While there are a number of tensor reduction algorithms available in the literature \cite{Anastasiou:2004vj,vonManteuffel:2012np,Smirnov:2014hma,vonManteuffel:2014ixa,Smirnov:2019qkx,Smirnov:2020quc,Usovitsch:2020jrk,Maierhofer:2018gpa}, our ability to use Passarino-Veltman at two-loop will prove useful for terms like $(\varepsilon_i \cdot l_j)$, which include formal polarizations. We will articulate this in more detail in \sect{sec:2loopN4U}. Now we will demonstrate this property of recursively one-loop integrals in the next section.
-\subsection{Tensor reduction}\label{sec:tenRed}
+Similar to \eqn{GUCut}, $\text{Cut}(\mathcal{I})$ extracts the kinematic numerator for the cut configurations captured at two-loop in \Fig{fig:contrib2Loop}. However, as we will demonstrate below, the Passarino-Veltman reduction algorithm can also be applied to the \textit{two-loop} integrals needed for our calculation since they are all \textit{recursively one-loop}. While there are a number of tensor reduction algorithms available in the literature \cite{Anastasiou:2004vj,vonManteuffel:2012np,Smirnov:2014hma,vonManteuffel:2014ixa,Smirnov:2019qkx,Smirnov:2020quc,Usovitsch:2020jrk,Maierhofer:2018gpa}, our ability to use Passarino-Veltman at two-loop will prove useful for terms like $(\varepsilon_i \cdot l_j)$, which include formal polarizations. We will articulate this in more detail in \sect{sec:2loopN4U}. Now we will demonstrate this property of recursively one-loop integrals in the next section.
+\subsection{Two-loop tensor reduction}\label{sec:tenRed}
 First we will study the one-loop case and then show that it naturally generalizes to the two-loop integrals of interest in this paper. We begin with a general expression for the rank-$n$ tensor bubble:
 \begin{align}
      I^{\mu_1\dots \mu_n}_2(K)&= \int \frac{d^D l}{(2\pi)^D} \frac{l^{\mu_1}l^{\mu_2}\cdots l^{\mu_n} }{l^2(l+K)^2}
@@ -1474,23 +1624,10 @@ a^x_{(0,0,0)} &= I_{3,x}(K_{12})
 \end{aligned}
 }
 \end{equation}
-This system of equations uniquely fixes the rank-$n$ triangle tensor integral in \eqn{triangleTensorInt} with non-integer powers in the denominator. Using these integral reduction formulae, both the one-loop and two-loop integrals can be expressed completely in terms of scalar one-loop bubble and scalar triangle integrals, which we provide below for completeness:
-\be\label{eq:integrals}
-\boxed{
-\begin{aligned}
-I_{2,(K)}^{(\alpha_1,\alpha_2)}&=\int \frac{d^{2D} l}{(2\pi)^{2D}} \frac{1}{[l^2]^{\alpha_1}[(l+K)^2]^{\alpha_2}} 
-\\
-&=i\left[-\frac{K^2}{4\pi}\right]^D\frac{\Gamma(D-\alpha_1)\Gamma(D-\alpha_2)\Gamma(\alpha_{12}-D)}{[K^2]^{\alpha_{12}}\Gamma(\alpha_1)\Gamma(\alpha_2)\Gamma(2D-\alpha_{12})} 
- \\\\
-I_{3,(K_{12})}^{(\alpha_1,\alpha_2,\alpha_3)}&= \int \frac{d^{2D} l}{(2\pi)^{2D}} \frac{1}{[l^2]^{\alpha_1}[(l+K_1)^2]^{\alpha_2}[(l+K_{12})^2]^{\alpha_3}} 
-\\
-&=i\left[-\frac{K_{12}^2}{4\pi}\right]^D\frac{\Gamma(D-\alpha_{12})\Gamma(D-\alpha_{23})\Gamma(\alpha_{123}-D)}{[K_{12}^2]^{\alpha_{123}}\Gamma(\alpha_1)\Gamma(\alpha_3)\Gamma(2D-\alpha_{123})} 
-\end{aligned}
-}
-\ee
-where we have introduced the notation $\alpha_{12...n} = \alpha_1+\alpha_2+\cdots +\alpha_n$, and have taken $D\rightarrow 2D$ to make the expressions more compact. The above integral expressions hold for massless external kinematics, $K_i^2=0$, which applies to all the integrals needed for the physical processes described in the text. 
+This system of equations uniquely fixes the rank-$n$ triangle tensor integral in \eqn{triangleTensorInt} with non-integer powers in the denominator. Using these integral reduction formulae, both the one-loop and two-loop integrals can be expressed completely in terms of scalar one-loop bubble and scalar triangle integrals, which we are provided in \eqn{eq:integrals} of the previous section. Before proceeding to our results, we will introduce a bit of notation that will be relevant for capturing loop-level contributions to the amplitude. 
+
 \subsection{Gauge-invariant basis tensors}\label{sec:basisT}
-Before proceeding to our results, we will introduce a bit of notation that will be relevant for capturing loop-level contributions to the amplitude. All of the integrands constructed in the following sections will be fixed on $D$-dimensional cuts, and projected to a basis of $D$-dimensional photon tensors. The purpose of proceeding in this way has a number of advantages over the traditional on-shell approach of fixing on 4D cuts. Firstly, it makes dimensional dependence of dimensional regularization absolutely manifest. This makes the procedure of computing rational terms significantly more algorithmic than the standard approaches in $D=4$ (see for example, \cite{Badger:2008cm}). 
+All of the integrands constructed in the following sections will be fixed on $D$-dimensional cuts, and projected to a basis of $D$-dimensional photon tensors. The purpose of proceeding in this way has a number of advantages over the traditional on-shell approach of fixing on 4D cuts. Firstly, it makes dimensional dependence of dimensional regularization absolutely manifest. This makes the procedure of computing rational terms (see for example, \cite{Badger:2008cm}) significantly more algorithmic than the standard approaches in $D=4$ that we reviewed in \sect{sec:1loopMethods}. 
 
 In addition, by projecting to a $D$-dimensional basis of tensor structures, we can more easily track the one-loop divergences that propagate to two-loop order. This is due to the existence of \textit{evanescent operators}, those which vanish when plugging in 4D states, but are non-vanishing in general dimensions. As we will see in pure Born-Infeld amplitudes of \sec{sec:DBIU}, these so-called evanescent operators are the cause of two-loop divergences that are obscured when looking at the one-loop behavior in $D=4$ exclusively. Tracking divergences introduced by evanescent operators has been an active area of research Standard Model effective field theory (SMEFT) \cite{Hartmann:2016pil,Chala:2021cgt,Aebischer:2022tvz,Fuentes-Martin:2022vvu,Isidori:2023pyp}, the UV behavior of quantum gravity \cite{Bern:2015xsa,Bern:2017tuc,Bern:2017puu}, and more generally as an area of formal theory interest \cite{Dugan:1990df,Herrlich:1994kh,Bell:2009nk,Becher:2004kk,DiPietro:2017vsp}. Below we will give a concrete example of an evanescent operator expressed with notation used in the text to provide some justification for our $D$-dimensional tensor basis. 
 
@@ -1516,7 +1653,7 @@ where the Mandelstam invariants are defined as $s_{ij} = (k_i+k_j)^2$, and we wi
 \\
 \mathcal{O}^{4\text{D},2}_{(--++)} &= s_{12}^2 \langle 12\rangle^2 [34]^2
 \end{align}
-Above we use the spinor helicity variable conventions of ref. \cite{jjmcTASI2014}. Immediately we can conclude that the full $D$-dimensional basis must have a non-trivial null space when projected down to $D=4$. Given that the 4D helicity space is overdetermined, we are able to define the following evanescent operator $\mathcal{O}^{\text{ev.}}$ that vanishes when plugging in any set of 4D states:
+Above we have used the spinor helicity variable conventions of ref. \cite{jjmcTASI2014} described in \sect{subsec:4DandDDReview}. Immediately we can see that the full $D$-dimensional basis must have a non-trivial null space when projected down to $D=4$. Given that the 4D helicity space is overdetermined, we are able to define the following evanescent operator $\mathcal{O}^{\text{ev.}}$ that vanishes when plugging in any set of 4D states:
 \be
 \mathcal{O}^{\text{ev.}} \equiv \mathcal{O}_{(2,0)}^{F^2F^2}-\mathcal{O}_{(0,1)}^{F^2F^2} + \mathcal{O}_{(0,1)}^{F^4}
 \ee
@@ -1594,13 +1731,13 @@ At one-loop, the unitarity construction of gauge theory amplitudes is particular
 \begin{equation}
 \mathcal{A}^{1\text{-loop}}_{n} = \int \prod_{i=1}^L \frac{d^D l_i}{(2\pi)^D} \sum_{g\in \Gamma^{(3)}} \frac{1}{S_g}\frac{C_g N_g}{D_g}
 \end{equation}
-can be expressed uniquely as a sum over a canonical ordering of color factors by iteratively applying the color jacobi identity. In doing so, all 1-loop color factors, $C^{1\text{-loop}}_g$, can be expressed as a sum over $n$-gon integrand factors, $C^{n\text{-gon}}_{(a_1a_2...a_n)}$ in the following way,
+can be expressed uniquely as a sum over a canonical ordering of color factors by iteratively applying the color jacobi identity. In doing so, all 1-loop color factors, $C^{1\text{-loop}}_g$, can be expressed as a sum over $n$-gon integrand factors, $C^{n\text{-gon}}_{(a_1A_2...a_n)}$ in the following way,
 \begin{equation}
 C^{1\text{-loop}}_g = \sum_{\sigma\in S^{n-1}} \beta^{(\sigma)}_g C^{n\text{-gon}}_{(\sigma_{1}\sigma_{2}...\sigma_{n-1}n)} 
 \end{equation}
 where $\beta^{(\sigma)}_g$ are factors of $\{-1,0,1\}$ depending on the color structure of the diagram, $C^{1\text{-loop}}_g$. The $n$-gon basis diagrams take the following definition in terms of adjoint structure constants, $f^{abc}$:
 \begin{equation}
-C^{n\text{-gon}}_{(a_1a_2...a_n)} \equiv f^{b_1 a_1 b_2}f^{b_2 a_2 b_3}\cdots f^{b_{n} a_{n} b_1}
+C^{n\text{-gon}}_{(a_1A_2...a_n)} \equiv f^{b_1 a_1 b_2}f^{b_2 a_2 b_3}\cdots f^{b_{n} a_{n} b_1}
 \end{equation}
 This allows us to express the one-loop amplitudes in terms of a sum over the $(n-1)!$ distinct color factors, weighted by the contributions from the color-ordered Feynman diagrams:
 \begin{equation}
@@ -2006,11 +2143,11 @@ The calculation performed above was completely agnostic to the known tree-level 
 
 At loop-level, the double-copy construction amounts to replacing the color-factors in a cubic-graph representation of the integrand with a set of color-dual numerators. That is, starting with an $L$-loop NLSM integrand of the form:
 \be
-\mathcal{A}^{\text{NLSM}}_{n} = \int \prod_{i=1}^L \frac{d^d l_i}{(2\pi)^d} \sum_{g\in \Gamma^{(3)}} \frac{1}{S_g}\frac{C_g N^{\text{NLSM}}_g}{D_g}
+\mathcal{A}^{\text{NLSM}}_{n} = \int \prod_{i=1}^L \frac{d^D l_i}{(2\pi)^d} \sum_{g\in \Gamma^{(3)}} \frac{1}{S_g}\frac{C_g N^{\text{NLSM}}_g}{D_g}
 \ee
 we can construct $\mathcal{N}=4$ DBIVA by replacing the color factors, $C_g$, with the kinematic numerators, $N^{\mathcal{N}=4}_g$, of sYM amplitudes:
 \begin{equation}
-C_g \rightarrow N^{\mathcal{N}=4}_g \quad \Rightarrow \quad \mathcal{M}^{\text{DBIVA}}_{n} = \int \prod_{i=1}^L \frac{d^d l_i}{(2\pi)^d} \sum_{g\in \Gamma^{(3)}} \frac{1}{S_g}\frac{N^{\mathcal{N}=4}_g N^{\text{NLSM}}_g}{D_g}
+C_g \rightarrow N^{\mathcal{N}=4}_g \quad \Rightarrow \quad \mathcal{M}^{\text{DBIVA}}_{n} = \int \prod_{i=1}^L \frac{d^D l_i}{(2\pi)^d} \sum_{g\in \Gamma^{(3)}} \frac{1}{S_g}\frac{N^{\mathcal{N}=4}_g N^{\text{NLSM}}_g}{D_g}
 \end{equation}
 where the kinematic numerators depend on particular choice of generalized gauge. In order for this construction to work, the kinematic numerators on at least one side of the double copy must satisfy all the same algebraic relations as the color factors. Since generalized unitarity allows us to construct the integrands on-shell, this construction conjecturally holds at loop-level as long as the gauge-theory is tree-level color-dual. 
 
@@ -2089,7 +2226,7 @@ and all the 4D operators have the freedom to add the previously defined evanesce
 \mathcal{O}^{\text{ev.}} = \mathcal{O}_{(2,0)}^{F^2F^2}-\mathcal{O}_{(0,1)}^{F^2F^2} + \mathcal{O}_{(0,1)}^{F^4}
 \ee
 Thus, we can construct the new effective photon Lagrangian, $\mathcal{L}^{\text{BI}+\text{CT}}$, with the addition of the all-plus counter-terms to our Born-Infeld Lagrangian:
-\be \label{eq:1loopU1action}
+\be \label{eq:1loopU1Action}
 \mathcal{L}^{\text{BI}+\text{CT}} = \mathcal{L}^{\text{BI}} + \frac{(\alpha')^4}{(4\pi)^2}\frac{1}{30}\left(\mathcal{O}^{4+}+ a_{({\text{ev.}})}\mathcal{O}^{\text{ev.}}\right)
 \ee
 Computing amplitudes from this Lagrangian yields the following one-loop matrix elements at $\mathcal{O}(\alpha'^4)$:
@@ -2100,7 +2237,7 @@ Computing amplitudes from this Lagrangian yields the following one-loop matrix e
  \\
  \mathcal{M}^{\text{BI+CT,1-loop}}_{(++++)}\big|_{\alpha'^4}  &= \mathcal{O}(\epsilon)
 \end{align}
-Thus, \eqn{eq:1loopU1action} constitutes a duality invariant photon theory through one-loop order. With this, we can identify what additional operators will be needed to cancel the anomaly through two-loop. 
+Thus, \eqn{eq:1loopU1Action} constitutes a duality invariant photon theory through one-loop order. With this, we can identify what additional operators will be needed to cancel the anomaly through two-loop. 
 \subsubsection{Two-loop}\label{sec:Anomalies2loop}
 The first step in identifying the requisite operators needed to cancel the two-loop anomaly at $\mathcal{O}(\alpha'^6)$ is to perform another one-loop calculation at this mass dimension, which includes the counterterms of $\mathcal{L}^{\text{BI}+\text{CT}}$ defined above. The one-loop amplitude is constructed as follows:
 \be
@@ -2186,7 +2323,7 @@ It would be fascinating to determine if the resulting adjoint higher-spin theory
 \subsection{Evanescent operator counting}\label{sec:EOpsCounting}
 Before concluding, in this subsection we briefly describe the evanescent operator counting at higher orders in mass dimension needed for $U(1)$ duality satisfying quantum effective actions. Hilbert series are an effective method for counting the number of independent operators at a particular order in mass dimension \cite{Henning:2015daa,Lehman:2015via}, which have been used in abundance in the SMEFT literature \cite{Fonseca:2019yya,Hays:2018zze,Alioli:2022fng}. Here, we construct the Hilbert series for general dimension photon operators, $\mathcal{H}^{\text{gen.}D}$, and similarly so for $D=4$ operators, $\mathcal{H}^{D=4}$, for which we are restricted to a subset of 4D helicity operators. 
 
-To construct the Hilbert series for photon operators, we will define the coefficient at order-$n$ of a polynomial in $\alpha$ to be the number of operators that appear at $\mathcal{O}(\alpha'^{n+2})$ in our dimensionful coupling. It turns out that there are only two integer sequences that control the operator counting, which are common feature when enumerating operator bases for 2-to-2 scattering events \cite{Damgaard:2019lfh,Haddad:2020que,Bern:2020uwk,Balkin:2021dko,Liu:2023jbq,Haddad:2023ylx}. The first sequence is produced by Hilbert series that counts four-point \textit{permutation invariants}, $\sigma_3^x \sigma_2^y$, which we call $\mathcal{H}^{(ijkl)}$, 
+To construct the Hilbert series for photon operators, we will define the coefficient at order-$n$ of a polynomial in $\alpha$ to be the number of operators that appear at $\mathcal{O}(\alpha'^{n+2})$ in our dimensionful coupling. It turns out that there are only two integer sequences that control the operator counting, which are common feature when enumerating operator bases for 2-to-2 scattering events \cite{Damgaard:2019lfh,Haddad:2020que,Bern:2020uwk,Balkin:2021dko,Liu:2023jbHaddad:2023ylx}. The first sequence is produced by Hilbert series that counts four-point \textit{permutation invariants}, $\sigma_3^x \sigma_2^y$, which we call $\mathcal{H}^{(ijkl)}$, 
 \be
 [\mathcal{H}^{(ijkl)}] = 1,0,1,1,1,1,2,1,2,2,2,2,3,2,3,3,3,...
 \ee
@@ -2231,7 +2368,7 @@ With this, we can determine the number of evanescent operators that can contribu
 \ee
 It would be interesting to determine whether the three Hilbert series stated above owe their construction to some hidden geometric origin. Indeed all of the operator counting in the SMEFT literature can be traced to the geometry of the group theory representations that underly the Standard Model \cite{Henning:2015daa,Lehman:2015via}. We leave identifying these concealed mathematical structures as an exciting direction of future study. 
 \section{Conclusions}\label{sec:Discussion}
-In this manuscript, we have carried out a detailed analysis of NLSM and DBIVA effective field theories at NNLO in the perturbative expansion. In \sect{sec:Review}, we provided a review of the generalized unitarity and integration methods employed throughout the text. Due to the simplicity of multi-loop amplitudes in NLSM and DBIVA, these methods enabled us to compute fully integrated two-loop amplitudes for NLSM, pure Born-Infeld, and $\mathcal{N}=4$ DBIVA theory in \sect{sec:Loops}. Finally, in \sect{sec:Actions} we studied the quantum effective actions that capture the aforementioned loop effects. In doing so, we have identified a variety of rich physical structures that we summarize below: 
+In this manuscript, we have carried out a detailed analysis of NLSM and DBIVA effective field theories at NNLO in the perturbative expansion. In \sect{sec:Review}, we provided a review of the generalized unitarity and integration methods employed throughout the text. Then in \sect{sec:EMU} we introduced the method of Even-point Multi-loop Unitarity (EMU), and computed the tensor reduction for triangle and bubble integrals in $D$-dimensions of arbitrary rank along with a spanning set of four-photon operators needed to capture higher-loop effects. Due to the simplicity of even-point multi-loop amplitudes of NLSM and DBIVA, EMU enabled us to compute fully integrated two-loop amplitudes for NLSM, pure Born-Infeld, and $\mathcal{N}=4$ DBIVA theory in \sect{sec:Loops}. Finally, in \sect{sec:Actions} we studied the quantum effective actions that capture the aforementioned loop effects. In doing so, we have identified a variety of rich physical structures that we summarize below: 
 \paragraph{\textbf{Exponentiation}} In \eqn{eq:NLSM2bub} and \eqn{eq:NLSMdunce} we computed in general dimension, $D$, the two contributions to NLSM two-loop amplitudes. Evaluating these diagrams in $D=2-2\epsilon$, and taking the planar limit, $N_c \rightarrow \infty$, we found in \eqn{eq:expNLSM} that the IR divergences exponentiate through two-loop. This non-trivial property is found in theories that are conjectured to be integrable \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}, like $\mathcal{N}=4$ super-Yang-Mills \cite{Anastasiou:2003kj,Bern:2005iz}. In future work, we hope to study whether this iterative structure can be further applied to the scale dependent logarithms present at multi-loop order in the theory. 
 \paragraph{\textbf{Anomalies}} Equipped with our $D$-dimensional integration methods, we performed an analogous calculation at two-loop for pure Born-Infeld in \sect{sec:2loopBIU}. In doing so, we demonstrated that the previously identified one-loop counterterm is not sufficient to cancel the two-loop anomaly. In fact, the $(+++-)$ anomaly of \eqn{eq:oneMinus2loop}, which was absent at one-loop, diverges at two-loop order due to the presence of a one-loop evanescent operator in the $D$-dimensional formulation of Born-Infeld theory. One resolution to this anomaly comes in the form of introducing $\mathcal{N}=4$ DBIVA superfields in the two-loop state-sum. This protects the S-matrix from anomalies by promoting the classically conserved $U(1)$ duality to a supersymmetric R-symmetry. The evaluated integrals that contribute to the $\mathcal{N}=4$ DBIVA two-loop amplitudes are provided in \eqn{eq:N42bub} and \eqn{eq:N4dunce}. 
 \paragraph{\textbf{Evanescence}}Another resolution to the two-loop anomaly comes in the form of higher-derivative pure-photon counterterms. To do so, we demonstrated through explicit calculation in \sect{sec:Anomalies} that we must introduce a divergence evanescent operator at one-loop order. This is similar to the anomalies of pure Einstein-Hilbert gravity \cite{Duff:1980qv,Bern:2017puu}, which vanish at one-loop since the $R^2$ Gauss-Bonet term is evanescent in $D=4$, but which diverge at two-loop order. Given the complexity of gravity calculations at high loop order, further studies of multi-loop Born-Infeld amplitudes could serve as accessible laboratory for studying evanescent effects beyond one-loop in double-copy constructible theories. To this end, we have used Hilbert series to count the number of four-photon evanescent operators to higher-order derivative corrections in \sect{sec:EOpsCounting} to aid in future studies. 

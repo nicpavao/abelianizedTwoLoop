@@ -1,31 +1,32 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Review}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Color-dressed and ordered amplitudes}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Color-Kinematics Duality and Double-Copy Construction}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{4D Spinor Helicity vs D-dimensions}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Color-Kinematics Duality and the Double-Copy}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{4D Spinor Helicity vs. D-dimensions}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{Even-point Effective Field Theories}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.5}{On-shell Unitarity methods }{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Even-point Multi-loop Unitarity}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Recursive integrals}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.2}{Tensor reduction}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.3}{Gauge-invariant basis tensors}{section.3}% 11
-\BOOKMARK [1][-]{section.4}{Loop-level amplitudes}{}% 12
-\BOOKMARK [2][-]{subsection.4.1}{NLSM via EMU}{section.4}% 13
-\BOOKMARK [3][-]{subsubsection.4.1.1}{One-loop}{subsection.4.1}% 14
-\BOOKMARK [3][-]{subsubsection.4.1.2}{Two-loop}{subsection.4.1}% 15
-\BOOKMARK [2][-]{subsection.4.2}{DBIVA via EMU}{section.4}% 16
-\BOOKMARK [3][-]{subsubsection.4.2.1}{One-loop DBIVA}{subsection.4.2}% 17
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Two-loop Born-Infeld}{subsection.4.2}% 18
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Two-loop N=4 DBIVA}{subsection.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.3}{DBIVA via double copy}{section.4}% 20
-\BOOKMARK [3][-]{subsubsection.4.3.1}{One-loop N=4 DBIVA}{subsection.4.3}% 21
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Two-loop N=4 DBIVA}{subsection.4.3}% 22
-\BOOKMARK [1][-]{section.5}{Effective Actions}{}% 23
-\BOOKMARK [2][-]{subsection.5.1}{Anomaly cancellation}{section.5}% 24
-\BOOKMARK [3][-]{subsubsection.5.1.1}{One-loop}{subsection.5.1}% 25
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Two-loop}{subsection.5.1}% 26
-\BOOKMARK [2][-]{subsection.5.2}{Double copy construction}{section.5}% 27
-\BOOKMARK [3][-]{subsubsection.5.2.1}{Symmetric-structure double-copy}{subsection.5.2}% 28
-\BOOKMARK [3][-]{subsubsection.5.2.2}{Higher-spin \040Adler Zero}{subsection.5.2}% 29
-\BOOKMARK [2][-]{subsection.5.3}{Evanescent operator counting}{section.5}% 30
-\BOOKMARK [1][-]{section.6}{Conclusions}{}% 31
+\BOOKMARK [2][-]{subsection.2.6}{One-loop integral basis and tensor reduction}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Even-point Multi-loop Unitarity}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Multi-loop recursive integrals}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{Two-loop tensor reduction}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Gauge-invariant basis tensors}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Loop-level amplitudes}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{NLSM via EMU}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.1.1}{One-loop}{subsection.4.1}% 15
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Two-loop}{subsection.4.1}% 16
+\BOOKMARK [2][-]{subsection.4.2}{DBIVA via EMU}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.2.1}{One-loop DBIVA}{subsection.4.2}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Two-loop Born-Infeld}{subsection.4.2}% 19
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Two-loop N=4 DBIVA}{subsection.4.2}% 20
+\BOOKMARK [2][-]{subsection.4.3}{DBIVA via double copy}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.3.1}{One-loop N=4 DBIVA}{subsection.4.3}% 22
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Two-loop N=4 DBIVA}{subsection.4.3}% 23
+\BOOKMARK [1][-]{section.5}{Effective Actions}{}% 24
+\BOOKMARK [2][-]{subsection.5.1}{Anomaly cancellation}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.1.1}{One-loop}{subsection.5.1}% 26
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Two-loop}{subsection.5.1}% 27
+\BOOKMARK [2][-]{subsection.5.2}{Double copy construction}{section.5}% 28
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Symmetric-structure double-copy}{subsection.5.2}% 29
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Higher-spin \040Adler Zero}{subsection.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.3}{Evanescent operator counting}{section.5}% 31
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 32

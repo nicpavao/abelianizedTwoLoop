@@ -1,50 +1,57 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}% 
-\contentsline {section}{\numberline {2}Review}{4}{section.2}% 
-\contentsline {subsection}{\numberline {2.1}Color-dressed and ordered amplitudes}{4}{subsection.2.1}% 
-\contentsline {subsection}{\numberline {2.2}Color-Kinematics Duality and Double-Copy Construction}{5}{subsection.2.2}% 
-\contentsline {subsection}{\numberline {2.3}4D Spinor Helicity vs $D$-dimensions}{5}{subsection.2.3}% 
-\contentsline {subsection}{\numberline {2.4}Even-point Effective Field Theories}{5}{subsection.2.4}% 
-\contentsline {subsection}{\numberline {2.5}On-shell Unitarity methods }{8}{subsection.2.5}% 
-\contentsline {section}{\numberline {3}Even-point Multi-loop Unitarity}{10}{section.3}% 
-\contentsline {paragraph}{\textbf {Even-point Multi-loop Unitarity (EMU) }}{10}{section*.2}% 
-\contentsline {subsection}{\numberline {3.1}Recursive integrals}{12}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}Tensor reduction}{12}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Gauge-invariant basis tensors}{16}{subsection.3.3}% 
-\contentsline {section}{\numberline {4}Loop-level amplitudes}{20}{section.4}% 
-\contentsline {subsection}{\numberline {4.1}NLSM via EMU}{21}{subsection.4.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1}One-loop}{21}{subsubsection.4.1.1}% 
-\contentsline {paragraph}{\textbf {Construction}}{22}{section*.3}% 
-\contentsline {paragraph}{\textbf {Reduction}}{23}{section*.4}% 
-\contentsline {paragraph}{\textbf {Integration}}{23}{section*.5}% 
-\contentsline {subsubsection}{\numberline {4.1.2}Two-loop}{24}{subsubsection.4.1.2}% 
-\contentsline {paragraph}{\textbf {Construction}}{24}{section*.6}% 
-\contentsline {paragraph}{\textbf {Reduction}}{26}{section*.7}% 
-\contentsline {paragraph}{\textbf {Integration}}{27}{section*.8}% 
-\contentsline {subsection}{\numberline {4.2}DBIVA via EMU}{28}{subsection.4.2}% 
-\contentsline {subsubsection}{\numberline {4.2.1}One-loop DBIVA}{29}{subsubsection.4.2.1}% 
-\contentsline {paragraph}{\textbf {Construction}}{31}{section*.9}% 
-\contentsline {paragraph}{\textbf {Reduction}}{32}{section*.10}% 
-\contentsline {paragraph}{\textbf {Integration}}{33}{section*.11}% 
-\contentsline {paragraph}{\textbf {Projection}}{34}{section*.12}% 
-\contentsline {subsubsection}{\numberline {4.2.2}Two-loop Born-Infeld}{35}{subsubsection.4.2.2}% 
-\contentsline {paragraph}{Leading $(++++)$ divergence}{36}{section*.13}% 
-\contentsline {paragraph}{Leading $(-+++)$ divergence}{37}{section*.14}% 
-\contentsline {paragraph}{Leading $(--++)$ divergence}{37}{section*.15}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{38}{subsubsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{40}{subsection.4.3}% 
-\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{41}{subsubsection.4.3.1}% 
-\contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{42}{subsubsection.4.3.2}% 
-\contentsline {section}{\numberline {5}Effective Actions}{43}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{43}{subsection.5.1}% 
-\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{43}{subsubsection.5.1.1}% 
-\contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{44}{subsubsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.2}Double copy construction}{46}{subsection.5.2}% 
-\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{46}{subsubsection.5.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{47}{subsubsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{49}{subsection.5.3}% 
-\contentsline {section}{\numberline {6}Conclusions}{51}{section.6}% 
-\contentsline {paragraph}{\textbf {Exponentiation}}{51}{section*.16}% 
-\contentsline {paragraph}{\textbf {Anomalies}}{51}{section*.17}% 
-\contentsline {paragraph}{\textbf {Evanescence}}{52}{section*.18}% 
-\contentsline {paragraph}{}{52}{section*.19}% 
-\contentsline {paragraph}{Acknowledgments}{53}{section*.20}% 
+\contentsline {section}{\numberline {2}Review}{5}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Color-dressed and ordered amplitudes}{5}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Color-Kinematics Duality and the Double-Copy}{6}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}4D Spinor Helicity vs. $D$-dimensions}{8}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Even-point Effective Field Theories}{10}{subsection.2.4}% 
+\contentsline {paragraph}{Simplicity of Even-point EFT}{10}{section*.2}% 
+\contentsline {paragraph}{Nonlinear Sigma Model}{11}{section*.3}% 
+\contentsline {paragraph}{Born-Infeld Photons and Dirac Scalars}{11}{section*.4}% 
+\contentsline {paragraph}{Volkov-Akulov Fermions and Supersymmetry}{12}{section*.5}% 
+\contentsline {paragraph}{Abelian Open String}{13}{section*.6}% 
+\contentsline {paragraph}{Duality Invariance and Higher Derivatives}{14}{section*.7}% 
+\contentsline {subsection}{\numberline {2.5}On-shell Unitarity methods }{15}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.6}One-loop integral basis and tensor reduction}{16}{subsection.2.6}% 
+\contentsline {section}{\numberline {3}Even-point Multi-loop Unitarity}{16}{section.3}% 
+\contentsline {paragraph}{\textbf {Even-point Multi-loop Unitarity (EMU) }}{16}{section*.8}% 
+\contentsline {subsection}{\numberline {3.1}Multi-loop recursive integrals}{18}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Two-loop tensor reduction}{19}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Gauge-invariant basis tensors}{23}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Loop-level amplitudes}{27}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}NLSM via EMU}{27}{subsection.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}One-loop}{28}{subsubsection.4.1.1}% 
+\contentsline {paragraph}{\textbf {Construction}}{29}{section*.9}% 
+\contentsline {paragraph}{\textbf {Reduction}}{29}{section*.10}% 
+\contentsline {paragraph}{\textbf {Integration}}{30}{section*.11}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Two-loop}{30}{subsubsection.4.1.2}% 
+\contentsline {paragraph}{\textbf {Construction}}{30}{section*.12}% 
+\contentsline {paragraph}{\textbf {Reduction}}{32}{section*.13}% 
+\contentsline {paragraph}{\textbf {Integration}}{33}{section*.14}% 
+\contentsline {subsection}{\numberline {4.2}DBIVA via EMU}{35}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}One-loop DBIVA}{36}{subsubsection.4.2.1}% 
+\contentsline {paragraph}{\textbf {Construction}}{37}{section*.15}% 
+\contentsline {paragraph}{\textbf {Reduction}}{38}{section*.16}% 
+\contentsline {paragraph}{\textbf {Integration}}{39}{section*.17}% 
+\contentsline {paragraph}{\textbf {Projection}}{40}{section*.18}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Two-loop Born-Infeld}{42}{subsubsection.4.2.2}% 
+\contentsline {paragraph}{Leading $(++++)$ divergence}{43}{section*.19}% 
+\contentsline {paragraph}{Leading $(-+++)$ divergence}{43}{section*.20}% 
+\contentsline {paragraph}{Leading $(--++)$ divergence}{44}{section*.21}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{44}{subsubsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{46}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{48}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{48}{subsubsection.4.3.2}% 
+\contentsline {section}{\numberline {5}Effective Actions}{49}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{50}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{50}{subsubsection.5.1.1}% 
+\contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{51}{subsubsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.2}Double copy construction}{53}{subsection.5.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{53}{subsubsection.5.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{54}{subsubsection.5.2.2}% 
+\contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{55}{subsection.5.3}% 
+\contentsline {section}{\numberline {6}Conclusions}{57}{section.6}% 
+\contentsline {paragraph}{\textbf {Exponentiation}}{58}{section*.22}% 
+\contentsline {paragraph}{\textbf {Anomalies}}{58}{section*.23}% 
+\contentsline {paragraph}{\textbf {Evanescence}}{58}{section*.24}% 
+\contentsline {paragraph}{}{58}{section*.25}% 
+\contentsline {paragraph}{Acknowledgments}{59}{section*.26}% 

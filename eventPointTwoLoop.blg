@@ -1,136 +1,147 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: eventPointTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Refs_emu.bib
-Repeated entry---line 1345 of file Refs_emu.bib
+Repeated entry---line 1220 of file Refs_emu.bib
+ : @article{Arkani-Hamed:2020blm
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1428 of file Refs_emu.bib
  : @article{Bern:2017tuc
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1733 of file Refs_emu.bib
+Repeated entry---line 1816 of file Refs_emu.bib
  : @article{Lehman:2015via
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1870 of file Refs_emu.bib
+Repeated entry---line 1953 of file Refs_emu.bib
  : @article{Henning:2015daa
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1974 of file Refs_emu.bib
+Repeated entry---line 2057 of file Refs_emu.bib
  : @article{Johansson:2017srf
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2276 of file Refs_emu.bib
+Repeated entry---line 2359 of file Refs_emu.bib
  : @article{Chi:2021mio
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2288 of file Refs_emu.bib
+Repeated entry---line 2371 of file Refs_emu.bib
  : @article{Bern:2012uf
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2430 of file Refs_emu.bib
+Repeated entry---line 2513 of file Refs_emu.bib
  : @article{Bern:2017rjw
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2445 of file Refs_emu.bib
+Repeated entry---line 2528 of file Refs_emu.bib
  : @article{Bern:2013uka
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2474 of file Refs_emu.bib
+Repeated entry---line 2557 of file Refs_emu.bib
  : @article{Carrasco:2013ypa
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2539 of file Refs_emu.bib
+Repeated entry---line 2622 of file Refs_emu.bib
  : @article{Kallosh:2021mnu
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2550 of file Refs_emu.bib
+Repeated entry---line 2633 of file Refs_emu.bib
  : @article{BICEP:2021xfz
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2819 of file Refs_emu.bib
+Repeated entry---line 2902 of file Refs_emu.bib
  : @article{Caron-Huot:2016icg
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3791 of file Refs_emu.bib
+Repeated entry---line 3874 of file Refs_emu.bib
  : @article{Broedel:2013tta
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3841 of file Refs_emu.bib
+Repeated entry---line 3924 of file Refs_emu.bib
  : @article{Chen:2019ywi
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5524 of file Refs_emu.bib
+Repeated entry---line 5310 of file Refs_emu.bib
+ : @article{Cheung:2016drk
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5607 of file Refs_emu.bib
  : @article{Bern:2015ooa
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7003 of file Refs_emu.bib
+Repeated entry---line 7086 of file Refs_emu.bib
  : @article{Bern:2017tuc
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7055 of file Refs_emu.bib
+Repeated entry---line 7138 of file Refs_emu.bib
  : @article{Bern:2017puu
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8704 of file Refs_emu.bib
+Repeated entry---line 8787 of file Refs_emu.bib
  : @article{Azevedo:2018dgo
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9340 of file Refs_emu.bib
+Repeated entry---line 9423 of file Refs_emu.bib
  : @article{Bjerrum-Bohr:2013iza
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10275 of file Refs_emu.bib
+Repeated entry---line 10358 of file Refs_emu.bib
  : @article{Carrasco:2021otn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12687 of file Refs_emu.bib
+Repeated entry---line 12770 of file Refs_emu.bib
  : @article{Bern:1996ja
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13164 of file Refs_emu.bib
+Repeated entry---line 13247 of file Refs_emu.bib
  : @article{Bern:2019isl
  :                      ,
 I'm skipping whatever remains of this entry
-You've used 147 entries,
+Warning--I didn't find a database entry for "KK"
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Liu:2023jbHaddad:2023ylx"
+You've used 150 entries,
             2316 wiz_defined-function locations,
-            1659 strings with 31494 characters,
-and the built_in function-call counts, 64828 in all, are:
-= -- 6976
-> -- 2027
+            1688 strings with 32112 characters,
+and the built_in function-call counts, 67016 in all, are:
+= -- 7217
+> -- 2098
 < -- 0
-+ -- 584
-- -- 437
-* -- 6487
-:= -- 8151
-add.period$ -- 147
-call.type$ -- 147
-change.case$ -- 146
++ -- 603
+- -- 453
+* -- 6719
+:= -- 8416
+add.period$ -- 150
+call.type$ -- 150
+change.case$ -- 149
 chr.to.int$ -- 0
-cite$ -- 147
-duplicate$ -- 5064
-empty$ -- 5816
-format.name$ -- 1311
-if$ -- 16302
+cite$ -- 150
+duplicate$ -- 5250
+empty$ -- 6006
+format.name$ -- 1359
+if$ -- 16856
 int.to.chr$ -- 0
-int.to.str$ -- 147
-missing$ -- 560
-newline$ -- 445
-num.names$ -- 146
-pop$ -- 301
+int.to.str$ -- 150
+missing$ -- 574
+newline$ -- 454
+num.names$ -- 149
+pop$ -- 306
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1982
+skip$ -- 2051
 stack$ -- 0
-substring$ -- 3948
-swap$ -- 1146
+substring$ -- 4084
+swap$ -- 1193
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 739
-width$ -- 150
-write$ -- 1521
-(There were 22 error messages)
+while$ -- 763
+width$ -- 153
+write$ -- 1562
+(There were 24 error messages)

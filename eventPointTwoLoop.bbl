@@ -22,6 +22,12 @@ Z.~Bern, L.J.~Dixon and D.A.~Kosower, \emph{{Progress in one loop QCD
   Part. Sci.} {\bfseries 46} (1996) 109}
   [\href{https://arxiv.org/abs/hep-ph/9602280}{{\ttfamily hep-ph/9602280}}].
 
+\bibitem{Forde:2007mi}
+D.~Forde, \emph{{Direct extraction of one-loop integral coefficients}},
+  \href{https://doi.org/10.1103/PhysRevD.75.125019}{\emph{Phys. Rev. D}
+  {\bfseries 75} (2007) 125019}
+  [\href{https://arxiv.org/abs/0704.1835}{{\ttfamily 0704.1835}}].
+
 \bibitem{BCJ}
 Z.~Bern, J.J.M.~Carrasco and H.~Johansson, \emph{{New relations for
   gauge-theory amplitudes}},
@@ -35,6 +41,100 @@ Z.~Bern, J.J.M.~Carrasco and H.~Johansson, \emph{{Perturbative quantum gravity
   \href{https://doi.org/10.1103/PhysRevLett.105.061602}{\emph{Phys. Rev. Lett.}
   {\bfseries 105} (2010) 061602}
   [\href{https://arxiv.org/abs/1004.0476}{{\ttfamily 1004.0476}}].
+
+\bibitem{Adams:2006sv}
+A.~Adams, N.~Arkani-Hamed, S.~Dubovsky, A.~Nicolis and R.~Rattazzi,
+  \emph{{Causality, analyticity and an IR obstruction to UV completion}},
+  \href{https://doi.org/10.1088/1126-6708/2006/10/014}{\emph{JHEP} {\bfseries
+  10} (2006) 014} [\href{https://arxiv.org/abs/hep-th/0602178}{{\ttfamily
+  hep-th/0602178}}].
+
+\bibitem{Cheung:2015ota}
+C.~Cheung, K.~Kampf, J.~Novotny, C.-H.~Shen and J.~Trnka, \emph{{On-Shell
+  Recursion Relations for Effective Field Theories}},
+  \href{https://doi.org/10.1103/PhysRevLett.116.041601}{\emph{Phys. Rev. Lett.}
+  {\bfseries 116} (2016) 041601}
+  [\href{https://arxiv.org/abs/1509.03309}{{\ttfamily 1509.03309}}].
+
+\bibitem{Cheung:2016drk}
+C.~Cheung, K.~Kampf, J.~Novotny, C.-H.~Shen and J.~Trnka, \emph{{A Periodic
+  Table of Effective Field Theories}},
+  \href{https://doi.org/10.1007/JHEP02(2017)020}{\emph{JHEP} {\bfseries 02}
+  (2017) 020} [\href{https://arxiv.org/abs/1611.03137}{{\ttfamily
+  1611.03137}}].
+
+\bibitem{Carrasco:2019yyn}
+J.J.M.~Carrasco, L.~Rodina, Z.~Yin and S.~Zekioglu, \emph{{Simple encoding of
+  higher derivative gauge and gravity counterterms}},
+  \href{https://doi.org/10.1103/PhysRevLett.125.251602}{\emph{Phys. Rev. Lett.}
+  {\bfseries 125} (2020) 251602}
+  [\href{https://arxiv.org/abs/1910.12850}{{\ttfamily 1910.12850}}].
+
+\bibitem{Arkani-Hamed:2020blm}
+N.~Arkani-Hamed, T.-C.~Huang and Y.-t.~Huang, \emph{{The EFT-Hedron}},
+  \href{https://doi.org/10.1007/JHEP05(2021)259}{\emph{JHEP} {\bfseries 05}
+  (2021) 259} [\href{https://arxiv.org/abs/2012.15849}{{\ttfamily
+  2012.15849}}].
+
+\bibitem{Carrasco:2021ptp}
+J.J.M.~Carrasco, L.~Rodina and S.~Zekioglu, \emph{{Composing effective
+  prediction at five points}},
+  \href{https://doi.org/10.1007/JHEP06(2021)169}{\emph{JHEP} {\bfseries 06}
+  (2021) 169} [\href{https://arxiv.org/abs/2104.08370}{{\ttfamily
+  2104.08370}}].
+
+\bibitem{Chi:2021mio}
+H.-H.~Chi, H.~Elvang, A.~Herderschee, C.R.T.~Jones and S.~Paranjape,
+  \emph{{Generalizations of the double-copy: the KLT bootstrap}},
+  \href{https://doi.org/10.1007/JHEP03(2022)077}{\emph{JHEP} {\bfseries 03}
+  (2022) 077} [\href{https://arxiv.org/abs/2106.12600}{{\ttfamily
+  2106.12600}}].
+
+\bibitem{Bonnefoy:2021qgu}
+Q.~Bonnefoy, G.~Durieux, C.~Grojean, C.S.~Machado and J.~Roosmale~Nepveu,
+  \emph{{The seeds of EFT double copy}},
+  \href{https://doi.org/10.1007/JHEP05(2022)042}{\emph{JHEP} {\bfseries 05}
+  (2022) 042} [\href{https://arxiv.org/abs/2112.11453}{{\ttfamily
+  2112.11453}}].
+
+\bibitem{Carrasco:2022lbm}
+J.J.M.~Carrasco, M.~Lewandowski and N.H.~Pavao, \emph{{The color-dual fates of
+  $F^3$, $R^3$, and $\mathcal{N}=4$ supergravity}},
+  \href{https://arxiv.org/abs/2203.03592}{{\ttfamily 2203.03592}}.
+
+\bibitem{Carrasco:2022sck}
+J.J.M.~Carrasco, M.~Lewandowski and N.H.~Pavao, \emph{{Double-copy towards
+  supergravity inflation with \ensuremath{\alpha}-attractor models}},
+  \href{https://doi.org/10.1007/JHEP02(2023)015}{\emph{JHEP} {\bfseries 02}
+  (2023) 015} [\href{https://arxiv.org/abs/2211.04441}{{\ttfamily
+  2211.04441}}].
+
+\bibitem{Green:2022slj}
+D.~Green, Y.~Huang and C.-H.~Shen, \emph{{Inflationary Adler conditions}},
+  \href{https://doi.org/10.1103/PhysRevD.107.043534}{\emph{Phys. Rev. D}
+  {\bfseries 107} (2023) 043534}
+  [\href{https://arxiv.org/abs/2208.14544}{{\ttfamily 2208.14544}}].
+
+\bibitem{Pavao:2022kog}
+N.H.~Pavao, \emph{{Effective observables for electromagnetic duality from novel
+  amplitude decomposition}},
+  \href{https://doi.org/10.1103/PhysRevD.107.065020}{\emph{Phys. Rev. D}
+  {\bfseries 107} (2023) 065020}
+  [\href{https://arxiv.org/abs/2210.12800}{{\ttfamily 2210.12800}}].
+
+\bibitem{Chen:2022shl}
+A.S.-K.~Chen, H.~Elvang and A.~Herderschee, \emph{{Emergence of String
+  Monodromy in Effective Field Theory}},
+  \href{https://arxiv.org/abs/2212.13998}{{\ttfamily 2212.13998}}.
+
+\bibitem{Chen:2023dcx}
+A.S.-K.~Chen, H.~Elvang and A.~Herderschee, \emph{{Bootstrapping the String KLT
+  Kernel}},  \href{https://arxiv.org/abs/2302.04895}{{\ttfamily 2302.04895}}.
+
+\bibitem{Brown:2023srz}
+T.V.~Brown, K.~Kampf, U.~Oktem, S.~Paranjape and J.~Trnka, \emph{{Scalar BCJ
+  Bootstrap}},  \href{https://arxiv.org/abs/2305.05688}{{\ttfamily
+  2305.05688}}.
 
 \bibitem{BCJreview}
 Z.~Bern, J.J.~Carrasco, M.~Chiodaroli, H.~Johansson and R.~Roiban, \emph{{The
@@ -327,11 +427,25 @@ R.~Kallosh and A.~Linde, \emph{{BICEP/Keck and cosmological attractors}},
   12} (2021) 008} [\href{https://arxiv.org/abs/2110.10902}{{\ttfamily
   2110.10902}}].
 
-\bibitem{Green:1982sw}
-M.B.~Green, J.H.~Schwarz and L.~Brink, \emph{{N=4 Yang-Mills and N=8
-  Supergravity as Limits of String Theories}},
-  \href{https://doi.org/10.1016/0550-3213(82)90336-4}{\emph{Nucl. Phys. B}
-  {\bfseries 198} (1982) 474}.
+\bibitem{KLT}
+H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
+  amplitudes of closed and open strings}},
+  \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
+  {\bfseries B269} (1986) 1}.
+
+\bibitem{jjmcTASI2014}
+J.J.M.~Carrasco, \emph{{Gauge and gravity amplitude relations}},  in
+  \emph{{Proceedings, Theoretical Advanced Study Institute in Elementary
+  Particle Physics: Journeys Through the Precision Frontier: Amplitudes for
+  Colliders (TASI 2014): Boulder, Colorado, June 2-27, 2014}}, pp.~477--557,
+  WSP, WSP, 2015, \href{https://doi.org/10.1142/9789814678766_0011}{DOI}
+  [\href{https://arxiv.org/abs/1506.00974}{{\ttfamily 1506.00974}}].
+
+\bibitem{Passarino:1978jh}
+G.~Passarino and M.J.G.~Veltman, \emph{{One Loop Corrections for e+ e-
+  Annihilation Into mu+ mu- in the Weinberg Model}},
+  \href{https://doi.org/10.1016/0550-3213(79)90234-7}{\emph{Nucl. Phys. B}
+  {\bfseries 160} (1979) 151}.
 
 \bibitem{Mafra:2011nv}
 C.R.~Mafra, O.~Schlotterer and S.~Stieberger, \emph{{Complete N-Point
@@ -369,11 +483,11 @@ C.R.~Mafra and O.~Schlotterer, \emph{{Non-abelian $Z$-theory: Berends-Giele
   (2017) 031} [\href{https://arxiv.org/abs/1609.07078}{{\ttfamily
   1609.07078}}].
 
-\bibitem{KLT}
-H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
-  amplitudes of closed and open strings}},
-  \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
-  {\bfseries B269} (1986) 1}.
+\bibitem{Green:1982sw}
+M.B.~Green, J.H.~Schwarz and L.~Brink, \emph{{N=4 Yang-Mills and N=8
+  Supergravity as Limits of String Theories}},
+  \href{https://doi.org/10.1016/0550-3213(82)90336-4}{\emph{Nucl. Phys. B}
+  {\bfseries 198} (1982) 474}.
 
 \bibitem{Azevedo:2018dgo}
 T.~Azevedo, M.~Chiodaroli, H.~Johansson and O.~Schlotterer, \emph{{Heterotic
@@ -381,12 +495,6 @@ T.~Azevedo, M.~Chiodaroli, H.~Johansson and O.~Schlotterer, \emph{{Heterotic
   \href{https://doi.org/10.1007/JHEP10(2018)012}{\emph{JHEP} {\bfseries 10}
   (2018) 012} [\href{https://arxiv.org/abs/1803.05452}{{\ttfamily
   1803.05452}}].
-
-\bibitem{Passarino:1978jh}
-G.~Passarino and M.J.G.~Veltman, \emph{{One Loop Corrections for e+ e-
-  Annihilation Into mu+ mu- in the Weinberg Model}},
-  \href{https://doi.org/10.1016/0550-3213(79)90234-7}{\emph{Nucl. Phys. B}
-  {\bfseries 160} (1979) 151}.
 
 \bibitem{Bossard:2012xs}
 G.~Bossard, P.S.~Howe and K.S.~Stelle, \emph{{Anomalies and divergences in N=4
@@ -464,12 +572,6 @@ Z.~Bern, A.~De~Freitas, L.J.~Dixon and H.L.~Wong, \emph{{Supersymmetric
   \href{https://doi.org/10.1103/PhysRevD.66.085002}{\emph{Phys. Rev. D}
   {\bfseries 66} (2002) 085002}
   [\href{https://arxiv.org/abs/hep-ph/0202271}{{\ttfamily hep-ph/0202271}}].
-
-\bibitem{Forde:2007mi}
-D.~Forde, \emph{{Direct extraction of one-loop integral coefficients}},
-  \href{https://doi.org/10.1103/PhysRevD.75.125019}{\emph{Phys. Rev. D}
-  {\bfseries 75} (2007) 125019}
-  [\href{https://arxiv.org/abs/0704.1835}{{\ttfamily 0704.1835}}].
 
 \bibitem{Badger:2008cm}
 S.D.~Badger, \emph{{Direct Extraction Of One Loop Rational Terms}},
@@ -607,14 +709,6 @@ L.~Di~Pietro and E.~Stamou, \emph{{Operator mixing in the
   independence}}, \href{https://doi.org/10.1103/PhysRevD.97.065007}{\emph{Phys.
   Rev. D} {\bfseries 97} (2018) 065007}
   [\href{https://arxiv.org/abs/1708.03739}{{\ttfamily 1708.03739}}].
-
-\bibitem{jjmcTASI2014}
-J.J.M.~Carrasco, \emph{{Gauge and gravity amplitude relations}},  in
-  \emph{{Proceedings, Theoretical Advanced Study Institute in Elementary
-  Particle Physics: Journeys Through the Precision Frontier: Amplitudes for
-  Colliders (TASI 2014): Boulder, Colorado, June 2-27, 2014}}, pp.~477--557,
-  WSP, WSP, 2015, \href{https://doi.org/10.1142/9789814678766_0011}{DOI}
-  [\href{https://arxiv.org/abs/1506.00974}{{\ttfamily 1506.00974}}].
 
 \bibitem{DixonMaltoni}
 V.~Del~Duca, L.J.~Dixon and F.~Maltoni, \emph{{New color decompositions for
@@ -765,67 +859,6 @@ Z.~Bern, N.E.J.~Bjerrum-Bohr and D.C.~Dunbar, \emph{{Inherited twistor-space
   05} (2005) 056} [\href{https://arxiv.org/abs/hep-th/0501137}{{\ttfamily
   hep-th/0501137}}].
 
-\bibitem{Carrasco:2019yyn}
-J.J.M.~Carrasco, L.~Rodina, Z.~Yin and S.~Zekioglu, \emph{{Simple encoding of
-  higher derivative gauge and gravity counterterms}},
-  \href{https://doi.org/10.1103/PhysRevLett.125.251602}{\emph{Phys. Rev. Lett.}
-  {\bfseries 125} (2020) 251602}
-  [\href{https://arxiv.org/abs/1910.12850}{{\ttfamily 1910.12850}}].
-
-\bibitem{Carrasco:2021ptp}
-J.J.M.~Carrasco, L.~Rodina and S.~Zekioglu, \emph{{Composing effective
-  prediction at five points}},
-  \href{https://doi.org/10.1007/JHEP06(2021)169}{\emph{JHEP} {\bfseries 06}
-  (2021) 169} [\href{https://arxiv.org/abs/2104.08370}{{\ttfamily
-  2104.08370}}].
-
-\bibitem{Chi:2021mio}
-H.-H.~Chi, H.~Elvang, A.~Herderschee, C.R.T.~Jones and S.~Paranjape,
-  \emph{{Generalizations of the double-copy: the KLT bootstrap}},
-  \href{https://doi.org/10.1007/JHEP03(2022)077}{\emph{JHEP} {\bfseries 03}
-  (2022) 077} [\href{https://arxiv.org/abs/2106.12600}{{\ttfamily
-  2106.12600}}].
-
-\bibitem{Bonnefoy:2021qgu}
-Q.~Bonnefoy, G.~Durieux, C.~Grojean, C.S.~Machado and J.~Roosmale~Nepveu,
-  \emph{{The seeds of EFT double copy}},
-  \href{https://doi.org/10.1007/JHEP05(2022)042}{\emph{JHEP} {\bfseries 05}
-  (2022) 042} [\href{https://arxiv.org/abs/2112.11453}{{\ttfamily
-  2112.11453}}].
-
-\bibitem{Carrasco:2022lbm}
-J.J.M.~Carrasco, M.~Lewandowski and N.H.~Pavao, \emph{{The color-dual fates of
-  $F^3$, $R^3$, and $\mathcal{N}=4$ supergravity}},
-  \href{https://arxiv.org/abs/2203.03592}{{\ttfamily 2203.03592}}.
-
-\bibitem{Carrasco:2022sck}
-J.J.M.~Carrasco, M.~Lewandowski and N.H.~Pavao, \emph{{Double-copy towards
-  supergravity inflation with \ensuremath{\alpha}-attractor models}},
-  \href{https://doi.org/10.1007/JHEP02(2023)015}{\emph{JHEP} {\bfseries 02}
-  (2023) 015} [\href{https://arxiv.org/abs/2211.04441}{{\ttfamily
-  2211.04441}}].
-
-\bibitem{Pavao:2022kog}
-N.H.~Pavao, \emph{{Effective observables for electromagnetic duality from novel
-  amplitude decomposition}},
-  \href{https://doi.org/10.1103/PhysRevD.107.065020}{\emph{Phys. Rev. D}
-  {\bfseries 107} (2023) 065020}
-  [\href{https://arxiv.org/abs/2210.12800}{{\ttfamily 2210.12800}}].
-
-\bibitem{Chen:2022shl}
-A.S.-K.~Chen, H.~Elvang and A.~Herderschee, \emph{{Emergence of String
-  Monodromy in Effective Field Theory}},
-  \href{https://arxiv.org/abs/2212.13998}{{\ttfamily 2212.13998}}.
-
-\bibitem{Chen:2023dcx}
-A.S.-K.~Chen, H.~Elvang and A.~Herderschee, \emph{{Bootstrapping the String KLT
-  Kernel}},  \href{https://arxiv.org/abs/2302.04895}{{\ttfamily 2302.04895}}.
-
-\bibitem{Brown:2023srz}
-T.V.~Brown, K.~Kampf, U.~Oktem, S.~Paranjape and J.~Trnka, \emph{{Scalar BCJ
-  Bootstrap}},  \href{https://arxiv.org/abs/2305.05688}{{\ttfamily
-  2305.05688}}.
-
 \bibitem{Caron-Huot:2016icg}
 S.~Caron-Huot, Z.~Komargodski, A.~Sever and A.~Zhiboedov, \emph{{Strings from
   Massive Higher Spins: The Asymptotic Uniqueness of the Veneziano Amplitude}},
@@ -929,16 +962,6 @@ R.~Balkin, G.~Durieux, T.~Kitahara, Y.~Shadmi and Y.~Weiss, \emph{{On-shell
   \href{https://doi.org/10.1007/JHEP03(2022)129}{\emph{JHEP} {\bfseries 03}
   (2022) 129} [\href{https://arxiv.org/abs/2112.09688}{{\ttfamily
   2112.09688}}].
-
-\bibitem{Liu:2023jbq}
-H.~Liu, T.~Ma, Y.~Shadmi and M.~Waterbury, \emph{{An EFT hunter's guide to
-  two-to-two scattering: HEFT and SMEFT on-shell amplitudes}},
-  \href{https://arxiv.org/abs/2301.11349}{{\ttfamily 2301.11349}}.
-
-\bibitem{Haddad:2023ylx}
-K.~Haddad, \emph{{Recursion in the classical limit and the neutron-star Compton
-  amplitude}},  \href{https://arxiv.org/abs/2303.02624}{{\ttfamily
-  2303.02624}}.
 
 \bibitem{Duff:1980qv}
 M.J.~Duff and P.~van Nieuwenhuizen, \emph{{Quantum Inequivalence of Different
