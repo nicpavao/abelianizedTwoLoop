@@ -12,48 +12,48 @@
 \contentsline {paragraph}{Duality Invariance and Higher Derivatives}{15}{section*.7}% 
 \contentsline {subsection}{\numberline {2.5}One-loop integral basis and tensor reduction}{16}{subsection.2.5}% 
 \contentsline {subsection}{\numberline {2.6}On-shell Unitarity methods}{17}{subsection.2.6}% 
-\contentsline {paragraph}{Integrands from 4D Cuts}{17}{section*.8}% 
-\contentsline {paragraph}{Integrands from $D$-dimensional Cuts}{19}{section*.9}% 
-\contentsline {section}{\numberline {3}Even-point Multi-loop Unitarity}{20}{section.3}% 
+\contentsline {paragraph}{Integrands from 4D Cuts}{18}{section*.8}% 
+\contentsline {paragraph}{Integrands from $D$-dimensional Cuts}{20}{section*.9}% 
+\contentsline {section}{\numberline {3}Even-point Multi-loop Unitarity}{21}{section.3}% 
 \contentsline {paragraph}{\textbf {Even-point Multi-loop Unitarity (EMU) }}{21}{section*.10}% 
 \contentsline {subsection}{\numberline {3.1}Multi-loop recursive integrals}{23}{subsection.3.1}% 
 \contentsline {subsection}{\numberline {3.2}Two-loop tensor reduction}{24}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}Gauge-invariant basis tensors}{27}{subsection.3.3}% 
-\contentsline {section}{\numberline {4}Loop-level amplitudes}{31}{section.4}% 
+\contentsline {subsection}{\numberline {3.3}Gauge-invariant basis tensors}{28}{subsection.3.3}% 
+\contentsline {section}{\numberline {4}Loop-level amplitudes}{32}{section.4}% 
 \contentsline {subsection}{\numberline {4.1}NLSM via EMU}{32}{subsection.4.1}% 
-\contentsline {subsubsection}{\numberline {4.1.1}One-loop}{32}{subsubsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}One-loop}{33}{subsubsection.4.1.1}% 
 \contentsline {paragraph}{\textbf {Construction}}{33}{section*.11}% 
 \contentsline {paragraph}{\textbf {Reduction}}{34}{section*.12}% 
-\contentsline {paragraph}{\textbf {Integration}}{34}{section*.13}% 
+\contentsline {paragraph}{\textbf {Integration}}{35}{section*.13}% 
 \contentsline {subsubsection}{\numberline {4.1.2}Two-loop}{35}{subsubsection.4.1.2}% 
 \contentsline {paragraph}{\textbf {Construction}}{35}{section*.14}% 
 \contentsline {paragraph}{\textbf {Reduction}}{37}{section*.15}% 
 \contentsline {paragraph}{\textbf {Integration}}{38}{section*.16}% 
-\contentsline {subsection}{\numberline {4.2}DBIVA via EMU}{39}{subsection.4.2}% 
-\contentsline {subsubsection}{\numberline {4.2.1}One-loop DBIVA}{40}{subsubsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2}DBIVA via EMU}{40}{subsection.4.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1}One-loop DBIVA}{41}{subsubsection.4.2.1}% 
 \contentsline {paragraph}{\textbf {Construction}}{42}{section*.17}% 
 \contentsline {paragraph}{\textbf {Reduction}}{43}{section*.18}% 
 \contentsline {paragraph}{\textbf {Integration}}{44}{section*.19}% 
 \contentsline {paragraph}{\textbf {Projection}}{45}{section*.20}% 
-\contentsline {subsubsection}{\numberline {4.2.2}Two-loop Born-Infeld}{46}{subsubsection.4.2.2}% 
-\contentsline {paragraph}{Leading $(++++)$ divergence}{47}{section*.21}% 
-\contentsline {paragraph}{Leading $(-+++)$ divergence}{47}{section*.22}% 
-\contentsline {paragraph}{Leading $(--++)$ divergence}{48}{section*.23}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{48}{subsubsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{50}{subsection.4.3}% 
-\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{52}{subsubsection.4.3.1}% 
-\contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{52}{subsubsection.4.3.2}% 
-\contentsline {section}{\numberline {5}Effective Actions}{53}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{54}{subsection.5.1}% 
-\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{54}{subsubsection.5.1.1}% 
-\contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{55}{subsubsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.2}Double copy construction}{57}{subsection.5.2}% 
-\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{57}{subsubsection.5.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{58}{subsubsection.5.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Two-loop Born-Infeld}{47}{subsubsection.4.2.2}% 
+\contentsline {paragraph}{Leading $(++++)$ divergence}{48}{section*.21}% 
+\contentsline {paragraph}{Leading $(-+++)$ divergence}{48}{section*.22}% 
+\contentsline {paragraph}{Leading $(--++)$ divergence}{49}{section*.23}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{49}{subsubsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{51}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{53}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{53}{subsubsection.4.3.2}% 
+\contentsline {section}{\numberline {5}Effective Actions}{54}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{55}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{55}{subsubsection.5.1.1}% 
+\contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{56}{subsubsection.5.1.2}% 
+\contentsline {subsection}{\numberline {5.2}Double copy construction}{58}{subsection.5.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{58}{subsubsection.5.2.1}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{59}{subsubsection.5.2.2}% 
 \contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{60}{subsection.5.3}% 
 \contentsline {section}{\numberline {6}Conclusions}{62}{section.6}% 
-\contentsline {paragraph}{\textbf {Exponentiation}}{62}{section*.24}% 
-\contentsline {paragraph}{\textbf {Anomalies}}{62}{section*.25}% 
-\contentsline {paragraph}{\textbf {Evanescence}}{62}{section*.26}% 
+\contentsline {paragraph}{\textbf {Exponentiation}}{63}{section*.24}% 
+\contentsline {paragraph}{\textbf {Anomalies}}{63}{section*.25}% 
+\contentsline {paragraph}{\textbf {Evanescence}}{63}{section*.26}% 
 \contentsline {paragraph}{}{63}{section*.27}% 
-\contentsline {paragraph}{Acknowledgments}{63}{section*.28}% 
+\contentsline {paragraph}{Acknowledgments}{64}{section*.28}% 

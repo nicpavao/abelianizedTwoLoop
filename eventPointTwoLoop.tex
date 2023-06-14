@@ -718,8 +718,8 @@
 \diagram{
 (a1) --[ultra thick,](mid1),
 (a2) --[ultra thick,](mid1),
-(mid1) --[ ultra thick,out=30,in=150,min distance=0.2cm](mid5),
-(mid1) --[ ultra thick,out=-30,in=-150,min distance=0.2cm](mid5),
+(mid1) --[ ultra thick,out=30,in=150,min distance=0.3cm](mid5),
+(mid1) --[ ultra thick,out=-30,in=-150,min distance=0.3cm](mid5),
 (mid5) --[ultra thick,](a3),
 (mid5) --[ultra thick,](a4)
 };
@@ -982,6 +982,75 @@
 (a2b) --[ ultra thick,](a2),
 (a4a) --[ ultra thick,](a4),
 (a4b) --[ ultra thick,](a4),
+};
+\end{feynman}
+\end{tikzpicture}
+}
+}
+
+\newcommand{\pentInt}{ {
+\begin{tikzpicture}[baseline=-2]
+\begin{feynman}
+\vertex (a1) [dot,scale=1.6] at (0,.65){};
+\vertex (a2) [dot,scale=1.6]at (.55,.2){};
+\vertex (a3) [dot,scale=1.6]at (.3,-.4){};
+\vertex (a4) [dot,scale=1.6]at (-.3,-.4){};
+\vertex (a5) [dot,scale=1.6]at (-.55,.2){};
+\vertex (a1) [dot,hgrey0,scale=1.3] at (0,.65){};
+\vertex (a2) [dot,hgrey0,scale=1.3]at (.55,.2){};
+\vertex (a3) [dot,hgrey0,scale=1.3]at  (.3,-.4){};
+\vertex (a4) [dot,hgrey0,scale=1.3]at (-.3,-.4){};
+\vertex (a5) [dot,hgrey0,scale=1.3]at (-.55,.2){};
+\vertex (b4) at (.5,-.6);
+\vertex (b3) at (-.5,-.6);
+\vertex (b2) at (-.8,.3);
+\vertex (b1) at (0,.9) ;
+\vertex (b5) at (.8,.3) ;
+\diagram{
+(a2) --[ ultra thick,](a1),
+(a3) --[ ultra thick,](a2),
+(a4) --[ ultra thick,](a3),
+(a5) --[ ultra thick,](a4),
+(a5) --[ ultra thick,](a1),
+(b1) --[ ultra thick,](a1),
+(b2) --[ ultra thick,](a5),
+(b3) --[ ultra thick,](a4),
+(b4) --[ ultra thick,](a3),
+(b5) --[ ultra thick,](a2),
+};
+\end{feynman}
+\end{tikzpicture}
+}
+}
+
+\newcommand{\boxPinch}{ {
+\begin{tikzpicture}[baseline=-1]
+\begin{feynman}
+\vertex (a1) [dot,scale=1.6] at (.4,.4){};
+\vertex (a2) [dot,scale=1.6]at (-.4,.4){};
+\vertex (a3) [dot,scale=1.6]at (-.4,-.4){};
+\vertex (a4) [dot,scale=1.6]at (.4,-.4){};
+\vertex (a1) [dot,hgrey0,scale=1.3] at (.4,.4){};
+\vertex (a2) [dot,hgrey0,scale=1.3]at (-.4,.4){};
+\vertex (a3) [dot,hgrey0,scale=1.3]at (-.4,-.4){};
+\vertex (a4) [dot,hgrey0,scale=1.3]at (.4,-.4){};
+\vertex (b4) at (.6,-.6);
+\vertex (b3) at (-.6,-.6);
+\vertex (b2) at (-.6,.6);
+\vertex (b1a) at (.6,.75) ;
+\vertex (b1b) at (.75,.6) ;
+\vertex (c1) at (.7,.9) {${}^{i}$};
+\vertex (c2) at (1.1,.6) {${}^{i+1}$};
+\diagram{
+(a2) --[ ultra thick,](a1),
+(a3) --[ ultra thick,](a2),
+(a4) --[ ultra thick,](a3),
+(a1) --[ ultra thick,](a4),
+(a2) --[ ultra thick,](b2),
+(a3) --[ ultra thick,](b3),
+(a4) --[ ultra thick,](b4),
+(a1) --[ ultra thick,](b1a),
+(a1) --[ ultra thick,](b1b),
 };
 \end{feynman}
 \end{tikzpicture}
@@ -1722,11 +1791,11 @@ T_{\mu_1\mu_2...\mu_r} I_N^{\mu_1\mu_2...\mu_r} = \sum_{M=1}^N C_M I_M
 \ee
 where $T_{\mu_1\mu_2...\mu_r}$ and $C_M$ are functions exclusively of external kinematics. This relationship holds $D$-dimensionally for any $r$-rank $N$-gon one-loop integral. Thus, any one-loop amplitude can be expressed completely in terms of a basis of one-loop integrals. This special property of one-loop integration is \textit{not} the case for generic loop order, where the basis of ISPs grows faster than number of inverse propagators. As such, any universal integral basis beyond one-loop must include integrals with non-unit exponents for the propagators.  
 
-The remarkable simplicity of one-loop amplitudes is even more dramatic in a fixed spacetime dimension. In $D=4$, the kinematic projection to a basis of scalar integrals saturates at the box integral due to the appearance of Gram determinants. Roughly speaking, $N$-gon integral coefficients of \eqn{TenRed1loop} come dressed with a Gram determinant factor of $\mathcal{G}_N$,
+The remarkable simplicity of one-loop amplitudes is even more dramatic in a fixed spacetime dimension. In $D=4$, the kinematic projection to a basis of scalar integrals saturates at the box integral due to the appearance of Gram determinants. Roughly speaking, $(N+1)$-gon integral coefficients of \eqn{TenRed1loop} come dressed with a Gram determinant factor of $\mathcal{G}_N$,
 \be
 \mathcal{G}_N = \text{det} (k_i \cdot k_j)_{\!N\!\times\! N}
 \ee
-where $k_i$ are the external momenta flowing into the $N$-gon integral. In fixed spacetime dimension, $D$, the momenta are $D$-component vectors and thus the Lorentz product matrix $(k_i \cdot k_j)_{\!N\!\times\! N}$ must have a null space for $N>D$. Due to this physical constraint, $C_N \neq 0$, only when $N\leq D$ \cite{Bern:1993kr}. We will demonstrate how this can be used in 4D integral construction in the next section. 
+where $k_i$ are the $N$ linearly independent external momenta flowing into the $(N+1)$-gon integral. In fixed spacetime dimension, $D$, the momenta are $D$-component vectors and thus the Lorentz product matrix $(k_i \cdot k_j)_{\!N\!\times\! N}$ must have a null space for $N>D$. Due to this physical constraint, $C_M \neq 0$, only when $M\leq D+1$. Furthermore, in $D=4-2\epsilon$ dimensions, any scalar pentagon integral can be rewritten up to $\mathcal{O}(\epsilon)$ in terms of five pinched scalar box integrals \cite{Bern:1993kr}. Due to this property of 4D pentagon integrals, all the information of one-loop 4D amplitudes can be completely determined by evaluating up to box integrals, regardless of the multiplicity. We will demonstrate in the next section how this can be used in 4D integral construction. 
 
 The last important feature of one-loop basis integrals is that many of them can be evaluated in arbitrary dimension for a very general set of parameters appearing in the exponents of the propagators. Take for example the $D$-dimensional triangle and bubble integrals that we will use throughout the text:
 \be\label{eq:integrals}
@@ -1764,7 +1833,7 @@ Application of the optical theorem to constrain on-shell amplitudes is known as 
 \be
 \frac{i}{P_i^2 + i\delta} \rightarrow 2\pi \delta(P_i^2)
 \ee
-This replacement of the internal propagators will select out the requisite imaginary parts needed to determine the integral coefficients. This approach to one-loop amplitude construction was systematized in ref. \cite{Forde:2007mi}, which demonstrated how to directly extract the integrand coefficients directly from 4D cuts:
+This replacement of the internal propagators will select out the requisite imaginary parts needed to determine the integral coefficients. This approach to one-loop amplitude construction was systematized in ref.~\cite{Forde:2007mi}, which demonstrated how to directly extract the integrand coefficients directly from 4D cuts:
 \begin{align}
 C^{(P_iP_jP_k)}_4 &\sim \boxCut
 \\
