@@ -1486,7 +1486,7 @@ For gauge theories, it is often useful to further decompose the full color-dress
 \ee
 where the sum is taken over the inequivalent orderings of group theory generator traces. A similar decomposition applies at one-loop gauge theory amplitudes, which we will describe in \sect{sec:Loops}. The color-ordered functions are called \textit{partial amplitudes}, as they only contain on-shell information for a particular color ordering. However, like full color-dressed amplitudes, they factor on poles to lower-point partial amplitudes, and when describe vector theories they are independently gauge invariant since they weight linearly independent color traces. 
 
-When expressed in this form, many gauge theories reveal hidden redundancy that is obscured by the color-dressed amplitude formulation of \eqn{fullAmp}. When expressed in this form, the partial amplitudes for large catalog \cite{BCJreview} of gauge theories, including Yang-Mills and NLSM, are linearly dependent. The first such set of partial amplitude relations identified by Kleiss and Kluijf \cite{KK}, known formally as KK relations, relates amplitudes different color orderings and signature:
+When expressed in this form, many gauge theories reveal hidden redundancy that is obscured by the color-dressed amplitude formulation of \eqn{fullAmp}. When expressed in this form, the partial amplitudes for large catalog \cite{BCJreview} of gauge theories, including Yang-Mills and NLSM, are linearly dependent. The first such set of partial amplitude relations identified by Kleiss and Kluijf \cite{Kleiss:1988ne}, known formally as KK relations, relates amplitudes different color orderings and signature:
 \be\label{KK}
 A(1,\alpha,n,\beta)=(-1)^{|\alpha|}\sum_{\sigma\in \alpha \shuffle \beta^T} A(1,\sigma,n)
 \ee
@@ -1553,7 +1553,7 @@ Furthermore, we will take external polarizations to be in a transverse gauge thr
 \be
 \varepsilon_a \cdot k_a = 0
 \ee
-Formal polarizations will always be expressed as $\varepsilon_a^\mu$ to distinguish between the extra dimensional bit of the integration measure in $D=4-2\epsilon$. As noted, it will be convenient to take $D\rightarrow 4$ in certain circumstances after integration. We will use the conventions of ref. \cite{jjmcTASI2014} throughout the text, which we provide below
+Formal polarizations will always be expressed as $\varepsilon_a^\mu$ to distinguish between the extra dimensional bit of the integration measure in $D=4-2\epsilon$. As noted, it will be convenient to take $D\rightarrow 4$ in certain circumstances after integration. We will use the conventions of ref. \cite{jjmcTASI2014} throughout the text. Mandelstam invariants with these conventions are expressed as follows, 
 \be
 s_{ab} = \langle ab \rangle[ba]
 \ee
@@ -1611,13 +1611,13 @@ where the trace is over the color indices of the gauge group, $\pi \equiv \pi^a 
 \be\label{eq:shiftSym}
 \pi^a \rightarrow \pi^a + c^a
 \ee
-We could also consider higher derivative generalizations of the NLSM that are invariant under the shift symmetry of \eqn{eq:shiftSym}. Such EFTs are known formally as \textit{chiral perturbation theory}, and descriptors of pion scattering below the chiral symmetry breaking scale of QCD. 
+We could also consider higher derivative generalizations of the NLSM that are invariant under the shift symmetry of \eqn{eq:shiftSym}. Such EFTs are known formally as \textit{chiral perturbation theory} \cite{Weinberg:1978kz,Gasser:1983yg}, and descriptors of pion scattering below the chiral symmetry breaking scale of QCD. 
 \be\label{eq:XPTLag}
 \mathcal{L}^{\chi\text{PT}}=\frac{1}{2}\text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)] + \frac{\beta_1}{f_\pi^2} \text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)]^2 + \frac{\beta_2}{f_\pi^2} \text{tr}[\partial_\mu U^\dagger \partial_\nu U]\text{tr}[\partial_\mu U^\dagger \partial_\nu U] +\cdots
 \ee
-By construction, each of the higher derivative operators appearing above are invariant under the shift symmetry of \eqn{eq:shiftSym}. These higher derivative generalizations of NLSM have been studied both in the context of the $S$-matrix bootstrap \cite{}, and soft theorem bootstraps of refs. \cite{}. Considering the relevance of \eqn{eq:XPTLag} in Standard Model pion scattering, the amplitudes for $SU(2)$ NLSM have been computed through two-loop order \cite{} . In this work, we add to the literature by computing the two-loop amplitudes of \eqn{eq:NLSMLag} for arbitrary $SU(N_c)$ color structure. In doing so, we show that the IR divergences of the theory exponentiates in the large $N_c$ limit. 
+By construction, each of the higher derivative operators appearing above are invariant under the shift symmetry of \eqn{eq:shiftSym}. These higher derivative generalizations of NLSM have been studied both in the context of the $S$-matrix bootstrap \cite{Adams:2006sv,Manohar:2008tc,Bellazzini:2016xrt,Guerrieri:2020bto}, and soft theorem bootstraps of refs. \cite{Cheung:2015ota,Cheung:2016drk,Low:2019ynd}. Considering the relevance of \eqn{eq:XPTLag} in Standard Model pion scattering, the amplitudes for $SU(2)$ NLSM have been computed through two-loop order \cite{Bijnens:1995yn,Bijnens:1997vq,Girlanda:1997ed} . In this work, we add to the literature by computing the two-loop amplitudes of \eqn{eq:NLSMLag} for arbitrary $SU(N_c)$ color structure. In doing so, we show that the IR divergences of the theory exponentiates in the large $N_c$ limit. 
 \paragraph{Born-Infeld Photons and Dirac Scalars}
-The second even-point EFT we will study is Born-Infeld theory \cite{}. This theory describes the dynamics of open string endpoints with $U(1)$ charge attached to a $D$-dimensional spacetime with Dirichlet boundary conditions. Given the stringy dynamics orthogonal to the spacetime, the electric field generated by the charged endpoints has a maximum field strength of order the inverse string tension, $1/\alpha'$. The effective Lagrangian for this theory
+The second even-point EFT we will study is Born-Infeld theory \cite{Born:1934gh}. This theory describes the dynamics of open string endpoints with $U(1)$ charge attached to a $D$-dimensional spacetime with Dirichlet boundary conditions. Given the stringy dynamics orthogonal to the spacetime, the electric field generated by the charged endpoints has a maximum field strength of order the inverse string tension, $1/\alpha'$. The effective Lagrangian for this theory
 \begin{equation}
  \label{biLag}
   \alpha'^{\,2}\mathcal{L}^{\text{BI}} = 1-\sqrt{\text{det}(\eta_{\mu\nu}+\alpha' F_{\mu\nu})} \,.
@@ -1627,14 +1627,14 @@ A close cousin of Born-Infeld theory is the dimensionally reduction to Dirac sca
  \label{DBI}
   \alpha'^{\,2}\mathcal{L}^{\text{DBI}} =1- \sqrt{\text{det}(\eta_{\mu\nu}+\alpha'^{\,2} \partial_\mu \varphi \partial_\nu \varphi)}
 \end{equation}
-where $\varphi$ is the spacetime coordinate in the orthogonal space. This theory is uniquely determined by requiring the a polynomial EFT of $X=(\partial \varphi)^2$ is invariant under the field redefinition:
+where $\varphi$ is the spacetime coordinate in the orthogonal space. This theory is uniquely determined by requiring the a polynomial EFT of $X=(\partial \varphi)^2$ is invariant under the field redefinition \cite{Cheung:2016drk},
 \be\label{DBIShift}
 \varphi \rightarrow \varphi + c + b^{\mu} (x_\mu - \varphi \partial_\mu \varphi)
 \ee
-When the transformation law leave the polynomial $P(X)$ theory invariant, there are an additional $D+1$ conserved charges, and the Poincar\'{e} symmetry of $P(X)$ EFT is promoted from $D$ to $(D+1)$ dimensions. One can verify that applying \eqn{DBIShift} to \eqn{DBI} shifts the Lagrangian by a total derivative. Similar to the soft theorem constraints on the building blocks of NLSM and $\chi \text{PT}$, the DBI action can be bootstrapped by requiring the amplitudes vanish at $\mathcal{O}(p^2)$ when taking external momentum, $p$, soft. 
+When the transformation law leave the polynomial $P(X)$ theory invariant, there are an additional $D+1$ conserved charges, and the Poincar\'{e} symmetry of $P(X)$ EFT is promoted from $D$ to $(D+1)$ dimensions. One can verify that applying \eqn{DBIShift} to \eqn{DBI} shifts the Lagrangian by a total derivative \cite{deRham:2010eu}. Similar to the soft theorem constraints on the building blocks of NLSM and $\chi \text{PT}$, the DBI action can be bootstrapped by requiring the amplitudes vanish at $\mathcal{O}(p^2)$ when taking external momentum, $p$, soft \cite{Cheung:2016drk}. 
 \paragraph{Volkov-Akulov Fermions and Supersymmetry}
 
-Now we will describe the supersymmetric extensions of the Born-Infeld action given above in \eqn{biLag}. First we start by defining the theory of shift symmetric fermions first written down by Volkov, Akulov (VA) \cite{}. The easiest way to define this shift symmetric theory is by first constructing manifestly symmetric 1-forms, and constructing a volume form in the veirbein frame. That is, define a 1-form, $ \omega^m = e^m_\mu dx^\mu$, where the veirbein (frame fields), $e^m_\mu$, is expressed in terms of the fermion fields, $\lambda$, as follows:
+Now we will describe the supersymmetric extensions of the Born-Infeld action given above in \eqn{biLag}. First we start by defining the theory of shift symmetric fermions first written down by Volkov, Akulov (VA) \cite{Volkov:1973ix}. The easiest way to define this shift symmetric theory is by first constructing manifestly symmetric 1-forms, and constructing a volume form in the veirbein frame. That is, define a 1-form, $ \omega^m = e^m_\mu dx^\mu$, where the veirbein (frame fields), $e^m_\mu$, is expressed in terms of the fermion fields, $\lambda$, as follows:
  \be
  e^m_\mu = \delta^m_\mu + i \bar{\lambda} \Gamma^m\! \stackrel{\leftrightarrow}{\partial_\mu}\!  \lambda = \delta^m_\mu + i (\bar{\lambda} \Gamma^m \partial_\mu  \lambda - \partial_\mu \bar{\lambda} \Gamma^m   \lambda)
  \ee
@@ -1642,9 +1642,9 @@ Now we will describe the supersymmetric extensions of the Born-Infeld action giv
 \be
 \delta \lambda \rightarrow \eta \qquad  \delta \bar{\lambda} \rightarrow \bar{\eta} \qquad  \delta x^\mu \rightarrow x^\mu - i (\bar{\lambda} \,\Gamma^\mu \eta- i \bar{\eta} \,\Gamma^\mu \lambda)
 \ee
- The Volkov-Akulov action in the veirbein frame is then simply the fermionic world-volume integral over the $D$-form:
+ The Volkov-Akulov action in the veirbein frame is then simply the fermionic world-volume integral over the $D$-form \cite{Kallosh:1997aw},
  \be
- S^{\text{VA}} = \int \omega^1 \wedge \omega^2 \wedge \cdots \wedge \omega^D
+ S^{\text{VA}} = \int \omega^1 \wedge \omega^2 \wedge \cdots \wedge \omega^D\,.
  \ee
  This is not dissimilar from the construction of the pure scale DBI action above. Likewise, we can write the Lagrangian in the spacetime coordinate from akin to \eqn{biLag} and \eqn{DBI}. Transforming back into spacetime coordinates, yields the following Lagrangian density for self interaction VA fermions upto four-point interactions:
 \begin{equation}
@@ -1652,11 +1652,11 @@ Now we will describe the supersymmetric extensions of the Born-Infeld action giv
   \alpha'^{\,2}\mathcal{L}^{\text{VA}} = \text{det}(e^m_\mu) =  i\bar{\lambda}\!\stackrel{\leftrightarrow}{\slashed{\partial}}\!\lambda+ \frac{1}{2}(\bar{\lambda}\Gamma^\mu \partial^\nu \lambda)(\bar{\lambda}\Gamma_\mu \partial_\nu \lambda)+\mathcal{O}(\partial^4\lambda^6) 
   \,.
 \end{equation}
- A convenient choice of field redefinition was proposed by Komogorov and Seiberg (KS) \cite{}, which defines a new fermion field, $\psi = \psi(\lambda,\bar{\lambda})$, in a way that is perturbatively equivalent to the VA fermions. This construction is equivalent to a theory of nilpotent chiral superfields \cite{}, relevant for the construction of $\alpha$-attractor models of inflation \cite{}. Applying the KS nonlinear field redefinition yields the considerably simpler Lagrangian for VA theory:
+ A convenient choice of field redefinition was proposed by Komargodski and Seiberg (KS) \cite{Komargodski:2009rz,Kuzenko:2010ef}, which defines a new fermion field, $\psi = \psi(\lambda,\bar{\lambda})$, in a way that is perturbatively equivalent to the VA fermions. This construction is equivalent to a theory of nilpotent chiral superfields \cite{Rocek:1978nb,Casalbuoni:1988xh,Ferrara:2014kva}, relevant for the construction of $\alpha$-attractor models of inflation \cite{Kallosh:2013yoa}. Applying the KS nonlinear field redefinition yields the considerably simpler Lagrangian for VA theory:
  \be
    \alpha'^{\,2}\mathcal{L}^{\text{VA}} = i\bar{\psi}\slashed{\partial}\psi +\frac{1}{2} \bar{\psi}^2 \partial^2 \psi^2 + \frac{1}{4}\psi^2\bar{\psi}^2 \partial^2 \psi^2\partial^2 \bar{\psi}^2
  \ee
-With the world-volume formulation of VA theory in hand, we can also trivially construct the action for maximal $\mathcal{N}=1$ supersymmetric Born-Infeld theory in $D=10$. We simply replace the flat space background of \eqn{biLag} with the fermionic background of \eqn{vaLag},
+With the world-volume formulation of VA theory in hand, we can also trivially construct the action for maximal $\mathcal{N}=1$ supersymmetric Born-Infeld theory in $D=10$ \cite{Tseytlin:1999dj,Bergshoeff:2013pia}. We simply replace the flat space background of \eqn{biLag} with the fermionic background of \eqn{vaLag},
 \be
  \label{DBIVALag}
 S^{\text{DBIVA}}_{\mathcal{N}=1} = \int \omega^1 \wedge\omega^2 \wedge \cdots \wedge \omega^{10} \sqrt{\text{det}(\eta_{mn}+ \alpha F_{mn})}
@@ -1716,17 +1716,17 @@ where $n_{(+)}$ and $n_{(-)}$ is the number of external positive and negative he
 
 It is well known that one-loop amplitudes are spanned by a small basis of scalar integrals \cite{Forde:2007mi,Badger:2008cm,ElvangHuangReview}. This property can be exposed via a $D$-dimensional integral reduction algorithm due to Passarino and Veltman \cite{Passarino:1978jh}. The basis of irreducible scalar products (ISPs) that include loop momenta grows in lock step with the number of propagators. Explicitly, an $N$-gon integral can have $N-1$ factors of $(k_i\cdot l)$, due to momentum conservation, and exactly one factor of $l^2$; this matches the number of $N$-gon propagators. 
 
-Furthermore, factors of $(\epsilon_i\cdot l)$ can be mapped to tensor structures with factors of $(\epsilon_i \cdot k_j)(k_i  \cdot l)/(k_i \cdot k_j)$ using polarization completeness relations \cite{}. Thus, any $N$-gon tensor integral permits a partial fraction decomposition in terms of inverse propagators, and thus can be mapped to a scalar basis of integrals:
+Furthermore, factors of $(\epsilon_i\cdot l)$ can be mapped to tensor structures with factors of $(\epsilon_i \cdot k_j)(k_i  \cdot l)/(k_i \cdot k_j)$ using polarization completeness relations \cite{Bern:2017tuc}. Thus, any $N$-gon tensor integral permits a partial fraction decomposition in terms of inverse propagators, and thus can be mapped to a scalar basis of integrals:
 \be\label{TenRed1loop}
 T_{\mu_1\mu_2...\mu_r} I_N^{\mu_1\mu_2...\mu_r} = \sum_{M=1}^N C_M I_M
 \ee
 where $T_{\mu_1\mu_2...\mu_r}$ and $C_M$ are functions exclusively of external kinematics. This relationship holds $D$-dimensionally for any $r$-rank $N$-gon one-loop integral. Thus, any one-loop amplitude can be expressed completely in terms of a basis of one-loop integrals. This special property of one-loop integration is \textit{not} the case for generic loop order, where the basis of ISPs grows faster than number of inverse propagators. As such, any universal integral basis beyond one-loop must include integrals with non-unit exponents for the propagators.  
 
-The remarkable simplicity of one-loop amplitudes is even more dramatic in a fixed spacetime dimension. In $D=4$, the kinematic projection to a basis of scalar integrals saturates at the box integral due to the appearance of Gram determinants. Roughly speaking, $N$-gon integral coefficients of \eqn{TenRed1loop} come dressed with a factor of $\mathcal{G}_N$,
+The remarkable simplicity of one-loop amplitudes is even more dramatic in a fixed spacetime dimension. In $D=4$, the kinematic projection to a basis of scalar integrals saturates at the box integral due to the appearance of Gram determinants. Roughly speaking, $N$-gon integral coefficients of \eqn{TenRed1loop} come dressed with a Gram determinant factor of $\mathcal{G}_N$,
 \be
-\mathcal{G}_N = \text{det} (k_i \cdot k_j)
+\mathcal{G}_N = \text{det} (k_i \cdot k_j)_{\!N\!\times\! N}
 \ee
-where $k_i$ are the external momenta flowing into the $N$-gon integral. In fixed spacetime dimension, $D$, the momenta are $D$-component vectors and thus the Lorentz product matrix $(k_i \cdot k_j)$ must have a null space for $N>D$. Due to this physical constraint, $C_N \neq 0$, only when $N\leq D$. We will demonstrate how this can be used in 4D integral construction in the next section. 
+where $k_i$ are the external momenta flowing into the $N$-gon integral. In fixed spacetime dimension, $D$, the momenta are $D$-component vectors and thus the Lorentz product matrix $(k_i \cdot k_j)_{\!N\!\times\! N}$ must have a null space for $N>D$. Due to this physical constraint, $C_N \neq 0$, only when $N\leq D$ \cite{Bern:1993kr}. We will demonstrate how this can be used in 4D integral construction in the next section. 
 
 The last important feature of one-loop basis integrals is that many of them can be evaluated in arbitrary dimension for a very general set of parameters appearing in the exponents of the propagators. Take for example the $D$-dimensional triangle and bubble integrals that we will use throughout the text:
 \be\label{eq:integrals}
@@ -1744,7 +1744,7 @@ I_{3,(K_{12})}^{(\alpha_1,\alpha_2,\alpha_3)}&= \int \frac{d^{2D} l}{(2\pi)^{2D}
 \ee
 where we have introduced the notation $\alpha_{12...n} = \alpha_1+\alpha_2+\cdots +\alpha_n$, and have taken $D\rightarrow 2D$ to make the expressions more compact. The above integral expressions hold for massless external kinematics, $K_i^2=0$, which applies to all the integrals needed for the physical processes described in the text. 
 
-The existence of closed for expressions, like those in \eqn{eq:integrals}, while common for one-loop integrals, and incredibly rare for higher loop order outside of very specialized kinematic regimes. Luckily, in this work, the integral basis at four-poinnt two-loop order for even-point theories can be reconstructed from the one-loop expressions in \eqn{eq:integrals}. This is a special property of recursively one-loop amplitudes, which we will describe in detail in \sect{sec:recInt}
+The existence of closed form expressions, like those in \eqn{eq:integrals}, while common for one-loop integrals, are incredibly rare for higher loop order outside of very specialized kinematic regimes. Luckily, in this work, the integral basis at four-poinnt two-loop order for even-point theories can be reconstructed from the one-loop expressions in \eqn{eq:integrals}. This is a special property of recursively one-loop amplitudes, which we will describe in detail in \sect{sec:recInt}.
 \subsection{On-shell Unitarity methods}\label{sec:genU}
 Above we have reviewed the known behavior of one-loop integral bases in $D=4$ spacetime dimensions. In this section we will briefly demonstrate why traditional 4D unitarity methods are so powerful -- and why we must go beyond them to accommodate the multi-loop calculations of interest in this work. 
 \paragraph{Integrands from 4D Cuts}
@@ -1760,11 +1760,11 @@ where $S=\mathbb{I}+iT$. Applying relation to \eqn{eq:4DUn} allows us to identif
 \be\label{eq:UnMeth1loop}
 \text{Im}(\mathcal{A}^{\text{1-loop}}) = \sum_{N=2}^4 C_N(4)\, \text{Im}(I_N^D)
 \ee
-Application of the optical theorem to constrain on-shell amplitudes is known as the unitarity method \cite{}. In order to isolate each $C_N(4)$ appearing in \eqn{eq:4DUn}, we must employ \textit{generalized unitarity}, which places particular internal legs on-shell. That is, for each internal loop propagator, $1/P_i^2$, that we wish to take on-shell, we make the following replacement inside the integral:
+Application of the optical theorem to constrain on-shell amplitudes is known as the unitarity method \cite{UnitarityMethod, BDKUniarityReview}. In order to isolate each $C_N(4)$ appearing in \eqn{eq:4DUn}, we must employ \textit{generalized unitarity}, which places particular internal legs on-shell. That is, for each internal loop propagator, $1/P_i^2$, that we wish to take on-shell, we make the following replacement inside the integral:
 \be
 \frac{i}{P_i^2 + i\delta} \rightarrow 2\pi \delta(P_i^2)
 \ee
-This replacement of the internal propagators will select out the requisite imaginary parts needed to determine the integral coefficients. This approach to one-loop amplitude construction was systematized in ref. \cite{}, which demonstrated how to directly extract the integrand coefficients directly from 4D cuts:
+This replacement of the internal propagators will select out the requisite imaginary parts needed to determine the integral coefficients. This approach to one-loop amplitude construction was systematized in ref. \cite{Forde:2007mi}, which demonstrated how to directly extract the integrand coefficients directly from 4D cuts:
 \begin{align}
 C^{(P_iP_jP_k)}_4 &\sim \boxCut
 \\
@@ -1786,7 +1786,7 @@ As a concrete example, consider the 4D cut construction of the bubble coefficien
 \end{align}
 where in the last step we have made the replacement $(l_1+l_2) = -(k_1+k_2)$ by momentum conservation. Determining the leading behavior of the 1-loop Born-Infled amplitude thus amounts to specifying all possible 4D cuts. 
 
-While this method is incredible powerful, as we can see from \eqn{eq:UnMeth1loop} it misses a key piece of the amplitude -- namely, the rational terms, $\mathcal{R}$. For some theories like $\mathcal{N}=4$ super-Yang-Mills in $D=4$ \cite{}, rational terms are absent because the loop power counting for an $N$-gon cut is bounded to be less than $N-2$. However, for generic theories of interest in this paper, like Born-Infeld, rational terms are present and necessary for extracting anomalous matrix elements and higher-loop sub-divergences. While there are methods developed to extract these rational terms at one-loop using $\mu$-integrals \cite{}, at generic loop order evaluating these $\mu$-integrals becomes increasingly complicated. For this reason, to perform the multi-loop calculations in this paper, we will employ cut construction in general dimensions \cite{Bern:1995db,Bern:1996ja}. 
+While this method is incredible powerful, as we can see from \eqn{eq:UnMeth1loop} it misses a key piece of the amplitude -- namely, the rational terms, $\mathcal{R}$. For some theories like $\mathcal{N}=4$ super-Yang-Mills in $D=4$ \cite{Fusing}, rational terms are absent because the loop power counting for an $N$-gon cut is bounded to be less than $N-2$. However, for generic theories of interest in this paper, like Born-Infeld, rational terms are present and necessary for extracting anomalous matrix elements and higher-loop sub-divergences. While there are methods developed to extract these rational terms at one-loop using $\mu$-integrals \cite{Badger:2008cm}, at generic loop order evaluating these $\mu$-integrals becomes increasingly complicated. For this reason, to perform the multi-loop calculations in this paper, we will employ cut construction in general dimensions \cite{Bern:1995db,Bern:1996ja}. 
 \paragraph{Integrands from $D$-dimensional Cuts}
 The presence of 4D rational terms in the amplitude is due to the appearance of $(D-4)$ factors. By constructing integrands $D$-dimensionally, we can guarantee that our integral coefficients are sensitive to these overall factors. Rather than summing over internal 4D states, we will instead compute the $D$-dimensional cut using the formal polarizations described in \sect{}. The $D$-dimensional analog of \eqn{eq:4DBICut} asserts that the one-loop integrand $\mathcal{I}_{\text{1-loop}}$ of pure Born-Infeld theory should satisfy the following constraint:
 \begin{equation}
@@ -1815,7 +1815,7 @@ with null reference momentum, $q^2=0$. The dependence of $q$ is a gauge choice t
 the same as the dimension appearing in dimensional regularization, $D=4-2\epsilon$. We will use them interchangeably throughout. The appearance of these $D$-dependent factors in the state sum are the source of rational terms in the Born-Infeld $S$-matrix. Throughout the text, we will use the generalized unitarity cut condition of \eqn{GUCut} to fix our multiloop integrands. With this in hand, in the spirit of Forde's one-loop cut construction, we will now systematize the procedure for capturing all the cut information needed for even-point theories at the multiloop order. 
 \section{Even-point Multi-loop Unitarity}
 \label{sec:EMU}
-In this section we will describe the methods we have developed to compute the multi-loop results of this paper. We begin by introducing the notion of \textit{Even-point Multi-loop Unitarity} (EMU), which is an organizational principle at the foundation of our unitarity-based integrand construction. EMU is an extension of the method of maximal cuts \cite{}, which is a hierarchical approach to perturbative calculations \cite{}. The method of maximal cuts is an ansatz-based approach, that feeds successively higher-point contact information to an integrand constrained by graph automorphism symmetry, and color-kinematics duality for permissible theories. In contrast, EMU is a \textit{constructive} algorithm aimed at capturing all the perturbative information needed at general loop order and multiplicity. We describe the algorithm below, and provide a 2-loop 4-point example that we choose to study in this paper.
+In this section we will describe the methods we have developed to compute the multi-loop results of this paper. We begin by introducing the notion of \textit{Even-point Multi-loop Unitarity} (EMU), which is an organizational principle at the foundation of our unitarity-based integrand construction. EMU is an extension of the method of maximal cuts \cite{Bern:2007ct}, which is a hierarchical approach to perturbative calculations \cite{Carrasco:2021bmu}. The method of maximal cuts is an ansatz-based approach, that feeds successively higher-point contact information to an integrand constrained by graph automorphism symmetry, and color-kinematics duality for permissible theories. In contrast, EMU is a \textit{constructive} algorithm aimed at capturing all the perturbative information needed at general loop order and multiplicity. We describe the algorithm below, and provide a 2-loop 4-point example that we choose to study in this paper.
 \paragraph{\textbf{Even-point Multi-loop Unitarity (EMU) }} 
 \begin{itemize}
 \item \textbf{Step 0} -- At $n$-point $l$-loop, enumerate all 1-particle-irreducible (1PI) graphs constructed from $(n+2l-2)/2$ four-point vertices. We call these diagrams the maximal cut (MC) diagrams. Graphs with higher-point blobs are grouped into the $\text{N}^k \text{MC}$ category, where $k$ is the number of collapsed internal propagators. 
@@ -1869,7 +1869,7 @@ where $\alpha_1$ and $\alpha_2$ are the degree of the denominators appearing in 
 \be
 \stackrel{k_{12}^\mu}{\longrightarrow} \!\!\!\scaleIntBubbleProbeA{}{} \sim \scaleIntBubbleProbeB{}{} \sim \scaleIntBubbleProbeC{}{} \sim s_{12}^{3D/2-4}
 \ee
-Where for simplicity, we have dropped the $\Gamma$-function dependent factors at each step in the evaluation. This procedure of evaluating bubble integrals at successively orders also works for tensor bubble-integral insertions. As we'll show in this next section, such tensor bubble innsertions can be reduced to scalars integrals via Passarino-Veltman. While there are a number of tensor reduction algorithms available in the literature \cite{Anastasiou:2004vj,vonManteuffel:2012np,Smirnov:2014hma,vonManteuffel:2014ixa,Smirnov:2019qkx,Smirnov:2020quc,Usovitsch:2020jrk,Maierhofer:2018gpa}, our ability to use Passarino-Veltman on the recursive integrals of \Fig{fig:contrib2Loop} will prove useful for evaluating terms with factors of $(\varepsilon_i \cdot l_j)$, which include formal polarizations. This procedure will aid in our pursuit of extracting the rational part of the two-loop Born-Infeld amplitudes that we study in \sect{sec:2loopBIU}.
+Where for simplicity, we have dropped the $\Gamma$-function dependent factors at each step in the evaluation. This procedure of evaluating bubble integrals at successively orders also works for tensor bubble-integral insertions as well. As we'll show in this next section, such tensor bubble insertions can be reduced to scalars integrals via Passarino-Veltman \cite{Passarino:1978jh}. While there are a number of tensor reduction algorithms available in the literature \cite{Anastasiou:2004vj,vonManteuffel:2012np,Smirnov:2014hma,vonManteuffel:2014ixa,Smirnov:2019qkx,Smirnov:2020quc,Usovitsch:2020jrk,Maierhofer:2018gpa}, our ability to use Passarino-Veltman on the recursive integrals of \Fig{fig:contrib2Loop} will prove useful for evaluating terms with factors of $(\varepsilon_i \cdot l_j)$, which include formal polarizations. This procedure will aid in our pursuit of extracting the rational part of the two-loop Born-Infeld amplitudes that we study in \sect{sec:2loopBIU}.
  
 \subsection{Two-loop tensor reduction}\label{sec:tenRed}
 First we will study the canonical one-loop case needed for the nested bubble integrals described above, and then show that it naturally generalizes to the two-loop for the recursive integrals of interest. We begin with a general expression for the rank-$n$ tensor bubble:
@@ -1925,7 +1925,7 @@ a_{(m,k)}&=- \left[\frac{K^2}{D+2(m+k-1)}\right]a_{(m+2,k-1)}
 \end{equation}
 The base step is simply the scalar bubble integral, $a_{(0,0)}=I_2(K)$. Constructing $a_{(m,k)}$ from this recursive definition, the one-loop integrand of \eqn{GUCut} that contains factors of $(l\!\cdot \!\varepsilon_i )$ and $(l\!\cdot \! k_i )$ can be expressed completely in terms of the bubble integral, $I_2(K)$, weighted by dimension dependent numerical factors and external vector kinematics.
 
-We note that these coefficients are also sufficient to evaluate the contribution from the double-bubble integral, appearing in the bottom left of \Fig{fig:contrib2Loop}. This is best demonstrated with an explicit example. Consider the following integral, $I^{\text{ex}.}_{\text{2bub}}$, that functionally captures terms that could appear in the cut construction of the double-bubble integral at two-loop:
+We note that these coefficients are also sufficient to evaluate the contribution from the double-bubble integral, appearing on the right hand side of \Fig{fig:contrib2Loop}. This is best demonstrated with an explicit example. Consider the following integral, $I^{\text{ex}.}_{\text{2bub}}$, that functionally captures terms that could appear in the cut construction of the double-bubble integral at two-loop:
 \begin{equation}
 I^{\text{ex}.}_{\text{2bub}} \equiv \int \frac{d^D l_{1}d^D l_{2}}{(2\pi)^{2D}} \frac{(l_1\!\cdot\! l_2)^2(l_1\!\cdot\! v_1)(l_2\!\cdot\! v_2)}{l_1^2(l_1+k_{12})^2 l_2^2(l_2+k_{12})^2}
 \end{equation}
@@ -1935,7 +1935,7 @@ I^{\text{ex}.}_{\text{2bub}} = I_{2}^{\alpha\beta\gamma}(s_{12}) I_2^{\mu\nu\rho
 \end{equation}
 Then, by applying \eqn{tensorReductionBubble}, and plugging in the expressions for $a_{(m,k)}$, the kinematic numerator of $I^{\text{ex}.}_{\text{2bub}}$ no longer mixes loop momenta. Thus, the integral is separable and can be expressed as a product of scalar bubbles integrated over $l_1$ and $l_2$. 
 
-A similar procedure can be applied to the top left diagram of \Fig{fig:contrib2Loop}. However, the integration procedure is a little more delicate. Since $I^{\text{ex}.}_{\text{2bub}}$ can be expressed as an iterated bubble, we only needed to consider \textit{integer powers} of the denominators when constructing the recursion relations. In contrast, the integral in the top left of \Fig{fig:contrib2Loop} is \textit{recursively one-loop}, which will lead to \textit{non-integer}, $\epsilon$-dependent powers of loop propagators. Thus, we are interested in performing a tensor reduction on the following triangle integral
+A similar procedure can be applied to the first diagram of \Fig{fig:contrib2Loop}. However, the integration procedure is a little more delicate. Since $I^{\text{ex}.}_{\text{2bub}}$ can be expressed as an iterated bubble, we only needed to consider \textit{integer powers} of the denominators when constructing the recursion relations. In contrast, the first integral in \Fig{fig:contrib2Loop} is \textit{recursively one-loop}, which will lead to \textit{non-integer} $\epsilon$-dependent powers of loop propagators. Thus, we are interested in performing a tensor reduction on the following triangle integral
 \begin{align}\label{triangleTensorInt}
      I^{\mu_1\dots \mu_n}_{3,x}(K_{12})&= \int \frac{d^D l}{(2\pi)^D} \frac{l^{\mu_1}l^{\mu_2}\cdots l^{\mu_n} }{l^2(l+K_{1})^{2x}(l+K_{12})^2}
      \\
