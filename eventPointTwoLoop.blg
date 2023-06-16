@@ -3,207 +3,207 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: eventPointTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10310 items from 5000.
+Reallocated field_info (elt_size=4) to 10370 items from 5000.
 Database file #1: Refs_emu.bib
-Repeated entry---line 1121 of file Refs_emu.bib
+Repeated entry---line 1151 of file Refs_emu.bib
  : @article{Cheung:2015ota
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1136 of file Refs_emu.bib
+Repeated entry---line 1166 of file Refs_emu.bib
  : @article{Cheung:2016drk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1191 of file Refs_emu.bib
+Repeated entry---line 1221 of file Refs_emu.bib
  : @article{Adams:2006sv
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1309 of file Refs_emu.bib
+Repeated entry---line 1339 of file Refs_emu.bib
  : @article{Bern:2015xsa
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1403 of file Refs_emu.bib
+Repeated entry---line 1433 of file Refs_emu.bib
  : @article{Arkani-Hamed:2020blm
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1611 of file Refs_emu.bib
+Repeated entry---line 1641 of file Refs_emu.bib
  : @article{Bern:2017tuc
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1682 of file Refs_emu.bib
+Repeated entry---line 1712 of file Refs_emu.bib
  : @article{Goroff:1985sz
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1999 of file Refs_emu.bib
+Repeated entry---line 2029 of file Refs_emu.bib
  : @article{Lehman:2015via
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2136 of file Refs_emu.bib
+Repeated entry---line 2166 of file Refs_emu.bib
  : @article{Henning:2015daa
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2240 of file Refs_emu.bib
+Repeated entry---line 2270 of file Refs_emu.bib
  : @article{Johansson:2017srf
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2542 of file Refs_emu.bib
+Repeated entry---line 2572 of file Refs_emu.bib
  : @article{Chi:2021mio
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2554 of file Refs_emu.bib
+Repeated entry---line 2584 of file Refs_emu.bib
  : @article{Bern:2012uf
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2696 of file Refs_emu.bib
+Repeated entry---line 2726 of file Refs_emu.bib
  : @article{Bern:2017rjw
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2711 of file Refs_emu.bib
+Repeated entry---line 2741 of file Refs_emu.bib
  : @article{Bern:2013uka
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2740 of file Refs_emu.bib
+Repeated entry---line 2770 of file Refs_emu.bib
  : @article{Carrasco:2013ypa
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2805 of file Refs_emu.bib
+Repeated entry---line 2835 of file Refs_emu.bib
  : @article{Kallosh:2021mnu
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2816 of file Refs_emu.bib
+Repeated entry---line 2846 of file Refs_emu.bib
  : @article{BICEP:2021xfz
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2958 of file Refs_emu.bib
+Repeated entry---line 2988 of file Refs_emu.bib
  : @article{Carrasco:2021bmu
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2986 of file Refs_emu.bib
+Repeated entry---line 3016 of file Refs_emu.bib
  : @article{Rocek:1978nb
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3010 of file Refs_emu.bib
+Repeated entry---line 3040 of file Refs_emu.bib
  : @article{Casalbuoni:1988xh
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3038 of file Refs_emu.bib
+Repeated entry---line 3068 of file Refs_emu.bib
  : @article{Volkov:1973ix
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3163 of file Refs_emu.bib
+Repeated entry---line 3193 of file Refs_emu.bib
  : @article{Low:2019ynd
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3174 of file Refs_emu.bib
+Repeated entry---line 3204 of file Refs_emu.bib
  : @article{Caron-Huot:2016icg
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3351 of file Refs_emu.bib
+Repeated entry---line 3381 of file Refs_emu.bib
  : @article{Goroff:1985th
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4146 of file Refs_emu.bib
+Repeated entry---line 4176 of file Refs_emu.bib
  : @article{Broedel:2013tta
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4196 of file Refs_emu.bib
+Repeated entry---line 4226 of file Refs_emu.bib
  : @article{Chen:2019ywi
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5582 of file Refs_emu.bib
+Repeated entry---line 5612 of file Refs_emu.bib
  : @article{Cheung:2016drk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5879 of file Refs_emu.bib
+Repeated entry---line 5909 of file Refs_emu.bib
  : @article{Bern:2015ooa
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7358 of file Refs_emu.bib
+Repeated entry---line 7388 of file Refs_emu.bib
  : @article{Bern:2017tuc
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7410 of file Refs_emu.bib
+Repeated entry---line 7440 of file Refs_emu.bib
  : @article{Bern:2017puu
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9059 of file Refs_emu.bib
+Repeated entry---line 9089 of file Refs_emu.bib
  : @article{Azevedo:2018dgo
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9695 of file Refs_emu.bib
+Repeated entry---line 9725 of file Refs_emu.bib
  : @article{Bjerrum-Bohr:2013iza
  :                              ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10630 of file Refs_emu.bib
+Repeated entry---line 10660 of file Refs_emu.bib
  : @article{Carrasco:2021otn
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 10798 of file Refs_emu.bib
+Repeated entry---line 10828 of file Refs_emu.bib
  : @article{vandeVen:1991gw
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13042 of file Refs_emu.bib
+Repeated entry---line 13072 of file Refs_emu.bib
  : @article{Bern:1996ja
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13519 of file Refs_emu.bib
+Repeated entry---line 13549 of file Refs_emu.bib
  : @article{Bern:2019isl
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13678 of file Refs_emu.bib
+Repeated entry---line 13708 of file Refs_emu.bib
  : @article{Komargodski:2009rz
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13704 of file Refs_emu.bib
+Repeated entry---line 13734 of file Refs_emu.bib
  : @article{Bergshoeff:2013pia
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13717 of file Refs_emu.bib
+Repeated entry---line 13747 of file Refs_emu.bib
  : @article{Kallosh:1997aw
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 13744 of file Refs_emu.bib
+Repeated entry---line 13774 of file Refs_emu.bib
  : @article{deRham:2010eu
  :                       ,
 I'm skipping whatever remains of this entry
-You've used 177 entries,
+You've used 179 entries,
             2316 wiz_defined-function locations,
-            1880 strings with 36674 characters,
-and the built_in function-call counts, 78213 in all, are:
-= -- 8425
-> -- 2421
+            1894 strings with 37116 characters,
+and the built_in function-call counts, 79385 in all, are:
+= -- 8549
+> -- 2465
 < -- 0
-+ -- 699
-- -- 522
-* -- 7805
-:= -- 9852
-add.period$ -- 177
-call.type$ -- 177
-change.case$ -- 176
++ -- 711
+- -- 532
+* -- 7926
+:= -- 9993
+add.period$ -- 179
+call.type$ -- 179
+change.case$ -- 178
 chr.to.int$ -- 0
-cite$ -- 177
-duplicate$ -- 6079
-empty$ -- 7015
-format.name$ -- 1566
-if$ -- 19699
+cite$ -- 179
+duplicate$ -- 6175
+empty$ -- 7114
+format.name$ -- 1596
+if$ -- 19992
 int.to.chr$ -- 0
-int.to.str$ -- 177
-missing$ -- 679
-newline$ -- 535
-num.names$ -- 176
-pop$ -- 358
+int.to.str$ -- 179
+missing$ -- 687
+newline$ -- 541
+num.names$ -- 178
+pop$ -- 360
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2425
+skip$ -- 2465
 stack$ -- 0
-substring$ -- 4763
-swap$ -- 1395
+substring$ -- 4833
+swap$ -- 1421
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 894
-width$ -- 180
-write$ -- 1840
+while$ -- 908
+width$ -- 182
+write$ -- 1862
 (There were 40 error messages)

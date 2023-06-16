@@ -49,6 +49,13 @@ A.~Adams, N.~Arkani-Hamed, S.~Dubovsky, A.~Nicolis and R.~Rattazzi,
   10} (2006) 014} [\href{https://arxiv.org/abs/hep-th/0602178}{{\ttfamily
   hep-th/0602178}}].
 
+\bibitem{Cheung:2014dqa}
+C.~Cheung, K.~Kampf, J.~Novotny and J.~Trnka, \emph{{Effective Field Theories
+  from Soft Limits of Scattering Amplitudes}},
+  \href{https://doi.org/10.1103/PhysRevLett.114.221602}{\emph{Phys. Rev. Lett.}
+  {\bfseries 114} (2015) 221602}
+  [\href{https://arxiv.org/abs/1412.4095}{{\ttfamily 1412.4095}}].
+
 \bibitem{Cheung:2015ota}
 C.~Cheung, K.~Kampf, J.~Novotny, C.-H.~Shen and J.~Trnka, \emph{{On-Shell
   Recursion Relations for Effective Field Theories}},
@@ -62,6 +69,19 @@ C.~Cheung, K.~Kampf, J.~Novotny, C.-H.~Shen and J.~Trnka, \emph{{A Periodic
   \href{https://doi.org/10.1007/JHEP02(2017)020}{\emph{JHEP} {\bfseries 02}
   (2017) 020} [\href{https://arxiv.org/abs/1611.03137}{{\ttfamily
   1611.03137}}].
+
+\bibitem{Cheung:2018oki}
+C.~Cheung, K.~Kampf, J.~Novotny, C.-H.~Shen, J.~Trnka and C.~Wen, \emph{{Vector
+  Effective Field Theories from Soft Limits}},
+  \href{https://doi.org/10.1103/PhysRevLett.120.261602}{\emph{Phys. Rev. Lett.}
+  {\bfseries 120} (2018) 261602}
+  [\href{https://arxiv.org/abs/1801.01496}{{\ttfamily 1801.01496}}].
+
+\bibitem{Low:2019ynd}
+I.~Low and Z.~Yin, \emph{{Soft Bootstrap and Effective Field Theories}},
+  \href{https://doi.org/10.1007/JHEP11(2019)078}{\emph{JHEP} {\bfseries 11}
+  (2019) 078} [\href{https://arxiv.org/abs/1904.12859}{{\ttfamily
+  1904.12859}}].
 
 \bibitem{Carrasco:2019yyn}
 J.J.M.~Carrasco, L.~Rodina, Z.~Yin and S.~Zekioglu, \emph{{Simple encoding of
@@ -492,12 +512,6 @@ A.L.~Guerrieri, J.~Penedones and P.~Vieira, \emph{{S-matrix bootstrap for
   \href{https://doi.org/10.1007/JHEP06(2021)088}{\emph{JHEP} {\bfseries 06}
   (2021) 088} [\href{https://arxiv.org/abs/2011.02802}{{\ttfamily
   2011.02802}}].
-
-\bibitem{Low:2019ynd}
-I.~Low and Z.~Yin, \emph{{Soft Bootstrap and Effective Field Theories}},
-  \href{https://doi.org/10.1007/JHEP11(2019)078}{\emph{JHEP} {\bfseries 11}
-  (2019) 078} [\href{https://arxiv.org/abs/1904.12859}{{\ttfamily
-  1904.12859}}].
 
 \bibitem{Bijnens:1995yn}
 J.~Bijnens, G.~Colangelo, G.~Ecker, J.~Gasser and M.E.~Sainio, \emph{{Elastic
