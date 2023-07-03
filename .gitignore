@@ -5,3 +5,5 @@
 AbelianTwoLoop.synctex.gz
 AbelianTwoLoop.synctex.gz
 *.log
+*.gz
+*.out

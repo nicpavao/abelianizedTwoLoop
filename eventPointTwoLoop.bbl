@@ -427,12 +427,6 @@ R.~Kallosh and A.~Linde, \emph{{BICEP/Keck and cosmological attractors}},
   12} (2021) 008} [\href{https://arxiv.org/abs/2110.10902}{{\ttfamily
   2110.10902}}].
 
-\bibitem{KLT}
-H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
-  amplitudes of closed and open strings}},
-  \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
-  {\bfseries B269} (1986) 1}.
-
 \bibitem{jjmcTASI2014}
 J.J.M.~Carrasco, \emph{{Gauge and gravity amplitude relations}},  in
   \emph{{Proceedings, Theoretical Advanced Study Institute in Elementary
@@ -482,6 +476,12 @@ C.R.~Mafra and O.~Schlotterer, \emph{{Non-abelian $Z$-theory: Berends-Giele
   \href{https://doi.org/10.1007/JHEP01(2017)031}{\emph{JHEP} {\bfseries 01}
   (2017) 031} [\href{https://arxiv.org/abs/1609.07078}{{\ttfamily
   1609.07078}}].
+
+\bibitem{KLT}
+H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
+  amplitudes of closed and open strings}},
+  \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
+  {\bfseries B269} (1986) 1}.
 
 \bibitem{Green:1982sw}
 M.B.~Green, J.H.~Schwarz and L.~Brink, \emph{{N=4 Yang-Mills and N=8
@@ -547,6 +547,16 @@ M.~Heydeman, J.H.~Schwarz and C.~Wen, \emph{{M5-Brane and D-Brane Scattering
   {\bfseries 12} (2017) 003}
   [\href{https://arxiv.org/abs/1710.02170}{{\ttfamily 1710.02170}}].
 
+\bibitem{Badger:2008cm}
+S.D.~Badger, \emph{{Direct Extraction Of One Loop Rational Terms}},
+  \href{https://doi.org/10.1088/1126-6708/2009/01/049}{\emph{JHEP} {\bfseries
+  01} (2009) 049} [\href{https://arxiv.org/abs/0806.4600}{{\ttfamily
+  0806.4600}}].
+
+\bibitem{ElvangHuangReview}
+H.~Elvang and Y.-t.~Huang, \emph{{Scattering amplitudes}},
+  \href{https://arxiv.org/abs/1308.1697}{{\ttfamily 1308.1697}}.
+
 \bibitem{Bern:1995db}
 Z.~Bern and A.G.~Morgan, \emph{{Massive loop amplitudes from unitarity}},
   \href{https://doi.org/10.1016/0550-3213(96)00078-8}{\emph{Nucl. Phys. B}
@@ -572,16 +582,6 @@ Z.~Bern, A.~De~Freitas, L.J.~Dixon and H.L.~Wong, \emph{{Supersymmetric
   \href{https://doi.org/10.1103/PhysRevD.66.085002}{\emph{Phys. Rev. D}
   {\bfseries 66} (2002) 085002}
   [\href{https://arxiv.org/abs/hep-ph/0202271}{{\ttfamily hep-ph/0202271}}].
-
-\bibitem{Badger:2008cm}
-S.D.~Badger, \emph{{Direct Extraction Of One Loop Rational Terms}},
-  \href{https://doi.org/10.1088/1126-6708/2009/01/049}{\emph{JHEP} {\bfseries
-  01} (2009) 049} [\href{https://arxiv.org/abs/0806.4600}{{\ttfamily
-  0806.4600}}].
-
-\bibitem{ElvangHuangReview}
-H.~Elvang and Y.-t.~Huang, \emph{{Scattering amplitudes}},
-  \href{https://arxiv.org/abs/1308.1697}{{\ttfamily 1308.1697}}.
 
 \bibitem{Anastasiou:2004vj}
 C.~Anastasiou and A.~Lazopoulos, \emph{{Automatic integral reduction for higher
