@@ -361,9 +361,9 @@ R.~Monteiro, R.~Stark-Much\~ao and S.~Wikeley, \emph{{Anomaly and double copy
 
 \bibitem{Bern:2017tuc}
 Z.~Bern, A.~Edison, D.~Kosower and J.~Parra-Martinez, \emph{{Curvature-squared
-  multiplets, evanescent effects, and the U(1) anomaly in $N=4$ supergravity}},
-  \href{https://doi.org/10.1103/PhysRevD.96.066004}{\emph{Phys. Rev. D}
-  {\bfseries 96} (2017) 066004}
+  multiplets, evanescent effects, and the U(1) anomaly in ${\cal N}=4$
+  supergravity}}, \href{https://doi.org/10.1103/PhysRevD.96.066004}{\emph{Phys.
+  Rev.} {\bfseries D96} (2017) 066004}
   [\href{https://arxiv.org/abs/1706.01486}{{\ttfamily 1706.01486}}].
 
 \bibitem{Bern:2017rjw}
@@ -374,11 +374,9 @@ Z.~Bern, J.~Parra-Martinez and R.~Roiban, \emph{{Canceling the U(1) Anomaly in
   [\href{https://arxiv.org/abs/1712.03928}{{\ttfamily 1712.03928}}].
 
 \bibitem{Bern:2019isl}
-Z.~Bern, D.~Kosower and J.~Parra-Martinez, \emph{{Two-loop n-point anomalous
-  amplitudes in N=4 supergravity}},
-  \href{https://doi.org/10.1098/rspa.2019.0722}{\emph{Proc. Roy. Soc. Lond. A}
-  {\bfseries 476} (2020) 20190722}
-  [\href{https://arxiv.org/abs/1905.05151}{{\ttfamily 1905.05151}}].
+Z.~Bern, D.~Kosower and J.~Parra-Martinez, \emph{{Two-loop $n$-point anomalous
+  amplitudes in ${\cal N}=4$ supergravity}},
+  \href{https://arxiv.org/abs/1905.05151}{{\ttfamily 1905.05151}}.
 
 \bibitem{Goroff:1985sz}
 M.H.~Goroff and A.~Sagnotti, \emph{{QUANTUM GRAVITY AT TWO LOOPS}},
@@ -463,12 +461,6 @@ R.~Kleiss and H.~Kuijf, \emph{{Multi - Gluon Cross-sections and Five Jet
   \href{https://doi.org/10.1016/0550-3213(89)90574-9}{\emph{Nucl. Phys. B}
   {\bfseries 312} (1989) 616}.
 
-\bibitem{KLT}
-H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
-  amplitudes of closed and open strings}},
-  \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
-  {\bfseries B269} (1986) 1}.
-
 \bibitem{jjmcTASI2014}
 J.J.M.~Carrasco, \emph{{Gauge and gravity amplitude relations}},  in
   \emph{{Proceedings, Theoretical Advanced Study Institute in Elementary
@@ -477,11 +469,27 @@ J.J.M.~Carrasco, \emph{{Gauge and gravity amplitude relations}},  in
   WSP, WSP, 2015, \href{https://doi.org/10.1142/9789814678766_0011}{DOI}
   [\href{https://arxiv.org/abs/1506.00974}{{\ttfamily 1506.00974}}].
 
+\bibitem{Badger:2008cm}
+S.D.~Badger, \emph{{Direct Extraction Of One Loop Rational Terms}},
+  \href{https://doi.org/10.1088/1126-6708/2009/01/049}{\emph{JHEP} {\bfseries
+  01} (2009) 049} [\href{https://arxiv.org/abs/0806.4600}{{\ttfamily
+  0806.4600}}].
+
+\bibitem{ElvangHuangReview}
+H.~Elvang and Y.-t.~Huang, \emph{{Scattering amplitudes}},
+  \href{https://arxiv.org/abs/1308.1697}{{\ttfamily 1308.1697}}.
+
 \bibitem{Passarino:1978jh}
 G.~Passarino and M.J.G.~Veltman, \emph{{One Loop Corrections for e+ e-
   Annihilation Into mu+ mu- in the Weinberg Model}},
   \href{https://doi.org/10.1016/0550-3213(79)90234-7}{\emph{Nucl. Phys. B}
   {\bfseries 160} (1979) 151}.
+
+\bibitem{Bern:1993kr}
+Z.~Bern, L.J.~Dixon and D.A.~Kosower, \emph{{Dimensionally regulated pentagon
+  integrals}}, \href{https://doi.org/10.1016/0550-3213(94)90398-0}{\emph{Nucl.
+  Phys. B} {\bfseries 412} (1994) 751}
+  [\href{https://arxiv.org/abs/hep-ph/9306240}{{\ttfamily hep-ph/9306240}}].
 
 \bibitem{Weinberg:1978kz}
 S.~Weinberg, \emph{{Phenomenological Lagrangians}},
@@ -638,6 +646,12 @@ C.R.~Mafra and O.~Schlotterer, \emph{{Non-abelian $Z$-theory: Berends-Giele
   (2017) 031} [\href{https://arxiv.org/abs/1609.07078}{{\ttfamily
   1609.07078}}].
 
+\bibitem{KLT}
+H.~Kawai, D.C.~Lewellen and S.H.H.~Tye, \emph{{A relation between tree
+  amplitudes of closed and open strings}},
+  \href{https://doi.org/10.1016/0550-3213(86)90362-7}{\emph{Nucl. Phys.}
+  {\bfseries B269} (1986) 1}.
+
 \bibitem{Green:1982sw}
 M.B.~Green, J.H.~Schwarz and L.~Brink, \emph{{N=4 Yang-Mills and N=8
   Supergravity as Limits of String Theories}},
@@ -697,22 +711,6 @@ M.~Heydeman, J.H.~Schwarz and C.~Wen, \emph{{M5-Brane and D-Brane Scattering
   {\bfseries 12} (2017) 003}
   [\href{https://arxiv.org/abs/1710.02170}{{\ttfamily 1710.02170}}].
 
-\bibitem{Badger:2008cm}
-S.D.~Badger, \emph{{Direct Extraction Of One Loop Rational Terms}},
-  \href{https://doi.org/10.1088/1126-6708/2009/01/049}{\emph{JHEP} {\bfseries
-  01} (2009) 049} [\href{https://arxiv.org/abs/0806.4600}{{\ttfamily
-  0806.4600}}].
-
-\bibitem{ElvangHuangReview}
-H.~Elvang and Y.-t.~Huang, \emph{{Scattering amplitudes}},
-  \href{https://arxiv.org/abs/1308.1697}{{\ttfamily 1308.1697}}.
-
-\bibitem{Bern:1993kr}
-Z.~Bern, L.J.~Dixon and D.A.~Kosower, \emph{{Dimensionally regulated pentagon
-  integrals}}, \href{https://doi.org/10.1016/0550-3213(94)90398-0}{\emph{Nucl.
-  Phys. B} {\bfseries 412} (1994) 751}
-  [\href{https://arxiv.org/abs/hep-ph/9306240}{{\ttfamily hep-ph/9306240}}].
-
 \bibitem{Bern:1995db}
 Z.~Bern and A.G.~Morgan, \emph{{Massive loop amplitudes from unitarity}},
   \href{https://doi.org/10.1016/0550-3213(96)00078-8}{\emph{Nucl. Phys. B}
@@ -721,9 +719,9 @@ Z.~Bern and A.G.~Morgan, \emph{{Massive loop amplitudes from unitarity}},
 
 \bibitem{Bern:1996ja}
 Z.~Bern, L.J.~Dixon, D.C.~Dunbar and D.A.~Kosower, \emph{{One loop selfdual and
-  N=4 superYang-Mills}},
-  \href{https://doi.org/10.1016/S0370-2693(96)01676-0}{\emph{Phys. Lett. B}
-  {\bfseries 394} (1997) 105}
+  ${\cal N}=4$ super-Yang-Mills}},
+  \href{https://doi.org/10.1016/S0370-2693(96)01676-0}{\emph{Phys. Lett.}
+  {\bfseries B394} (1997) 105}
   [\href{https://arxiv.org/abs/hep-th/9611127}{{\ttfamily hep-th/9611127}}].
 
 \bibitem{collins_1984}
