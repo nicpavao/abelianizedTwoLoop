@@ -39,20 +39,20 @@
 \contentsline {paragraph}{Leading $(-+++)$ divergence}{43}{section*.21}%
 \contentsline {paragraph}{Leading $(--++)$ divergence}{43}{section*.22}%
 \contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{44}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{46}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{47}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{47}{subsubsection.4.3.2}%
-\contentsline {section}{\numberline {5}Effective Actions}{48}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{49}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{49}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{50}{subsubsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.2}Double copy construction}{52}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{52}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{53}{subsubsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{54}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Conclusions}{56}{section.6}%
-\contentsline {paragraph}{\textbf {Exponentiation}}{56}{section*.23}%
-\contentsline {paragraph}{\textbf {Anomalies}}{56}{section*.24}%
-\contentsline {paragraph}{\textbf {Evanescence}}{56}{section*.25}%
-\contentsline {paragraph}{}{57}{section*.26}%
-\contentsline {paragraph}{Acknowledgments}{57}{section*.27}%
+\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{47}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{48}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{48}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}Effective Actions}{49}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{50}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{50}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{51}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Double copy construction}{53}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{53}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{54}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{55}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Conclusions}{57}{section.6}%
+\contentsline {paragraph}{\textbf {Exponentiation}}{57}{section*.23}%
+\contentsline {paragraph}{\textbf {Anomalies}}{57}{section*.24}%
+\contentsline {paragraph}{\textbf {Evanescence}}{57}{section*.25}%
+\contentsline {paragraph}{}{58}{section*.26}%
+\contentsline {paragraph}{Acknowledgments}{58}{section*.27}%

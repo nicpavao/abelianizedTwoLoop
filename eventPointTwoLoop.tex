@@ -1507,6 +1507,11 @@ linewidth=4pt]{eBox}
 \newcommand{\andd}{\ , \quad \text{and}  \quad}
 \newcommand{\forr}{\ , \quad \text{for}  \quad}
 
+\newcommand{\numScalars}{Z_X}
+\newcommand{\numPhotons}{Z_\gamma}
+\newcommand{\numFerms}{Z_\lambda}
+
+
 \newcommand\citepls{{\bf\color{red}[[Cite Needed]]}}
 
 \newcommand{\afour}{\ensuremath{A_4^{\text{tree}}}}
@@ -2361,7 +2366,7 @@ Due to the simplicity of scalar theories like NLSM, the state sum for the double
 \end{equation}
 where we have introduced the following notation above that combines internal and external momenta, $\tau^{(i)}_j = (k_i  + p_j)^2$ and $\tau_{ij} = (p_i + p_j)^2$. Plugging in the color-dressed NLSM amplitudes, the same can be done for the ostrich-diagram cut, giving us
 
-\begin{equation}\label{eq:NLSMDunce}
+\begin{equation}\label{eq:NLSMOstrich}
 \begin{aligned}
 \text{Cut}\left(\! \scaleIntBscalarsmall{1}{2}{3}{4} \! \right)&=\sum_{\text{states}}\mathcal{A}^{\text{NLSM}}_{(2|q_4\bar{q}_3|\bar{q}_1)}\mathcal{A}^{\text{NLSM}}_{(1|\bar{q}_4q_3|\bar{q}_2)}\mathcal{A}^{\text{NLSM}}_{(q_2|34|q_1)}
 \\
@@ -2386,7 +2391,7 @@ We stress that the integrals appearing above are complicated by tensor integrals
 &+f_{\pi}^{-6}C^{\text{2box}}_{(12|43)} \left[\frac{(s_{12}I_2^D(k_{12}))^2}{2}\left(\frac{s_{13}-s_{14}}{(D-1)^2}+s_{12}\right)\right]
 \end{aligned}
 \end{equation}
-Likewise, we can perform a similar reduction to the dunce cap integrals -- but with a small twist. The double-bubble integral above is completely separable, which allows one to treat the tensor reduction of each loop integral as independent. This is not so for the ostrich-diagram integral. The ostrich-diagram carries an internal bubble, $I^D_2(q)$, with a loop dependent scale factor of $q=l_2+k_1$. Thus, we must first reduce the powers of $l_1$ and {then} perform a tensor reduction on all the remaining $l_2$ factors. Doing so yields the following result:
+Likewise, we can perform a similar reduction to the ostrich integrals -- but with a small twist. The double-bubble integral above is completely separable, which allows one to treat the tensor reduction of each loop integral as independent. This is not so for the ostrich-diagram integral. The ostrich-diagram carries an internal bubble, $I^D_2(q)$, with a loop dependent scale factor of $q=l_2+k_1$. Thus, we must first reduce the powers of $l_1$ and {then} perform a tensor reduction on all the remaining $l_2$ factors. Doing so yields the following result:
 
 \begin{equation}\label{eq:NLSMdunce}
 \begin{aligned}
@@ -2426,7 +2431,7 @@ A^{2-2\epsilon}\bigg|_{\text{div.}} = A^{\text{tree}}\left( 1 + \frac{A^{\text{1
 \end{equation}
 It would be interesting to investigate whether this exponential structure also can be applied to the subleading logarithms in the planar limit, similar to what was found in \cite{Anastasiou:2003kj,Bern:2005iz} in $D=4-2\epsilon$ for planar $\mathcal{N}=4$ sYM. The iterated structure of planar $\mathcal{N}=4$ has been linked to the integrability of the theory \cite{Sterman:2002qn,Minahan:2002ve,Bena:2003wd,Beisert:2003jj,Beisert:2003jb,Beisert:2003yb,Dolan:2003uh,Arutyunov:2003rg,Ryzhov:2004nz,Frolov:2005iq}. We find compelling the possibility that this iterated structure of NLSM amplittudes in $D=2-2\epsilon$ could indicate similar integrable behavior, as studied in \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}. We leave this as a direction of future study. 
 
-Now that we have walked through our procedure for computing two-loop even point theory amplitudes with NLSM as an exemplar, we are prepared to proceed to the main results of the text. While the construction of DBIVA integrands is significantly more cumbersome than constructing the simple expressions of NLSM, the general procedure is exactly the same. The only differences being additional gauge independent state sums, and longer compute time needed for the tensor reduction. 
+Now that we have walked through our procedure for computing two-loop even point theory amplitudes with NLSM as an exemplar, we are prepared to proceed to the main results of the text. While the construction of DBIVA integrands is more involved than constructing the simple expressions of NLSM, the general procedure is exactly the same. The only differences being additional gauge independent state sums, and longer compute time needed for the tensor reduction. 
 
 \subsection{DBIVA via EMU}\label{sec:DBIU}
 In the remainder of this section, we will construct four-photon matrix elements in DBIVA theories through two-loop order. 
@@ -2436,9 +2441,9 @@ As we noted in the introduction, DBIVA tree-level amplitudes, which appear in th
 \begin{equation}
 \mathcal{M}^{\text{DBIVA}} = \mathcal{A}^{\text{NLSM}} \otimes \mathcal{A}^{\text{sYM}}
 \end{equation}
-To carry out this construction at loop level, we simply would need to replace the color factors of NLSM with color-dual loop-level numerators, and then integrate the result. At present, this procedure can only be carried out beyond one-loop with NLSM and $\mathcal{N}=4$ sYM, for which color-dual representations are known through four-loop \cite{BCJLoop, GravityFour}. Indeed, in the next section we will use this as a check on our $\mathcal{N}=4$ DBIVA results of this section. Moreover, if we had access to color-dual representations for NLSM at two-loop, we could simply plug those into the sYM integrands constructed from simplified methods of supersymmetric sums \cite{SuperSum}, which would dramatically simplify our unitarity based construction. 
+To carry out this construction at the (multi-)loop level, we simply would need to replace the color factors of NLSM with color-dual loop-level numerators, and then integrate the result. In the case of $\mathcal{N}=4$ sYM, color-dual representations are known through four-loop \dj{fixReferences...} \cite{BCJLoop, GravityFour}. Indeed, in  \sect{sec:DBIvDC} we will use use double-copy to verify the $\mathcal{N}=4$ DBIVA results we construct here via unitarity.  \dj{Can't we just use susy-state sum methods on tree-level DBIVA amplitudes?  i.e. we can use KLT on the cuts. Will think -JJ} If we had access to color-dual representations for NLSM at two-loop, we could simply plug those into the sYM integrands constructed from simplified methods of supersymmetric sums \cite{SuperSum}, which would dramatically simplify our unitarity based construction. 
 
-While the double-copy procedure is presently not an option, the recursive structure of even point gauge theories saves us. As in the previous section where we computed NLSM amplitudes, the recursively one-loop structure permits us to only consider the four-point contacts when constructing the physical parts of the two-loop integrand. We will start by reproducing the known one-loop results from a completely $D$-dimensional framework, and then move onto our novel two-loop results. 
+As in the previous section where we computed NLSM amplitudes, the recursively one-loop structure will permits us to only consider the four-point contacts when constructing the physical parts of the two-loop integrand. We will start by reproducing the known one-loop results from a completely $D$-dimensional framework, and then move onto our novel two-loop results. 
 
 \subsubsection{One-loop DBIVA}\label{sec:1loopDBIU}
 Analogous to our procedure in the previous section where we defined $\mathcal{A}^{\text{NLSM}}_{(1|23|4)}$, first we will define a set of four-point operators for each distinct set of particle interaction. The $D$-dimensional contacts needed for DBIVA amplitudes at one-loop are as follows:
@@ -2492,19 +2497,20 @@ From this, the spinor strings obey another in addition to the normal Clifford al
 This relationship essentially just imposes Fermi statistics on the identical Majorana fermions \cite{Carrasco:2023vjg}. Now we are prepared to constructing the integrand with the state sums and operators defined above. 
 \paragraph{\textbf{Construction}} Just as before, the first step in our procedure is to construct the integrand with all the internal loop dependence present. Taking the operators defined above, and applying the appropriate state sums, we obtain:
 \begin{align}\label{eq:1loopIntegrands}
-\text{Cut}\left(\!\scaleIntAvector{1}{2}{3}{4}\!\right) &= \sum_{ \text{states}}\mathcal{M}^{\gamma \gamma \gamma \gamma }_{(q_1|12|q_2)}\mathcal{M}^{\gamma \gamma \gamma \gamma }_{(\bar{q}_2|34|\bar{q}_1)} \equiv \text{Cut}(\mathcal{I}^{\text{1-loop}}_{N_\gamma} )
+\text{Cut}\left(\!\scaleIntAvector{1}{2}{3}{4}\!\right) &= \sum_{ \text{states}}\mathcal{M}^{\gamma \gamma \gamma \gamma }_{(q_1|12|q_2)}\mathcal{M}^{\gamma \gamma \gamma \gamma }_{(\bar{q}_2|34|\bar{q}_1)} \equiv \text{Cut}(\mathcal{I}^{\text{1-loop}}_{\gamma} )
 \\
-\text{Cut}\left(\!\scaleIntAfermion{1}{2}{3}{4}\!\right)  &= \sum_{ \text{states}}\mathcal{M}^{\lambda \gamma \gamma \bar{\lambda} }_{(q_1|12|q_2)} \mathcal{M}^{\lambda \gamma \gamma \bar{\lambda} }_{(\bar{q}_2|34|\bar{q}_1)}\equiv \text{Cut}(\mathcal{I}^{\text{1-loop}}_{N_\lambda} )
+\text{Cut}\left(\!\scaleIntAfermion{1}{2}{3}{4}\!\right)  &= \sum_{ \text{states}}\mathcal{M}^{\lambda \gamma \gamma \bar{\lambda} }_{(q_1|12|q_2)} \mathcal{M}^{\lambda \gamma \gamma \bar{\lambda} }_{(\bar{q}_2|34|\bar{q}_1)}\equiv \text{Cut}(\mathcal{I}^{\text{1-loop}}_{\lambda} )
 \\
-\text{Cut}\left(\!\scaleIntAScalar{1}{2}{3}{4}\!\right)  &= \sum_{ \text{states}}\mathcal{M}^{X \gamma \gamma \bar{X} }_{(q_1|12|q_2)}\mathcal{M}^{X \gamma \gamma \bar{X} }_{(\bar{q}_2|34|\bar{q}_1)}\equiv \text{Cut}(\mathcal{I}^{\text{1-loop}}_{N_X} )
+\text{Cut}\left(\!\scaleIntAScalar{1}{2}{3}{4}\!\right)  &= \sum_{ \text{states}}\mathcal{M}^{X \gamma \gamma \bar{X} }_{(q_1|12|q_2)}\mathcal{M}^{X \gamma \gamma \bar{X} }_{(\bar{q}_2|34|\bar{q}_1)}\equiv \text{Cut}(\mathcal{I}^{\text{1-loop}}_{X} )
 \end{align}
-where exposed internal particles are taken to be on-shell. Above we have defined the internal momenta as $q_1 = l$ and $q_2 = -(l_1+k_{12})$. The vector and fermion contributions are rather complicated -- however, to get a sense of what pops out of this $D$-dimensional construction, we provide the scalar cut below as an example:
+where exposed internal particles are taken to be on-shell. Above we have defined the internal momenta as $q_1 = l$ and $q_2 = -(l_1+k_{12})$. While the vector and fermion cut contributions are straightforward, the scalar cut has the virtue of being compact enough to typeset as an instructive example:
 \begin{equation}
-\text{Cut}(\mathcal{I}^{\text{1-loop}})= 16(q_1 F_1F_2 q_1)(q_1 F_3F_4 q_1)
+\text{Cut}(\mathcal{I}^{\text{1-loop}}_{\numScalars})= 16(q_1 F_1F_2 q_1)(q_1 F_3F_4 q_1)\,.
 \end{equation}
-Constructing the full amplitude is then just a matter of summing over all cut contributions, each weighted by symmetry factors $S_\alpha$ and the number, $N_\alpha$, of $\alpha$-type particles:
+\dj{We want a subscript $X$ like $\mathcal{I}^{\text{1-loop}}_{\numScalars} $ instead of $\mathcal{I}^{\text{1-loop}}$ here right?}
+Constructing the full amplitude is then just a matter of summing over all cut contributions, each weighted by symmetry factors $S_\alpha$ and the number, $Z_\alpha$, of $\alpha$-type particles:
 \begin{equation}
-\mathcal{M}^{\text{1-loop}} = \sum_{\alpha } \frac{N_\alpha}{S_{\alpha}}\int \frac{d^D l}{(2\pi)^D} \frac{\text{Cut}(\mathcal{I}^{\text{1-loop}}_{N_\alpha} )}{l^2(l+k_{12})^2} +\text{cyc}(2,3,4)
+\mathcal{M}^{\text{1-loop}} = \sum_{\alpha } \frac{N_\alpha}{S_{\alpha}}\int \frac{d^D l}{(2\pi)^D} \frac{\text{Cut}(\mathcal{I}^{\text{1-loop}}_{\alpha} )}{l^2(l+k_{12})^2} +\text{cyc}(2,3,4)
 \end{equation}
 Since the scalars are complex, and the fermions are oriented, they come dressed with symmetry factors of $S_X = - S_\lambda = 1$. The minus sign is due to the presence of a single fermion loop. Furthermore, since the photons are indistinguishable, they carry an internal symmetry factor of $S_\gamma = 2$. Now we are prepared to carry out the integral reduction and evaluate each contribution to the one-loop amplitude above. 
 \paragraph{\textbf{Reduction}} Again, the full $D$-dimensional integral at one-loop is rather complicated for the vectors and fermions -- as we will see, it will be more enlightening to probe their contributions when projecting the final answer down to 4D helicity states. That being said, tensor reduced integrals are actually quite simple, and its worth show the result of applying \eqn{eq:bubRed} to the integrands above in \eqn{eq:1loopIntegrands}. After the tensor reduction, we obtain
@@ -2529,31 +2535,31 @@ Since the scalars are complex, and the fermions are oriented, they come dressed 
 \end{equation}
 In terms of these integrals, the full amplitude at one-loop can be expressed as a sum over all distinct permutations of external legs, with each graph weighted by their associated symmetry factors:\footnote{Equivalently, the scalars could be real, in which case they would carry a symmetry factor of $S_{\text{Re}[X]} =\frac{1}{2}$. Complex scalars are then recovered by two real scalars multiplying the symmetry factor, $2S_{\text{Re}[X]} = S_X=\frac{2}{2}$}
 \begin{equation}
-\mathcal{M}^{\text{1-loop}} = \left[\frac{N_\gamma}{2}\!\!\scaleIntAvector{}{}{}{}-N_\lambda\!\!\scaleIntAfermion{}{}{}{} +N_X\!\!\scaleIntAScalar{}{}{}{} \!\!\right] +\text{cyc}(2,3,4)
+\mathcal{M}^{\text{1-loop}} = \left[\frac{\numPhotons}{2}\!\!\scaleIntAvector{}{}{}{}-\numFerms\!\!\scaleIntAfermion{}{}{}{} +\numScalars\!\!\scaleIntAScalar{}{}{}{} \!\!\right] +\text{cyc}(2,3,4)
 \end{equation}
 Now we can proceed to evaluating the integrals in the dimension of interest. 
 \paragraph{\textbf{Integration}} While the procedure that we have employed thus far allows us to extract all of the logarithmic dependence of the loop integrals, for the remainder of this paper we are going for focus our attention to the {leading order} divergences in $\epsilon$. The purpose of doing so is to identify the class of photon effective operators that we must add to the Born-Infeld action in order to cancel off anomalous rational terms in the $S$-matrix. We will leave future analyses of the novel DBIVA amplitudes in this paper as a direction of future study. 
 
-In order to capture all the tensor structures that survive after integration, including the evanescent contributions, we will map our results to the basis of operators specificed in \sect{sec:basisT}:
+In order to capture all the tensor structures that survive after integration, including the evanescent contributions, we will map our results to the basis of tensor structures identified in \sect{sec:basisT}:
 \begin{equation}
-\mathcal{M}^{\text{photon-EFT}} = \sum_{x,y} a_{(x,y)}^{F^2F^2}\mathcal{O}^{F^2F^2}_{(x,y)}+a_{(x,y)}^{F^4}\mathcal{O}^{F^4}_{(x,y)}+a_{(x,y)}^{F^3}\mathcal{O}^{F^3}_{(x,y)}
+\mathcal{M}^{\text{photon-EFT}} = \sum_{x,y} a_{(x,y)}^{F^2F^2}\mathcal{T}^{F^2F^2}_{(x,y)}+a_{(x,y)}^{F^4}\mathcal{T}^{F^4}_{(x,y)}+a_{(x,y)}^{F^3}\mathcal{T}^{F^3}_{(x,y)}
 \end{equation}
 We remind the read that the photon operators given above are defined in \eqn{eq:basisTensors}. At one-loop mass-dimension, there are only four tensor structure that contribute:
 \begin{equation}
-\mathcal{M}^{\text{photon-EFT}}_{\text{1-loop}} = a_{(2,0)}^{F^2F^2}\mathcal{O}^{F^2F^2}_{(2,0)}+a_{(2,0)}^{F^4}\mathcal{O}^{F^4}_{(2,0)}+a_{(0,1)}^{F^2F^2}\mathcal{O}^{F^2F^2}_{(0,1)}+a_{(0,1)}^{F^4}\mathcal{O}^{F^4}_{(0,1)}
+\mathcal{M}^{\text{photon-EFT}}_{\text{1-loop}} = a_{(2,0)}^{F^2F^2}\mathcal{T}^{F^2F^2}_{(2,0)}+a_{(2,0)}^{F^4}\mathcal{T}^{F^4}_{(2,0)}+a_{(0,1)}^{F^2F^2}\mathcal{T}^{F^2F^2}_{(0,1)}+a_{(0,1)}^{F^4}\mathcal{T}^{F^4}_{(0,1)}
 \end{equation}
 Plugging in $D=4-2\epsilon$ to the above evaluated one-loop integrals, the EFT expansion above forms a basis for all the algebraic (non-transcendental) parts of the one-loop integral. Explicitly, the Wilson coefficients above take on the follow values when we expand the integral in $D=4-2\epsilon$ dimensions,
 \begin{align}
-a_{(2,0)}^{F^2F^2}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{N_\gamma }{75}(-60+61\epsilon)+\frac{N_X }{225}(30+47\epsilon)-\frac{N_\lambda }{75}(15+\epsilon)\right]+\mathcal{O}(\epsilon)
+a_{(2,0)}^{F^2F^2}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{\numPhotons }{75}(-60+61\epsilon)+\frac{\numScalars }{225}(30+47\epsilon)-\frac{\numFerms }{75}(15+\epsilon)\right]+\mathcal{O}(\epsilon)
 \\
-a_{(0,1)}^{F^2F^2}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{N_\gamma }{3}(6+4\epsilon)-\frac{N_\lambda}{3}\epsilon\right]+\mathcal{O}(\epsilon)
+a_{(0,1)}^{F^2F^2}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{\numPhotons }{3}(6+4\epsilon)-\frac{\numFerms}{3}\epsilon\right]+\mathcal{O}(\epsilon)
 \\
-a_{(2,0)}^{F^4}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{N_\gamma }{75}(105+17\epsilon)+\frac{N_X }{225}(15+16\epsilon)+\frac{N_\lambda }{150}(15-19\epsilon)\right]+\mathcal{O}(\epsilon)
+a_{(2,0)}^{F^4}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{\numPhotons }{75}(105+17\epsilon)+\frac{\numScalars }{225}(15+16\epsilon)+\frac{\numFerms }{150}(15-19\epsilon)\right]+\mathcal{O}(\epsilon)
 \\
-a_{(0,1)}^{F^4}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{N_\gamma }{25}(-20+22\epsilon)-\frac{N_X }{225}(30+32\epsilon)-\frac{N_\lambda }{25}(5+2\epsilon)\right]+\mathcal{O}(\epsilon)
+a_{(0,1)}^{F^4}&=\frac{i}{(4\pi)^2}\frac{1}{\epsilon}\left[\frac{\numPhotons }{25}(-20+22\epsilon)-\frac{\numScalars }{225}(30+32\epsilon)-\frac{\numFerms }{25}(5+2\epsilon)\right]+\mathcal{O}(\epsilon)
 \end{align}
 We remind the reader that while there are four $D$-dimensional four-photon operators, there are only three non-vanishing operators in $D=4$. Since all of the above Wilson coefficients come dressed with a leading $1/\epsilon$ divergence for pure photon amplitudes, this indicates the inclusion of a divergent {evanescent operator} that will contribute at two-loop order. We will see the consequences of this when calculating the anomalous matrix elements for pure BI at the next loop order. 
-\paragraph{\textbf{Projection}} While the expressions above capture the full behavior of the photon amplitudes, they obscure the 4D physics captured by spinor helicity variables. Rather than plugging in explicit values for $D$ in the integral, it can be more informative to first project down onto a 4D basis of states, leaving the internal dimensional dependence untouched. Indeed, below we can see the affect of plugging in all-plus helicity configurations into the evaluated one-loop integrals above:
+\paragraph{\textbf{Projection}} While the expressions above capture the full behavior of the photon amplitudes, they obscure the 4D physics that we can now expose using spinor helicity variables. Rather than plugging in explicit values for $D$ in the integral, it will be more informative to first project down onto an external 4D basis of states, leaving the internal dimensional dependence untouched. Indeed, below we can see the affect of plugging in all-plus helicity configurations into the evaluated one-loop integrals above:
 \begin{equation}
 \begin{aligned}
 \frac{1}{2}\scaleIntAvector{+}{+}{+}{+} &=\left[\frac{(D-4)(D-2)}{16(D^2-1)}s_{12}^2[12]^2[34]^2I^D_2(k_{12})\right]\frac{(D-2)}{2}
@@ -2570,11 +2576,11 @@ Here we can see two characteristic properties of the anomaly cancellation that t
 \end{itemize} 
 Putting this all together, we obtain the following non-vanishing algebraic parts of the one-loop matrix elements:
 \begin{align}
-\mathcal{M}^{\text{DBIVA}} _{(--++)}&=\frac{i}{\epsilon} \frac{[12]^2\langle34\rangle^2}{(4\pi)^2}\left[\frac{N_\gamma}{2}s_{12}^2+\left(\frac{N_\gamma}{5}+\frac{N_\lambda}{20}+\frac{N_X}{30}\right)(s_{13}^2+s_{14}^2)\right]+\mathcal{O}(\epsilon^0)
+\mathcal{M}^{\text{DBIVA}} _{(--++)}&=\frac{i}{\epsilon} \frac{[12]^2\langle34\rangle^2}{(4\pi)^2}\left[\frac{\numPhotons}{2}s_{12}^2+\left(\frac{\numPhotons}{5}+\frac{\numFerms}{20}+\frac{\numScalars}{30}\right)(s_{13}^2+s_{14}^2)\right]+\mathcal{O}(\epsilon^0)
 \\
 \mathcal{M}^{\text{DBIVA}}_{(-+++)}&= 0
 \\
-\mathcal{M}^{\text{DBIVA}}_{(++++)}&= -\frac{i}{(4\pi)^2}\frac{1}{60}\left(N_\gamma+N_X-N_\lambda\right) (s_{12}^4+s_{13}^4+s_{14}^4)\frac{[12][34]}{\langle12\rangle\langle 34\rangle}+\mathcal{O}(\epsilon^1) \label{eq:generalDBI1loop}
+\mathcal{M}^{\text{DBIVA}}_{(++++)}&= -\frac{i}{(4\pi)^2}\frac{1}{60}\left(\numPhotons+\numScalars-\numFerms\right) (s_{12}^4+s_{13}^4+s_{14}^4)\frac{[12][34]}{\langle12\rangle\langle 34\rangle}+\mathcal{O}(\epsilon^1) \label{eq:generalDBI1loop}
 \end{align}
 The $(-+++)$ matrix element is identically zero due to $D$-dimensional four-point kinematics --- the only available helicity structure is $\langle 1|2|3]^2[24]^2$ which must be weighted by a mass-dimension 2 permutation invariant. The only such permutation invariant is $s+t+u =0$, which vanishes regardless of the integration dimension. As a check, above we have reproduced the results found in \cite{Elvang:2020kuj}, which used four-dimensional spinor helicity and dimension-shifting relations when performing the integration. This serves as a nice verification of our $D$-dimensional methods. Now we will proceed with the two-loop calculation. 
 \subsubsection{Two-loop Born-Infeld}\label{sec:2loopBIU}
@@ -2584,7 +2590,7 @@ To begin, we will compute the pure Born-Infeld two-loop amplitude. Like pions, t
 \begin{equation}
 \mathcal{M}^{\text{BI}}_{\text{2-loop}}=\frac{1}{2}\,\,\scaleIntBtune{photon}{photon}{photon}{photon}{}{}{}{}\!\!+ \frac{1}{4}\scaleIntCtune{photon}{}{photon}{} \!\!+\text{perms}
 \end{equation}
-As in the previous section, exposed legs implicitly sum over internal states. The grey blobs above represent $D$-dimensional $t_8F^4$ operator insertions from the four-point BI tree amplitudes, which we labelled as $\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(1234)}$. We give the internal loop momenta the same internal labels as we did the pions in \eqn{eq:NLSM2Bub} and \eqn{eq:NLSMDunce}, giving us the following integrals to evaluate for two-loop pure BI, 
+As in the previous section, exposed legs implicitly sum over internal states. The grey blobs above represent $D$-dimensional $t_8F^4$ operator insertions from the four-point BI tree amplitudes, which we labelled as $\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(1234)}$. We give the internal loop momenta the same internal labels as we did the pions in \eqn{eq:NLSM2Bub} and \eqn{eq:NLSMOstrich}, giving us the following integrals to evaluate for two-loop pure BI, 
 \begin{align}
 \scaleIntCtune{photon}{}{photon}{}&= \sum_{\text{states}}\int \frac{d^D l_{1}d^D l_{2}}{(2\pi)^{2D}}\frac{\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(p_412p_3)}\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(\bar{p}_1\bar{p}_4\bar{p}_3\bar{p}_2)}\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(p_234p_1)}}{l_1^2(l_1+k_{12})^2l_2^2(l_2+k_{12})^2}
 \\
@@ -2633,13 +2639,13 @@ However, the factors of $(\varepsilon_i\cdot l_j)$ can be more tedious, as they 
 
 Luckily, the state-sewing for maximal supersymmetry is dramatically more simple than less than maximal supersymmetry \cite{BDKUniarityReview,BRY}. This is most easily seen by considering the covariant operators we defined for one-loop DBIVA amplitudes. When one applies the conditions for maximal supersymmetry, stated below,
 \begin{align}
-D=10 \qquad N_\lambda &=1 \qquad N_X=0
+D=10 \qquad \numFerms &=1 \qquad \numScalars=0
 \\
-D=6 \qquad N_\lambda &=2 \qquad N_X=1
+D=6 \qquad \numFerms &=2 \qquad \numScalars=1
 \\
-D=4 \qquad N_\lambda &=4 \qquad N_X=3
+D=4 \qquad \numFerms &=4 \qquad \numScalars=3
 \\
-D=3 \qquad N_\lambda &=8 \qquad N_X=8
+D=3 \qquad \numFerms &=8 \qquad \numScalars=8
 \end{align}
 then the state sum is {completely independent of loop momenta} and precisely reproduces the supersymmetric operator $s_{12}^2 (t_8F^4)$ when cut along the $s_{12}$-channel.  This statement holds covariantly in general dimension. Concretely, we find that for theories with maximal supersymmetry:
 \begin{equation}
@@ -2647,20 +2653,40 @@ then the state sum is {completely independent of loop momenta} and precisely rep
 \end{equation}
 This can similarly be used in the integrand construction $\mathcal{N}=4$ super-Yang-Mills, which has been computed to six-loop order \cite{Carrasco:2021otn}. In the case of maximal supersymmetry in $D=4$, we can write the  $(t_8F^4)^{(\text{max})}_{(1234)}$ operator as a supersymmetric delta function with the all-plus permutation invariant introduced previously:
 \begin{equation}
+\label{dblBubbleCutDBIVA}
 \mathcal{M}^{\mathcal{N}=4\text{DBIVA}}_{(1234)} = \delta^{(8)}{(Q)} \frac{[12][34]}{\langle 12\rangle \langle 34\rangle} \equiv (t_8F^4)^{(\text{max})}_{(1234)}\Big|_{D=4}
 \end{equation}
 where the delta function is a Grassmann valued polynomial of spinor-helicity variables:
 \begin{equation}
+\label{ostrichCutDBIVA}
 \delta^{(8)}{(Q)} = \prod_{a=1}^4\sum_{i\neq j} \langle ij \rangle \eta_i^a\eta_j^a
 \end{equation}
 By applying this supersymmetric state sum, we find that the integrands for two-loop $\mathcal{N}=4$ DBIVA is trivially easy to construct - even simpler than NLSM integrands. Below we represent an internal on-shell superfield with a green line, and obtain the following integrand for the double-bubble:
 \begin{equation}\label{eq:N42bub}
-\text{Cut}\left(\scaleIntCtune{}{hgreen}{}{hgreen}\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)}= s_{12}^4 (t_8 F^4)
+\text{Cut}\left(\scaleIntCtune{}{hgreen}{}{hgreen}\right)=\sum_{\text{states}}  
+(t_8 F^4)^{(\text{max})}_{(1234)} (t_8 F^4)^{(\text{max})}_{(1234)} 
+(t_8 F^4)^{(\text{max})}_{(1234)}= s_{12}^4 \left( t_8 F^4 \right)
 \end{equation}
 and similarly so for the ostrich-diagram integral contribution:
 \begin{equation}\label{eq:N4dunce}
-\text{Cut}\left(\scaleIntBtune{}{}{}{}{hgreen}{hgreen}{hgreen}{hgreen}\,\,\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)}=s_{12}^2 \tau^{(2)}_2\tau^{(1)}_1(t_8 F^4)\,.
+\text{Cut}\left(\scaleIntBtune{}{}{}{}{hgreen}{hgreen}{hgreen}{hgreen}\,\,\right)=\sum_{\text{states}}  \left(t_8 F^4\right)^{\left(\text{max}\right)}_{(1234)} \left(t_8 F^4\right)^{(\text{max})}_{(1234)} (t_8 F^4)^{(\text{max})}_{(1234)}=s_{12}^2 \tau^{(2)}_2\tau^{(1)}_1(t_8 F^4)\,.
 \end{equation}
+\dj{Relabel actual cuts and lets check the RHS here of the ostrich.  I get: $s_{12}^2 \left(\tau^{(1)}_{\bar{2}} \equiv (k_1-q_2)^2 \right)^2 (t_8 F^4)$ both via KLT on the cuts and via your sewing rule.}
+
+We should point out an additional verification that can occur for any SUSY amount of DBIVA .  Any DBIVA cut is quite simply a sum over various color-ordered cuts of supersymmetric gauge theory integrands weighted with scalar dressings instead of color.   What this means is that we can recycle multiloop SYM integrands to verify our cuts.  In general this is because double-copy works at tree-level, and we can always write the Jacobi-satisfying numerators into ordered-amplitudes giving us a KLT between cut-integrands.  When we cut to four-point amplitudes as we do here this is particularly simple, yielding:
+\begin{align}
+\text{Cut}({\mathcal{N}-\text{DBIVA}})&= \sum_\text{states} \prod_i A^{\mathcal{N}-\text{DBIVA}}(p^i_1,p^i_2,p^i_3,p^i_4)\\
+&= \sum_\text{states} \prod_i  ( p^{(i)}_1 \cdot p^{(i)}_2) ( p^{(i)}_2 \cdot p^{(i)}_3)   A^{\mathcal{N}-\text{DBIVA}}(p^{(i)}_1,p^{(i)}_2,p^{(i)}_3,p^{(i)}_4)\\
+&= \left( \prod_j  \left( p^{(j)}_1 \cdot p^{(j)}_2\right) \left( p^{(j)}_2 \cdot p^{(j)}_3\right)  \right) \sum_\text{states}   \prod_i  A^{\mathcal{N}- \text{SYM}}(p^{(i)}_1,p^{(i)}_2,p^{(i)}_3,p^{(i)}_4)\\
+&= \left( \prod_j  \left( p^{(j)}_1 \cdot p^{(j)}_2\right) \left( p^{(j)}_2 \cdot p^{(j)}_3\right) \right)  \sum_\text{states} \text{Cut}({\mathcal{N}- \text{DBIVA}})
+\end{align}
+The second line follows from the double-copy structure of four-point amplitudes in DBIVA, where:
+\begin{align}
+A^{\mathcal{N}-\text{DBIVA}}(1,2,3,4) = s t A^{\mathcal{N}- \text{SYM}}
+\end{align}
+
+Carrying out the verifications of \eqn{dblBubbleCutDBIVA} and \eqn{ostrichCutDBIVA} in the case of maximally supersymmetric Yang-Mills in four-dimensions is trivial -- only one (non-vanishing) diagram contributes to each cut. We provide the details in an appendix which may be of pedagogic interest.
+
 Since there are no loop momenta interfering with the tensor structures of the external photons, the result of integration will just be proportional to a $(t_8F^4)$ tensor, which is manifestly $U(1)$ duality invariant. Thus, as promised, adding in $\mathcal{N}=4$ states cancels the $U(1)$ anomaly present in the pure Born-Infeld $S$-matrix. After applying the tensor reduction to the ostrich-diagram, we obtain the following expression for the two diagrams:
 \begin{align}
 \scaleIntCtune{}{hgreen}{}{hgreen} &= s_{12}^4 (I_2^{D}(k_{12}))^2(t_8 F^4)  
@@ -2670,7 +2696,7 @@ Since there are no loop momenta interfering with the tensor structures of the ex
 This is easily evaluated in $D=4-2\epsilon$, from which we find the following expression for the leading order divergence of the four-photon two-loop amplitude in $\mathcal{N}=4$ DBIVA theory:
 \begin{equation}
 \boxed{
-\mathcal{M}^{\mathcal{N}=4\text{ DBIVA}}_{\text{2-loop}} = -\frac{1}{\epsilon^2}\frac{1}{768\pi^4}(s_{12}^4+s_{13}^4+s_{14}^4)(t_8 F^4) + \mathcal{O}(\epsilon^{-1})
+\mathcal{M}^{\mathcal{N}=4\text{ DBIVA}}_{\text{2-loop}} = -\frac{1}{\epsilon^2}\frac{1}{768\pi^4}(s_{12}^4+s_{13}^4+s_{14}^4)\left(t_8 F^4\right) + \mathcal{O}(\epsilon^{-1})
 }
 \end{equation}
 With this result in hand, we will now demonstrate that the same calculation that we have performed via generalized unitarity can be reproduced using loop-level double copy construction. 
@@ -2687,7 +2713,7 @@ C_g \rightarrow N^{\mathcal{N}=4}_g \quad \Rightarrow \quad \mathcal{M}^{\text{D
 \end{equation}
 where the kinematic numerators depend on particular choice of generalized gauge. In order for this construction to work, the kinematic numerators on at least one side of the double copy must satisfy all the same algebraic relations as the color factors. Since generalized unitarity allows us to construct the integrands on-shell, this construction conjecturally holds at loop-level as long as the gauge-theory is tree-level color-dual. 
 
-While there are currently no color-dual NLSM numerators identified in the literature beyond one-loop, there are color-dual representation available for $\mathcal{N}=4$ sYM through four-loop four-point \cite{GravityFour}. Below are the one- and two-loop basis numerators relevant for our construction: 
+While there are currently no color-dual NLSM numerators identified in the literature beyond one-loop, there are color-dual representation available for $\mathcal{N}=4$ sYM through four-loop four-point \dj{fix references. e.g. simplifying multiloop} \cite{GravityFour}. Below are the one- and two-loop basis numerators relevant for our construction: 
 \begin{equation}
 N^{\text{box}}_{\mathcal{N}=4} =\simplebox=  (t_8F^4)^{\text{(max)}}_{(1234)}
 \end{equation}
@@ -2707,7 +2733,7 @@ on the integrated NLSM four-point one-loop amplitude. This yields the following 
 \begin{equation}
 \mathcal{M}^{\mathcal{N}=4}_{\text{DBIVA}} = \left[\frac{s_{12}^2}{32\pi^2}\left(\frac{1}{\epsilon} +\text{ln}(-s_{12})\right)+\text{cyc}(2,3,4)\right](t_8F^4)^{\text{(max)}}_{(1234)} 
 \end{equation}
-This is in agreement with the leading divergence of $\mathcal{N}=4$ DBIVA previously found in \cite{Elvang:2020kuj}, along with our \eqn{eq:generalDBI1loop} result from the previous section when taking $N_\gamma =1$, $N_\lambda=4$ and $N_X=3$, in concordance with maximal $D=4$ supersymmetry 
+This is in agreement with the leading divergence of $\mathcal{N}=4$ DBIVA previously found in \cite{Elvang:2020kuj}, along with our \eqn{eq:generalDBI1loop} result from the previous section when taking $\numPhotons =1$, $\numFerms=4$ and $\numScalars=3$, in concordance with maximal $D=4$ supersymmetry 
 
 \subsubsection{Two-loop $\mathcal{N}=4$ DBIVA} \label{sec:DBIvDC2loop}
 At two-loop it sufficient to show that replacing the color factors reproduces the integrals we found above with the unitarity construction. Starting with the NLSM integrands in \eqn{eq:NLSM2bub} and \eqn{eq:NLSMdunce}, we make the same replacement of color factors post integration as was done at one-loop.  We carry this out first for the double-bubble, and find that the full $D$-dimensional NLSM integral simplifies dramatically:
@@ -2741,7 +2767,7 @@ In this section we demonstrate how our basis of higher-derivative four-photon op
 Here we begin with our study of higher-derivative extensions to BI theory. Our goal is to identify the higher derivative four-photon operators that are needed to cancel the $U(1)$ anomalous matrix elements computed in the previous section. We will start with the one-loop corrections, captured by tree level insertions at $\mathcal{O}(\alpha'^4)$, and then proceed with the two loop corrections, which combine both $\mathcal{O}(\alpha'^4)$ operator insertions at one-loop and $\mathcal{O}(\alpha'^6)$ operator insertions at tree-level. In doing so, we demonstrate that cancelling the $U(1)$ anomaly through two loop order can be achieved with local finite counterterms if and only if we introduce an evanescent operator at $\mathcal{O}(\alpha'^4)$ to the Born-Infeld action. 
 
 \subsubsection{One-loop}\label{sec:Anomalies1loop}
-In \sect{sec:DBIU} we computed the one-loop matrix element for a general DBIVA theory. Plugging in the values $N_{\gamma}=1$ and $N_\lambda = N_X = 0$ we obtain the following anomalous all-plus matrix element for pure Born-Infeld theory:
+In \sect{sec:DBIU} we computed the one-loop matrix element for a general DBIVA theory. Plugging in the values $N_{\gamma}=1$ and $\numFerms = \numScalars = 0$ we obtain the following anomalous all-plus matrix element for pure Born-Infeld theory:
 \begin{equation}
 \mathcal{M}^{\text{BI,1-loop}}_{(++++)} = -\frac{i}{(4\pi)^2}\frac{1}{60}(s_{12}^4+s_{13}^4+s_{14}^4)\frac{[12][34]}{\langle12\rangle\langle 34\rangle}+\mathcal{O}(\epsilon)
 \end{equation}
