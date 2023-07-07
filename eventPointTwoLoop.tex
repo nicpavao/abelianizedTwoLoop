@@ -2349,7 +2349,7 @@ Due to the simplicity of scalar theories like NLSM, the state sum for the double
 \end{equation}
 where we have introduced the following notation above that combines internal and external momenta, $\tau^{(i)}_j = (k_i  + p_j)^2$ and $\tau_{ij} = (p_i + p_j)^2$. Plugging in the color-dressed NLSM amplitudes, the same can be done for the ostrich-diagram cut, giving us
 
-\begin{equation}\label{eq:NLSMostrich}
+\begin{equation}\label{eq:NLSMDunce}
 \begin{aligned}
 \text{Cut}\left(\! \scaleIntBscalarsmall{1}{2}{3}{4} \! \right)&=\sum_{\text{states}}\mathcal{A}^{\text{NLSM}}_{(2|q_4\bar{q}_3|\bar{q}_1)}\mathcal{A}^{\text{NLSM}}_{(1|\bar{q}_4q_3|\bar{q}_2)}\mathcal{A}^{\text{NLSM}}_{(q_2|34|q_1)}
 \\
@@ -2375,7 +2375,7 @@ We stress that the integrals appearing above are complicated by tensor integrals
 \end{aligned}
 \end{equation}
 Likewise, we can perform a similar reduction to the ostrich integrals -- but with a small twist. The double-bubble integral above is completely separable, which allows one to treat the tensor reduction of each loop integral as independent. This is not so for the ostrich-diagram integral. The ostrich-diagram carries an internal bubble, $I^D_2(q)$, with a loop dependent scale factor of $q=l_2+k_1$. Thus, we must first reduce the powers of $l_1$ and {then} perform a tensor reduction on all the remaining $l_2$ factors. Doing so yields the following result:
-\begin{equation}\label{eq:NLSMostrich}
+\begin{equation}\label{eq:NLSMdunce}
 \begin{aligned}
 \scaleIntBscalarsmall{1}{2}{3}{4} &= f_{\pi}^{-6}C^{\text{2box}}_{(12|34)} \frac{s_{12}}{6} \left[\frac{(D-1)(D-4)s_{14}+2(D-2)^2 s_{13}}{(D-1)(4-3D)}\right][I_3\circ I_2]^D(k_{12})
 \\
@@ -2388,8 +2388,8 @@ where we have defined the scalar ostrich-diagram integral, $[I_3\circ I_2]^D(k_{
 \begin{equation}
 [I_3\circ I_2]^D(k_{12}) \equiv \int \frac{d^Dl_1}{(2\pi)^D} \frac{d^Dl_2}{(2\pi)^D} \frac{(l_2+k_1)^2}{l_1^2  l_2^2 (l_1+l_2+k_1)^2(l_2+k_{12})^2}\,.
 \end{equation}
-We have added the additional factor of $(l_2+k_1)^2$ in the definition of $[I_3\circ I_2]^D(k_{12})$ to simplify the final expression in \eqn{eq:NLSMostrich}. We will use this as our basis integral throughout the text. This two-loop integral can be evaluated analytically using the $D$-dimensional single scale bubble and triangle integral expressions in \eqn{eq:integrals}. Thus, we have completely reduced the full two-loop NLSM amplitude to a linear combination of scalar integrals, $I_2^D(k_{ij})$ and $[I_3\circ I_2]^D(k_{ij})$. Now we will proceed to the final step of evaluating the amplitude in particular dimensions.
-\paragraph{\textbf{Integration}} While there is plenty of physics to be extracted from the combination of \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich}, we will focus on the behavior of the leading divergence for $D=2-2\epsilon$ in the planar limit where $N_c \rightarrow \infty$. In this limit, the cross-box is subleading in the $N_c$ expansion, and can be neglected. In a trace basis, the double-box can be expanded as follows:
+We have added the additional factor of $(l_2+k_1)^2$ in the definition of $[I_3\circ I_2]^D(k_{12})$ to simplify the final expression in \eqn{eq:NLSMdunce}. We will use this as our basis integral throughout the text. This two-loop integral can be evaluated analytically using the $D$-dimensional single scale bubble and triangle integral expressions in \eqn{eq:integrals}. Thus, we have completely reduced the full two-loop NLSM amplitude to a linear combination of scalar integrals, $I_2^D(k_{ij})$ and $[I_3\circ I_2]^D(k_{ij})$. Now we will proceed to the final step of evaluating the amplitude in particular dimensions.
+\paragraph{\textbf{Integration}} While there is plenty of physics to be extracted from the combination of \eqn{eq:NLSM2bub} and \eqn{eq:NLSMdunce}, we will focus on the behavior of the leading divergence for $D=2-2\epsilon$ in the planar limit where $N_c \rightarrow \infty$. In this limit, the cross-box is subleading in the $N_c$ expansion, and can be neglected. In a trace basis, the double-box can be expanded as follows:
 \begin{equation}
 C^{\text{2box}}_{(12|34)} \xrightarrow{N_c\rightarrow\infty } N_c^2\, C(1234) +\mathcal{O}(N_c)
 \end{equation}
@@ -2399,7 +2399,7 @@ I_2^{2-2\epsilon}(k_{ij})I_2^{2-2\epsilon}(k_{ij}) &= -\frac{1}{s_{ij }^2}\frac{
 \\
  [I_3\circ I_2]^{2-2\epsilon}{(k_{ij})} &= -\frac{3}{8s_{ij }}\frac{1}{(2\pi \epsilon)^2} + \mathcal{O}(\epsilon^{-1}) 
 \end{align}
-The analogous divergences for $D=4-2\epsilon$ can be extracted directly from the integral expressions in \eqn{eq:integrals}. Plugging these values into \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich}, we can extract the full leading logarithmic divergence from the full color dressed amplitude in \eqn{eq:NLSM2loop}. Since we are interested in the large $N_c$ limit, we will define a color-ordered quantity $A^{2-2\epsilon}_{(1234)}$, 
+The analogous divergences for $D=4-2\epsilon$ can be extracted directly from the integral expressions in \eqn{eq:integrals}. Plugging these values into \eqn{eq:NLSM2bub} and \eqn{eq:NLSMdunce}, we can extract the full leading logarithmic divergence from the full color dressed amplitude in \eqn{eq:NLSM2loop}. Since we are interested in the large $N_c$ limit, we will define a color-ordered quantity $A^{2-2\epsilon}_{(1234)}$, 
 \begin{equation}
 \mathcal{A}^{\text{NLSM}}_{\text{2-loop}} = \left[C(1234)A^{2-2\epsilon}_{(1234)}+\text{cyc}(2,3,4)\right] + \mathcal{O}(N_c)
 \end{equation}
@@ -2573,7 +2573,7 @@ To begin, we will compute the pure Born-Infeld two-loop amplitude. Like pions, t
 \begin{equation}
 \mathcal{M}^{\text{BI}}_{\text{2-loop}}=\frac{1}{2}\,\,\scaleIntBtune{photon}{photon}{photon}{photon}{}{}{}{}\!\!+ \frac{1}{4}\scaleIntCtune{photon}{}{photon}{} \!\!+\text{perms}
 \end{equation}
-As in the previous section, exposed legs implicitly sum over internal states. The grey blobs above represent $D$-dimensional $t_8F^4$ operator insertions from the four-point BI tree amplitudes, which we labelled as $\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(1234)}$. We give the internal loop momenta the same internal labels as we did the pions in \eqn{eq:NLSM2Bub} and \eqn{eq:NLSMostrich}, giving us the following integrals to evaluate for two-loop pure BI, 
+As in the previous section, exposed legs implicitly sum over internal states. The grey blobs above represent $D$-dimensional $t_8F^4$ operator insertions from the four-point BI tree amplitudes, which we labelled as $\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(1234)}$. We give the internal loop momenta the same internal labels as we did the pions in \eqn{eq:NLSM2Bub} and \eqn{eq:NLSMDunce}, giving us the following integrals to evaluate for two-loop pure BI, 
 \begin{align}
 \scaleIntCtune{photon}{}{photon}{}&= \sum_{\text{states}}\int \frac{d^D l_{1}d^D l_{2}}{(2\pi)^{2D}}\frac{\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(p_412p_3)}\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(\bar{p}_1\bar{p}_4\bar{p}_3\bar{p}_2)}\mathcal{M}^{\gamma\gamma\gamma\gamma}_{(p_234p_1)}}{l_1^2(l_1+k_{12})^2l_2^2(l_2+k_{12})^2}
 \\
@@ -2663,7 +2663,7 @@ We should point out an additional verification that can occur for any SUSY amoun
 \end{align}
 Here  the products run over the number of trees contributing to the cut,  $s^{(i)}_{mn} = ( p^{(i)}_m + p^{(i)}_n )^2$, and $p^{(i)}_m$ is the $m$-th label of the $i$-th tree contributing to the cut. The second line follows from the double-copy structure of four-point amplitudes in DBIVA, where:
 \begin{align}
-\mathcal{A}_4^{\text{DBIVA}} = s_{12} \, s_{23} \, A^{\text{sYM}}(1,2,3,4)\,.
+\mathcal{A}_4^{\text{DBIVA}} = \mathcal{M}_4^{\text{NLSM} \otimes \text{sYM}}= s_{12} \, s_{23} \, A^{\text{sYM}}(1,2,3,4)\,.
 \end{align}
 
 Carrying out such sYM recycled cut verifications of \eqn{eq:N42bub} and \eqn{eq:N4ostrich} in the case of maximally supersymmetric Yang-Mills in four-dimensions is trivial -- only one (non-vanishing) diagram contributes to each cut. We provide the details in an appendix which may be of pedagogic interest.
@@ -2717,7 +2717,7 @@ on the integrated NLSM four-point one-loop amplitude. This yields the following 
 This is in agreement with the leading divergence of $\mathcal{N}=4$ DBIVA previously found in \cite{Elvang:2020kuj}, along with our \eqn{eq:generalDBI1loop} result from the previous section when taking $N_\gamma =1$, $N_\lambda=4$ and $N_X=3$, in concordance with maximal $D=4$ supersymmetry 
 
 \subsubsection{Two-loop $\mathcal{N}=4$ DBIVA} \label{sec:DBIvDC2loop}
-At two-loop it sufficient to show that replacing the color factors reproduces the integrals we found above with the unitarity construction. Starting with the NLSM integrands in \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich}, we make the same replacement of color factors post integration as was done at one-loop.  We carry this out first for the double-bubble, and find that the full $D$-dimensional NLSM integral simplifies dramatically:
+At two-loop it sufficient to show that replacing the color factors reproduces the integrals we found above with the unitarity construction. Starting with the NLSM integrands in \eqn{eq:NLSM2bub} and \eqn{eq:NLSMdunce}, we make the same replacement of color factors post integration as was done at one-loop.  We carry this out first for the double-bubble, and find that the full $D$-dimensional NLSM integral simplifies dramatically:
 \begin{equation}
 \begin{aligned}
 \scaleIntCsmall \bigg|^{C_g \rightarrow N^{\mathcal{N}=4}_g}  \!\!&= N^{(12|34)}_{\mathcal{N}=4}\left[\frac{(s_{12}I_2^D(k_{12}))^2}{2}\left(\frac{s_{14}-s_{13}}{(D-1)^2}+s_{12}\right)\right]
@@ -2991,7 +2991,7 @@ With this, we can determine the number of evanescent operators that can contribu
 It would be interesting to determine whether the three Hilbert series stated above owe their construction to some hidden geometric origin. Indeed all of the operator counting in the SMEFT literature can be traced to the geometry of the group theory representations that underly the Standard Model \cite{Henning:2015daa,Lehman:2015via}. We leave identifying these concealed mathematical structures as an exciting direction of future study. 
 \section{Conclusions}\label{sec:Discussion}
 In this manuscript, we have carried out a detailed analysis of NLSM and DBIVA effective field theories at NNLO in the perturbative expansion. In \sect{sec:Review}, we provided a review of the generalized unitarity and integration methods employed throughout the text. Then in \sect{sec:EMU} we introduced and developed the on-shell constructive methods of Even-point Multi-loop Unitarity (EMU), and computed the tensor reduction for triangle and bubble integrals in $D$-dimensions of arbitrary rank along with a spanning set of four-photon operators needed to capture higher-loop effects. Due to the simplicity of even-point multi-loop amplitudes of NLSM and DBIVA, these methods allowed us to compute fully integrated two-loop amplitudes for NLSM, pure Born-Infeld, and $\mathcal{N}=4$ DBIVA theory in \sect{sec:Loops}. Finally, in \sect{sec:Actions} we studied the quantum effective actions that capture the aforementioned loop effects. In doing so, we have identified a variety of rich physical structures that we summarize below: 
-\paragraph{\textbf{Exponentiation}} In \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich} we computed in general dimension, $D$, the two contributions to NLSM two-loop amplitudes. Evaluating these diagrams in $D=2-2\epsilon$, and taking the planar limit, $N_c \rightarrow \infty$, we found in \eqn{eq:expNLSM} that the IR divergences exponentiate through two-loop. This non-trivial property is found in theories that are conjectured to be integrable \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}, like $\mathcal{N}=4$ super-Yang-Mills \cite{Anastasiou:2003kj,Bern:2005iz}. In future work, we hope to study whether this iterative structure can be further applied to the scale dependent logarithms present at multi-loop order in the theory. 
+\paragraph{\textbf{Exponentiation}} In \eqn{eq:NLSM2bub} and \eqn{eq:NLSMdunce} we computed in general dimension, $D$, the two contributions to NLSM two-loop amplitudes. Evaluating these diagrams in $D=2-2\epsilon$, and taking the planar limit, $N_c \rightarrow \infty$, we found in \eqn{eq:expNLSM} that the IR divergences exponentiate through two-loop. This non-trivial property is found in theories that are conjectured to be integrable \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}, like $\mathcal{N}=4$ super-Yang-Mills \cite{Anastasiou:2003kj,Bern:2005iz}. In future work, we hope to study whether this iterative structure can be further applied to the scale dependent logarithms present at multi-loop order in the theory. 
 \paragraph{\textbf{Anomalies}} Equipped with our $D$-dimensional integration methods, we performed an analogous calculation at two-loop for pure Born-Infeld in \sect{sec:2loopBIU}. In doing so, we demonstrated that the previously identified one-loop counterterm is not sufficient to cancel the two-loop anomaly. In fact, the $(-+++)$ anomaly of \eqn{eq:oneMinus2loop}, which was absent at one-loop, diverges at two-loop order due to the presence of a one-loop evanescent operator in the $D$-dimensional formulation of Born-Infeld theory. One resolution to this anomaly comes in the form of introducing $\mathcal{N}=4$ DBIVA superfields in the two-loop state-sum. This protects the $S$-matrix from anomalies by promoting the classically conserved $U(1)$ duality to a supersymmetric R-symmetry. The evaluated integrals that contribute to the $\mathcal{N}=4$ DBIVA two-loop amplitudes are provided in \eqn{eq:N42bub} and \eqn{eq:N4ostrich}. 
 \paragraph{\textbf{Evanescence}}Another resolution to the two-loop anomaly comes in the form of higher-derivative pure-photon counterterms. To do so, we demonstrated through explicit calculation in \sect{sec:Anomalies} that we must introduce a divergence evanescent operator at one-loop order. This is similar to the anomalies of pure Einstein-Hilbert gravity \cite{Bern:2015xsa,Bern:2017puu}, which vanish at one-loop since the $R^2$ Gauss-Bonet term is evanescent in $D=4$, but which diverge at two-loop order \cite{Goroff:1985sz,Goroff:1985th,vandeVen:1991gw}. Given the complexity of gravity calculations at high loop order, further studies of multi-loop Born-Infeld amplitudes could serve as accessible laboratory for studying evanescent effects beyond one-loop in double-copy constructible theories. To this end, we have used Hilbert series to count the number of four-photon evanescent operators to higher-order derivative corrections in \sect{sec:EOpsCounting} to aid in future studies. 
 
