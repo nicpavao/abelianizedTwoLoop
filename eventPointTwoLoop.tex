@@ -1749,7 +1749,7 @@ In addition to being perturbatively equivalent to the quartic sector of the theo
 \begin{figure}[t]
     \centering
     \begin{equation*}\Omega_{(2,4)} = \left\{\scaleIntBscalar{}{}{}{},\scaleIntCscalar{}{}{}{} \right\}\end{equation*}
-    \caption{Recursive one-loop integrals contributing to the  two-loop four-point calculation in even-point effective field theories, we refer to as the peacock integral and double-bubble from left to right.}
+    \caption{Recursive one-loop integrals contributing to the  two-loop four-point calculation in even-point effective field theories, we refer to as the ostrich integral and double-bubble from left to right.}
     \label{fig:contrib2Loop}
 \end{figure}
 
@@ -2080,10 +2080,10 @@ Then, by applying \eqn{tensorReductionBubble}, and plugging in the expressions f
 \begin{figure}[t]
     \centering
     \begin{equation*}\scaleIntBscalar{}{}{}{}\end{equation*}
-    \caption{Graphical depiction of the the peacock integral. Every exposed internal edge represents a propagator in the integrand.}
-    \label{fig:peacock}
+    \caption{Graphical depiction of the the ostrich integral. Every exposed internal edge represents a propagator in the integrand.}
+    \label{fig:ostrich}
 \end{figure}
-A similar procedure can be applied to the peacock type diagrams of \Fig{fig:peacock}. However, the integration procedure is a little more delicate than the $I^{\text{ex}.}_{\text{2bub}}$ of \eqn{intg2bub}.  As $I^{\text{ex}.}_{\text{2bub}}$ could be expressed as an iterated bubble, we only needed to consider {integer powers} of the denominators when constructing the recursion relations. In contrast, peacock integrals  will lead to {non-integer}, $\epsilon$-dependent powers of loop propagators. We are therefore interested in performing a tensor reduction on the triangle integral,
+A similar procedure can be applied to the ostrich type diagrams of \Fig{fig:ostrich}. However, the integration procedure is a little more delicate than the $I^{\text{ex}.}_{\text{2bub}}$ of \eqn{intg2bub}.  As $I^{\text{ex}.}_{\text{2bub}}$ could be expressed as an iterated bubble, we only needed to consider {integer powers} of the denominators when constructing the recursion relations. In contrast, ostrich integrals  will lead to {non-integer}, $\epsilon$-dependent powers of loop propagators. We are therefore interested in performing a tensor reduction on the triangle integral,
 \begin{align}\label{triangleTensorInt}
      I^{\mu_1\dots \mu_n}_{3,x}(K_{12})&= \int \frac{d^D l}{(2\pi)^D} \frac{l^{\mu_1}l^{\mu_2}\cdots l^{\mu_n} }{l^2(l+K_{1})^{2x}(l+K_{12})^2}
      \\
@@ -2321,7 +2321,7 @@ C^{\text{Xbox}}_{([12]|34)}& \equiv f^{b_7 a_1 b_1 }f^{b_1 b_6 b_2 } f^{b_2 a_2 
 \end{align}
 Again, we can carefully choose a spanning set of unitarity cuts in terms of our color-dressed NLSM operators in order to land directly on this minimal color basis. In doing so, we can focus our attention to integrating the kinematics that weight each of the color basis element. 
 
-As we argued in the introduction, two-loop amplitudes for even-point theories, like NLSM, are completely determined by two recursive integrals, the {double-bubble} and the {peacock-diagram}, modulo theory-dependent kinematic numerators. For NLSM, the relevant integrals are as follows:
+As we argued in the introduction, two-loop amplitudes for even-point theories, like NLSM, are completely determined by two recursive integrals, the {double-bubble} and the {ostrich-diagram}, modulo theory-dependent kinematic numerators. For NLSM, the relevant integrals are as follows:
 
 \begin{align}
 \scaleIntCsmall &= \sum_{\text{states}}\int \frac{d^D l_{1}d^D l_{2}}{(2\pi)^{2D}}\frac{\mathcal{A}^{\text{NLSM}}_{(p_4|12|p_3)}\mathcal{A}^{\text{NLSM}}_{(\bar{p}_1|\bar{p}_4\bar{p}_3|\bar{p}_2)}\mathcal{A}^{\text{NLSM}}_{(p_2|34|p_1)}}{l_1^2(l_1+k_{12})^2l_2^2(l_2+k_{12})^2}
@@ -2347,7 +2347,7 @@ Due to the simplicity of scalar theories like NLSM, the state sum for the double
 &+C^{\text{2box}}_{(12|43)}\left[\tau^{(2)}_3 \tau_{23}\tau^{(3)}_{2}+\tau^{(2)}_3 \tau_{13}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{23}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{13}\tau^{(3)}_{2}\right]
 \end{aligned}
 \end{equation}
-where we have introduced the following notation above that combines internal and external momenta, $\tau^{(i)}_j = (k_i  + p_j)^2$ and $\tau_{ij} = (p_i + p_j)^2$. Plugging in the color-dressed NLSM amplitudes, the same can be done for the peacock-diagram cut, giving us
+where we have introduced the following notation above that combines internal and external momenta, $\tau^{(i)}_j = (k_i  + p_j)^2$ and $\tau_{ij} = (p_i + p_j)^2$. Plugging in the color-dressed NLSM amplitudes, the same can be done for the ostrich-diagram cut, giving us
 
 \begin{equation}\label{eq:NLSMDunce}
 \begin{aligned}
@@ -2374,7 +2374,7 @@ We stress that the integrals appearing above are complicated by tensor integrals
 &+f_{\pi}^{-6}C^{\text{2box}}_{(12|43)} \left[\frac{(s_{12}I_2^D(k_{12}))^2}{2}\left(\frac{s_{13}-s_{14}}{(D-1)^2}+s_{12}\right)\right]
 \end{aligned}
 \end{equation}
-Likewise, we can perform a similar reduction to the dunce cap integrals -- but with a small twist. The double-bubble integral above is completely separable, which allows one to treat the tensor reduction of each loop integral as independent. This is not so for the peacock-diagram integral. The peacock-diagram carries an internal bubble, $I^D_2(q)$, with a loop dependent scale factor of $q=l_2+k_1$. Thus, we must first reduce the powers of $l_1$ and {then} perform a tensor reduction on all the remaining $l_2$ factors. Doing so yields the following result:
+Likewise, we can perform a similar reduction to the dunce cap integrals -- but with a small twist. The double-bubble integral above is completely separable, which allows one to treat the tensor reduction of each loop integral as independent. This is not so for the ostrich-diagram integral. The ostrich-diagram carries an internal bubble, $I^D_2(q)$, with a loop dependent scale factor of $q=l_2+k_1$. Thus, we must first reduce the powers of $l_1$ and {then} perform a tensor reduction on all the remaining $l_2$ factors. Doing so yields the following result:
 
 \begin{equation}\label{eq:NLSMdunce}
 \begin{aligned}
@@ -2385,7 +2385,7 @@ Likewise, we can perform a similar reduction to the dunce cap integrals -- but w
 &+f_{\pi}^{-6}C^{\text{Xbox}}_{([12]|34)}\left[\frac{s_{12}^2}{6}\frac{D+1}{D-1}\right][I_3\circ I_2]^D(k_{12})
 \end{aligned}
 \end{equation}
-where we have defined the scalar peacock-diagram integral, $[I_3\circ I_2]^D(k_{12})$, as a $D$-dimensional convolution of $I_2^D$ and $I_3^D$, provided below:
+where we have defined the scalar ostrich-diagram integral, $[I_3\circ I_2]^D(k_{12})$, as a $D$-dimensional convolution of $I_2^D$ and $I_3^D$, provided below:
 \begin{equation}
 [I_3\circ I_2]^D(k_{12}) \equiv \int \frac{d^Dl_1}{(2\pi)^D} \frac{d^Dl_2}{(2\pi)^D} \frac{(l_2+k_1)^2}{l_1^2  l_2^2 (l_1+l_2+k_1)^2(l_2+k_{12})^2}\,.
 \end{equation}
@@ -2453,7 +2453,7 @@ While these are a subset of the four-point operators we will use in the two-loop
 \end{align}
 where $q^2=0$ is a null-reference momentum. Here, $\Gamma_\mu$ are $D$-dimensional gamma matrices endowed with all the normal Clifford algebraic relations. Since we want to keep this as $D$-dimensional as possible, we define $\Gamma_5$ as the symbol representing the $(D+1)^{th}$ gamma matrix that anti-commutes with all other $\Gamma_\mu$. Using this, we have added in a chiral projection state operator $P_{\pm}=\frac{1}{2}(1\pm \Gamma_5)$ that will be relevant when computing the two-loop fermion contribution. To see why, we note that since we are only computing external photon amplitudes, the loop contribution must be {parity even}. Concretely, this means that if there is a single chiral trace, the $\Gamma_5$ contribution must integrate to zero:
 \begin{equation}
-2\text{tr}_{\pm}[\cdots] \equiv \text{tr}[(1\pm \Gamma_5)\cdots]  \xrightarrow{\int d\Pi_{\text{loop}}} \frac{1}{2}\text{tr}[\cdots]
+2\text{tr}_{\pm}[\cdots] \equiv \text{tr}[(1\pm \Gamma_5)\cdots]  \xrightarrow{\int d\Pi_{\text{loop}}} \text{tr}[\cdots]
 \end{equation}
 The property will significantly simplify the two-loop reduction in the presence of {single} chiral trace. However, at two-loop we can also get multi-trace contributions. In this case, the parity odd contribution (sourced by odd powers of $\Gamma_5$) must vanish after integration as follows:
 \begin{equation}
@@ -2647,11 +2647,11 @@ By applying this supersymmetric state sum, we find that the integrands for two-l
 \begin{equation}\label{eq:N42bub}
 \text{Cut}\left(\scaleIntCtune{}{hgreen}{}{hgreen}\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)}= s_{12}^4 (t_8 F^4)
 \end{equation}
-and similarly so for the peacock-diagram integral contribution:
+and similarly so for the ostrich-diagram integral contribution:
 \begin{equation}\label{eq:N4dunce}
 \text{Cut}\left(\scaleIntBtune{}{}{}{}{hgreen}{hgreen}{hgreen}{hgreen}\,\,\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)}=s_{12}^2 \tau^{(2)}_2\tau^{(1)}_1(t_8 F^4)\,.
 \end{equation}
-Since there are no loop momenta interfering with the tensor structures of the external photons, the result of integration will just be proportional to a $(t_8F^4)$ tensor, which is manifestly $U(1)$ duality invariant. Thus, as promised, adding in $\mathcal{N}=4$ states cancels the $U(1)$ anomaly present in the pure Born-Infeld $S$-matrix. After applying the tensor reduction to the peacock-diagram, we obtain the following expression for the two diagrams:
+Since there are no loop momenta interfering with the tensor structures of the external photons, the result of integration will just be proportional to a $(t_8F^4)$ tensor, which is manifestly $U(1)$ duality invariant. Thus, as promised, adding in $\mathcal{N}=4$ states cancels the $U(1)$ anomaly present in the pure Born-Infeld $S$-matrix. After applying the tensor reduction to the ostrich-diagram, we obtain the following expression for the two diagrams:
 \begin{align}
 \scaleIntCtune{}{hgreen}{}{hgreen} &= s_{12}^4 (I_2^{D}(k_{12}))^2(t_8 F^4)  
 \\
@@ -2710,7 +2710,7 @@ At two-loop it sufficient to show that replacing the color factors reproduces th
 &=s_{12}^4 (I_2^{D}(k_{12}))^2(t_8 F^4)^{\text{(max)}}_{(1234)}   \equiv \scaleIntCtune{}{hgreen}{}{hgreen} 
 \end{aligned}
 \end{equation}
-The cancellation between dimension dependent factors is even more startling for the peacock-diagram integral:
+The cancellation between dimension dependent factors is even more startling for the ostrich-diagram integral:
 \begin{equation}
 \begin{aligned}
 \scaleIntBscalarsmall{1}{2}{3}{4}\bigg|^{C_g \rightarrow N^{\mathcal{N}=4}_g} \!\!&= N^{(12|34)}_{\mathcal{N}=4}\frac{s_{12}}{6} \left[\frac{(D-1)(D-4)s_{14}+2(D-2)^2 s_{13}}{(D-1)(4-3D)}\right][I_3\circ I_2]^D(k_{12})
@@ -2920,7 +2920,7 @@ It would be fascinating to determine if the resulting adjoint higher-spin theory
 \subsection{Evanescent operator counting}\label{sec:EOpsCounting}
 Before concluding, in this section we compute the counting of evanescent operators at higher orders in mass dimension needed for $U(1)$ duality satisfying quantum effective actions. We will do so using Hilbert series, which are an effective method for counting the number of independent operators at a particular order in mass dimension \cite{Henning:2015daa,Lehman:2015via} and have been used in abundance in the SMEFT literature \cite{Fonseca:2019yya,Hays:2018zze,Alioli:2022fng}. Hilbert series account for Lagrangian-level redundancy by counting the number of distinct on-shell quantities. For example, the following two operators would only be counted once since they are equivalent up to a boundary term,
 \begin{equation}
-(\partial_\rho F_{\mu\nu})(\partial^\rho F^{\mu\nu}) \sim \frac{1}{2}F_{\mu\nu}\partial_\mu \partial^\rho F^{\mu\nu}
+(\partial_\rho F_{\mu\nu})(\partial^\rho F^{\mu\nu}) \sim \frac{1}{2}F_{\mu\nu}\partial_\rho \partial^\rho F^{\mu\nu}
 \end{equation}
 due to the Bianchi identity, $D_{(\mu} F_{\nu \rho)} = 0$. As such, we will use the on-shell matrix elements, $\mathcal{T}$, for the computations in this section. Below we construct the Hilbert series for general dimension photon operators, $\mathcal{H}^{\text{gen.}D}$, and similarly so for $D=4$ operators, $\mathcal{H}^{D=4}$, for which we are restricted to a subset of 4D helicity operators. 
 
