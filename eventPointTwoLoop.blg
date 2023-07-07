@@ -1,48 +1,53 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: eventPointTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10370 items from 5000.
+Reallocated field_info (elt_size=4) to 10670 items from 5000.
 Database file #1: Refs_emu.bib
-You've used 179 entries,
+Repeated entry---line 7361 of file Refs_emu.bib
+ : @article{Boels:2016xhc
+ :                       ,
+I'm skipping whatever remains of this entry
+You've used 189 entries,
             2316 wiz_defined-function locations,
-            1894 strings with 37204 characters,
-and the built_in function-call counts, 79131 in all, are:
-= -- 8515
-> -- 2465
+            1965 strings with 39056 characters,
+and the built_in function-call counts, 84001 in all, are:
+= -- 9047
+> -- 2616
 < -- 0
-+ -- 711
-- -- 532
-* -- 7910
-:= -- 9968
-add.period$ -- 179
-call.type$ -- 179
-change.case$ -- 178
++ -- 754
+- -- 565
+* -- 8396
+:= -- 10575
+add.period$ -- 189
+call.type$ -- 189
+change.case$ -- 188
 chr.to.int$ -- 0
-cite$ -- 179
-duplicate$ -- 6154
-empty$ -- 7094
-format.name$ -- 1596
-if$ -- 19918
+cite$ -- 189
+duplicate$ -- 6553
+empty$ -- 7529
+format.name$ -- 1695
+if$ -- 21137
 int.to.chr$ -- 0
-int.to.str$ -- 179
-missing$ -- 686
-newline$ -- 541
-num.names$ -- 178
-pop$ -- 359
+int.to.str$ -- 189
+missing$ -- 725
+newline$ -- 571
+num.names$ -- 188
+pop$ -- 386
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2441
+skip$ -- 2575
 stack$ -- 0
-substring$ -- 4817
-swap$ -- 1404
+substring$ -- 5146
+swap$ -- 1481
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 907
-width$ -- 182
-write$ -- 1858
+while$ -- 962
+width$ -- 192
+write$ -- 1963
+(There was 1 error message)
