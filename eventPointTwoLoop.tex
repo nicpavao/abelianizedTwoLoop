@@ -2646,14 +2646,12 @@ where the delta function is a Grassmann valued polynomial of spinor-helicity var
 \end{equation}
 By applying this supersymmetric state sum, we find that the integrands for two-loop $\mathcal{N}=4$ DBIVA is trivially easy to construct - even simpler than NLSM integrands. Below we represent an internal on-shell superfield with a green line, and obtain the following integrand for the double-bubble:
 \begin{equation}\label{eq:N42bub}
-\text{Cut}\left(\scaleIntCtune{}{hgreen}{}{hgreen}\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)}= s_{12}^4 (t_8 F^4)
+\text{Cut}\left(\scaleIntCtune{}{hgreen}{}{hgreen}\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(p_4 12p_3)} (t_8F^4)^{(\text{max})}_{(\bar{p}_1\bar{p}_4\bar{p}_3\bar{p}_2)} (t_8F^4)^{(\text{max})}_{(p_234p_1)}= s_{12}^4 (t_8 F^4)
 \end{equation}
 and similarly so for the ostrich-diagram integral contribution:
 \begin{equation}\label{eq:N4ostrich}
-\text{Cut}\left(\scaleIntBtune{}{}{}{}{hgreen}{hgreen}{hgreen}{hgreen}\,\,\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)} (t_8F^4)^{(\text{max})}_{(1234)}=s_{12}^2 \tau^{(2)}_2\tau^{(1)}_1(t_8 F^4)\,.
+\text{Cut}\left(\scaleIntBtune{}{}{}{}{hgreen}{hgreen}{hgreen}{hgreen}\,\,\right)=\sum_{\text{states}}  (t_8F^4)^{(\text{max})}_{(2q_4\bar{q}_3\bar{q}_1)} (t_8F^4)^{(\text{max})}_{(1\bar{q}_4q_3\bar{q}_2)} (t_8F^4)^{(\text{max})}_{(q_234q_1)}=s_{12}^2 \tau^{(1)}_{\bar{2}}\tau^{(2)}_{\bar{1}}(t_8 F^4)\,.
 \end{equation}
-\dj{Relabel actual cuts and lets check the RHS here of the ostrich.  I get: $s_{12}^2 \left(\tau^{(1)}_{\bar{2}} \equiv (k_1-q_2)^2 \right)^2 (t_8 F^4)$ both via KLT on the cuts and via your sewing rule.}
-
 We should point out an additional verification that can occur for any SUSY amount of DBIVA.  We can recycle multiloop SYM integrands to verify our cuts.  In general this is because double-copy works at tree-level, and we can always write the Jacobi-satisfying Yang-Mills cut numerators in terms of color-ordered sYM amplitudes, $A^{\text{sYM}}$, offering us a KLT between cut-integrands.  When we cut to four-point amplitudes, as we do for the cuts above, this is particularly simple as only one order needs contribute for each for-point tree, yielding:
 \begin{align}
 \text{Cut}({\text{DBIVA}})&= \sum_\text{states} \prod_i \mathcal{A}^{\text{DBIVA}}(p^{(i)}_1,p^{(i)}_2,p^{(i)}_3,p^{(i)}_4)\,\\
