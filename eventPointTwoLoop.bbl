@@ -550,6 +550,12 @@ K.~Kampf, J.~Novotny and J.~Trnka, \emph{{On different lagrangian formalisms
   {\bfseries 50} (2007) 385}
   [\href{https://arxiv.org/abs/hep-ph/0608051}{{\ttfamily hep-ph/0608051}}].
 
+\bibitem{Kampf:2013vha}
+K.~Kampf, J.~Novotny and J.~Trnka, \emph{{Tree-level Amplitudes in the
+  Nonlinear Sigma Model}},
+  \href{https://doi.org/10.1007/JHEP05(2013)032}{\emph{JHEP} {\bfseries 05}
+  (2013) 032} [\href{https://arxiv.org/abs/1304.3048}{{\ttfamily 1304.3048}}].
+
 \bibitem{Manohar:2008tc}
 A.V.~Manohar and V.~Mateu, \emph{{Dispersion Relation Bounds for pi pi
   Scattering}}, \href{https://doi.org/10.1103/PhysRevD.77.094019}{\emph{Phys.
@@ -591,6 +597,33 @@ L.~Girlanda, M.~Knecht, B.~Moussallam and J.~Stern, \emph{{Comment on the
   \href{https://doi.org/10.1016/S0370-2693(97)00872-1}{\emph{Phys. Lett. B}
   {\bfseries 409} (1997) 461}
   [\href{https://arxiv.org/abs/hep-ph/9703448}{{\ttfamily hep-ph/9703448}}].
+
+\bibitem{Low:2014nga}
+I.~Low, \emph{{Adler\textquoteright{}s zero and effective Lagrangians for
+  nonlinearly realized symmetry}},
+  \href{https://doi.org/10.1103/PhysRevD.91.105017}{\emph{Phys. Rev. D}
+  {\bfseries 91} (2015) 105017}
+  [\href{https://arxiv.org/abs/1412.2145}{{\ttfamily 1412.2145}}].
+
+\bibitem{Low:2017mlh}
+I.~Low and Z.~Yin, \emph{{Ward Identity and Scattering Amplitudes for Nonlinear
+  Sigma Models}},
+  \href{https://doi.org/10.1103/PhysRevLett.120.061601}{\emph{Phys. Rev. Lett.}
+  {\bfseries 120} (2018) 061601}
+  [\href{https://arxiv.org/abs/1709.08639}{{\ttfamily 1709.08639}}].
+
+\bibitem{Liu:2018vel}
+D.~Liu, I.~Low and Z.~Yin, \emph{{Universal Imprints of a
+  Pseudo-Nambu-Goldstone Higgs Boson}},
+  \href{https://doi.org/10.1103/PhysRevLett.121.261802}{\emph{Phys. Rev. Lett.}
+  {\bfseries 121} (2018) 261802}
+  [\href{https://arxiv.org/abs/1805.00489}{{\ttfamily 1805.00489}}].
+
+\bibitem{Low:2018acv}
+I.~Low and Z.~Yin, \emph{{The Infrared Structure of Nambu-Goldstone Bosons}},
+  \href{https://doi.org/10.1007/JHEP10(2018)078}{\emph{JHEP} {\bfseries 10}
+  (2018) 078} [\href{https://arxiv.org/abs/1804.08629}{{\ttfamily
+  1804.08629}}].
 
 \bibitem{Born:1934gh}
 M.~Born and L.~Infeld, \emph{{Foundations of the new field theory}},
@@ -934,6 +967,83 @@ V.~Del~Duca, L.J.~Dixon and F.~Maltoni, \emph{{New color decompositions for
   {\bfseries B571} (2000) 51}
   [\href{https://arxiv.org/abs/hep-ph/9910563}{{\ttfamily hep-ph/9910563}}].
 
+\bibitem{Weinberg:1965nx}
+S.~Weinberg, \emph{{Infrared photons and gravitons}},
+  \href{https://doi.org/10.1103/PhysRev.140.B516}{\emph{Phys. Rev.} {\bfseries
+  140} (1965) B516}.
+
+\bibitem{deWit:1983xhu}
+B.~de~Wit, P.G.~Lauwers, R.~Philippe, S.Q.~Su and A.~Van~Proeyen, \emph{{Gauge
+  and Matter Fields Coupled to N=2 Supergravity}},
+  \href{https://doi.org/10.1016/0370-2693(84)90979-1}{\emph{Phys. Lett. B}
+  {\bfseries 134} (1984) 37}.
+
+\bibitem{deWit:1992cr}
+B.~de~Wit and A.~Van~Proeyen, \emph{{Broken sigma model isometries in very
+  special geometry}},
+  \href{https://doi.org/10.1016/0370-2693(92)91485-R}{\emph{Phys. Lett. B}
+  {\bfseries 293} (1992) 94}
+  [\href{https://arxiv.org/abs/hep-th/9207091}{{\ttfamily hep-th/9207091}}].
+
+\bibitem{deWit:1992wf}
+B.~de~Wit, F.~Vanderseypen and A.~Van~Proeyen, \emph{{Symmetry structure of
+  special geometries}},
+  \href{https://doi.org/10.1016/0550-3213(93)90413-J}{\emph{Nucl. Phys. B}
+  {\bfseries 400} (1993) 463}
+  [\href{https://arxiv.org/abs/hep-th/9210068}{{\ttfamily hep-th/9210068}}].
+
+\bibitem{Chiodaroli:2014xia}
+M.~Chiodaroli, M.~G\"unaydin, H.~Johansson and R.~Roiban, \emph{{Scattering
+  amplitudes in $ \mathcal{N}=2 $ Maxwell-Einstein and Yang-Mills/Einstein
+  supergravity}}, \href{https://doi.org/10.1007/JHEP01(2015)081}{\emph{JHEP}
+  {\bfseries 01} (2015) 081} [\href{https://arxiv.org/abs/1408.0764}{{\ttfamily
+  1408.0764}}].
+
+\bibitem{Naculich:2008ew}
+S.G.~Naculich, H.~Nastase and H.J.~Schnitzer, \emph{{Two-loop graviton
+  scattering relation and IR behavior in N=8 supergravity}},
+  \href{https://doi.org/10.1016/j.nuclphysb.2008.07.001}{\emph{Nucl. Phys. B}
+  {\bfseries 805} (2008) 40} [\href{https://arxiv.org/abs/0805.2347}{{\ttfamily
+  0805.2347}}].
+
+\bibitem{White:2011yy}
+C.D.~White, \emph{{Factorization Properties of Soft Graviton Amplitudes}},
+  \href{https://doi.org/10.1007/JHEP05(2011)060}{\emph{JHEP} {\bfseries 05}
+  (2011) 060} [\href{https://arxiv.org/abs/1103.2981}{{\ttfamily 1103.2981}}].
+
+\bibitem{DiVecchia:2019myk}
+P.~Di~Vecchia, A.~Luna, S.G.~Naculich, R.~Russo, G.~Veneziano and C.D.~White,
+  \emph{{A tale of two exponentiations in ${\cal N}=8$ supergravity}},
+  \href{https://doi.org/10.1016/j.physletb.2019.134927}{\emph{Phys. Lett. B}
+  {\bfseries 798} (2019) 134927}
+  [\href{https://arxiv.org/abs/1908.05603}{{\ttfamily 1908.05603}}].
+
+\bibitem{DiVecchia:2019kta}
+P.~Di~Vecchia, S.G.~Naculich, R.~Russo, G.~Veneziano and C.D.~White, \emph{{A
+  tale of two exponentiations in $ \mathcal{N} $ = 8 supergravity at subleading
+  level}}, \href{https://doi.org/10.1007/JHEP03(2020)173}{\emph{JHEP}
+  {\bfseries 03} (2020) 173}
+  [\href{https://arxiv.org/abs/1911.11716}{{\ttfamily 1911.11716}}].
+
+\bibitem{Heissenberg:2021tzo}
+C.~Heissenberg, \emph{{Infrared divergences and the eikonal exponentiation}},
+  \href{https://doi.org/10.1103/PhysRevD.104.046016}{\emph{Phys. Rev. D}
+  {\bfseries 104} (2021) 046016}
+  [\href{https://arxiv.org/abs/2105.04594}{{\ttfamily 2105.04594}}].
+
+\bibitem{Elvang:2018dco}
+H.~Elvang, M.~Hadjiantonis, C.R.T.~Jones and S.~Paranjape, \emph{{Soft
+  Bootstrap and Supersymmetry}},
+  \href{https://doi.org/10.1007/JHEP01(2019)195}{\emph{JHEP} {\bfseries 01}
+  (2019) 195} [\href{https://arxiv.org/abs/1806.06079}{{\ttfamily
+  1806.06079}}].
+
+\bibitem{Cachazo:2016njl}
+F.~Cachazo, P.~Cha and S.~Mizera, \emph{{Extensions of Theories from Soft
+  Limits}}, \href{https://doi.org/10.1007/JHEP06(2016)170}{\emph{JHEP}
+  {\bfseries 06} (2016) 170}
+  [\href{https://arxiv.org/abs/1604.03893}{{\ttfamily 1604.03893}}].
+
 \bibitem{Anastasiou:2003kj}
 C.~Anastasiou, Z.~Bern, L.J.~Dixon and D.A.~Kosower, \emph{{Planar amplitudes
   in maximally supersymmetric Yang-Mills theory}},
@@ -1014,30 +1124,6 @@ S.A.~Frolov, R.~Roiban and A.A.~Tseytlin, \emph{{Gauge-string duality for
   \href{https://doi.org/10.1016/j.nuclphysb.2005.10.004}{\emph{Nucl. Phys. B}
   {\bfseries 731} (2005) 1}
   [\href{https://arxiv.org/abs/hep-th/0507021}{{\ttfamily hep-th/0507021}}].
-
-\bibitem{Shankar:1977cm}
-R.~Shankar and E.~Witten, \emph{{The S Matrix of the Supersymmetric Nonlinear
-  Sigma Model}}, \href{https://doi.org/10.1103/PhysRevD.17.2134}{\emph{Phys.
-  Rev. D} {\bfseries 17} (1978) 2134}.
-
-\bibitem{Zamolodchikov:1977nu}
-A.B.~Zamolodchikov and A.B.~Zamolodchikov, \emph{{Relativistic Factorized S
-  Matrix in Two-Dimensions Having O(N) Isotopic Symmetry}},
-  \href{https://doi.org/10.1016/0550-3213(78)90239-0}{\emph{JETP Lett.}
-  {\bfseries 26} (1977) 457}.
-
-\bibitem{Zamolodchikov:1978xm}
-A.B.~Zamolodchikov and A.B.~Zamolodchikov, \emph{{Factorized s Matrices in
-  Two-Dimensions as the Exact Solutions of Certain Relativistic Quantum Field
-  Models}}, \href{https://doi.org/10.1016/0003-4916(79)90391-9}{\emph{Annals
-  Phys.} {\bfseries 120} (1979) 253}.
-
-\bibitem{Komatsu:2019hgc}
-S.~Komatsu, R.~Mahajan and S.-H.~Shao, \emph{{An Index for Quantum
-  Integrability}},
-  \href{https://doi.org/10.21468/SciPostPhys.7.5.065}{\emph{SciPost Phys.}
-  {\bfseries 7} (2019) 065} [\href{https://arxiv.org/abs/1907.07186}{{\ttfamily
-  1907.07186}}].
 
 \bibitem{SuperSum}
 Z.~Bern, J.J.M.~Carrasco, H.~Ita, H.~Johansson and R.~Roiban, \emph{{On the
@@ -1203,5 +1289,29 @@ H.~Liu, T.~Ma, Y.~Shadmi and M.~Waterbury, \emph{{An EFT hunter's guide to
 K.~Haddad, \emph{{Recursion in the classical limit and the neutron-star Compton
   amplitude}},  \href{https://arxiv.org/abs/2303.02624}{{\ttfamily
   2303.02624}}.
+
+\bibitem{Shankar:1977cm}
+R.~Shankar and E.~Witten, \emph{{The S Matrix of the Supersymmetric Nonlinear
+  Sigma Model}}, \href{https://doi.org/10.1103/PhysRevD.17.2134}{\emph{Phys.
+  Rev. D} {\bfseries 17} (1978) 2134}.
+
+\bibitem{Zamolodchikov:1977nu}
+A.B.~Zamolodchikov and A.B.~Zamolodchikov, \emph{{Relativistic Factorized S
+  Matrix in Two-Dimensions Having O(N) Isotopic Symmetry}},
+  \href{https://doi.org/10.1016/0550-3213(78)90239-0}{\emph{JETP Lett.}
+  {\bfseries 26} (1977) 457}.
+
+\bibitem{Zamolodchikov:1978xm}
+A.B.~Zamolodchikov and A.B.~Zamolodchikov, \emph{{Factorized s Matrices in
+  Two-Dimensions as the Exact Solutions of Certain Relativistic Quantum Field
+  Models}}, \href{https://doi.org/10.1016/0003-4916(79)90391-9}{\emph{Annals
+  Phys.} {\bfseries 120} (1979) 253}.
+
+\bibitem{Komatsu:2019hgc}
+S.~Komatsu, R.~Mahajan and S.-H.~Shao, \emph{{An Index for Quantum
+  Integrability}},
+  \href{https://doi.org/10.21468/SciPostPhys.7.5.065}{\emph{SciPost Phys.}
+  {\bfseries 7} (2019) 065} [\href{https://arxiv.org/abs/1907.07186}{{\ttfamily
+  1907.07186}}].
 
 \end{thebibliography}\endgroup

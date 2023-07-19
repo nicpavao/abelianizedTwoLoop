@@ -3,51 +3,63 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: eventPointTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10670 items from 5000.
+Reallocated field_info (elt_size=4) to 11180 items from 5000.
 Database file #1: Refs_emu.bib
-Repeated entry---line 7375 of file Refs_emu.bib
+Repeated entry---line 1420 of file Refs_emu.bib
+ : @article{Low:2019ynd
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2265 of file Refs_emu.bib
+ : @article{Elvang:2018dco
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7603 of file Refs_emu.bib
  : @article{Boels:2016xhc
  :                       ,
 I'm skipping whatever remains of this entry
-You've used 189 entries,
+Repeated entry---line 12971 of file Refs_emu.bib
+ : @article{Kampf:2013vha
+ :                       ,
+I'm skipping whatever remains of this entry
+You've used 206 entries,
             2316 wiz_defined-function locations,
-            1965 strings with 39056 characters,
-and the built_in function-call counts, 84001 in all, are:
-= -- 9047
-> -- 2616
+            2083 strings with 41919 characters,
+and the built_in function-call counts, 91647 in all, are:
+= -- 9872
+> -- 2842
 < -- 0
-+ -- 754
-- -- 565
-* -- 8396
-:= -- 10575
-add.period$ -- 189
-call.type$ -- 189
-change.case$ -- 188
++ -- 820
+- -- 614
+* -- 9159
+:= -- 11546
+add.period$ -- 206
+call.type$ -- 206
+change.case$ -- 205
 chr.to.int$ -- 0
-cite$ -- 189
-duplicate$ -- 6553
-empty$ -- 7529
-format.name$ -- 1695
-if$ -- 21137
+cite$ -- 206
+duplicate$ -- 7127
+empty$ -- 8213
+format.name$ -- 1842
+if$ -- 23081
 int.to.chr$ -- 0
-int.to.str$ -- 189
-missing$ -- 725
-newline$ -- 571
-num.names$ -- 188
-pop$ -- 386
+int.to.str$ -- 206
+missing$ -- 793
+newline$ -- 622
+num.names$ -- 205
+pop$ -- 416
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2575
+skip$ -- 2837
 stack$ -- 0
-substring$ -- 5146
-swap$ -- 1481
+substring$ -- 5585
+swap$ -- 1636
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 962
-width$ -- 192
-write$ -- 1963
-(There was 1 error message)
+while$ -- 1050
+width$ -- 209
+write$ -- 2148
+(There were 4 error messages)

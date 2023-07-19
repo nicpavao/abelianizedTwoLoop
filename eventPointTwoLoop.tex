@@ -14,8 +14,8 @@
 \usepackage{tabularx}
 \usepackage{graphicx}
 \usepackage{stackengine}
-\def\RA{\rlap{\scalebox{1.6}{$\leftrightarrow$}}}
-\def\DA{\smash{\bclap{\scalebox{1.6}{$\downarrow$}}}}
+\def\RA{\rlap{\scaleBox{1.6}{$\leftrightarrow$}}}
+\def\DA{\smash{\bclap{\scaleBox{1.6}{$\downarrow$}}}}
 \def\mystrut{\rule[-2ex]{0ex}{6ex}}
 
 \usepackage{tikz-feynman} 
@@ -122,7 +122,7 @@ linewidth=4pt]{eBox}
 }
 }
 
-\newcommand{\simplebox}{ {
+\newcommand{\simpleBox}{ {
 \begin{tikzpicture}[baseline=(current  bounding  box.center)]
 \begin{feynman}
 \vertex (a1) at (-1,1){2};
@@ -857,7 +857,7 @@ linewidth=4pt]{eBox}
 }
 
 \newcommand{\scaleIntAvectorODD}[6]{ {
-\begin{tikzpicture}[baseline=(current  bounding  box.center)]
+\begin{tikzpicture}[baseline=0]
 \begin{feynman}
 \vertex (a5) at (1.3,.7) {#6};
 \vertex (a6) at (0,.7) {#5};
@@ -1768,20 +1768,25 @@ S= \int d^D x \,\mathcal{L}
 \end{equation}
 Some theories in this work, like Volkov-Akulov and supersymmetric extensions of Born-Infeld, have natural formulations in terms of veirbeins that depend on fermionic degrees of freedom. For such theories, it is useful to distinguish between the coordinate independent actions, and the coordinate-dependent Lagrangians. 
 \paragraph{Nonlinear Sigma Model}
-The simplest effective field theory that we will consider in this work is the {nonlinear sigma model} (NLSM). The NLSM Lagrangian can be expressed in terms of the chiral current, $j_\mu = U^\dagger \partial_\mu U$, as follows,
+The simplest effective field theory that we will consider in this work is the {nonlinear sigma model} (NLSM). The chiral NLSM Lagrangian with diagonal symmetry group $G=SU(N_c)$ can be expressed in terms of the chiral current, $j_\mu = U^\dagger \partial_\mu U$, as follows,
 \begin{equation}\label{eq:NLSMLag}
 \mathcal{L}^{\text{NLSM}}= \frac{1}{2}\text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)] = \frac{1}{2}\text{tr}\left[\frac{(\partial_\mu\pi )( \partial^\mu \pi) }{(1-f_\pi^{-2}\pi^2)^2}\right]
 \end{equation}
-where the trace is over the color indices of the gauge group, $\pi \equiv \pi^a T^a$, and on the right hand side we have applied the Cayley parameterization to the $SU(N_c)$ group elements, $U= \frac{1+\pi/f_\pi}{1-\pi/f_\pi}$, where $f_\pi$ is the dimensionful pion decay width. This theory is the unique two-derivative EFT that is invariant under constant shifts of the pion field in color space:
+where the trace is over the color indices of the gauge group, $\pi \equiv \pi^a T^a$. On the right hand side we have applied the Cayley parameterization to the $SU(N_c)$ group elements, $U= \frac{1+\pi/f_\pi}{1-\pi/f_\pi}$, where $f_\pi$ is the dimensionful pion decay width. By construction, this model has a left-right global symmetry, $G\times G$, that is nonlinearly realized, and a locally preserved diagonal subgroup, $G$. This theory is the unique two-derivative EFT that is invariant under constant shifts of the pion field in color space:
 \begin{equation}\label{eq:shiftSym}
 \pi^a \rightarrow \pi^a + c^a
 \end{equation}
-
 We could also consider higher derivative generalizations of the NLSM that are invariant under the shift symmetry of \eqn{eq:shiftSym}.  Such  EFTs correspond to the so-called chiral limit of {chiral perturbation theory}~\cite{Weinberg:1978kz,Gasser:1983yg,Kampf:2006yf,Kampf:2013vha}, describing massless pion scattering below the chiral symmetry breaking scale of QCD:
 \begin{equation}\label{eq:XPTLag}
-\mathcal{L}^{\chi\text{PT}}=\frac{1}{2}\text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)] + \frac{\beta_1}{f_\pi^2} \text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)]^2 + \frac{\beta_2}{f_\pi^2} \text{tr}[(\partial_\mu U)^\dagger( \partial_\nu U)]\text{tr}[(\partial_\mu U)^\dagger( \partial_\nu U)] +\cdots
+\mathcal{L}^{\chi\text{PT}}=\frac{1}{2}\text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)] + \frac{\beta_1}{f_\pi^2} \text{tr}[(\partial_\mu U)^\dagger (\partial ^\mu U)]^2 + \frac{\beta_2}{f_\pi^2} \text{tr}[(\partial_\mu U)^\dagger( \partial_\nu U)]\text{tr}[(\partial^\mu U)^\dagger( \partial^\nu U)] +\cdots
 \end{equation}
-By construction, each of the higher derivative operators appearing above are invariant under the shift symmetry of \eqn{eq:shiftSym}. These higher derivative generalizations of NLSM have been studied both in the context of the $S$-matrix bootstrap \cite{Manohar:2008tc,Bellazzini:2016xrt,Guerrieri:2020bto}, and soft theorem bootstraps of refs. \cite{Cheung:2014dqa,Cheung:2015ota,Cheung:2016drk,Cheung:2018oki,Low:2019ynd}. Considering the relevance of \eqn{eq:XPTLag} in Standard Model pion scattering, the amplitudes for $SU(2)$ NLSM have been computed through two-loop order \cite{Bijnens:1995yn,Bijnens:1997vq,Girlanda:1997ed}. In this work, we add to the literature by computing the two-loop amplitudes of \eqn{eq:NLSMLag} for arbitrary $SU(N_c)$ color structure. In doing so, we show that the IR divergences of the theory exponentiates in the large $N_c$ limit. 
+By construction, each of the higher derivative operators appearing above are invariant under the shift symmetry of \eqn{eq:shiftSym}. These higher derivative generalizations of NLSM have been studied both in the context of the $S$-matrix bootstrap \cite{Manohar:2008tc,Bellazzini:2016xrt,Guerrieri:2020bto}, and soft theorem bootstraps of refs. \cite{Cheung:2014dqa,Cheung:2015ota,Cheung:2016drk,Cheung:2018oki,Low:2019ynd}. Given the relevance of \eqn{eq:XPTLag} in Standard Model pion scattering, the amplitudes for $G= SU(2)$ isospin pions have been computed through two-loop order \cite{Bijnens:1995yn,Bijnens:1997vq,Girlanda:1997ed}. In this work, we add to the literature by computing the two-loop amplitudes of \eqn{eq:NLSMLag} for arbitrary $SU(N_c)$ color structure. We then use these amplitudes to compute $\mathcal{N}=4$ DBIVA amplitudes via the double copy in \sect{sec:DBIvDC}.
+
+In addition to the chiral NLSM described above, our methods apply equally well to a symmetric coset model describing pion dynamics on a coset space $G/H$, with a nonlinearly realized global symmetry $G$ broken down to a linearly realized isometry group $H$. Recent literature that study the universal soft behavior of these models can be found in refs.~\cite{Low:2014nga,Low:2017mlh,Liu:2018vel,Low:2018acv}. One such model that we will study in the text is the $\mathbb{CP}^N$ model where the global $SU(N+1)$ is spontaneously broken down to a local $U(N)$ symmetry on the coset. The Lagrangian for the theory we provide below:
+\begin{equation}\label{eq:CPNLag}
+\mathcal{L}^{\text{NLSM}}_{\mathbb{CP}^N} = \frac{1}{2}P(z,\bar{z})^{ij}(\partial_\mu \bar{z}_i)(\partial^\mu z_j)=\frac{1}{2}\frac{(f_\pi^2+\bar{z} z)\delta^{ij}-z^i\bar{z}^j}{(f_\pi^{2}+\bar{z} z)^2}(\partial_\mu \bar{z}_i)(\partial^\mu z_j)
+\end{equation}
+where $z=(z_1,z_2,...,z_N)$ is a complex vector in the fundamental representation of $U(N)$, and $P(z,\bar{z})$ is the Fubini-Study metric on $\mathbb{CP}^N$. The full $SU(N+1)$ symmetry of the theory is realized due to the imbedding of $\mathbb{CP}^N$ in a complex space one dimension higher, $\mathbb{C}^{N+1}$. In \sect{sec:NLSMU}, we will demonstrate through explicit calculation that the leading IR divergences of the $\mathbb{CP}^1$ model exponentiations in $D=2$, the critical dimension of the theory. 
 \paragraph{Born-Infeld Photons and Dirac Scalars}
 The second even-point EFT we will study is Born-Infeld theory \cite{Born:1934gh}. This theory describes the dynamics of open string endpoints with $U(1)$ charge attached to a $D$-dimensional spacetime with Dirichlet boundary conditions. Given the stringy dynamics orthogonal to the spacetime, the electric field generated by the charged endpoints has a maximum field strength of order the inverse string tension, $1/\alpha'$. The effective Lagrangian for this theory
 \begin{equation}
@@ -1797,8 +1802,7 @@ where $\varphi$ is the spacetime coordinate in the orthogonal space. This theory
 \begin{equation}\label{DBIShift}
 \varphi \rightarrow \varphi + c + b^{\mu} (x_\mu + \varphi \partial_\mu \varphi)
 \end{equation}
-
-When the transformation law leaves the polynomial $P(X)$ theory invariant, there are an additional $D+1$ conserved charges, and the Poincar\'{e} symmetry of $P(X)$ EFT is promoted from $D$ to $(D+1)$ dimensions. One can verify that applying \eqn{DBIShift} to \eqn{DBI} shifts the Lagrangian by a total derivative~\cite{deRham:2010eu}. Similar to the soft theorem constraints on the building blocks of NLSM and $\chi \text{PT}$, the DBI action can be bootstrapped by requiring the amplitudes vanish at $\mathcal{O}(p^2)$ when taking external momentum, $p$, soft~\cite{Cheung:2016drk}.
+When the transformation law leaves the polynomial $P(X)$ theory invariant, there is an additional set of $D+1$ conserved charges, and the Poincar\'{e} symmetry of $P(X)$ EFT is promoted from $D$ to $(D+1)$ dimensions. One can verify that applying \eqn{DBIShift} to \eqn{DBI} shifts the Lagrangian by a total derivative~\cite{deRham:2010eu}. Similar to the soft theorem constraints on the building blocks of NLSM and $\chi \text{PT}$, the DBI action can be bootstrapped by requiring the amplitudes vanish at $\mathcal{O}(p^2)$ when taking external momentum, $p$, soft~\cite{Cheung:2016drk}.
 
 
 \paragraph{Volkov-Akulov Fermions and Supersymmetry}
@@ -2247,7 +2251,7 @@ In which case, the full four-point amplitude can be expressed completely in term
 \begin{equation}\label{eq:NLSMamp} 
 \mathcal{A}^{\text{NLSM}}_{(1|23|4)} = f_\pi^{-2}\left(\cHL_{(1234)} s_{13}+\cHL_{(1324)}s_{12}\right)\,.
 \end{equation}
-The $t$-channel color factor satisfies a Jacobi identity with the $s$- and $u$-channel diagrams, $c_t \equiv\cHL_{(2341)} =\cHL_{(1234)}-\cHL_{(1324)}$, and thus can be chosen so that it does not contribute to the full color-dressed amplitude. In this work, we use the convention $s=(k_1+k_2)^2$, $t=(k_2+k_3)^2$ and $u=-s-t$.  The color-dressed amplitude is entirely bose-symmetric, but we use the subscript $(1|23|4)$ to emphasize a functional choice of the $1|\sigma|4$ half-ladder basis.
+The $t$-channel color factor satisfies a Jacobi identity with the $s$- and $u$-channel diagrams, $c_t \equiv\cHL_{(2341)} =\cHL_{(1234)}-\cHL_{(1324)}$, and thus can be chosen so that it does not contribute to the full color-dressed amplitude. In this work, we use the convention $s=(k_1+k_2)^2$, $t=(k_2+k_3)^2$ and $u=-s-t$.  The color-dressed amplitude is entirely bose-symmetric, but we use the subscript $(1|23|4)$ to emphasize a functional choice of the $(1|\sigma|4)$ half-ladder basis.
 
 \subsubsection{One-loop}\label{sec:1loopNLSM}
 At one-loop, the unitarity construction of gauge theory amplitudes is particularly simple, since the color factors can be decomposed into a DDM-like ordered color basis. That is, all color factors, $C_g$ associated with the following cubic representation of the integrand:
@@ -2281,7 +2285,7 @@ We define the internal loop momenta as, $\bar{l}_1 =-l_1= l$ and $\bar{l}_2 =-l_
 Again, as following the reasoning in \sect{sec:EMU} we do not need to worry about any contact terms that may have been missed in this cut -- any such terms do not exist for an even-point theory.
 
 We note that since the internal pions are identical, this contribution comes dressed with an internal symmetry factor of $S_{(12|34)}=\frac{1}{2}$. Moreover, this is just the $s$-channel cut -- to capture all channels we can sum over all cyclic permutations:
-\begin{equation}
+\begin{equation}\label{eq:NLSM1loop}
 \mathcal{A}^{\text{NLSM}}_{\text{1-loop}}=\frac{1}{2}\scaleIntApion +\text{cyc}(2,3,4)
 \end{equation}
 Now, given the appearance of loop momenta in the integrand, we must proceed to the next step in our integration procedure: tensor reduction. 
@@ -2389,29 +2393,39 @@ where we have defined the scalar ostrich-diagram integral, $[I_3\circ I_2]^D(k_{
 [I_3\circ I_2]^D(k_{12}) \equiv \int \frac{d^Dl_1}{(2\pi)^D} \frac{d^Dl_2}{(2\pi)^D} \frac{(l_2+k_1)^2}{l_1^2  (l_1+l_2+k_1)^2l_2^2 (l_2+k_{12})^2}\,.
 \end{equation}
 We have added the additional factor of $(l_2+k_1)^2$ in the definition of $[I_3\circ I_2]^D(k_{12})$ to simplify the final expression in \eqn{eq:NLSMostrich}. We will use this as our basis integral throughout the text. This two-loop integral can be evaluated analytically using the $D$-dimensional single scale bubble and triangle integral expressions in \eqn{eq:integrals}. Thus, we have completely reduced the full two-loop NLSM amplitude to a linear combination of scalar integrals, $I_2^D(k_{ij})$ and $[I_3\circ I_2]^D(k_{ij})$. Now we will proceed to the final step of evaluating the amplitude in particular dimensions.
-\paragraph{\textbf{Integration}} While there is plenty of physics to be extracted from the combination of \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich}, we will focus on the behavior of the leading divergence for $D=2-2\epsilon$ in the planar limit where $N_c \rightarrow \infty$. In this limit, the cross-box is subleading in the $N_c$ expansion, and can be neglected. In a trace basis, the double-box can be expanded as follows:
+\paragraph{\textbf{Exponentiation}} While there is plenty of physics to be extracted from the combination of \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich}, we will focus on the behavior of the leading divergence for $D=2-2\epsilon$ for the symmetric coset model describing pions on $\mathbb{CP}^1\cong SU(2) /U(1)$. The tree amplitudes for this theory can be obtained from \eqn{eq:NLSMamp} by plugging in multi-trace color factors of the form,
 \begin{equation}
-C^{\text{2box}}_{(12|34)} \xrightarrow{N_c\rightarrow\infty } N_c^2\, [C(1234)+C(1432)] +\mathcal{O}(N_c)
+\cHL_{(ijkl)} = \delta_{ik}\delta_{jl} -\delta_{il}\delta_{jk} \,.
 \end{equation}
-where we have defined the color trace factor, $C(abcd)\equiv  \text{tr}[T^aT^b T^c T^d]$. Furthermore, the leading divergences for the loop integrals in $D=2-2\epsilon$ dimensions are the following:
+The delta function indices select out (anti)-holomorphic pion fields that live on the $\mathbb{CP}^1$ coset manifold. Plugging in explicit values for the ``color" indices, we obtain the following tree-level amplitude:
+\begin{equation}
+\mathcal{A}^{\mathbb{CP}^1}_{\text{tree}}(Z_1,\bar{Z}_2,Z_3,\bar{Z}_4) = f_\pi^{-2}s_{13}\,.
+\end{equation}
+Using this tree-level contact as the seed in our EMU construction, we can directly compute the one- and two-loop amplitudes from \eqn{eq:NLSM1loop} and \eqn{eq:NLSM2loop}. Furthermore, the leading divergences for the loop integrals in $D=2-2\epsilon$ dimensions are the following:
 \begin{align}
 I_2^{2-2\epsilon}(k_{ij})I_2^{2-2\epsilon}(k_{ij}) &= -\frac{1}{s_{ij }^2}\frac{1}{(2\pi \epsilon)^2} + \mathcal{O}(\epsilon^{-1}) 
 \\
  [I_3\circ I_2]^{2-2\epsilon}{(k_{ij})} &= -\frac{3}{8s_{ij }}\frac{1}{(2\pi \epsilon)^2} + \mathcal{O}(\epsilon^{-1}) 
 \end{align}
-The analogous divergences for $D=4-2\epsilon$ can be extracted directly from the integral expressions in \eqn{eq:integrals}. Plugging these values into \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich}, we can extract the full leading logarithmic divergence from the color dressed amplitude in \eqn{eq:NLSM2loop}. Since we are interested in the large $N_c$ limit, we will define a color-ordered quantity $A^{2-2\epsilon}_{(1234)}$, 
-\begin{equation}
-\mathcal{A}^{\text{NLSM}}_{\text{2-loop}} = \left[C(1234)A^{2-2\epsilon}_{(1234)}+\text{cyc}(2,3,4)\right] + \mathcal{O}(N_c)
+The analogous divergences for $D=4-2\epsilon$ can be extracted directly from the integral expressions in \eqn{eq:integrals}. Plugging these values in for the scattering process $\mathcal{A}(Z_1,\bar{Z}_2,Z_3,\bar{Z}_4) $, we can extract the full leading logarithmic divergence from the one-loop color dressed amplitude in \eqn{eq:NLSM1loop},
+\begin{equation}\label{eq:1loopCP1}
+\mathcal{A}^{\mathbb{CP}^1}_{\text{1-loop}} = - \left[\frac{if_{\pi}^{-2} }{4\pi \epsilon}\right]f_\pi^{-2}s_{13}+\mathcal{O}(\epsilon^0)\,,
 \end{equation}
-which takes on the following value upon evaluating the integrals in $D=2-2\epsilon$,
+and likewise for the two-loop result upon evaluating the integrals in $D=2-2\epsilon$,
 \begin{equation}
-A^{2-2\epsilon}_{(1234)} = -\frac{1}{2}\left[\frac{f_{\pi}^{-2}N_c }{2\pi \epsilon}\right]^2 \,f_\pi^{-2}s_{13} 
+\mathcal{A}^{\mathbb{CP}^1}_{\text{2-loop}} = \frac{1}{2} \left[\frac{if_{\pi}^{-2} }{4\pi \epsilon}\right]^2f_\pi^{-2}s_{13} +\mathcal{O}(\epsilon^{-1})\,.
 \end{equation}
-We write it in this suggestive form to emphasize that the logarithmic divergence present at one-loop in \eqn{eq:1loopPionD2} appears to exponentiate! More concretely, through explicit calculation we have demonstrated that through two-loop, the leading divergence of the color ordered amplitudes in the planar limit goes as follows:
+We write the two-loop amplitude in this suggestive form to emphasize that the logarithmic divergence present at one-loop in \eqn{eq:1loopCP1} appears to exponentiate! More concretely, we have demonstrated through explicit calculation that through two-loop order, the leading divergence of the full color dressed amplitude goes as follows:
+\begin{eBox}
 \begin{equation}\label{eq:expNLSM}
-A^{2-2\epsilon}\bigg|_{\text{div.}} = A^{\text{tree}}\left( 1 + \frac{A^{\text{1-loop}}}{ A^{\text{tree}}} + \frac{1}{2}\left[\frac{A^{\text{1-loop}}}{ A^{\text{tree}}} \right]^2 + \cdots \right)
+\mathcal{A}_{2-2\epsilon}^{\mathbb{CP}^1}\bigg|_{\text{div.}} = \mathcal{A}^{\text{tree}}\left( 1 + \frac{\mathcal{A}^{\text{1-loop}}}{ \mathcal{A}^{\text{tree}}} + \frac{1}{2}\left[\frac{\mathcal{A}^{\text{1-loop}}}{ \mathcal{A}^{\text{tree}}} \right]^2 + \cdots \right)
 \end{equation}
-It would be interesting to investigate whether this exponential structure also can be applied to the subleading logarithms in the planar limit, similar to what was found in \cite{Anastasiou:2003kj,Bern:2005iz} in $D=4-2\epsilon$ for planar $\mathcal{N}=4$ sYM. The iterated structure of planar $\mathcal{N}=4$ has been linked to the integrability of the theory \cite{Sterman:2002qn,Minahan:2002ve,Bena:2003wd,Beisert:2003jj,Beisert:2003jb,Beisert:2003yb,Dolan:2003uh,Arutyunov:2003rg,Ryzhov:2004nz,Frolov:2005iq}. We find compelling the possibility that this iterated structure of NLSM amplitudes in $D=2-2\epsilon$ could indicate similar integrable behavior, as studied in \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}. We leave this as a direction of future study. 
+\end{eBox}
+This iterative form suggests that the IR divergence of the $\mathbb{CP}^1$ model can be neatly extracted from the perturbative series as an overall factor, $e^\Omega$, where $\Omega$ is the divergent piece of the one-loop amplitude. Similar exponentiation of the IR has a long history in the context of gravity amplitudes \cite{Weinberg:1965nx}, for which IR divergences appear due to soft graviton emissions that mediate long range interactions. Considering the established relationship \cite{deWit:1983xhu,deWit:1992cr,deWit:1992wf, Chiodaroli:2014xia} between coset manifolds (target spaces) and supergravity theories, there's a possibility that the exponentiation of the $\mathbb{CP}^1$ model in \eqn{eq:expNLSM} is related to the analogous behavior of supergravity amplitudes \cite{Naculich:2008ew,White:2011yy,DiVecchia:2019myk,DiVecchia:2019kta,Heissenberg:2021tzo}.
+
+In addition to the exponential structure of \eqn{eq:expNLSM} that we have computed for the $\mathbb{CP}^1$ model, there is potentially a parallel story for the planar limit of the chiral NLSM amplitudes. Indeed, if one takes $D\rightarrow 2$ in \eqn{eq:NLSM2bub}, we find that the leading divergence of the double bubble in $D=2-2\epsilon$ is precisely one half the square of the one-loop divergence in \eqn{eq:1loopPionD2}. However, while the cross-box term appearing in \eqn{eq:NLSMostrich} is subleading when $N_c\rightarrow 0$, there are still relevant contributions from the double-boxes appearing in the ostrich integral. 
+
+In principle one could add additional operators \cite{Elvang:2018dco} or particle states \cite{Cachazo:2016njl} to \eqn{eq:NLSMLag} that cancel the additional contributions from the ostrich integral, while preserving the soft behavior needed for our EMU construction. Doing so would extend the exponential behavior to the subleading logarithms in the planar limit, similar to what was found in \cite{Anastasiou:2003kj,Bern:2005iz} for planar $\mathcal{N}=4$ sYM in $D=4-2\epsilon$. The iterated structure of planar $\mathcal{N}=4$ has been linked to the integrability of the theory \cite{Sterman:2002qn,Minahan:2002ve,Bena:2003wd,Beisert:2003jj,Beisert:2003jb,Beisert:2003yb,Dolan:2003uh,Arutyunov:2003rg,Ryzhov:2004nz,Frolov:2005iq}. We leave identifying such an extended theory consistent with exponentiation as a compelling direction of future study.
 
 Now that we have walked through our procedure for computing two-loop even point theory amplitudes with NLSM as an exemplar, we are prepared to proceed to the main results of the text. While the construction of DBIVA integrands is more involved than constructing the simple expressions of NLSM, the general procedure is exactly the same. The only differences being additional gauge independent state sums, and longer compute time needed for the tensor reduction. 
 
@@ -2693,7 +2707,7 @@ where the kinematic numerators depend on particular choice of generalized gauge.
 
 While there are currently no color-dual NLSM numerators identified in the literature beyond one-loop, there are color-dual representation available for $\mathcal{N}=4$ sYM through four-loop four-point \cite{GravityFour}. Below are the one- and two-loop basis numerators relevant for our construction: 
 \begin{equation}
-N^{\text{box}}_{\mathcal{N}=4} =\simplebox=  (t_8F^4)^{\text{(max)}}_{(1234)}
+N^{\text{box}}_{\mathcal{N}=4} =\simpleBox=  (t_8F^4)^{\text{(max)}}_{(1234)}
 \end{equation}
 and similarly so at two-loop four-point for the double-box and cross-box, which take on identical expressions:
 \begin{align}
@@ -2808,7 +2822,7 @@ and all the 4D operators have the freedom to add the previously defined evanesce
 Thus, we can construct the new effective photon Lagrangian, $\mathcal{L}^{\text{BI}+\text{CT}}$, with the addition of the all-plus counter-terms to our Born-Infeld Lagrangian:
 \begin{equation}
 \label{eq:1loopU1Action}
-\mathcal{L}^{\text{BI}+\text{CT}} = \mathcal{L}^{\text{BI}} + \frac{(\alpha')^4}{(4\pi)^2}\frac{1}{60}\left(\mathcal{O}^{4+}+ a_{({\text{ev.}})}\mathcal{O}^{\text{ev.}}\right)
+\mathcal{L}^{\text{BI}+\text{CT}} = \mathcal{L}^{\text{BI}} + \frac{\alpha'^4}{(4\pi)^2}\frac{1}{30}\left(\mathcal{O}^{4+}+ a_{({\text{ev.}})}\mathcal{O}^{\text{ev.}}\right)
 \end{equation}
 where we have used \eqn{eq:OpsVsTens} to implicitly define the operators appearing in the quantum effective action above. While there are a number of perturbatively equivalent construction of these operators, below we provide a couple expressions that resemble the on-shell basis elements:
 \begin{equation}
@@ -2833,7 +2847,7 @@ Thus, \eqn{eq:1loopU1Action} constitutes a duality invariant photon theory throu
 \subsubsection{Two-loop}\label{sec:Anomalies2loop}
 The first step in identifying the requisite operators needed to cancel the two-loop anomaly at $\mathcal{O}(\alpha'^6)$ is to perform another one-loop calculation at this mass dimension, which includes the counterterms of $\mathcal{L}^{\text{BI}+\text{CT}}$ defined above. The one-loop amplitude is constructed as follows:
 \begin{equation}
-\mathcal{M}^{\text{BI+CT}}_{\text{1-loop}}\big|_{\alpha'^6} = \frac{1}{2}\frac{\alpha'^6}{60 (4\pi)^2}\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{4+}$}{$t_8F^4$}+\frac{a_{\text{ev.}}}{2}\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{\text{ev.}}$}{$t_8F^4$}+\text{perms}
+\mathcal{M}^{\text{BI+CT}}_{\text{1-loop}}\big|_{\alpha'^6} = \frac{1}{2}+ \frac{\alpha'^4}{(4\pi)^2}\frac{1}{30}\left[\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{4+}$}{$t_8F^4$}+a_{\text{ev.}}\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{\text{ev.}}$}{$t_8F^4$}\right]+\text{perms}
 \end{equation}
 Both of these operator insertions can be evaluated using the same $D$-dimensional procedure used throughout the text. The all-plus counterterm yields the following contributions to $(++++)$ and $(-+++)$ helicity configurations:
 \begin{align}
@@ -2853,10 +2867,10 @@ Below we find it instructive to show the $D$-dependence of the evanescent operat
 \end{align}
 This will produce $\mathcal{O}(\epsilon^0)$ matrix elements in the $(-+++)$ helicity sector. 
 Thus, in order to cancel the divergent part of the two-loop $(-+++)$ anomaly computed in \eqn{eq:oneMinus2loop}, we must weight the evanescent operator by a numerical factor that {diverges} in $D=4$. 
-Given the particular numerical value computed in the previous section, we find evanescent Wilson coefficient must take the following $D$-dependent value:
+Given the particular numerical value computed in the previous section, we find the evanescent Wilson coefficient must take the following $D$-dependent value:
 \begin{eBox}
 \begin{equation}
-\mathcal{L}^{\text{BI}+\text{CT}} = \mathcal{L}^{\text{BI}} + \frac{\alpha'^4}{(4\pi)^2}\frac{1}{60}\left[\mathcal{O}^{4+}+ \frac{64}{(D-4)}\mathcal{O}^{\text{ev.}}\right]+\mathcal{O}(\alpha'^6)
+\mathcal{L}^{\text{BI}+\text{CT}} = \mathcal{L}^{\text{BI}} + \frac{\alpha'^4}{(4\pi)^2}\frac{1}{30}\left[\mathcal{O}^{4+}- \frac{8}{(D-4)}\mathcal{O}^{\text{ev.}}\right]+\mathcal{O}(\alpha'^6)
 \end{equation}
 \end{eBox}
 where the $(D-4)$ in the denominator cancels the factor in the numerator above. In order to further absorb the remaining rational terms, we must introduce an additional set of tree-level operators at $\mathcal{O}(\alpha'^6)$. At this order in mass-dimension, there are seven distinct operators:
@@ -2988,7 +3002,7 @@ With this, we can determine the number of evanescent operators that can contribu
 It would be interesting to determine whether the three Hilbert series stated above owe their construction to some hidden geometric origin. Indeed all of the operator counting in the SMEFT literature can be traced to the geometry of the group theory representations that underly the Standard Model \cite{Henning:2015daa,Lehman:2015via}. We leave identifying these concealed mathematical structures as an exciting direction of future study. 
 \section{Conclusions}\label{sec:Discussion}
 In this manuscript, we have carried out a detailed analysis of NLSM and DBIVA effective field theories at NNLO in the perturbative expansion. In \sect{sec:Review}, we provided a review of the generalized unitarity and integration methods employed throughout the text. Then in \sect{sec:EMU} we introduced and developed the on-shell constructive methods of Even-point Multi-loop Unitarity (EMU), and computed the tensor reduction for triangle and bubble integrals in $D$-dimensions of arbitrary rank along with a spanning set of four-photon operators needed to capture higher-loop effects. Due to the simplicity of even-point multi-loop amplitudes of NLSM and DBIVA, these methods allowed us to compute fully integrated two-loop amplitudes for NLSM, pure Born-Infeld, and $\mathcal{N}=4$ DBIVA theory in \sect{sec:Loops}. Finally, in \sect{sec:Actions} we studied the quantum effective actions that capture the aforementioned loop effects. In doing so, we have identified a variety of rich physical structures that we summarize below: 
-\paragraph{\textbf{Exponentiation}} In \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich} we computed in general dimension, $D$, the two contributions to NLSM two-loop amplitudes. Evaluating these diagrams in $D=2-2\epsilon$, and taking the planar limit, $N_c \rightarrow \infty$, we found in \eqn{eq:expNLSM} that the IR divergences exponentiate through two-loop. This non-trivial property is found in theories that are conjectured to be integrable \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}, like $\mathcal{N}=4$ super-Yang-Mills \cite{Anastasiou:2003kj,Bern:2005iz}. In future work, we hope to study whether this iterative structure can be further applied to the scale dependent logarithms present at multi-loop order in the theory. 
+\paragraph{\textbf{Exponentiation}} In \eqn{eq:NLSM2bub} and \eqn{eq:NLSMostrich} we computed in general dimension, $D$, the two contributions to chiral NLSM two-loop amplitudes. Evaluating these diagrams in $D=2-2\epsilon$, and taking the planar limit, $N_c \rightarrow \infty$, we found in \eqn{eq:expNLSM} that the IR divergences exponentiate through two-loop. This non-trivial property is found in theories that are conjectured to be integrable \cite{Shankar:1977cm,Zamolodchikov:1977nu,Zamolodchikov:1978xm, Komatsu:2019hgc}, like $\mathcal{N}=4$ super-Yang-Mills \cite{Anastasiou:2003kj,Bern:2005iz}. In future work, we hope to study whether this iterative structure can be further applied to the scale dependent logarithms present at multi-loop order in the theory. 
 \paragraph{\textbf{Anomalies}} Equipped with our $D$-dimensional integration methods, we performed an analogous calculation at two-loop for pure Born-Infeld in \sect{sec:2loopBIU}. In doing so, we demonstrated that the previously identified one-loop counterterm is not sufficient to cancel the two-loop anomaly. In fact, the $(-+++)$ anomaly of \eqn{eq:oneMinus2loop}, which was absent at one-loop, diverges at two-loop order due to the presence of a one-loop evanescent operator in the $D$-dimensional formulation of Born-Infeld theory. One resolution to this anomaly comes in the form of introducing $\mathcal{N}=4$ DBIVA superfields in the two-loop state-sum. This protects the $S$-matrix from anomalies by promoting the classically conserved $U(1)$ duality to a supersymmetric R-symmetry. The evaluated integrals that contribute to the $\mathcal{N}=4$ DBIVA two-loop amplitudes are provided in \eqn{eq:N42bub} and \eqn{eq:N4ostrich}. 
 \paragraph{\textbf{Evanescence}}Another resolution to the two-loop anomaly comes in the form of higher-derivative pure-photon counterterms. To do so, we demonstrated through explicit calculation in \sect{sec:Anomalies} that we must introduce a divergence evanescent operator at one-loop order. This is similar to the anomalies of pure Einstein-Hilbert gravity \cite{Bern:2015xsa,Bern:2017puu}, which vanish at one-loop since the $R^2$ Gauss-Bonet term is evanescent in $D=4$, but which diverge at two-loop order \cite{Goroff:1985sz,Goroff:1985th,vandeVen:1991gw}. Given the complexity of gravity calculations at high loop order, further studies of multi-loop Born-Infeld amplitudes could serve as accessible laboratory for studying evanescent effects beyond one-loop in double-copy constructible theories. To this end, we have used Hilbert series to count the number of four-photon evanescent operators to higher-order derivative corrections in \sect{sec:EOpsCounting} to aid in future studies. 
 
