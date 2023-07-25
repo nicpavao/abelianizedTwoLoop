@@ -3,7 +3,7 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: eventPointTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 11180 items from 5000.
+Reallocated field_info (elt_size=4) to 11150 items from 5000.
 Database file #1: Refs_emu.bib
 Repeated entry---line 294 of file Refs_emu.bib
  : @article{Bern:2012uf
@@ -25,45 +25,45 @@ Repeated entry---line 12985 of file Refs_emu.bib
  : @article{Kampf:2013vha
  :                       ,
 I'm skipping whatever remains of this entry
-You've used 206 entries,
+You've used 205 entries,
             2316 wiz_defined-function locations,
-            2083 strings with 41919 characters,
-and the built_in function-call counts, 91647 in all, are:
-= -- 9872
-> -- 2842
+            2077 strings with 41698 characters,
+and the built_in function-call counts, 91185 in all, are:
+= -- 9819
+> -- 2832
 < -- 0
-+ -- 820
-- -- 614
-* -- 9159
-:= -- 11546
-add.period$ -- 206
-call.type$ -- 206
-change.case$ -- 205
++ -- 817
+- -- 612
+* -- 9123
+:= -- 11489
+add.period$ -- 205
+call.type$ -- 205
+change.case$ -- 204
 chr.to.int$ -- 0
-cite$ -- 206
-duplicate$ -- 7127
-empty$ -- 8213
-format.name$ -- 1842
-if$ -- 23081
+cite$ -- 205
+duplicate$ -- 7091
+empty$ -- 8172
+format.name$ -- 1836
+if$ -- 22961
 int.to.chr$ -- 0
-int.to.str$ -- 206
-missing$ -- 793
-newline$ -- 622
-num.names$ -- 205
-pop$ -- 416
+int.to.str$ -- 205
+missing$ -- 789
+newline$ -- 619
+num.names$ -- 204
+pop$ -- 412
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2837
+skip$ -- 2818
 stack$ -- 0
-substring$ -- 5585
-swap$ -- 1636
+substring$ -- 5548
+swap$ -- 1627
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 1050
-width$ -- 209
-write$ -- 2148
+while$ -- 1045
+width$ -- 208
+write$ -- 2138
 (There were 5 error messages)
