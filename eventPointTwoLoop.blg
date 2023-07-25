@@ -5,19 +5,23 @@ The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated field_info (elt_size=4) to 11180 items from 5000.
 Database file #1: Refs_emu.bib
-Repeated entry---line 1420 of file Refs_emu.bib
+Repeated entry---line 294 of file Refs_emu.bib
+ : @article{Bern:2012uf
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1434 of file Refs_emu.bib
  : @article{Low:2019ynd
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2265 of file Refs_emu.bib
+Repeated entry---line 2279 of file Refs_emu.bib
  : @article{Elvang:2018dco
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7603 of file Refs_emu.bib
+Repeated entry---line 7617 of file Refs_emu.bib
  : @article{Boels:2016xhc
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 12971 of file Refs_emu.bib
+Repeated entry---line 12985 of file Refs_emu.bib
  : @article{Kampf:2013vha
  :                       ,
 I'm skipping whatever remains of this entry
@@ -62,4 +66,4 @@ warning$ -- 0
 while$ -- 1050
 width$ -- 209
 write$ -- 2148
-(There were 4 error messages)
+(There were 5 error messages)

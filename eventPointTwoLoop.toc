@@ -48,11 +48,11 @@
 \contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{52}{subsubsection.5.1.2}% 
 \contentsline {subsection}{\numberline {5.2}Double copy construction}{54}{subsection.5.2}% 
 \contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{54}{subsubsection.5.2.1}% 
-\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{55}{subsubsection.5.2.2}% 
+\contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{56}{subsubsection.5.2.2}% 
 \contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{57}{subsection.5.3}% 
 \contentsline {section}{\numberline {6}Conclusions}{59}{section.6}% 
 \contentsline {paragraph}{\textbf {Exponentiation}}{59}{section*.23}% 
 \contentsline {paragraph}{\textbf {Anomalies}}{59}{section*.24}% 
-\contentsline {paragraph}{\textbf {Evanescence}}{59}{section*.25}% 
+\contentsline {paragraph}{\textbf {Evanescence}}{60}{section*.25}% 
 \contentsline {paragraph}{}{60}{section*.26}% 
-\contentsline {paragraph}{Acknowledgments}{60}{section*.27}% 
+\contentsline {paragraph}{Acknowledgments}{61}{section*.27}% 
