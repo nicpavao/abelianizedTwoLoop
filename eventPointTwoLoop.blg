@@ -1,53 +1,69 @@
-This is BibTeX, Version 0.99d (TeX Live 2019)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: eventPointTwoLoop.aux
 The style file: JHEP.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10670 items from 5000.
+Reallocated field_info (elt_size=4) to 11150 items from 5000.
 Database file #1: Refs_emu.bib
-Repeated entry---line 7361 of file Refs_emu.bib
+Repeated entry---line 294 of file Refs_emu.bib
+ : @article{Bern:2012uf
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1434 of file Refs_emu.bib
+ : @article{Low:2019ynd
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2279 of file Refs_emu.bib
+ : @article{Elvang:2018dco
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7617 of file Refs_emu.bib
  : @article{Boels:2016xhc
  :                       ,
 I'm skipping whatever remains of this entry
-You've used 189 entries,
+Repeated entry---line 12985 of file Refs_emu.bib
+ : @article{Kampf:2013vha
+ :                       ,
+I'm skipping whatever remains of this entry
+You've used 205 entries,
             2316 wiz_defined-function locations,
-            1965 strings with 39056 characters,
-and the built_in function-call counts, 84001 in all, are:
-= -- 9047
-> -- 2616
+            2077 strings with 41698 characters,
+and the built_in function-call counts, 91185 in all, are:
+= -- 9819
+> -- 2832
 < -- 0
-+ -- 754
-- -- 565
-* -- 8396
-:= -- 10575
-add.period$ -- 189
-call.type$ -- 189
-change.case$ -- 188
++ -- 817
+- -- 612
+* -- 9123
+:= -- 11489
+add.period$ -- 205
+call.type$ -- 205
+change.case$ -- 204
 chr.to.int$ -- 0
-cite$ -- 189
-duplicate$ -- 6553
-empty$ -- 7529
-format.name$ -- 1695
-if$ -- 21137
+cite$ -- 205
+duplicate$ -- 7091
+empty$ -- 8172
+format.name$ -- 1836
+if$ -- 22961
 int.to.chr$ -- 0
-int.to.str$ -- 189
-missing$ -- 725
-newline$ -- 571
-num.names$ -- 188
-pop$ -- 386
+int.to.str$ -- 205
+missing$ -- 789
+newline$ -- 619
+num.names$ -- 204
+pop$ -- 412
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 2575
+skip$ -- 2818
 stack$ -- 0
-substring$ -- 5146
-swap$ -- 1481
+substring$ -- 5548
+swap$ -- 1627
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 962
-width$ -- 192
-write$ -- 1963
-(There was 1 error message)
+while$ -- 1045
+width$ -- 208
+write$ -- 2138
+(There were 5 error messages)
