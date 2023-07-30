@@ -156,6 +156,11 @@ T.V.~Brown, K.~Kampf, U.~Oktem, S.~Paranjape and J.~Trnka, \emph{{Scalar BCJ
   Bootstrap}},  \href{https://arxiv.org/abs/2305.05688}{{\ttfamily
   2305.05688}}.
 
+\bibitem{Li:2023wdm}
+Y.~Li, D.~Roest and T.~ter Veldhuis, \emph{{Hybrid Goldstone Modes from the
+  Double Copy Bootstrap}},  \href{https://arxiv.org/abs/2307.13418}{{\ttfamily
+  2307.13418}}.
+
 \bibitem{BCJreview}
 Z.~Bern, J.J.~Carrasco, M.~Chiodaroli, H.~Johansson and R.~Roiban, \emph{{The
   Duality Between Color and Kinematics and its Applications}},
@@ -966,6 +971,17 @@ V.~Del~Duca, L.J.~Dixon and F.~Maltoni, \emph{{New color decompositions for
   \href{https://doi.org/10.1016/S0550-3213(99)00809-3}{\emph{Nucl. Phys.}
   {\bfseries B571} (2000) 51}
   [\href{https://arxiv.org/abs/hep-ph/9910563}{{\ttfamily hep-ph/9910563}}].
+
+\bibitem{Feng:2020opo}
+B.~Feng and Y.~Zhang, \emph{{Note on the Labelled tree graphs}},
+  \href{https://doi.org/10.1007/JHEP12(2020)096}{\emph{JHEP} {\bfseries 12}
+  (2020) 096} [\href{https://arxiv.org/abs/2009.02394}{{\ttfamily
+  2009.02394}}].
+
+\bibitem{Alday:2023kfm}
+L.F.~Alday, V.~Gon\c{c}alves, M.~Nocchi and X.~Zhou, \emph{{Six-Point AdS Gluon
+  Amplitudes from Flat Space and Factorization}},
+  \href{https://arxiv.org/abs/2307.06884}{{\ttfamily 2307.06884}}.
 
 \bibitem{Weinberg:1965nx}
 S.~Weinberg, \emph{{Infrared photons and gravitons}},
