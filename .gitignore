@@ -7,3 +7,6 @@ AbelianTwoLoop.synctex.gz
 *.log
 *.gz
 *.out
+arXiv/emu.pdf
+arXiv/emu.blg
+arXiv/emu.toc
