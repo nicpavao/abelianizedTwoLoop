@@ -1702,6 +1702,7 @@ where we have introduced the subscript notation for indexed sums $X_{12...n} = X
 
 The existence of closed form expressions, like those in \eqn{eq:integrals}, while common for one-loop integrals, are incredibly rare for higher loop order outside of very specialized kinematic regimes. Luckily, the integral basis at four-point two-loop order for even-point theories can be reconstructed from the one-loop expressions in \eqn{eq:integrals}. This is a special property of what we refer to as \textit{recursively one-loop} amplitudes. We can exemplify this property in the simple context of scalar $\varphi^{2k}$ theory.  
 
+
 Consider the interactions needed to construct two loop amplitudes for the generic arbitrarily weighted $\varphi^{2k}$-scalar theory:
 \begin{equation}\label{eq:evenPointL}
 \mathcal{L}_{\varphi^{2k}} = \frac{1}{2}(\partial \varphi)^2 + c_4 \varphi^4 + c_6 \varphi^6+ c_8 \varphi^8+\cdots 
@@ -1715,20 +1716,18 @@ Consider the interactions needed to construct two loop amplitudes for the generi
 &+  \frac{c_4 c_6}{6}\scalelessIntBscalar+\text{perms}(1,2,3,4)
 \end{aligned}
 \end{equation}
-Since the external states are massless, only the first two integrals, those appearing in \Fig{fig:contrib2Loop}, are non-vanishing in dimensional regularization -- the rest are scaleless. 
-Therefore the above even-point perturbative predictions of $\varphi^{2k}$ are equivalent to $\varphi^4$ theory at four-point through two-loop order: 
-\begin{equation}
-\mathcal{M}_{\varphi^{2k}}^{\text{2-loop}} \equiv \mathcal{M}_{\varphi^{4}}^{\text{2-loop}} \,.
-\end{equation}
-In addition to being perturbatively equivalent to the quartic sector of the theory at two-loop, we can see above that the integrals for the Feynman diagrams in \eqn{eq:2loopEven} are {recursively one-loop}. In other words, to integrate the full amplitude at two-loop, we only need the iterated basis of one-loop integrals. This observation comes with the added advantage of permitting the application of one-loop Passarino-Veltman tensor reduction \cite{Passarino:1978jh} to two loop integrals. This property of recursively one-loop integrals will dramatically simplify the higher derivative even-point theories that we consider.  
-
 \begin{figure}[t]
     \centering
     \begin{equation*}\Omega_{(2,4)} = \left\{\scaleIntBscalar{}{}{}{},\scaleIntCscalar{}{}{}{} \right\}\end{equation*}
     \caption{Recursive one-loop integrals contributing to the  two-loop four-point calculation in even-point effective field theories, we refer to as the ostrich integral and double-bubble from left to right.}
     \label{fig:contrib2Loop}
 \end{figure}
-
+Since the external states are massless, only the first two integrals, those appearing in \Fig{fig:contrib2Loop}, are non-vanishing in dimensional regularization -- the rest are scaleless. 
+Therefore the above even-point perturbative predictions of $\varphi^{2k}$ are equivalent to $\varphi^4$ theory at four-point through two-loop order: 
+\begin{equation}
+\mathcal{M}_{\varphi^{2k}}^{\text{2-loop}} \equiv \mathcal{M}_{\varphi^{4}}^{\text{2-loop}} \,.
+\end{equation}
+In addition to being perturbatively equivalent to the quartic sector of the theory at two-loop, we can see above that the integrals for the Feynman diagrams in \eqn{eq:2loopEven} are {recursively one-loop}. In other words, to integrate the full amplitude at two-loop, we only need the iterated basis of one-loop integrals. This observation comes with the added advantage of permitting the application of one-loop Passarino-Veltman tensor reduction \cite{Passarino:1978jh} to two loop integrals. This property of recursively one-loop integrals will dramatically simplify the higher derivative even-point theories that we consider.  
 
 \subsection{Even-point Effective Field Theories}
 \label{subsec:EPEFTReview}
@@ -2130,7 +2129,8 @@ First, we will use the pair of $D$-dimensional tensor structure, $f_{ij}f_{kl}$ 
 f_{ij}= \frac{1}{2}\text{tr}[F_iF_j]\,,\qquad f_{ijkl} = \text{tr}[F_iF_jF_kF_l]\,,
 \end{align}
 where $F_i^{\mu\nu} = k_i^\mu \varepsilon_i^\nu - k_i^\nu \varepsilon_i^\mu$ are linearized field strengths, and the trace is taken over spacetime indices. With these vector building blocks, there are exactly four $D$-dimensional four-photon matrix elements one can write down at $\mathcal{O}(k^8)$:
-\begin{align}\label{eq:symVecBlocks}
+\begin{equation}\label{eq:symVecBlocks}
+\begin{aligned}
 \mathcal{T}_{(2,0)}^{F^2F^2} &= s_{12}^2 f_{12}f_{34} + \text{cyc}(2,3,4)\,,
 \\
 \mathcal{T}_{(2,0)}^{F^4} &= s_{12}^2 f_{1324} + \text{cyc}(2,3,4)\,,
@@ -2138,7 +2138,8 @@ where $F_i^{\mu\nu} = k_i^\mu \varepsilon_i^\nu - k_i^\nu \varepsilon_i^\mu$ are
 \mathcal{T}_{(0,1)}^{F^2F^2} &= s_{13}s_{14} f_{12}f_{34} + \text{cyc}(2,3,4)\,,
 \\
 \mathcal{T}_{(0,1)}^{F^4} &= s_{13}s_{14} f_{1324} + \text{cyc}(2,3,4)\,,
-\end{align}
+\end{aligned}
+\end{equation}
 where the Mandelstam invariants are defined as $s_{ij} = (k_i+k_j)^2$.  The index subscripts correspond to powers of Mandelstam invariants that are easly generalized to span arbitrarily high mass-dimension,
 \begin{eBox}
 \begin{equation}\label{eq:basisTensors}
@@ -2151,9 +2152,7 @@ where the Mandelstam invariants are defined as $s_{ij} = (k_i+k_j)^2$.  The inde
 \end{aligned}
 \end{equation}
 \end{eBox}
-with with $\sigma_3 = s_{12}s_{13}s_{14}/8$ and $\sigma_2 = (s_{12}^2+s_{13}^2+s_{14}^2)/8$. 
-
-The important takeaway from \eqn{eq:symVecBlocks} is that one can write down four independent Lorentz invariant photon tensor structures at $\mathcal{O}(k^8)$. This does obscure the 4-dimensional freedom available at this mass dimension. In fact, there are only three distinct helicity structures in $D=4$. One particular basis for these helicity structures, exploiting  the 4D spinor-helicity products reviewed in \sect{subsec:4DandDDReview}, can be written as,
+with $\sigma_3 = s_{12}s_{13}s_{14}/8$ and $\sigma_2 = (s_{12}^2+s_{13}^2+s_{14}^2)/8$. The important takeaway from \eqn{eq:symVecBlocks} is that one can write down four independent Lorentz invariant photon tensor structures at $\mathcal{O}(k^8)$ in general dimension. However, this does obscure the 4-dimensional freedom available at this mass dimension. In fact, there are only three distinct helicity structures in $D=4$. One particular basis for these helicity structures, exploiting  the 4D spinor-helicity products reviewed in \sect{subsec:4DandDDReview}, can be written as follows,
 \begin{align}
 \mathcal{T}^{4\text{D}}_{(++++)} &= (s_{12}^4 + s_{13}^4 + s_{14}^4 ) \frac{[12][34]}{\langle 12\rangle \langle34\rangle }\,,
 \\  \label{eq:4D1Tens}
@@ -2165,10 +2164,7 @@ Immediately we can see that the full $D$-dimensional basis must have a non-trivi
 \begin{equation}
 \mathcal{T}^{\text{ev.}} \equiv \mathcal{T}_{(2,0)}^{F^2F^2}-\mathcal{T}_{(0,1)}^{F^2F^2} + \mathcal{T}_{(0,1)}^{F^4}\,.
 \end{equation}
-
-Using the helicity projection rules of \eqn{eqn:4DPols}, one can verify that $\mathcal{T}^{\text{ev.}}$ indeed vanishes in $D=4$, while clearly non-vanishing in general dimension. This behavior will be particularly relevant for interpreting the loop level results where $D=4-2\epsilon$. 
-
-Indeed, it is critically important that we track $D$-dimensional contributions when probing for divergences at multi-loop order.    Consider a two-loop integral for which we need to integrate the following quantity:
+Using the helicity projection rules of \eqn{eqn:4DPols}, one can verify that $\mathcal{T}^{\text{ev.}}$ indeed vanishes in $D=4$, while clearly non-vanishing in general dimension. This behavior will be particularly relevant for interpreting the loop level results where $D=4-2\epsilon$. Indeed, it is critically important that we track $D$-dimensional contributions when probing for divergences at multi-loop order.    Consider a two-loop integral for which we need to integrate the following quantity:
 \begin{equation}
 \scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{\text{ev.}}$}{$\mathcal{T}^{\text{arb.}}$} =\sum_{\text{states}}\int\frac{d^D l}{(2\pi)^D}\frac{\mathcal{T}^{\text{ev.}}_{(1,2,\bar{l}_1,\bar{l}_2)} \mathcal{T}^{\text{arb.}}_{(l_1,l_2,3,4)}}{l^2(l+k_{12})^2}\,,
 \end{equation}
@@ -2288,12 +2284,12 @@ I_2^{2-2\epsilon}(k_{ij}) = \frac{i}{2\pi s_{ij}}\left[\frac{1}{\epsilon} - \tex
 \end{align}
 Plugging these into our $D$-dimensional expressions, and dropping scheme dependent rational terms at subleading order, yields the following color-ordered 1-loop pion amplitudes for each respective dimension:
 \begin{align}
-A^{4-2\epsilon}_{(1234)} &=\frac{i}{48\pi^2 }f_{\pi}^{-4}\left[\frac{\sigma_2}{\epsilon}+\left(s_{12}(s_{13}-s_{12})\frac{\text{ln}(-s_{12})}{2}+(1\leftrightarrow 3)\right)+\frac{1}{6}(s_{13}^2 + 2s_{12}s_{23})\right]+\mathcal{O}(\epsilon)
+A^{4-2\epsilon}_{(1234)} &=\frac{i}{48\pi^2 }f_{\pi}^{-4}\left[\frac{4\sigma_2}{\epsilon}+\left(s_{12}(s_{13}-s_{12})\frac{\text{ln}(-s_{12})}{2}+(1\leftrightarrow 3)\right)+\frac{1}{6}(s_{13}^2 + 2s_{12}s_{23})\right]+\mathcal{O}(\epsilon)
 \\
 A^{2-2\epsilon}_{(1234)} &= \frac{i}{2\pi }f_{\pi}^{-4}\left[\frac{s_{13}}{\epsilon}-s_{13}\frac{\text{ln}(-s_{12})+\text{ln}(-s_{23})-3}{2}\right] +\mathcal{O}(\epsilon) \,,
 \label{eq:1loopPionD2}
 \end{align}
-where $\sigma_2=s_{12}^2+s_{12}s_{23}+s_{23}^2$ \dj{Is it confusing to have different normalizations for the same $\sigma_2$ -- should we introduce a $\hat{\sigma}_2$?}, and the full amplitude is recovered by summing over cyclic permutations of (2,3,4), 
+where as defined in \sect{sec:basisT}, $\sigma_2=(s_{12}^2+s_{13}^2+s_{14}^2)/8$, and the full amplitude is recovered by summing over cyclic permutations of (2,3,4), 
 \begin{equation}
 \mathcal{A}^{\text{NLSM}}_{\text{1-loop}} = C^{\text{box}}_{(1234)}A^{D}_{(1234)}+\text{cyc}(2,3,4)\,.
 \end{equation} 
@@ -2306,16 +2302,11 @@ C^{\text{2box}}_{(12|34)} = \dBox \qquad C^{\text{Xbox}}_{([12]|34)} = \xBox
 \end{equation}
 By iteratively applying Jacboi relations on internal edges, any color structure can be expressed completely in terms of functional relabelings of these two graphs. Concretely, these cubic graphs come dressed with the following color factors written in terms of group theory structure constants:
 \begin{align}
-C^{\text{2box}}_{(12|34)}&\equiv f^{b_7 a_1 b_1 }f^{b_1 a_2 b_2 } f^{b_2 b_3 b_4 } f^{b_4 a_3 b_5 }f^{b_5 a_4 b_6 } f^{b_6 b_3 b_7 }
+C^{\text{2box}}_{(12|34)}&\equiv f^{a_1 b_1b_7  }f^{ a_2 b_2 \color{funRed}{b_1} } f^{b_2 b_4  \color{funRed}{b_3}  } f^{b_3 b_6 b_7 } f^{b_4 a_3 b_5 }f^{b_5 a_4 b_6 } 
 \\
-C^{\text{Xbox}}_{([12]|34)}& \equiv f^{b_7 a_1 b_1 }f^{b_1 b_6 b_2 } f^{b_2 a_2 b_3 } f^{b_3 b_7 b_4 }f^{b_4 a_3 b_5 } f^{b_5 a_4 b_6 } 
+C^{\text{Xbox}}_{([12]|34)}& \equiv f^{a_1 b_1b_7  }f^{ a_2 b_2 \color{funRed}{b_3} } f^{b_2 b_4  \color{funRed}{b_1}  } f^{b_3 b_6 b_7 } f^{b_4 a_3 b_5 }f^{b_5 a_4 b_6 }
 \end{align}
-\dj{ Is it just me or does the Xbox color guy have a sign relative to a straight $f^{abc}$ labeling of how it's drawn? Does this matter?  i.e.  if I were to write it as drawn would write it as:
-$f^{b_7 a_1 b_1 } \to f^{a_1 b_7  b_1 } $,
-$f^{b_1 b_6 b_2 } \to f^{b_1 b_2  b_6 } $,
-$f^{b_3 b_7 b_4 } \to f^{b_7 b_3  b_4 }$
-}
-Again, we can carefully choose a spanning set of unitarity cuts in terms of our color-dressed NLSM operators in order to land directly on this minimal color basis. In doing so, we can focus our attention to integrating the kinematics that weight each of the color basis element. 
+The only functional difference between these color basis factors is the swap of the colored indices, $b_1$ and $b_3$, in the second and third vertices. Just as at one-loop, we can carefully choose a spanning set of two-loop unitarity cuts in terms of our color-dressed NLSM operators in order to land directly on this minimal color basis. In doing so, we can focus our attention to integrating the kinematics that weight each of the color basis element. 
 
 As we argued in the introduction, two-loop amplitudes for even-point theories, like NLSM, are completely determined by two recursive integrals, the {double-bubble} and the {ostrich-diagram}, modulo theory-dependent kinematic numerators. For NLSM, the relevant integrals are as follows:
 
@@ -2331,7 +2322,7 @@ p_1 & = l_2+k_{12} \qquad p_2 =-l_2\qquad p_3 =l_1\qquad p_4 = -(l_1+k_{12})\,,
 q_1&= l_2+k_{12}
  \qquad q_2 = -l_2 
 \qquad q_3 = l_1
-\qquad q_4 =  - (l_1+l_2+k_1)\,.
+\qquad q_4 =  (l_1+l_2+k_1)\,.
 \end{align}
 Due to the simplicity of scalar theories like NLSM, the state sum for the double-bubble numerator is quite simple, and can be expressed concisely below:
 \begin{equation}\label{eq:NLSM2Bub}
@@ -2340,7 +2331,7 @@ Due to the simplicity of scalar theories like NLSM, the state sum for the double
 \\
 &=C^{\text{2box}}_{(12|34)} \left[\tau^{(1)}_3 \tau_{13}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{23}\tau^{(3)}_{2}+\tau^{(2)}_3 \tau_{23}\tau^{(3)}_{1}+\tau^{(2)}_3 \tau_{13}\tau^{(3)}_{2}\right]
 \\
-&+C^{\text{2box}}_{(12|43)}\left[\tau^{(2)}_3 \tau_{23}\tau^{(3)}_{2}+\tau^{(2)}_3 \tau_{13}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{23}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{13}\tau^{(3)}_{2}\right]
+&\,+C^{\text{2box}}_{(12|43)}\left[\tau^{(2)}_3 \tau_{23}\tau^{(3)}_{2}+\tau^{(2)}_3 \tau_{13}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{23}\tau^{(3)}_{1}+\tau^{(1)}_3 \tau_{13}\tau^{(3)}_{2}\right]
 \end{aligned}
 \end{equation}
 where we have introduced the following notation above that combines internal and external momenta, $\tau^{(i)}_j = (k_i  + p_j)^2$ and $\tau_{ij} = (p_i + p_j)^2$. Plugging in the color-dressed NLSM amplitudes, the same can be done for the ostrich-diagram cut, giving us
@@ -2349,9 +2340,9 @@ where we have introduced the following notation above that combines internal and
 \begin{aligned}
 \text{Cut}\left(\! \scaleIntBscalarsmall{1}{2}{3}{4} \! \right)&=\sum_{\text{states}}\mathcal{A}^{\text{NLSM}}_{(2|q_4\bar{q}_3|\bar{q}_1)}\mathcal{A}^{\text{NLSM}}_{(1|\bar{q}_4q_3|\bar{q}_2)}\mathcal{A}^{\text{NLSM}}_{(q_2|34|q_1)}
 \\
-&=C^{\text{Xbox}}_{([12]|34)}\left[\tau^{(3)}_1 \tau^{(2)}_3\tau^{(1)}_4+\tau^{(3)}_1 \tau^{(2)}_4\tau^{(1)}_3+\tau^{(3)}_2 \tau^{(2)}_3\tau^{(1)}_4+\tau^{(3)}_2 \tau^{(2)}_4\tau^{(1)}_3\right]
+&=C^{\text{Xbox}}_{([12]|34)}\left[\tau^{(3)}_1+\tau^{(3)}_2\right] \left[ \tau^{(2)}_3\tau^{(1)}_3+ \tau^{(2)}_4\tau^{(1)}_4\right]
 \\
-&-\left(C^{\text{2box}}_{(12|34)}\tau^{(3)}_1+C^{\text{2box}}_{(12|43)}\tau^{(3)}_2\right) \left[ \tau^{(2)}_3\tau^{(1)}_3+ \tau^{(2)}_4\tau^{(1)}_4\right] \,.
+&-\left[C^{\text{2box}}_{(12|34)}\tau^{(3)}_1+C^{\text{2box}}_{(12|43)}\tau^{(3)}_2\right] \left[\tau^{(2)}_3\tau^{(1)}_4+ \tau^{(2)}_4\tau^{(1)}_3\right] \,.
 \end{aligned}
 \end{equation}
 The kinematic variables $\tau^{(i)}_j $ and $\tau_{ij}$ are the same, except we have made the replacement $p_i \rightarrow q_i$. The full two-loop NLSM amplitude can thus be computed by summing over the distinct labels of the resulting integrals, each weighted by suitable internal symmetry factors:
@@ -2739,7 +2730,7 @@ The cancellation between dimension dependent factors is even more startling for 
 &=\frac{2}{3}s_{12}^3[I_3\circ I_2]^{D}(k_{12})(t_8 F^4)^{\text{(max)}}_{(1234)} \equiv \scaleIntBtune{}{}{}{}{hgreen}{hgreen}{hgreen}{hgreen} \,.
 \end{aligned}
 \end{equation}
-This alone is sufficient to demonstrate the validity of the double-copy, as these integrated quantities are exactly the same as those produced via generalized unitarity of $\mathcal{N}=4$ DBIVA at two-loop in \eqn{eq:N42bub} and \eqn{eq:N4ostrich}. We emphasize that based on our analysis, this consistency of the double-copy at two loop appears to hold in {any} dimension, as all the $D$-dependent prefactors drop out upon replacing the gauge theory color factors with $\mathcal{N}=4$ numerators. Considering the consistency of these two construction, this also serves as strong evidence for the existence of color-dual representation for two-loop pion integrands. We leave identifying such valid representation as an enticing future direction worth investigation. 
+This alone is sufficient to demonstrate the validity of the double-copy, as these integrated quantities are exactly the same as those produced via generalized unitarity of $\mathcal{N}=4$ DBIVA at two-loop in \eqn{eq:N42bub} and \eqn{eq:N4ostrich}. We emphasize that based on our analysis, the double-copy at two loop clearly holds in {any} dimension, as all the $D$-dependent prefactors drop out when replacing the color factors with $\mathcal{N}=4$ numerators. Considering the consistency of these two construction, this also serves as strong evidence for the existence of color-dual representation for two-loop pion integrands. We leave identifying such valid representation as an enticing future direction worth investigation. 
 
 \section{Effective Actions} \label{sec:Actions}
 In this section we demonstrate how our basis of higher-derivative four-photon operators in \eqn{eq:basisTensors} can be used to construct quantum effective actions that capture loop-level effects. We will distinguish between position space operators that appear in the Lagrangian, $\mathcal{O}$, and their corresponding matrix elements, $\mathcal{T}$, which are on-shell quantities in momentum space:
@@ -2995,7 +2986,7 @@ In this manuscript, we have carried out a detailed analysis of even-point effect
 
 \paragraph{\textbf{Anomalies}} Equipped with our $D$-dimensional integration methods, we performed a similar calculation at two-loop for pure Born-Infeld in \sect{sec:2loopBIU}. In doing so, we demonstrated that the previously identified one-loop counterterm \cite{Elvang:2020kuj} is not sufficient to cancel the two-loop anomaly. In fact, the $(-+++)$ anomaly of \eqn{eq:oneMinus2loop}, which was absent at one-loop, diverges at two-loop order due to the presence of a one-loop evanescent operator in the $D$-dimensional formulation of Born-Infeld theory.~One resolution to this anomaly comes in the form of introducing $\mathcal{N}=4$ DBIVA superfields in the two-loop state-sum. This protects the $S$-matrix from anomalies by promoting the classically conserved $U(1)$ duality to a supersymmetric $R$-symmetry. The evaluated integrals that contribute to the $\mathcal{N}=4$ DBIVA two-loop amplitudes are provided in \eqn{eq:N42bub} and \eqn{eq:N4ostrich}.  
 
-As mentioned at the close of \sec{subsec:EPEFTReview}, higher-multiplicity tree-level abelianized open super-string amplitudes, in four-dimensions, violates U(1) duality at higher-derivative corrections beyond the leading DBIVA predictions. It would be fascinating if these higher derivative violations of $U(1)$ duality in the OSS spectrum are precisely those needed to cancel anomalous behavior at the quantum level. To test this would require computing a six-point one-loop amplitude in supersymmetric DBIVA. Such a calculation could in principle be performed with the double copy using the color-dual integrands recently constructed in Ref.~\cite{Edison:2022jln}. We see this as a natural future direction and application of the methods we have developed here. 
+As mentioned at the close of \sec{subsec:EPEFTReview}, higher-multiplicity tree-level abelianized OSS amplitudes, in four-dimensions, violates $U(1)$ duality at higher-derivative corrections beyond the leading DBIVA predictions. It would be fascinating if these higher derivative violations of $U(1)$ duality in the OSS spectrum are precisely those needed to cancel anomalous behavior at the quantum level. To test this would require computing a six-point one-loop amplitude in supersymmetric DBIVA. Such a calculation could in principle be performed with the double copy using the color-dual integrands recently constructed in Ref.~\cite{Edison:2022jln}. We see this as a natural future direction and application of the methods we have developed here. 
 
 
 \paragraph{\textbf{Evanescence}}Another resolution to the two-loop anomaly comes in the form of higher-derivative pure-photon counterterms. As we demonstrated in \sect{sec:Anomalies}, one must introduce a divergent evanescent operator at one-loop in order to absorb the two-loop anomaly. This is similar to the anomalies of pure Einstein-Hilbert gravity \cite{Bern:2015xsa,Bern:2017puu}, which vanish at one-loop since the $R^2$ Gauss-Bonet term is evanescent in $D=4$, but which diverge at two-loop order \cite{Goroff:1985sz,Goroff:1985th,vandeVen:1991gw}. We have constructed the higher derivative Lagrangian through $\mathcal{O}(\alpha'^6)$ in \eqn{eq:BI+CTwithOev} that cancels the divergent part of the anomaly, along with a spanning set of counterterms in \eqn{eq:Oa6counterTerms} needed to absorb the finite part left over at two-loop. Given the complexity of gravity calculations at high loop order, further studies of multi-loop Born-Infeld amplitudes could serve as an accessible laboratory for studying evanescent effects beyond one-loop in double-copy constructible theories. To this end, we have used Hilbert series to count the number of four-photon evanescent operators to higher-order derivative corrections in \sect{sec:EOpsCounting} to aid in future studies. 
