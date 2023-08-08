@@ -730,7 +730,7 @@ linewidth=4pt]{eBox}
 \begin{feynman}
 \vertex (a1) at (-.6,.3) {#1};
 \vertex (a2) at (-.6, -.3) {#2};
-\vertex (a4) at (.5, .4) {${}^{\alpha_3=D/2-2}$};
+\vertex (a4) at (.5, .4) {${}^{\alpha_3=2D/2-3}$};
 \vertex (a6) at (.5, -.5) {${}^{\alpha_4=1}$};
 \vertex [dot,scale=2](mid1) at (0,0){};
 \vertex [dot,scale=1.5,hgrey0](mid2) at (0,0){};
@@ -1518,27 +1518,27 @@ linewidth=4pt]{eBox}
 \def\needRefs{{\color{red} [[ REFs NEEDED ]]}}
 
 
-\author[1]{John Joseph M. Carrasco,}
-\author[1]{Nicolas H. Pavao}
+\author{John Joseph M. Carrasco}
+\author{and Nicolas H. Pavao}
 
-\affiliation[1]{Department of Physics and Astronomy, Northwestern
+\affiliation{Department of Physics and Astronomy, Northwestern
   University, Evanston, Illinois 60208, USA}
 
   
 \title{Even-point Multi-loop Unitarity and its Applications: Exponentiation, Anomalies and Evanescence}
-
+\emailAdd{carrasco@northwestern.edu, pavao@u.northwestern.edu}
   
 \abstract{
 We identify novel  structure in newly computed multi-loop amplitudes and quantum actions for even-point effective field theories, including both the nonlinear sigma model (NLSM) and double-copy gauge theories such as Born-Infeld and its supersymmetric generalizations.  
-We exploit special properties of all even-point theories towards efficient unitarity based amplitude construction. 
-In doing so, we find evidence that the leading IR divergence of NLSM amplitudes exponentiates when the symmetry group is $\mathbb{CP}^1\cong SU(2)/U(1)$. 
-We then systematically compute the two-loop anomalous behavior of Born-Infeld, and find that the counterterms needed to restore $U(1)$ invariant behavior at loop-level can be constructed via a symmetric-structure double-copy.  
+We exploit special properties of all even-point theories towards establishing an efficient unitarity based amplitude construction. 
+In doing so, we find evidence that the leading IR divergence of NLSM amplitudes exponentiates when the target space is $\mathbb{CP}^1\cong SU(2)/U(1)$. We then systematically compute the two-loop anomalous behavior of Born-Infeld, and find that the counterterms needed to restore $U(1)$ invariant behavior at loop-level can be constructed via a symmetric-structure double-copy.  
 We also demonstrate that the divergent part of the one-minus $(-+++)$ two-loop anomaly vanishes upon introducing an evanescent operator. In addition to these pure photon counterterms, we verify through explicit calculation that the anomalous matrix elements that violate $U(1)$ duality invariance can be alternatively cancelled by summing over internal $\mathcal{N}=4$ DBIVA superfields. 
 Finally we find that $\mathcal{N}=4$ Dirac-Born-Infeld-Volkov-Akulov (DBIVA) amplitudes permit double-copy construction through two-loop order by reproducing our unitarity based result with a double copy between color-dual $\mathcal{N}=4$ super-Yang-Mills  and our two-loop NLSM amplitudes. 
 This result supports the possibility of  color-dual representations for NLSM beyond one-loop. 
 We conclude with an overview of how $D$-dimensional four-photon counterterms can be constructed in generality with the symmetric-structure double-copy, and outline a convenient way of counting evanescent operators using Hilbert series as generating functions. }
 
-\newpage
+\makeatletter
+\gdef\@fpheader{\,}
 
 
 \begin{document}
@@ -1601,9 +1601,7 @@ To apprehend this graph-based structure for color-dressed theories, we first rew
 \end{equation}
 where $N_g$ and $C_g$ are the kinematic numerators and color factors, respectively, and $ \Gamma^{(3)}_{n,L}$ denotes the set of cubic diagrams at $n$-point $L$-loop. In this formulation of the amplitude, contact diagrams are absorbed into cubic graphs by multiplying by inverse propagators. The procedure of assigning contact diagrams to cubic graphs is referred to as {generalized gauge freedom} \cite{BCJ}. In practice, there are many different ways to assign contact diagrams to cubic graphs. 
 
-The gauge theories that we study in this paper have sufficient generalized gauge freedom to assign contact diagrams to kinematic numerators such that at every multiplicity at tree level one can write the amplitude in terms of $N_g$ that obey the same algebraic relations as the color factors, $C_g$. For color factors that are composed of adjoint structure constants, $f^{abc}$ they must be anti-symmetric around vertices, and be related by Jacobi relations about each edge.   For $SU(N_c)$ we can take $f^{abc} \propto \text{Tr}(T^a[T^b,T^c])$ for arbitrary representation $T$ of the gauge group.
-
-We will also consider generalization beyond the adjoint to color-weights that can include $d^{abc}$ and associated algebraic relations.   For $SU(N_c)$ we can take $d^{abc} \propto \text{Tr}[T^a\{T^b,T^c\}]$.  Symmetric-structure color factors obey symmetric algebraic relations rather than anti-symmetric ones.
+The gauge theories that we study in this paper have sufficient generalized gauge freedom to assign contact diagrams to kinematic numerators such that at every multiplicity at tree level one can write the amplitude in terms of $N_g$ that obey the same algebraic relations as the color factors, $C_g$. For color factors that are composed of adjoint structure constants, $f^{abc}$ they must be anti-symmetric around vertices, and be related by Jacobi relations about each edge.   For $SU(N_c)$ we can take $f^{abc} \propto \text{Tr}(T^a[T^b,T^c])$ for arbitrary representation $T$ of the gauge group. We will also consider generalization beyond the adjoint to color-weights that can include $d^{abc}$ and associated algebraic relations.   For $SU(N_c)$ we can take $d^{abc} \propto \text{Tr}[T^a\{T^b,T^c\}]$.  Symmetric-structure color factors obey symmetric algebraic relations rather than anti-symmetric ones.
 
 When a gauge theory can be expressed in a form such that the color and kinematic factors obey the same algebraic relations, we call such theories \textit{color-dual}.   For ordered amplitudes, the ability to find kinematic numerators that obey antisymmetry and Jacobi relations is one-to-one with the ordered amplitudes satisfying KK and BCJ relations, respectively.  
 
@@ -2719,7 +2717,7 @@ The cancellation between dimension dependent factors is even more startling for 
 \begin{aligned}
 \scaleIntBscalarsmall{1}{2}{3}{4}\bigg|^{C_g \rightarrow N^{\mathcal{N}=4}_g} \!\!&= N^{(12|34)}_{\mathcal{N}=4}\frac{s_{12}}{3} \left[\frac{(D-1)(D-4)s_{14}+2(D-2)^2 s_{13}}{(D-1)(4-3D)}\right][I_3\circ I_2]^D(k_{12})
 \\
-&+N^{(12|34)}_{\mathcal{N}=4}\frac{s_{12}}{3} \left[\frac{(D-1)(D-4)s_{13}+2(D-2)^2 s_{14}}{(D-1)(4-3D)}\right][I_3\circ I_2]^D(k_{12})
+&+N^{(12|43)}_{\mathcal{N}=4}\frac{s_{12}}{3} \left[\frac{(D-1)(D-4)s_{13}+2(D-2)^2 s_{14}}{(D-1)(4-3D)}\right][I_3\circ I_2]^D(k_{12})
 \\
 &+N^{([12]|34)}_{\mathcal{N}=4}\left[\frac{s_{12}^2}{3}\frac{D+1}{D-1}\right][I_3\circ I_2]^D(k_{12})
 \\
@@ -2823,7 +2821,7 @@ Thus, \eqn{eq:1loopU1Action} constitutes a duality invariant photon theory throu
 \subsubsection{Two-loop}\label{sec:Anomalies2loop}
 The first step in identifying the requisite operators needed to cancel the two-loop anomaly at $\mathcal{O}(\alpha'^6)$ is to perform another one-loop calculation at this mass dimension, which includes the counterterms of $\mathcal{L}^{\text{BI}+\text{CT}}$ defined above. The one-loop amplitude is constructed as follows:
 \begin{equation}
-\mathcal{M}^{\text{BI+CT}}_{\text{1-loop}}\big|_{\alpha'^6} = \frac{1}{2}+ \frac{\alpha'^4}{(4\pi)^2}\frac{1}{30}\left[\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{4+}$}{$t_8F^4$}+a_{\text{ev.}}\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{\text{ev.}}$}{$t_8F^4$}\right]+\text{perms}\,.
+\mathcal{M}^{\text{BI+CT}}_{\text{1-loop}}\big|_{\alpha'^6} = \frac{1}{2}\frac{\alpha'^4}{(4\pi)^2}\frac{1}{30}\left[\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{4+}$}{$t_8F^4$}+a_{\text{ev.}}\scaleIntAvectorODD{}{}{}{}{$\mathcal{T}^{\text{ev.}}$}{$t_8F^4$}\right]+\text{perms}\,.
 \end{equation}
 Both of these operator insertions can be evaluated using the same $D$-dimensional procedure used throughout the text. The all-plus counterterm yields the following contributions to $(++++)$ and $(-+++)$ helicity configurations:
 \begin{align}
