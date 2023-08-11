@@ -1,11 +1,17 @@
-\documentclass[11pt,letter]{article}
+\documentclass[11pt,preprint]{article}
+\pdfoutput=1
 \usepackage{jheppub}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{mathrsfs}
 \usepackage{amsmath,amssymb}
 \usepackage[dvipsnames]{xcolor}
 %\usepackage{hyperref}
 \usepackage{xspace}
 \usepackage{ifdraft}
 \usepackage{epstopdf}
+\usepackage{tocloft}
+\renewcommand{\cftdot}{.}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
 \usepackage{slashed}
 \usepackage{diagbox}
 \usepackage{colortbl}
@@ -1540,11 +1546,9 @@ We conclude with an overview of how $D$-dimensional four-photon counterterms can
 \makeatletter
 \gdef\@fpheader{\,}
 
-
 \begin{document}
 \maketitle
-\flushbottom
- 
+
 \setstackgap{S}{6pt}
 \setstackgap{L}{7pt}
 
