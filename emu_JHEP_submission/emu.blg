@@ -1,0 +1,69 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: emu.aux
+The style file: JHEP.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11240 items from 5000.
+Database file #1: Refs_emu.bib
+Repeated entry---line 331 of file Refs_emu.bib
+ : @article{Bern:2012uf
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1471 of file Refs_emu.bib
+ : @article{Low:2019ynd
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2314 of file Refs_emu.bib
+ : @article{Elvang:2018dco
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7652 of file Refs_emu.bib
+ : @article{Boels:2016xhc
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 13020 of file Refs_emu.bib
+ : @article{Kampf:2013vha
+ :                       ,
+I'm skipping whatever remains of this entry
+You've used 208 entries,
+            2316 wiz_defined-function locations,
+            2094 strings with 42102 characters,
+and the built_in function-call counts, 92128 in all, are:
+= -- 9912
+> -- 2874
+< -- 0
++ -- 829
+- -- 621
+* -- 9227
+:= -- 11614
+add.period$ -- 208
+call.type$ -- 208
+change.case$ -- 207
+chr.to.int$ -- 0
+cite$ -- 208
+duplicate$ -- 7161
+empty$ -- 8256
+format.name$ -- 1863
+if$ -- 23187
+int.to.chr$ -- 0
+int.to.str$ -- 208
+missing$ -- 799
+newline$ -- 628
+num.names$ -- 207
+pop$ -- 414
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2834
+stack$ -- 0
+substring$ -- 5596
+swap$ -- 1634
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 1058
+width$ -- 211
+write$ -- 2163
+(There were 5 error messages)
