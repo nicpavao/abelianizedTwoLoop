@@ -1,0 +1,22 @@
+Dear Editor,
+
+We thank the referee for their feedback yada yada yada 
+
+We have addressed all the minor clarifications in addition to the following typos we have identified through an a final read through:
+
+C1] 5.46 and 5.47 swapped the generating functions of H(ij)(kl) and H(ijkl) -- this has been resolved.
+C2] 5.23 had a misplaced '+' that has been removed
+...
+
+
+Furthermore, we appreciative the substance and less superficial feedback and have made the following additions to the manuscript and provide the following clarification,
+
+Q1]
+Q2]
+...
+
+
+
+
+Sincerely,
+JJMC, NHP
