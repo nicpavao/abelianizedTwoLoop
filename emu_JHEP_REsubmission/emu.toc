@@ -34,25 +34,25 @@
 \contentsline {paragraph}{\textbf {Reduction}}{39}{section*.16}% 
 \contentsline {paragraph}{\textbf {Integration}}{40}{section*.17}% 
 \contentsline {paragraph}{\textbf {Projection}}{41}{section*.18}% 
-\contentsline {subsubsection}{\numberline {4.2.2}Two-loop Born-Infeld}{42}{subsubsection.4.2.2}% 
-\contentsline {paragraph}{Leading $(++++)$ divergence}{43}{section*.19}% 
-\contentsline {paragraph}{Leading $(-+++)$ divergence}{43}{section*.20}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Two-loop Born-Infeld}{43}{subsubsection.4.2.2}% 
+\contentsline {paragraph}{Leading $(++++)$ divergence}{44}{section*.19}% 
+\contentsline {paragraph}{Leading $(-+++)$ divergence}{44}{section*.20}% 
 \contentsline {paragraph}{Leading $(--++)$ divergence}{44}{section*.21}% 
-\contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{44}{subsubsection.4.2.3}% 
-\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{47}{subsection.4.3}% 
-\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{48}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Two-loop $\mathcal {N}=4$ DBIVA}{45}{subsubsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.3}DBIVA via double copy}{48}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}One-loop $\mathcal {N}=4$ DBIVA}{49}{subsubsection.4.3.1}% 
 \contentsline {subsubsection}{\numberline {4.3.2}Two-loop $\mathcal {N}=4$ DBIVA}{49}{subsubsection.4.3.2}% 
 \contentsline {section}{\numberline {5}Effective Actions}{50}{section.5}% 
-\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{51}{subsection.5.1}% 
-\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{51}{subsubsection.5.1.1}% 
+\contentsline {subsection}{\numberline {5.1}Anomaly cancellation}{52}{subsection.5.1}% 
+\contentsline {subsubsection}{\numberline {5.1.1}One-loop}{52}{subsubsection.5.1.1}% 
 \contentsline {subsubsection}{\numberline {5.1.2}Two-loop}{53}{subsubsection.5.1.2}% 
-\contentsline {subsection}{\numberline {5.2}Double copy construction}{54}{subsection.5.2}% 
-\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{54}{subsubsection.5.2.1}% 
+\contentsline {subsection}{\numberline {5.2}Double copy construction}{55}{subsection.5.2}% 
+\contentsline {subsubsection}{\numberline {5.2.1}Symmetric-structure double-copy}{55}{subsubsection.5.2.1}% 
 \contentsline {subsubsection}{\numberline {5.2.2}Higher-spin $\otimes $ Adler Zero}{56}{subsubsection.5.2.2}% 
-\contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{57}{subsection.5.3}% 
-\contentsline {section}{\numberline {6}Conclusions}{59}{section.6}% 
-\contentsline {paragraph}{\textbf {Exponentiation}}{59}{section*.22}% 
-\contentsline {paragraph}{\textbf {Anomalies}}{59}{section*.23}% 
-\contentsline {paragraph}{\textbf {Evanescence}}{60}{section*.24}% 
-\contentsline {paragraph}{}{60}{section*.25}% 
-\contentsline {paragraph}{Acknowledgments}{61}{section*.26}% 
+\contentsline {subsection}{\numberline {5.3}Evanescent operator counting}{58}{subsection.5.3}% 
+\contentsline {section}{\numberline {6}Conclusions}{60}{section.6}% 
+\contentsline {paragraph}{\textbf {Exponentiation}}{60}{section*.22}% 
+\contentsline {paragraph}{\textbf {Anomalies}}{61}{section*.23}% 
+\contentsline {paragraph}{\textbf {Evanescence}}{61}{section*.24}% 
+\contentsline {paragraph}{}{61}{section*.25}% 
+\contentsline {paragraph}{Acknowledgments}{62}{section*.26}% 

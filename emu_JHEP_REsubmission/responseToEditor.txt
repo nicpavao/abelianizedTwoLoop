@@ -2,20 +2,57 @@ Dear Editor,
 
 We thank the referee for their feedback yada yada yada 
 
-We have addressed all the minor clarifications in addition to the following typos we have identified through an a final read through:
+We have addressed all the minor clarifications:
 
-C1] 5.46 and 5.47 swapped the generating functions of H(ij)(kl) and H(ijkl) -- this has been resolved.
-C2] 5.23 had a misplaced '+' that has been removed
-...
+C1] All appearances of 'Gramm determinants' have been changed to 'Gram determinants', and the appearance of 'veirbein' has been corrected to 'vierbein'.
+C2] In 2.49) 'C' has been corrected to 'C_3'
+C3] In 3.14 and 3.31, we have corrected 'l^{\mu_2}' to the uncontracted 'l^{\mu_3}'
+C4] Below 4.39 we have corrected the doubled word 'use use'
+C5] We have changed 'present as tree-level' to 'present at tree-level'
+C6] At the referees request, we have changed ' adjoint double' to 'adjoint double copy' three lines about section 5.2.2
+
+Furthermore, we very much appreciative the thoughtful and substantive feedback from the referee, and have made the following additions to the manuscript and provide the following clarification,
+
+Q1] We absolutely agree that two-loop four-point is a particularly simple example that permits constructibility in terms of one-loop integral convolutions. Indeed this is precisely the reason that we focus on these amplitudes as a sharp example. We have clarified by changing 
 
 
-Furthermore, we appreciative the substance and less superficial feedback and have made the following additions to the manuscript and provide the following clarification,
+"As we can see from the diagrams that contribute at two-loops four-point in eq. (3.6), even- point theories can be fully constructed from convolutions of one-loop integrals. As described earlier, we call such integrals recursively one-loop since we can iteratively apply one-loop unitarity and tensor reduction methods in order to recover the full multi-loop structure. In the next two sections, we first illustrate the recursive behavior of convolution integrals, and then use their properties to develop multi-loop tensor reduction methods that we use throughout the paper."
 
-Q1]
-Q2]
-...
+To 
+
+"As we can see from the diagrams that contribute in eq. (3.6), the scattering amplitudes for even-point theories at two-loop four-point can be fully constructed from convolutions of one-loop integrals. As mentioned earlier, we call such integrals recursively one-loop since we can iteratively apply one-loop unitarity and tensor reduction methods in order to recover the full multi-loop structure. We note that at general multiplicity and at higher loop order, EMU cut construction will produce integrals outside the space of recursively one-loop integrals. While it would absolutely be worthwhile to determine the EMU integral basis in generality, in this paper we focus on the nice example of two-loop four-point. To this end, in the next two sections we will illustrate the recursive behavior of one-loop convolution integrals, and then use their properties to develop multi-loop tensor reduction methods for the two-loop four-point amplitudes considered in this work."
 
 
+Q2] Rather than adding a forward pointer, we have moved the definition of stA^{F^3} from 3.51 to immediately after 3.41. We appreciate the suggested change, as we believe this improves the flow of the section. 
+
+
+Q3] We appreciate the referee's willingness to maintain the ostrich integrals as drawn, even though we agree that it obscures the Z2 symmetry of the diagram. We have added a number a couple reminders that the integral itself is symmetric under (1<->2) exchange. First in figure 3:
+
+"Throughout the text, ostrich integrals will be drawn with an asymmetry between the “head” and the “tail” of the ostrich, but we emphasize that the integral itself is functionally symmetric under exchange of the top two external edges."
+
+Then below eq. 4.23:
+
+"As noted below Fig. 3, the ostrich integral above is symmetric under 1 ↔ 2 exchange of external edges."
+
+Q4] We did not carefully check the subleading two-loop divergence, but we agree this would be an interesting direction for future study. To leave the possibility open, we have emphasized that eq. 4.38 only captures the leading divergence at each loop order, and drawn attention to the possibility of a subleading divergence from the cross term at two-loop order:
+
+"However, we should emphasize that eq. (4.38) only considers the leading divergence at each loop order, and does not consider subleading logarithmic terms related to the cross terms of (A1-loop/Atree)2 ∼ ε−2 + ε−1log(μ) + O(1). We leave determining whether eq. (4.38) also captures the subleading divergences as a direction of future study."
+
+Q5] We have spelled out the result of plugging in the condition for maximal supersymmetry in D=4 -- these can be found in eq. 4.67 in D-dimensions and eq. 4.72 for D=4
+
+Furthermore, we have emphasized that the particle content of maximal SUSY in 4.82 -- 4.85 is explicitly for a single supersymmetric vector multiplet, such that $N_\gamma = 1$):
+
+''When one plugs in the state content for a single maximally supersymmetric vector multiplet (i.e. with normalization Nγ = 1), stated below for a variety of dimensions''
+
+Q6] Below eq. 5.47 we provide some background on how to derive these Hilbert series. Finding generating functions in general can be challenging, but since both eq 5.46 and 5.47 iteratively compound, we they can be easily derived from appropriate multiplication of 1/(1-\alpha). In eqs. 5.48 -- 5.51 we give an explicit example of how one can derive the permutation invariant Hilbert series computed in 5.46.
+
+In addition, we have fixed the following typos that we identified in final read through:
+
+T1] 5.46 and 5.47 we swapped the generating functions of H(ij)(kl) and H(ijkl) -- this has been resolved. This does not change the expressions of 5.52 and 5.53.
+T2] 5.23 had a misplaced '+' that has been removed
+T3] Below 4.19 we have fixed the typo 'Jacboi' --> 'Jacobi'
+
+We very much appreciate the referees incredibly thoughtful feedback.
 
 
 Sincerely,
