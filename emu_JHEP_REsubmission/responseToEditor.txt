@@ -1,6 +1,6 @@
 Dear Editor,
 
-We thank the referee for their feedback yada yada yada 
+We thank the referee for their insightful feedback, agree with the referee that the manuscript is an excellent fit for JHEP, and have made suggested corrections.
 
 We have addressed all the minor clarifications:
 
@@ -13,7 +13,7 @@ C6] At the referees request, we have changed ' adjoint double' to 'adjoint doubl
 
 Furthermore, we very much appreciative the thoughtful and substantive feedback from the referee, and have made the following additions to the manuscript and provide the following clarification,
 
-Q1] We absolutely agree that two-loop four-point is a particularly simple example that permits constructibility in terms of one-loop integral convolutions. Indeed this is precisely the reason that we focus on these amplitudes as a sharp example. We have clarified by changing 
+Q1] We agree that two-loop four-point is a particularly simple example that permits constructibility in terms of one-loop integral convolutions. Indeed this is precisely the reason that we focus on these amplitudes as a sharp example. We have clarified by changing 
 
 
 "As we can see from the diagrams that contribute at two-loops four-point in eq. (3.6), even- point theories can be fully constructed from convolutions of one-loop integrals. As described earlier, we call such integrals recursively one-loop since we can iteratively apply one-loop unitarity and tensor reduction methods in order to recover the full multi-loop structure. In the next two sections, we first illustrate the recursive behavior of convolution integrals, and then use their properties to develop multi-loop tensor reduction methods that we use throughout the paper."
@@ -32,7 +32,7 @@ Q3] We appreciate the referee's willingness to maintain the ostrich integrals as
 
 Then below eq. 4.23:
 
-"As noted below Fig. 3, the ostrich integral above is symmetric under 1 ↔ 2 exchange of external edges."
+"As noted below Fig. 3, the ostrich integral above is symmetric under 1 <-> 2 exchange of external edges."
 
 Q4] We did not carefully check the subleading two-loop divergence, but we agree this would be an interesting direction for future study. To leave the possibility open, we have emphasized that eq. 4.38 only captures the leading divergence at each loop order, and drawn attention to the possibility of a subleading divergence from the cross term at two-loop order:
 
@@ -42,17 +42,15 @@ Q5] We have spelled out the result of plugging in the condition for maximal supe
 
 Furthermore, we have emphasized that the particle content of maximal SUSY in 4.82 -- 4.85 is explicitly for a single supersymmetric vector multiplet, such that $N_\gamma = 1$):
 
-''When one plugs in the state content for a single maximally supersymmetric vector multiplet (i.e. with normalization Nγ = 1), stated below for a variety of dimensions''
+''When one plugs in the state content for a single maximally supersymmetric vector multiplet (i.e. with normalization N_\gamma = 1), stated below for a variety of dimensions''
 
 Q6] Below eq. 5.47 we provide some background on how to derive these Hilbert series. Finding generating functions in general can be challenging, but since both eq 5.46 and 5.47 iteratively compound, we they can be easily derived from appropriate multiplication of 1/(1-\alpha). In eqs. 5.48 -- 5.51 we give an explicit example of how one can derive the permutation invariant Hilbert series computed in 5.46.
 
-In addition, we have fixed the following typos that we identified in final read through:
+In addition, we have fixed the following typos that we identified in a final read through:
 
 T1] 5.46 and 5.47 we swapped the generating functions of H(ij)(kl) and H(ijkl) -- this has been resolved. This does not change the expressions of 5.52 and 5.53.
 T2] 5.23 had a misplaced '+' that has been removed
 T3] Below 4.19 we have fixed the typo 'Jacboi' --> 'Jacobi'
-
-We very much appreciate the referees incredibly thoughtful feedback.
 
 
 Sincerely,

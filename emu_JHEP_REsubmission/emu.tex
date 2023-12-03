@@ -2877,9 +2877,9 @@ By applying this color algebra identity to the four-point NLSM amplitudes of \eq
 \end{equation}
 where $c_s^{\text{dd}} \equiv d^{abe}d^{ecd}$ and the NLSM symmetric $s$-channel numerator is $n^{\text{dd,}\pi}_g=s^2$. By identifying a set of gauge theory numerators that obey the same algebraic relations as the color factors, one can construct consistent double copy theories. 
 
-For example, consider the two-loop divergence for the $(++++)$ anomalous matrix element in pure BI theory. The 4D helicity structure can be captured by a symmetric structure double-copy between NLSM pion numerators and a local gauge theory contact at $\mathcal{O}(\alpha'^5)$. The $s$-channel numerators for this symmetric-structure double copy are as follows
+For example, consider the two-loop divergence for the $(++++)$ anomalous matrix element in pure BI theory. The 4D helicity structure can be captured by a symmetric structure double-copy between NLSM pion numerators and a local gauge theory contact at $\mathcal{O}(\alpha'^5)$. The $s$-channel numerators for this symmetric-structure double copy are as follows,
 \begin{equation}\label{eq:symNum2loop}
-n_s^{\text{dd,}\pi} = s^2 \qquad n_s^{\text{dd,HD}} = s^5 \frac{[12][34]}{\langle 12\rangle \langle 34\rangle}\,.
+n_s^{\text{dd,}\pi} = s^2 \,, \qquad n_s^{\text{dd,HD}} = s^5 \frac{[12][34]}{\langle 12\rangle \langle 34\rangle}\,.
 \end{equation}
 Double-copying these kinematic numerators yields a matrix element of the form:
 \begin{equation} \label{eq:2loopCTsymDC}
@@ -2929,11 +2929,11 @@ due to the Bianchi identity, $D_{(\mu} F_{\nu \rho)} = 0$. As such, we will use 
 
 To construct the Hilbert series for photon operators, we will define the coefficient at order-$n$ of a polynomial in $\alpha$ to be the number of operators that appear at $\mathcal{O}(\alpha'^{n+2})$ in our dimensionful coupling. It turns out that there are only two integer sequences that control the operator counting, which are common feature when enumerating operator bases for 2-to-2 scattering events \cite{Damgaard:2019lfh,Haddad:2020que,Bern:2020uwk,Balkin:2021dko,Liu:2023jbq,Haddad:2023ylx}. The first sequence is produced by Hilbert series that counts four-point {permutation invariants}, $\sigma_3^x \sigma_2^y$, which we call $\mathcal{H}^{(ijkl)}$, 
 \begin{equation}
-[\mathcal{H}^{(ijkl)}] = 1,0,1,1,1,1,2,1,2,2,2,2,3,2,3,3,3,...
+[\mathcal{H}^{(ijkl)}] = 1,0,1,1,1,1,2,1,2,2,2,2,3,2,3,3,3,\cdots\,.
 \end{equation}
 and the second sequence counts {symmetric invariants}, $s_{ij}^x(s_{ik}s_{jk})^y$, which we denote as $\mathcal{H}^{(ij)(kl)}$,
 \begin{equation}
-[\mathcal{H}^{(ij)(kl)}] = 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,...
+[\mathcal{H}^{(ij)(kl)}] = 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,\cdots\,.
 \end{equation}
 Above, we have defined the bracket $[\mathcal{H}]$ such that it maps Hilbert series with integer coefficients into a sequence of numbers at successive orders in $\alpha$. Both of these Hilbert series are simple rational functions of $\alpha$, which we state below:
 \begin{align}\label{HilbertSeriesPerm}
@@ -2941,25 +2941,25 @@ Above, we have defined the bracket $[\mathcal{H}]$ such that it maps Hilbert ser
 \\ \label{HilbertSeriesSym}
 \mathcal{H}^{(ij)(kl)} &=\frac{1}{(\alpha-1)^2(\alpha+1)}  = \alpha^0+\alpha^1+2\alpha^2+2\alpha^3+3\alpha^4+3\alpha^5+4\alpha^6+\cdots
 \end{align}
-Since each of these Hilbert series has an iterative structure where they compound at successively higher orders, they can be easily derived. Take for example the Hilbert series for symmetric invariants, which grows periodically at $\mathcal{O}(\alpha^{6n})$. To derive this series, we can with the geometric series,
+Since each of these Hilbert series has an iterative structure where they compound at successively higher orders, they can be easily derived. Take for example the Hilbert series for symmetric invariants, which grows periodically at $\mathcal{O}(\alpha^{6n})$. To derive this series, we can begin with the geometric series,
 \begin{equation}
-\left[\frac{1}{1-\alpha} \right]= 1,1,1,1,1,1,1,1,\dots 
+\left[\frac{1}{1-\alpha} \right]= 1,1,1,1,1,1,1,1,\cdots\,.
 \end{equation}
 Multiplying the rational function by factors of $\alpha^n$ pushes the series to higher orders in the expansion. To build the characteristic $\{1,0,1,1,1,1,\dots\}$ sequence of the permutation invariant ring, we simply multiply by a factor of $1-\alpha+\alpha^2$, giving us,
 \begin{equation}
-\left[\frac{1-\alpha+\alpha^2}{1-\alpha} \right]= 1,0,1,1,1,1,1,1,\dots 
+\left[\frac{1-\alpha+\alpha^2}{1-\alpha} \right]= 1,0,1,1,1,1,1,1,\cdots\,.
 \end{equation}
 To produce the desired Hilbert series, we want this series to compound at each additional $\mathcal{O}(\alpha^{6n})$ term in the sequence, so that
 \begin{equation}
-\mathcal{H}^{(ijkl)} =  \frac{1-\alpha+\alpha^2}{1-\alpha} (1+\alpha^{6}+\alpha^{12}+\alpha^{18}+\cdots )
+\mathcal{H}^{(ijkl)} =  \frac{1-\alpha+\alpha^2}{1-\alpha} (1+\alpha^{6}+\alpha^{12}+\alpha^{18}+\cdots )\,.
 \end{equation}
 Of course, the infinite series to the right can be resummed, $\sum_n \alpha^{nb} = (1-\alpha^b)^{-1}$. Doing so we obtain the Hilbert series for four-point permutation invariants stated above in \eqn{HilbertSeriesPerm}:
 \begin{equation}
-\mathcal{H}^{(ijkl)} = \frac{1-\alpha+\alpha^2}{1-\alpha} \frac{1}{1-\alpha^6} =  \frac{1}{(\alpha-1)^2(\alpha+1)(\alpha^2+\alpha+1)} 
+\mathcal{H}^{(ijkl)} = \frac{1-\alpha+\alpha^2}{1-\alpha} \frac{1}{1-\alpha^6} =  \frac{1}{(\alpha-1)^2(\alpha+1)(\alpha^2+\alpha+1)} \, .
 \end{equation}
 By similar arguments, one can derive \eqn{HilbertSeriesSym} as well. Using both \eqn{HilbertSeriesPerm} and \eqn{HilbertSeriesSym}, we can infer the operator counting for both general dimension and the $D=4$ operators. The general dimension operator basis that we have used throughout scales as follows:
 \begin{equation}
-\mathcal{T}^{F^2F^2}_{(x,y)} \sim s_{ij}^x(s_{ik}s_{jk})^y \qquad \mathcal{T}^{F^4}_{(x,y)} \sim s_{ij}^x(s_{ik}s_{jk})^y \qquad \mathcal{T}^{F^3}_{(x,y)} \sim \sigma_3^x\sigma_2^y\,,
+\mathcal{T}^{F^2F^2}_{(x,y)} \sim s_{ij}^x(s_{ik}s_{jk})^y\,, \qquad \mathcal{T}^{F^4}_{(x,y)} \sim s_{ij}^x(s_{ik}s_{jk})^y \,, \qquad  \mathcal{T}^{F^3}_{(x,y)} \sim \sigma_3^x\sigma_2^y\,,
 \end{equation}
 where $\mathcal{T}^{F^4}_{(x,y)}$ begins at $\mathcal{O}(\alpha'^3)$ and both $\mathcal{T}^{F^2F^2}_{(x,y)}$ and $\mathcal{T}^{F^4}_{(x,y)} $ begin at $\mathcal{O}(\alpha'^{\,2})$. Thus, the Hilbert series $\mathcal{H}^{\text{gen.}D}$ can be defined as follows:
 \begin{equation}
@@ -2967,7 +2967,7 @@ where $\mathcal{T}^{F^4}_{(x,y)}$ begins at $\mathcal{O}(\alpha'^3)$ and both $\
 \end{equation}
 In contrast, the 4D helicity structures scale as,
 \begin{equation}
-\mathcal{T}^{(--++)}_{(x,y)} \sim s_{ij}^x(s_{ik}s_{jk})^y \qquad \mathcal{T}^{(-+++)}_{(x,y)} \sim \sigma_3^x\sigma_2^y\qquad \mathcal{T}^{(++++)}_{(x,y)} \sim \sigma_3^x\sigma_2^y\,.
+\mathcal{T}^{(--++)}_{(x,y)} \sim s_{ij}^x(s_{ik}s_{jk})^y \,, \qquad \mathcal{T}^{(-+++)}_{(x,y)} \sim \sigma_3^x\sigma_2^y \,, \qquad \mathcal{T}^{(++++)}_{(x,y)} \sim \sigma_3^x\sigma_2^y\,.
 \end{equation}
 Similar to the $D$-dimensional operators above, $\mathcal{T}^{(--++)}_{(x,y)}$ starts at $\mathcal{O}(\alpha'^{\,2})$ and $\mathcal{T}^{(-+++)}_{(x,y)}$ begins the sequence at at $\mathcal{O}(\alpha'^3)$. However, the all plus behavior is slightly abnormal relative to the other counting sequences. Rather than pushing of the sequence to higher orders in $\alpha'$, it starts the sequence specified by $\mathcal{H}^{(ijkl)}$ at the {third entry} at $\mathcal{O}(\alpha'^{\,2})$. Thus, the $D=4$ Hilbert series can be defined as follows:
 \begin{equation}
